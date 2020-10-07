@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="car" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iYNMnMfaVBnaqzfwax6QkwT1yG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="F:\Angular\firstStepAngularTask\node_modules\typescript\lib" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="" />
+      <created>1602080519362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602080519362</updated>
+      <workItem from="1602080520424" duration="1630000" />
+    </task>
+    <task id="LOCAL-00001" summary="шит игнор">
+      <created>1602080663247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602080663247</updated>
+    </task>
+    <task id="LOCAL-00002" summary="template">
+      <created>1602080745319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602080745319</updated>
+    </task>
+    <task id="LOCAL-00003" summary="car">
+      <created>1602082049258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602082049258</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="шит игнор" />
+    <MESSAGE value="template" />
+    <MESSAGE value="car" />
+    <option name="LAST_COMMIT_MESSAGE" value="car" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602081623150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602081623150" />
+    <state x="1220" y="261" key="FileChooserDialogImpl" timestamp="1602080529432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602080529432" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602082050342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602082050342" />
+    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602080617435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602080617435" />
+  </component>
+</project>
