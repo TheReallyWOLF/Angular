@@ -1,6 +1,9 @@
 button{
   margin-right: 10px;
 }
-.alert.alert-warning{
-  height: 100px;
+
+.btn-sm{
+  font-size: 0.8em;
+  padding: 5px;
+  line-height: 8px;
 }

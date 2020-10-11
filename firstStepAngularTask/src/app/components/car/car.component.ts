@@ -16,7 +16,7 @@ export class CarComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit():void {
     this.name = 'Audi';
     this.speed = 235;
     this.model = 'RS8';
@@ -28,8 +28,23 @@ export class CarComponent implements OnInit {
     };
     this.options = ['ABS', 'Автопилот', 'Авто паркинг'];
     this.test = true;
-  }
-    carSelect(carName) {
+  };
+  addOpt(option) {
+    if(option){
+      this.options.unshift(option);
+      return false;
+    }
+  };
+
+  deleteOpt(option){
+    for(let i = 0; i<this.options.length; i++){
+      if(this.options[i] === option){
+        this.options.splice(i, 1);
+        break;
+      }
+    }
+  };
+  carSelect(carName) {
     if(carName == 'bmw'){
       this.name = 'BMW';
       this.speed = 280;
@@ -66,8 +81,7 @@ export class CarComponent implements OnInit {
       this.options = ['Автопилот', 'Авто паркинг'];
       this.test = true;
     }
-
-    };
+  };
 }
 
 interface Colors {
