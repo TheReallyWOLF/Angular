@@ -7,3 +7,7 @@ button{
   padding: 5px;
   line-height: 8px;
 }
+
+.container{
+  margin-bottom: 50px;
+}

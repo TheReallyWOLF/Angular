@@ -13,6 +13,7 @@ export class CarComponent implements OnInit {
   colors: Colors;
   options: string[];
   test: any;
+  isEdit: boolean = false;
 
   constructor() { }
 
@@ -22,9 +23,9 @@ export class CarComponent implements OnInit {
     this.model = 'RS8';
     this.speed = 235;
     this.colors = {
-      car: 'White',
-      salon: 'Black',
-      wheels: 'Silver'
+      car: 'Оранжевый',
+      salon: 'Чёрный',
+      wheels: 'Серебристый'
     };
     this.options = ['ABS', 'Автопилот', 'Авто паркинг'];
     this.test = true;
@@ -34,6 +35,10 @@ export class CarComponent implements OnInit {
       this.options.unshift(option);
       return false;
     }
+  };
+
+  showEdit(){
+    this.isEdit = !this.isEdit;
   };
 
   deleteOpt(option){
@@ -62,9 +67,9 @@ export class CarComponent implements OnInit {
       this.model = 'RS8';
       this.speed = 235;
       this.colors = {
-        car: 'White',
-        salon: 'Black',
-        wheels: 'Silver'
+        car: 'Белый',
+        salon: 'Чёрный',
+        wheels: 'Золотой'
       };
       this.options = ['ABS', 'Автопилот', 'Авто паркинг'];
       this.test = true;
