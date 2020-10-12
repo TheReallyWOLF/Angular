@@ -10,7 +10,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="router" />
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="new">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/organizer/src/app/shared/date.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/organizer/src/app/shared/moment.pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organizer/tslint.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,8 +66,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="F:\Angular\firstStepAngularTask\node_modules\typescript\lib" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="selector.component.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Angular/organizer/src/app/selector/selector.component.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.selector.component.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +91,8 @@
       <workItem from="1602080520424" duration="1678000" />
       <workItem from="1602352546170" duration="1029000" />
       <workItem from="1602353592829" duration="3582000" />
-      <workItem from="1602416001035" duration="7129000" />
+      <workItem from="1602416001035" duration="8007000" />
+      <workItem from="1602502532399" duration="9223000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -105,7 +150,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602426162600</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="router">
+      <created>1602426649602</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602426649602</updated>
+    </task>
+    <task id="LOCAL-00010" summary="router">
+      <created>1602426666102</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602426666102</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new">
+      <created>1602426918967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602426918967</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,33 +195,54 @@
     <MESSAGE value="car" />
     <MESSAGE value="dinamic" />
     <MESSAGE value="router" />
-    <option name="LAST_COMMIT_MESSAGE" value="router" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1325" y="354" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1602505503821" />
     <state x="1308" y="431" key="#TSLint" timestamp="1602356584056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1308" y="431" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1602356584056" />
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602081623150">
+    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602505720576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602081623150" />
+    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505720576" />
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602510106566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602510106566" />
+    <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602505569901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1602505569901" />
+    <state x="1109" y="298" key="EditFileWatcherDialog" timestamp="1602505434308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1109" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505434308" />
     <state x="1220" y="261" key="FileChooserDialogImpl" timestamp="1602080529432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602080529432" />
-    <state x="922" y="168" key="SettingsEditor" timestamp="1602353574730">
+    <state x="922" y="168" key="SettingsEditor" timestamp="1602504668200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602353574730" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602426164145">
+    <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602426926270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602426164145" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602426926270" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602080617435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602080617435" />
+    <state x="1232" y="378" key="scopes" timestamp="1602505430660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1232" y="378" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1602505430660" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602425163717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
