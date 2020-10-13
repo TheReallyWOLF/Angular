@@ -78,13 +78,14 @@ table th{
   }
 }
 
-.btn{
+.btn-block {
   display: block;
   width: 100%;
 }
 
 .btn-primary{
   background: var(--primary-color);
+  color: #fff;
 }
 
 .text-center{
