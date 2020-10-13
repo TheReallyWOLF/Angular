@@ -13,4 +13,12 @@ export class DateService {
     let value = this.date.value.add(dir, 'month');
     this.date.next(value);
   }
+
+  changeDate(date: moment.Moment){
+    const value = this.date.value.set({
+      date: date.date(),
+      month: date.month()
+    });
+    this.date.next(value);
+  }
 }
