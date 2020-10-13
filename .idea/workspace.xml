@@ -11,16 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="3">
-      <change afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <workItem from="1602353592829" duration="3582000" />
       <workItem from="1602416001035" duration="8007000" />
       <workItem from="1602502532399" duration="12177000" />
-      <workItem from="1602578804150" duration="14414000" />
+      <workItem from="1602578804150" duration="15391000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -208,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602600941045</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="3">
+      <created>1602603494460</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602603494460</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,10 +269,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602600942448">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602603495665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602600942448" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602603495665" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602080617435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
