@@ -1,10 +1,51 @@
 <div class="card">
   <h2>{{title}}</h2>
-  <p>{{text}}</p>
+  <h2 [ngStyle]="{
+     color: titleInput.length < 5 ? 'black' : 'green',
+     fontWeight: titleInput.length < 7 ? 'normal' : 'bold'
+  }">{{ titleInput }}</h2>
+  <h2>{{titleInput2}}</h2>
+  <h2>{{formsModule}}</h2>
+
+
+  <p class="text" [ngClass]="{
+    blue: textColor === 'blue',
+    green: textColor === 'green',
+    red: textColor === 'red'
+  }">{{text}}</p>
+  <div>
+    <button (click)="textColor = 'blue'">Set Blue</button>
+    <button (click)="textColor = 'red'">Set Red</button>
+    <button (click)="textColor = 'green'">Set Green</button>
+  </div>
+
   <p>{{number}}</p>
   <em>{{array}}</em>
   <p>{{obj}}</p>
   <pre>{{obj | json}}</pre>
 
   <p>{{getInfo()}}</p>
+  <div>
+    <img [src]="imgUrl">
+    <br>
+    <button [disabled]="disabled">Enable</button>
+  </div>
+
+  <div>
+    <button (click)="changeTitle()">Change title</button>
+    <button (click)="title = 'Inline title'">Change title inLine</button>
+  </div>
+
+  <div>
+    <input type="text" (input)="imputHandler($event)" [value]="titleInput">
+  </div>
+
+  <div>
+    <input type="text" #myInput (input)="inputMyInput(myInput.value)" [value]="titleInput2">
+  </div>
+
+  <!--добавил библиотеку FormsModule в app модуле-->
+  <div>
+    <input type="text" [(ngModel)] = "formsModule" (ngModelChange)="changeHandler()">
+  </div>
 </div>

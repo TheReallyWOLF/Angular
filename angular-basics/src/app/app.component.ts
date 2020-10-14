@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  toggle: boolean = true;
+
+  toggleCards(){
+    this.toggle = !this.toggle;
+  }
 }

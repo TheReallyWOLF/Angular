@@ -1,7 +1,18 @@
 <div class="container">
   <h1>Hello Angular</h1>
-  <app-form></app-form>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
+
+    <hr>
+      <button (click)="toggleCards()">Toggle cards</button>
+    <hr>
+
+  <div *ngIf="toggle; else noCards">
+    <app-form></app-form>
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
+  </div>
+
+  <ng-template #noCards>
+    <p>Cards are hidden!</p>
+  </ng-template>
 </div>
