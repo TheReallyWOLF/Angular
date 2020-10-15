@@ -10,14 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="3">
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-basics/src/app/card/card.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,8 @@
       <workItem from="1602416001035" duration="8007000" />
       <workItem from="1602502532399" duration="12177000" />
       <workItem from="1602578804150" duration="16043000" />
-      <workItem from="1602661623256" duration="4641000" />
+      <workItem from="1602661623256" duration="4904000" />
+      <workItem from="1602755367835" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -220,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602604502465</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="base">
+      <created>1602666704457</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602666704457</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +248,8 @@
     <MESSAGE value="router" />
     <MESSAGE value="new" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="base" />
+    <option name="LAST_COMMIT_MESSAGE" value="base" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
@@ -281,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602604503957">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602666705686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602604503957" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602666705686" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602080617435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
