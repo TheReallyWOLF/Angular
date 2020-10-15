@@ -1,0 +1,22 @@
+.searchBlock{
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 50px;
+}
+
+h1{
+  margin-bottom: 15px;
+}
+
+.mat-form-field{
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+}
+
+.card{
+  width: 500px;
+  margin: 20px auto;
+}
