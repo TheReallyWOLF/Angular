@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng4-material-gitHub"
+    }
+  },
+  "defaultProject": "ng4-material-gitHub",
+  "cli": {
+    "analytics": "33dff46f-99df-476a-b9d4-dc5d490b4fbd"
+  }
 }

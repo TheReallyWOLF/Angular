@@ -10,8 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="base">
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="material">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng4-material-gitHub/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng4-material-gitHub/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng4-material-gitHub/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng4-material-gitHub/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng4-material-gitHub/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng4-material-gitHub/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng4-material-gitHub/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ng4-material-gitHub/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,7 @@
       <workItem from="1602502532399" duration="12177000" />
       <workItem from="1602578804150" duration="16043000" />
       <workItem from="1602661623256" duration="4904000" />
-      <workItem from="1602755367835" duration="1668000" />
+      <workItem from="1602755367835" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -222,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602666704457</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="material">
+      <created>1602757258930</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602757258931</updated>
+    </task>
+    <task id="LOCAL-00023" summary="material">
+      <created>1602757291241</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602757291241</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +267,8 @@
     <MESSAGE value="new" />
     <MESSAGE value="3" />
     <MESSAGE value="base" />
-    <option name="LAST_COMMIT_MESSAGE" value="base" />
+    <MESSAGE value="material" />
+    <option name="LAST_COMMIT_MESSAGE" value="material" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
@@ -284,10 +303,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602666705686">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602757292892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602666705686" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602757292892" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602080617435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
