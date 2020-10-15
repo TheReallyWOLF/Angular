@@ -11,7 +11,7 @@ export class UserServises {
   }
 
   getUser(username:string): Observable<any>{
-    return this.http.get(`https://api.github.com/users/${username}`)
+    return this.http.get(`https://api.github.com/users/${username}?client_id=2ab2c443da5b0d6ecc6d&client_secret=22ce247e0792caf8516e420b09a79e9f9c97fcc7`)
       .pipe(map((response: Response) => response))
   }
 }
