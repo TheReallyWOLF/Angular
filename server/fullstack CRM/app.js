@@ -5,6 +5,10 @@ const analyticsRoutes = require('./routes/analytics');
 const categoryRoutes = require('./routes/category');
 const orderRoutes = require('./routes/order');
 const positionRoutes = require('./routes/position');
+const bodyParser = require('body-parser'); // библионтека которая парсит все данные приходящие от ползователя
+
+app.use(bodyParser.urlencoded({extended: true})); // кодирует URL
+app.use(bodyParser.json()); // Генерирует JS объекты из джейсона
 
 app.use('/api/auth', authRoutes);
 app.use('/api/analytics', analyticsRoutes);
