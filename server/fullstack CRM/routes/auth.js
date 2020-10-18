@@ -8,5 +8,4 @@ router.get('/login', contrillers.login);
 // localhost:5000/api/auth/register
 router.get('/register', contrillers.register);
 
-
 module.exports = router;
