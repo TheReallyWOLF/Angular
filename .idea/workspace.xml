@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="response">
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="вычисляю по IP">
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng4-material-gitHub/src/app/user.servises.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng4-material-gitHub/src/app/user.servises.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +78,9 @@
       <workItem from="1602578804150" duration="16043000" />
       <workItem from="1602661623256" duration="4904000" />
       <workItem from="1602755367835" duration="7098000" />
-      <workItem from="1602779379207" duration="3847000" />
+      <workItem from="1602779379207" duration="3893000" />
+      <workItem from="1602849347120" duration="612000" />
+      <workItem from="1603037483398" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -259,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602782405311</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="вычисляю по IP">
+      <created>1602783259085</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602783259085</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +300,8 @@
     <MESSAGE value="base" />
     <MESSAGE value="material" />
     <MESSAGE value="response" />
-    <option name="LAST_COMMIT_MESSAGE" value="response" />
+    <MESSAGE value="вычисляю по IP" />
+    <option name="LAST_COMMIT_MESSAGE" value="вычисляю по IP" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
@@ -323,10 +336,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602782407004">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602783260109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602782407004" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602783260109" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602080617435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
