@@ -1,11 +1,11 @@
 // авторизация или регистрация пользователей
 const express = require('express');
-const contrillers = require('../controllers/auth');
+const controllers = require('../controllers/auth');
 const router = express.Router();
 
 // localhost:5000/api/auth/login
-router.get('/login', contrillers.login);
+router.post('/login', controllers.login);
 // localhost:5000/api/auth/register
-router.get('/register', contrillers.register);
+router.post('/register', controllers.register);
 
 module.exports = router;

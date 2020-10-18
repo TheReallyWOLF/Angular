@@ -10,12 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="вычисляю по IP">
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/auth.js" afterDir="false" />
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="server">
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/position.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +37,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iYNMnMfaVBnaqzfwax6QkwT1yG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +59,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="F:\Angular\angular-basics\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +94,7 @@
       <workItem from="1602755367835" duration="7098000" />
       <workItem from="1602779379207" duration="3893000" />
       <workItem from="1602849347120" duration="612000" />
-      <workItem from="1603037483398" duration="3686000" />
+      <workItem from="1603037483398" duration="5183000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -276,7 +285,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602783259085</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="server">
+      <created>1603042593158</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603042593158</updated>
+    </task>
+    <task id="LOCAL-00029" summary="server">
+      <created>1603042655508</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603042655508</updated>
+    </task>
+    <task id="LOCAL-00030" summary="server">
+      <created>1603042705665</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603042705665</updated>
+    </task>
+    <task id="LOCAL-00031" summary="server">
+      <created>1603042795678</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603042795678</updated>
+    </task>
+    <task id="LOCAL-00032" summary="server">
+      <created>1603042816889</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603042816889</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +350,9 @@
     <MESSAGE value="material" />
     <MESSAGE value="response" />
     <MESSAGE value="вычисляю по IP" />
-    <option name="LAST_COMMIT_MESSAGE" value="вычисляю по IP" />
+    <MESSAGE value="server2" />
+    <MESSAGE value="server" />
+    <option name="LAST_COMMIT_MESSAGE" value="server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
@@ -337,18 +383,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602080529432" />
+    <state x="1078" y="285" key="MultipleFileMergeDialog" timestamp="1603042849970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1078" y="285" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603042849970" />
     <state x="922" y="168" key="SettingsEditor" timestamp="1602504668200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602783260109">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603042820380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602783260109" />
-    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602080617435">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603042820380" />
+    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603042672222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602080617435" />
+    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603042672222" />
     <state x="1258" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602603487829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
