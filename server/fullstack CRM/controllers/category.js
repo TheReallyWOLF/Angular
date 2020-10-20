@@ -1,5 +1,7 @@
 module.exports.getAll = function (req, res){
-
+    res.json({
+        message: 'WOLF'
+    })
 };
 module.exports.getById = function (req, res){
 

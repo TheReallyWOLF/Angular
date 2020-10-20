@@ -8,11 +8,14 @@ const positionRoutes = require('./routes/position');
 const bodyParser = require('body-parser'); // библионтека которая парсит все данные приходящие от ползователя
 const app = express();
 const keys = require('./config/keys');
+const  passport = require('passport')// паспорт js позволяет регестрироватся через все соц сети и тд. npm install passport passport-jwt
 
 mongoos.connect(keys.mongoURL)
     .then(() => console.log('База подключена (MongoDB connected!)'))
     .catch(() => console.error('База не найдена!(MongoDB undefined!!)'));
 
+app.use(passport.initialize()); // инициализация паспорта в приложении
+require('./middleware/passport')(passport);
 app.use(require('cors')());   // пакет для того точ бы сервер мог обрабатывать cors запросы
 app.use(require('morgan')('dev'));  // пакет для красивого отображдения что происходи на сервере в данный момент
 app.use(bodyParser.urlencoded({extended: true})); // кодирует URL
