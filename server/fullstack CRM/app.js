@@ -1,11 +1,17 @@
 const express = require('express');
-const app = express();
 const authRoutes = require('./routes/auth');
+const mongoos = require('mongoose');
 const analyticsRoutes = require('./routes/analytics');
 const categoryRoutes = require('./routes/category');
 const orderRoutes = require('./routes/order');
 const positionRoutes = require('./routes/position');
 const bodyParser = require('body-parser'); // библионтека которая парсит все данные приходящие от ползователя
+const app = express();
+const keys = require('./config/keys');
+
+mongoos.connect(keys.mongoURL)
+    .then(() => console.log('База подключена (MongoDB connected!)'))
+    .catch(() => console.error('База не найдена!(MongoDB undefined!!)'));
 
 app.use(require('cors')());   // пакет для того точ бы сервер мог обрабатывать cors запросы
 app.use(require('morgan')('dev'));  // пакет для красивого отображдения что происходи на сервере в данный момент
