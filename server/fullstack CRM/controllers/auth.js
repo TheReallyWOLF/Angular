@@ -1,7 +1,8 @@
 const bcrypt = require('bcryptjs'); // npm i bcryptjs библиотека шиврования паролей
 const jwt = require('jsonwebtoken'); // npm install jsonwebtoken библиотека для токенов
 const User = require('../models/User');
-const keys = require('../config/keys')
+const keys = require('../config/keys');
+const errorHandler = require('../utils/errorHandler'); // самописный модуль с ошибками
 
 module.exports.login = async function (req, res){
     const user = await User.findOne({email: req.body.email});
@@ -56,6 +57,7 @@ module.exports.register = async function (req, res){
             res.status(201).json(user);
         }catch (error){
            // обработать error
+            errorHandler(res, error);
         }
     }
 }
