@@ -10,12 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="server">
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="переподключил базу на новое мыло">
+      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/models/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/config/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/fullstack CRM/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/controllers/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/middleware/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/middleware/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/models/Category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/uploads/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/uploads/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/position.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/position.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,7 @@
       <list>
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,6 +52,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -92,7 +99,8 @@
       <workItem from="1603099434959" duration="1374000" />
       <workItem from="1603114595229" duration="511000" />
       <workItem from="1603181410282" duration="16500000" />
-      <workItem from="1603269019931" duration="3415000" />
+      <workItem from="1603269019931" duration="7133000" />
+      <workItem from="1603306939604" duration="2180000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -374,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603212429980</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="переподключил базу на новое мыло">
+      <created>1603287550243</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1603287550243</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +421,8 @@
     <MESSAGE value="вычисляю по IP" />
     <MESSAGE value="server2" />
     <MESSAGE value="server" />
-    <option name="LAST_COMMIT_MESSAGE" value="server" />
+    <MESSAGE value="переподключил базу на новое мыло" />
+    <option name="LAST_COMMIT_MESSAGE" value="переподключил базу на новое мыло" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
@@ -421,10 +437,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505720576" />
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603210737967">
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603306624151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603210737967" />
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603306624151" />
     <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602505569901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -445,10 +461,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603212432268">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603287551956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603212432268" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603287551956" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603042672222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -457,10 +473,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1258" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602603487829" />
-    <state x="1232" y="378" key="scopes" timestamp="1602505430660">
+    <state x="1232" y="378" key="scopes" timestamp="1603306978252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1232" y="378" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1602505430660" />
+    <state x="1232" y="378" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1603306978252" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1603207593698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
