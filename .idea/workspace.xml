@@ -11,17 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="server">
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/middleware/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/models/Category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/models/Position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/uploads/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/utils/errorHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/config/keys.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/fullstack CRM/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/controllers/position.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/position.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/uploads/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/uploads/.gitkeep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,8 @@
       <workItem from="1603037483398" duration="7888000" />
       <workItem from="1603099434959" duration="1374000" />
       <workItem from="1603114595229" duration="511000" />
-      <workItem from="1603181410282" duration="16245000" />
+      <workItem from="1603181410282" duration="16500000" />
+      <workItem from="1603269019931" duration="3415000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -372,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603208611373</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="server">
+      <created>1603212429980</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1603212429980</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,10 +445,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603208612719">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603212432268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603208612719" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603212432268" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603042672222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
