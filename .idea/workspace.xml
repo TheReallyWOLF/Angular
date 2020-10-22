@@ -11,16 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="переподключил базу на новое мыло">
-      <change afterPath="$PROJECT_DIR$/server/fullstack CRM/models/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/controllers/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/controllers/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/middleware/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/middleware/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/models/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/fullstack CRM/routes/position.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/fullstack CRM/routes/position.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +51,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="F:\Angular\angular-basics\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,7 +91,8 @@
       <workItem from="1603114595229" duration="511000" />
       <workItem from="1603181410282" duration="16500000" />
       <workItem from="1603269019931" duration="7133000" />
-      <workItem from="1603306939604" duration="2180000" />
+      <workItem from="1603306939604" duration="2363000" />
+      <workItem from="1603350103445" duration="3333000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -389,7 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603287550243</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="переподключил базу на новое мыло">
+      <created>1603309244782</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1603309244783</updated>
+    </task>
+    <task id="LOCAL-00043" summary="переподключил базу на новое мыло">
+      <created>1603309296924</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1603309296924</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,10 +443,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505720576" />
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603306624151">
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603352603737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603306624151" />
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603352603737" />
     <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602505569901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -461,10 +467,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603287551956">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603309298057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603287551956" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603309298057" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603042672222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
