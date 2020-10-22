@@ -8,4 +8,12 @@
       <a routerLink="/date">Дата</a>
     </nav>
   </router-outlet>
+  User name: <input type="text" [(ngModel)]="userName">
+  <button (click)="search()">Search</button>
+  <div *ngIf="response">
+    <img src="{{response.avatar_url}}" alt="">
+    <p>Имя: {{response.login}}</p>
+    <p>Дата создания: {{response.created_at}}</p>
+    <!--Смотреть описание Api (гит хаб апи) или консоль что приходит в ответе от сервера-->
+  </div>
 </div>

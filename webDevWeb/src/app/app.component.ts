@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NewServiceService} from "./service/new-service.service";
+import { HttpClient } from "@angular/common/http";
 
 
 @Component({
@@ -9,7 +10,19 @@ import {NewServiceService} from "./service/new-service.service";
 })
 export class AppComponent {
   title = 'webDevWeb';
-  constructor(svc: NewServiceService) {
+  userName: string = '';
+  response: any;
+  constructor(private svc: NewServiceService, private http: HttpClient) {
     svc.consoleText("Серивис подключен");
+  };
+  search(){
+    this.http.get('https://api.github.com/users/' + this.userName)
+      .subscribe((response) => {
+        this.response = response;
+        console.log(this.response);
+      });
   }
+
+
+
 }
