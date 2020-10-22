@@ -10,3 +10,15 @@
 .odd{
   color: #233903;
 }
+.space{
+  margin-bottom: 50px;
+}
+.class{
+  color: red;
+}
+.class2{
+  color: yellow;
+}
+.invisible{
+  display: none;
+}

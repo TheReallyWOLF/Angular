@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class DateComponent implements OnInit {
+  visibility:boolean = true;
+  textString: string = "Строка";
   message: string = "World";
   punctuationMark: string = "?";
   DataTime: string = new Date().toLocaleTimeString('ru');
@@ -45,6 +47,9 @@ export class DateComponent implements OnInit {
       this.isCollapsedTwo = !this.isCollapsedTwo;
     }
 
-  }
+  };
+  toggleClass(){
+    this.visibility = !this.visibility
+  };
   ngOnInit(): void {}
 }

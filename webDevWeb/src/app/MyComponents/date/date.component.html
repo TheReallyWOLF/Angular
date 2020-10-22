@@ -65,3 +65,35 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores commodi consequuntur culpa debitis delectus doloremque earum eligendi eum, facere hic impedit, labore libero nihil praesentium qui, ratione reiciendis suscipit tenetur!
   </p>
 </div>
+<br>
+<div class="space"></div>
+<!--Двухсторонняя привязка-->
+<input type = "text" [(ngModel)]="textString">
+<p>{{textString}}</p>
+
+
+
+<!--ngClass-->
+<div [ngClass]="{class: true}">
+  <h1>Пример</h1>
+  <p [ngClass]="{class2: true}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptates.</p>
+</div>
+<!--альтернатива-->
+<div>
+  <h1 [class.class]="true" >Пример 2</h1>
+  <p [class.class2]="false" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptates.</p>
+</div>
+<!--альтернатива-->
+<div>
+  <h1 [ngStyle]="{'color': 'pink'}" >Пример 3</h1>
+  <p [ngStyle]="{'color': 'green'}" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptates.</p>
+</div>
+
+<!--привязка стилей к логике-->
+
+<div [ngClass]="{invisible: visibility}">
+  <h1>Привязка стилей к логике</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Nam, voluptates.</p>
+</div>
+<button (click)="toggleClass()">XXX</button>
