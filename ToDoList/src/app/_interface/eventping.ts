@@ -1,4 +1,4 @@
-import { ToDo } from '../_interface/todo';
+import { ToDo } from "./todo";
 
 export interface EventPing {
   label: string;                  // Name bzw. Titel des ToDo Punktes

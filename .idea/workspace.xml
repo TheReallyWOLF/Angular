@@ -11,12 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="ToDo">
+      <change afterPath="$PROJECT_DIR$/server/toDoServer/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo-form/template-todo-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo-form/template-todo-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/_interface/eventping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/_interface/eventping.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo-form/template-todo-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo-form/template-todo-form.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo/template-todo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo/template-todo.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo/template-todo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo/template-todo.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo/template-todo.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/_template/template-todo/template-todo.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/page-list/page-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/page-list/page-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/app/page-list/page-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/app/page-list/page-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/toDoServer/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/toDoServer/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +111,7 @@
       <workItem from="1603306939604" duration="2363000" />
       <workItem from="1603350103445" duration="13023000" />
       <workItem from="1603373341562" duration="4385000" />
-      <workItem from="1603442234564" duration="9571000" />
-    </task>
-    <task id="LOCAL-00003" summary="car">
-      <created>1602082049258</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1602082049258</updated>
+      <workItem from="1603442234564" duration="17827000" />
     </task>
     <task id="LOCAL-00004" summary="car">
       <created>1602082161746</created>
@@ -448,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603450783900</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="ToDo">
+      <created>1603454581101</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1603454581101</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,14 +508,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1308" y="431" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1602356584056" />
-    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602505720576">
+    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603463724463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505720576" />
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603445845946">
+    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603463724463" />
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603458199973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603445845946" />
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603458199973" />
     <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602505569901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -544,10 +552,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603450785223">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603454582640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603450785223" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603454582640" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -560,10 +568,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1258" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602603487829" />
-    <state x="1147" y="253" width="585" height="534" key="find.popup" timestamp="1603454034356">
+    <state x="1022" y="253" width="710" height="665" key="find.popup" timestamp="1603465194953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1147" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603454034356" />
+    <state x="1022" y="253" width="710" height="665" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603465194953" />
     <state x="1303" y="409" width="348" height="298" key="org.angular.cli.generate" timestamp="1603445381848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -572,9 +580,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1232" y="378" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1603306978252" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1603207593698">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1603467110057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603207593698" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603467110057" />
   </component>
 </project>

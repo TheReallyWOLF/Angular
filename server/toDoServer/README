@@ -1,0 +1,6 @@
+npm install -g json-server
+запуск сервера на локал хосте 3000 ->
+json-server --watch db.json
+
+
+ \{^_^}/ hi!
