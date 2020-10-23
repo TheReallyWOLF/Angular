@@ -1,39 +1,50 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ToDo } from '../../_interface/todo';
 import { DataService } from '../../_service/data.service';
 
 @Component({
-  selector: 'app-template-todo-form',
-  templateUrl: './template-todo-form.component.html',
-  styleUrls: ['./template-todo-form.component.sass']
+  selector: 'app-template-todo',
+  templateUrl: './template-todo.component.html',
+  styleUrls: ['./template-todo.component.sass']
 })
-export class TemplateTodoFormComponent implements OnInit {
+export class  TemplateTodoComponent implements OnInit {
 
-  private toDo$: ToDo;
+  @Input()
+  public toDo$: ToDo;
+  public lastKeypress: number;
+  public timeStamp: number;
 
   constructor(
     public _dataService: DataService
-  ) {
-    this.toDo$ = {
-      label: undefined,
-      status: false
-    };
-  }
+  ) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
-  // Create new ToDo
-  public createToDo(event: any): void {
-    this._dataService.postToDo(this.toDo$).subscribe((data: ToDo) => {
+  // Function to update the Label
+  public changeLabel(event?: any): void {
+    this._dataService.putToDo(this.toDo$).subscribe((data: ToDo) => {
       this._dataService.getGlobalData();
-      this.toDo$ = {
-        label: undefined,
-        status: false
-      };
     }, error => {
       console.log(`%cERROR: ${error.message}`, `color: red; font-size: 12px;`);
     });
   }
 
+  // Function
+  public changeCheck(event?: any): void {
+    this.toDo$.status = !this.toDo$.status;
+    this._dataService.putToDo(this.toDo$).subscribe((data: ToDo) => {
+      this._dataService.getGlobalData();
+    }, error => {
+      console.log(`%cERROR: ${error.message}`, `color: red; font-size: 12px;`);
+    });
+  }
+
+  // Function to Delete this Element
+  public deleteToDo(event): void {
+    this._dataService.deleteToDo(this.toDo$).subscribe((data: ToDo) => {
+      this._dataService.getGlobalData();
+    }, error => {
+      console.log(`%cERROR: ${error.message}`, `color: red; font-size: 12px;`);
+    });
+  }
 }

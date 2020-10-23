@@ -9,7 +9,7 @@ import { DataService } from '../../_service/data.service';
 })
 export class TemplateTodoFormComponent implements OnInit {
 
-  private toDo$: ToDo;
+  public toDo$: ToDo;
 
   constructor(
     public _dataService: DataService
