@@ -10,13 +10,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="WDB Angular">
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="WDB Angular End">
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/app/_interface/eventping.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/app/_interface/todo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/RobotoCondensed-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/RobotoCondensed-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/RobotoCondensed-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/RobotoCondensed-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/RobotoCondensed-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/fonts/RobotoCondensed-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/svg/checkbox-done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/svg/checkbox-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/assets/svg/drag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/style/_var.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webDevWeb/src/app/MyComponents/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/webDevWeb/src/app/MyComponents/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webDevWeb/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/webDevWeb/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webDevWeb/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webDevWeb/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webDevWeb/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webDevWeb/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webDevWeb/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webDevWeb/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -49,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ToDoList/src/assets/svg" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -59,6 +79,10 @@
     <property name="ts.external.directory.path" value="F:\Angular\angular-basics\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Angular\ToDoList\src\assets\svg" />
+      <recent name="F:\Angular\ToDoList\src\assets\fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Angular\server\fullstack CRM" />
     </key>
@@ -98,7 +122,8 @@
       <workItem from="1603269019931" duration="7133000" />
       <workItem from="1603306939604" duration="2363000" />
       <workItem from="1603350103445" duration="13023000" />
-      <workItem from="1603373341562" duration="4340000" />
+      <workItem from="1603373341562" duration="4385000" />
+      <workItem from="1603442234564" duration="5599000" />
     </task>
     <task id="LOCAL-00001" summary="шит игнор">
       <created>1602080663247</created>
@@ -436,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603375242905</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="WDB Angular End">
+      <created>1603377820106</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1603377820106</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,13 +503,18 @@
     <MESSAGE value="переподключил базу на новое мыло" />
     <MESSAGE value="WDB" />
     <MESSAGE value="WDB Angular" />
-    <option name="LAST_COMMIT_MESSAGE" value="WDB Angular" />
+    <MESSAGE value="WDB Angular End" />
+    <option name="LAST_COMMIT_MESSAGE" value="WDB Angular End" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1325" y="354" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1602505503821" />
+    <state x="1066" y="198" key="#Inspections" timestamp="1603448226368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1066" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1603448226368" />
     <state x="1308" y="431" key="#TSLint" timestamp="1602356584056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -486,10 +523,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505720576" />
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603352603737">
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603445845946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603352603737" />
+    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603445845946" />
     <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602505569901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -502,6 +539,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602080529432" />
+    <state width="936" height="279" key="GridCell.Tab.0.bottom" timestamp="1603450062337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603450062337" />
+    <state width="936" height="279" key="GridCell.Tab.0.center" timestamp="1603450062337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603450062337" />
+    <state width="936" height="279" key="GridCell.Tab.0.left" timestamp="1603450062337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603450062337" />
+    <state width="936" height="279" key="GridCell.Tab.0.right" timestamp="1603450062337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603450062337" />
     <state x="1078" y="285" key="MultipleFileMergeDialog" timestamp="1603042849970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -510,10 +563,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603375244905">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603377821783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603375244905" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603377821783" />
     <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603042672222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -522,6 +575,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1258" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602603487829" />
+    <state x="1147" y="253" width="585" height="534" key="find.popup" timestamp="1603449181197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1147" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603449181197" />
+    <state x="1303" y="409" width="348" height="298" key="org.angular.cli.generate" timestamp="1603445381848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1303" y="409" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1603445381848" />
     <state x="1232" y="378" key="scopes" timestamp="1603306978252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
