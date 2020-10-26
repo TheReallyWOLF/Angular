@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "WebMySelf"
+    }
+  },
+  "defaultProject": "WebMySelf",
+  "cli": {
+    "analytics": false
+  }
 }
