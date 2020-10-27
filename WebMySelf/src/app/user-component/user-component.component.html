@@ -1,14 +1,16 @@
 <div class="col s3 m3">
-  <div class="card">
+  <div class="card" appHover>
     <div class="card-image">
       <img src="{{user.image}}">
-      <span class="card-title">{{user.name}}</span>
+      <span [ngClass]="{'marked': isMarked}"
+            class="card-title">{{user.name | uppercase}}<!--применение пайповwea-->
+      </span>
     </div>
     <div class="card-content">
-      <p>{{user.geo}}</p>
+      <p [ngClass]="{'marked': isMarked}" >{{user.geo | lowercase}}</p>
     </div>
     <div class="card-action">
-      <a href="#">This is a link</a>
+      <a (click)="onClick(this)" class="waves-effect waves-light btn">Отметить</a>
     </div>
   </div>
 </div>

@@ -8,10 +8,15 @@ import {Component, Input, OnInit} from '@angular/core';
 export class UserComponentComponent implements OnInit {
 
   @Input() user;
+  isMarked:boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onClick(me){
+    this.isMarked = !this.isMarked;
+    console.log(arguments)
+  }
 }
