@@ -8,13 +8,17 @@ import { HttpClientModule } from "@angular/common/http";
 import {HoverDirective} from "./user-component/hover.directive";
 import {FormsModule} from "@angular/forms";
 import {SearchPipe} from  "./search.pipe";
+import { HomePageComponent } from './home-page/home-page.component';
+import { SetupPageComponent } from './setup-page/setup-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponentComponent,
     HoverDirective,
-    SearchPipe
+    SearchPipe,
+    HomePageComponent,
+    SetupPageComponent
   ],
   imports: [
     BrowserModule,

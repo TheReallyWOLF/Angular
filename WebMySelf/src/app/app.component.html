@@ -1,17 +1,14 @@
-
-<div class="container">
-  <div class="row">
-    <div class="row">
-      <div class="input-field col s6">
-        <input id="first_name"  class="validate" [(ngModel)]="searchStr">
-        <label class="active" for="first_name">Поиск по имени</label>
-      </div>
-    </div>
-    <app-user-component
-      *ngFor="let i of users | search:searchStr"
-      [user]="i"
-    ></app-user-component> <!--применил свой самописный пайп | search:searchStr-->
+<div class="container"> <nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Logo</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="">Sass</a></li>
+      <li><a href="">Components</a></li>
+      <li><a href="">JavaScript</a></li>
+    </ul>
   </div>
+</nav>
+  <app-home-page></app-home-page>
 </div>
 
 
