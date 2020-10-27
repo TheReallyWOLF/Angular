@@ -1,14 +1,14 @@
-<div class="container"> <nav>
+<nav>
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Logo</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="">Sass</a></li>
-      <li><a href="">Components</a></li>
-      <li><a href="">JavaScript</a></li>
+    <a href="#" class="brand-logo right">Приложение</a>
+    <ul id="nav-mobile" class="left">
+      <li><a routerLink="/">Главная</a></li>
+      <li><a routerLink="/setup">Настройки</a></li>
     </ul>
   </div>
 </nav>
-  <app-home-page></app-home-page>
+ <div class="container">
+   <router-outlet></router-outlet>
 </div>
 
 

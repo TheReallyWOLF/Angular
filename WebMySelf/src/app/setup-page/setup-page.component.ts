@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {UserService} from "../user.service";
 
 @Component({
   selector: 'app-setup-page',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SetupPageComponent implements OnInit {
 
-  constructor() { }
+  size;
+
+  constructor(private userService: UserService) { }
 
   ngOnInit(): void {
+    this.size = this.userService.size;
   }
 
+  onChange(){
+    this.userService.setSize(+this.size)
+  }
 }

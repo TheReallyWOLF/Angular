@@ -13,9 +13,10 @@
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="New">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/user-component/user-component.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +106,7 @@
       <workItem from="1603442234564" duration="17945000" />
       <workItem from="1603710019427" duration="17547000" />
       <workItem from="1603791279757" duration="6000" />
-      <workItem from="1603791316903" duration="5750000" />
-    </task>
-    <task id="LOCAL-00011" summary="new">
-      <created>1602426918967</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1602426918967</updated>
+      <workItem from="1603791316903" duration="7686000" />
     </task>
     <task id="LOCAL-00012" summary="new">
       <created>1602512218530</created>
@@ -450,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603795799591</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="New">
+      <created>1603797081362</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1603797081362</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,10 +548,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603795801656">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603797082525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603795801656" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603797082525" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

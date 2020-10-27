@@ -10,6 +10,12 @@ import {FormsModule} from "@angular/forms";
 import {SearchPipe} from  "./search.pipe";
 import { HomePageComponent } from './home-page/home-page.component';
 import { SetupPageComponent } from './setup-page/setup-page.component';
+import {RouterModule} from "@angular/router";
+
+const routes = [ // создание роутинга
+  {path: '', component: HomePageComponent},
+  {path: 'setup', component: SetupPageComponent}
+]
 
 @NgModule({
   declarations: [
@@ -24,7 +30,8 @@ import { SetupPageComponent } from './setup-page/setup-page.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(routes) // подключение роутов
   ],
   providers: [],
   bootstrap: [AppComponent]

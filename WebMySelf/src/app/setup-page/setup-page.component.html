@@ -1,1 +1,8 @@
-<p>setup-page works!</p>
+<div class="row">
+  <div class="input-field col s12">
+    <input [(ngModel)]="size" id="first_name2" type="text" class="validate">
+    <label class="active" for="first_name2">Количество пользователей</label>
+  </div>
+
+  <a class="waves-effect waves-light btn-small" (click)="onChange()">Изменить</a>
+</div>
