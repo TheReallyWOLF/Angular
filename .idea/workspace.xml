@@ -10,13 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="New">
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="End">
+      <change afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/setup-page/setup-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ToDoList/src/assets/svg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/curse/FirstApp" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -59,12 +55,14 @@
     <property name="ts.external.directory.path" value="F:\Angular\angular-basics\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Angular\curse\FirstApp\src\app" />
+      <recent name="F:\Angular\server\fullstack CRM" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Angular\curse\FirstApp" />
       <recent name="F:\Angular\ToDoList\src\assets\svg" />
       <recent name="F:\Angular\ToDoList\src\assets\fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Angular\server\fullstack CRM" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,14 +104,11 @@
       <workItem from="1603442234564" duration="17945000" />
       <workItem from="1603710019427" duration="17547000" />
       <workItem from="1603791279757" duration="6000" />
-      <workItem from="1603791316903" duration="7686000" />
-    </task>
-    <task id="LOCAL-00012" summary="new">
-      <created>1602512218530</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1602512218530</updated>
+      <workItem from="1603791316903" duration="7894000" />
+      <workItem from="1603896366214" duration="5000" />
+      <workItem from="1603899428177" duration="6000" />
+      <workItem from="1603899446613" duration="1758000" />
+      <workItem from="1603967121795" duration="3690000" />
     </task>
     <task id="LOCAL-00013" summary="new">
       <created>1602512237945</created>
@@ -451,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603797081362</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="End">
+      <created>1603800008420</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1603800008420</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +491,8 @@
     <MESSAGE value="WDB Angular End" />
     <MESSAGE value="ToDo" />
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="End" />
+    <option name="LAST_COMMIT_MESSAGE" value="End" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
@@ -548,10 +551,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603797082525">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603800009517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603797082525" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603800009517" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
