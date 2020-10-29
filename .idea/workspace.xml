@@ -76,7 +76,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/context/context.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/dragAndDrop/dragAndDropService.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/dragAndDrop/dragService.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/entities/colDef.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/entities/column.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/entities/columnGroup.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/entities/columnGroupChild.d.ts" afterDir="false" />
@@ -201,7 +200,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/pagination/paginationProxy.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/pinnedRowModel/pinnedRowModel.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/propertyKeys.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/autoWidthCalculator.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/beans.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/cellEditors/largeTextCellEditor.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/cellEditors/popupEditorWrapper.d.ts" afterDir="false" />
@@ -221,7 +219,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/overlays/loadingOverlayComponent.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/overlays/noRowsOverlayComponent.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/overlays/overlayWrapperComponent.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/autoHeightCalculator.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/detailRowCompCache.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/rowComp.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/rowContainerComponent.d.ts" afterDir="false" />
@@ -238,7 +235,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/undoRedo/undoRedoService.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/undoRedo/undoRedoStack.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/utils/array.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/utils/array.test.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/utils/changedPath.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/utils/csv.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/utils/csv.test.d.ts" afterDir="false" />
@@ -283,8 +279,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agInputTextArea.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agInputTextField.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agList.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agPanel.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agPickerField.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/component.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/componentAnnotations.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/managedFocusComponent.d.ts" afterDir="false" />
@@ -306,7 +300,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-alpine/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-alpine/icons/checkbox-checked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-alpine/icons/checkbox-indeterminate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-alpine/icons/checkbox-unchecked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-alpine/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-alpine/icons/contracted.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-alpine/icons/copy.svg" afterDir="false" />
@@ -358,13 +351,11 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/aggregation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/asc.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/cancel.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/checkbox-checked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/checkbox-indeterminate.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/checkbox-unchecked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/color-picker.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/contracted.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/icons/copy.svg" afterDir="false" />
@@ -411,13 +402,10 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/sass/legacy/_ag-theme-balham-define-legacy-vars.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-balham/sass/legacy/_ag-theme-balham-v22-compat.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/aggregation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/arrows.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/cancel.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/checkbox-checked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/checkbox-indeterminate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/checkbox-unchecked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/color-picker.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/contracted.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-base/icons/copy.svg" afterDir="false" />
@@ -502,8 +490,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/checkbox-checked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/checkbox-indeterminate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/checkbox-unchecked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/color-picker.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/contracted.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/styles/ag-theme-material/icons/copy.svg" afterDir="false" />
@@ -577,12 +563,9 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine-dark/sass/_ag-theme-alpine-dark-mixin.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine-dark/sass/ag-theme-alpine-dark.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/aggregation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/asc.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/checkbox-checked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/checkbox-indeterminate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/checkbox-unchecked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/color-picker.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/contracted.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-alpine/icons/copy.svg" afterDir="false" />
@@ -632,11 +615,9 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham-dark/sass/legacy/_ag-theme-balham-dark-define-legacy-vars.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham-dark/sass/legacy/_ag-theme-balham-dark-v22-compat.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/aggregation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/asc.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/checkbox-checked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/checkbox-indeterminate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/color-picker.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/contracted.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/copy.svg" afterDir="false" />
@@ -681,11 +662,9 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/sass/legacy/_ag-theme-balham-v22-compat.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/aggregation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/asc.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/checkbox-checked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/checkbox-indeterminate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/checkbox-unchecked.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/color-picker.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/contracted.svg" afterDir="false" />
@@ -755,10 +734,8 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-fresh/sass/ag-theme-fresh.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-fresh/sass/legacy/_ag-theme-fresh-define-legacy-vars.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/aggregation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/asc.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/chart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/checkbox-checked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/checkbox-indeterminate.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/color-picker.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/columns.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-material/icons/contracted.svg" afterDir="false" />
@@ -831,9 +808,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/tslib/tslib.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.ts" afterDir="false" />
     </list>
@@ -931,14 +905,7 @@
       <workItem from="1603896366214" duration="5000" />
       <workItem from="1603899428177" duration="6000" />
       <workItem from="1603899446613" duration="1758000" />
-      <workItem from="1603967121795" duration="11465000" />
-    </task>
-    <task id="LOCAL-00020" summary="3">
-      <created>1602604502465</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1602604502465</updated>
+      <workItem from="1603967121795" duration="12170000" />
     </task>
     <task id="LOCAL-00021" summary="base">
       <created>1602666704457</created>
@@ -1276,7 +1243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603994825753</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="work">
+      <created>1603996606358</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1603996606358</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1375,10 +1349,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603994827007">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603996607649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603994827007" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603996607649" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
