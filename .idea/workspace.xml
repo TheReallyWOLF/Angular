@@ -12,8 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="work">
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/warning-alert/warning-alert.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/ag-grid-angular.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/ag-grid-angular.metadata.json" afterDir="false" />
@@ -25,15 +24,11 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm2015/lib/ag-grid-angular.component.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm2015/lib/ag-grid-angular.module.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm2015/lib/ag-grid-column.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm2015/lib/angularFrameworkComponentWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm2015/lib/angularFrameworkOverrides.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm2015/lib/interfaces.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm2015/public-api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm5/ag-grid-angular.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm5/lib/ag-grid-angular.module.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm5/lib/ag-grid-column.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm5/lib/angularFrameworkComponentWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm5/lib/angularFrameworkOverrides.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm5/lib/interfaces.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/esm5/public-api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/fesm2015/ag-grid-angular.js" afterDir="false" />
@@ -43,8 +38,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/lib/ag-grid-angular.component.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/lib/ag-grid-angular.module.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/lib/ag-grid-column.component.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/lib/angularFrameworkComponentWrapper.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/lib/angularFrameworkOverrides.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/lib/interfaces.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-angular/public-api.d.ts" afterDir="false" />
@@ -61,7 +54,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/ag-grid-community.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/ag-grid-community.min.noStyle.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/ag-grid-community.noStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/alignedGridsService.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/cellNavigationService.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/columnController/autoGroupColService.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/columnController/columnApi.d.ts" afterDir="false" />
@@ -75,7 +67,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/columnController/groupInstanceIdCreator.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/components/agGridNg1.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/components/agGridWebComponent.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/components/agStackComponentsRegistry.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/components/colDefUtil.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/components/componentUtil.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/components/framework/agComponentUtils.d.ts" afterDir="false" />
@@ -121,7 +112,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/filter/provided/optionsFactory.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/filter/provided/providedFilter.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/filter/provided/providedFilter.test.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/filter/provided/scalarFilter.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/filter/provided/simpleFilter.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/filter/provided/text/textFilter.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/filter/provided/text/textFloatingFilter.d.ts" afterDir="false" />
@@ -202,7 +192,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/layout/tabbedLayout.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/logger.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/main.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/misc/animationFrameService.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/misc/linkedList.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/misc/resizeObserverService.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/misc/simpleHttpRequest.d.ts" afterDir="false" />
@@ -239,7 +228,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/overlays/loadingOverlayComponent.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/overlays/noRowsOverlayComponent.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/overlays/overlayWrapperComponent.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/angularRowUtils.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/autoHeightCalculator.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/detailRowCompCache.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/row/rowComp.d.ts" afterDir="false" />
@@ -249,7 +237,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/rowRenderer.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rendering/tooltipComponent.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/rowNodes/selectableService.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/selectionController.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/sortController.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/style-tests/ag-theme-params.test.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/styling/stylingService.d.ts" afterDir="false" />
@@ -309,8 +296,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agPickerField.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agRadioButton.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agSelect.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agSlider.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/agToggleButton.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/component.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/componentAnnotations.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/dist/lib/widgets/managedFocusComponent.d.ts" afterDir="false" />
@@ -701,7 +686,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/radio-button-off.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/radio-button-on.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/save.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/small-down.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/small-left.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-balham/icons/small-right.svg" afterDir="false" />
@@ -753,7 +737,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/radio-button-off.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/radio-button-on.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/save.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/small-down.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/small-left.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/ag-grid-community/src/styles/ag-theme-base/icons/small-right.svg" afterDir="false" />
@@ -871,9 +854,10 @@
       <change afterPath="$PROJECT_DIR$/node_modules/tslib/tslib.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -969,21 +953,7 @@
       <workItem from="1603896366214" duration="5000" />
       <workItem from="1603899428177" duration="6000" />
       <workItem from="1603899446613" duration="1758000" />
-      <workItem from="1603967121795" duration="8126000" />
-    </task>
-    <task id="LOCAL-00017" summary="3">
-      <created>1602600925329</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1602600925329</updated>
-    </task>
-    <task id="LOCAL-00018" summary="3">
-      <created>1602600941045</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1602600941045</updated>
+      <workItem from="1603967121795" duration="9930000" />
     </task>
     <task id="LOCAL-00019" summary="3">
       <created>1602603494460</created>
@@ -1314,7 +1284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603978101443</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="work">
+      <created>1603980307292</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980307293</updated>
+    </task>
+    <task id="LOCAL-00067" summary="work">
+      <created>1603980356274</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980356275</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1413,10 +1397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603978102739">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603980357499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603978102739" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603980357499" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
