@@ -10,49 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="work">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="w">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/.browserslistrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/e2e/src/app.po.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/e2e/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/server/server.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/server/server.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/server/server.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/servers/servers.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/servers/servers.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/servers/servers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/servers/servers.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/success-alert/success-alert.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/success-alert/success-alert.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/success-alert/success-alert.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/success-alert/success-alert.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/success-alert/success-alert.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/success-alert/success-alert.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/success-alert/success-alert.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/success-alert/success-alert.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/app/warning-alert/warning-alert.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/warning-alert/warning-alert.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/assets/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curse/FirstApp/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/server/server.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/server/server.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/server/server.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/server/server.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/servers/servers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/servers/servers.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/servers/servers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/servers/servers.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +115,9 @@
       <workItem from="1603899446613" duration="1758000" />
       <workItem from="1603967121795" duration="13575000" />
       <workItem from="1604039505703" duration="4175000" />
-      <workItem from="1604123953500" duration="330000" />
-    </task>
-    <task id="LOCAL-00032" summary="server">
-      <created>1603042816889</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1603042816889</updated>
+      <workItem from="1604123953500" duration="2185000" />
+      <workItem from="1604136556659" duration="877000" />
+      <workItem from="1604147004108" duration="4327000" />
     </task>
     <task id="LOCAL-00033" summary="server">
       <created>1603044047274</created>
@@ -495,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603998393752</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="w">
+      <created>1604124325717</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1604124325717</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +502,8 @@
     <MESSAGE value="New" />
     <MESSAGE value="End" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="w" />
+    <option name="LAST_COMMIT_MESSAGE" value="w" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
@@ -594,10 +562,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603998394838">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604124327658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603998394838" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604124327658" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -618,6 +586,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1303" y="409" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1603445381848" />
+    <state x="1096" y="242" key="run.anything.popup" timestamp="1604136638470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604136638470" />
     <state x="1232" y="378" key="scopes" timestamp="1603306978252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

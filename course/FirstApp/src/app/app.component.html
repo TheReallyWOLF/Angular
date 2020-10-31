@@ -7,4 +7,12 @@
       <app-success-alert></app-success-alert>
     </div>
   </div>
+  <hr>
+  <label>UserName</label>
+  <input type="text" class="form-control" [(ngModel)]="userName">
+  <p>{{userName}}</p>
+  <button class="btn btn-primary" [disabled]="userName === ''" (click)="resetUser()">Reset User</button>
+
 </div>
+
+
