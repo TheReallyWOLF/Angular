@@ -11,12 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="w">
-      <change afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxJx/src/creation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipe.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/FirstApp/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +52,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/curse/FirstApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="F:\Angular\angular-basics\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,14 +120,11 @@
       <workItem from="1604123953500" duration="2185000" />
       <workItem from="1604136556659" duration="877000" />
       <workItem from="1604147004108" duration="5660000" />
-      <workItem from="1604230729547" duration="5638000" />
-    </task>
-    <task id="LOCAL-00034" summary="server">
-      <created>1603047726207</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1603047726207</updated>
+      <workItem from="1604230729547" duration="12439000" />
+      <workItem from="1604295158100" duration="235000" />
+      <workItem from="1604296399831" duration="417000" />
+      <workItem from="1604305897683" duration="13443000" />
+      <workItem from="1604328111093" duration="690000" />
     </task>
     <task id="LOCAL-00035" summary="server">
       <created>1603115075348</created>
@@ -462,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604152052756</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="w">
+      <created>1604242246456</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1604242246456</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,10 +541,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1109" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505434308" />
-    <state x="1220" y="261" key="FileChooserDialogImpl" timestamp="1602080529432">
+    <state x="1220" y="261" key="FileChooserDialogImpl" timestamp="1604328166169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602080529432" />
+    <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604328166169" />
     <state width="936" height="279" key="GridCell.Tab.0.bottom" timestamp="1603468099195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -562,10 +569,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604152054091">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604242247795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604152054091" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604242247795" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -578,10 +585,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1258" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602603487829" />
-    <state x="1022" y="253" width="710" height="665" key="find.popup" timestamp="1604241416205">
+    <state x="1022" y="253" width="710" height="665" key="find.popup" timestamp="1604314225326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1022" y="253" width="710" height="665" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604241416205" />
+    <state x="1022" y="253" width="710" height="665" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604314225326" />
     <state x="1303" y="409" width="348" height="298" key="org.angular.cli.generate" timestamp="1603445381848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

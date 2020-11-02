@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bookOfRecipesApp": {
+    "RxJx": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/bookOfRecipesApp",
+            "outputPath": "dist/RxJx",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,9 +27,7 @@
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -65,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "bookOfRecipesApp:build"
+            "browserTarget": "RxJx:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "bookOfRecipesApp:build:production"
+              "browserTarget": "RxJx:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bookOfRecipesApp:build"
+            "browserTarget": "RxJx:build"
           }
         },
         "test": {
@@ -113,18 +111,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "bookOfRecipesApp:serve"
+            "devServerTarget": "RxJx:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "bookOfRecipesApp:serve:production"
+              "devServerTarget": "RxJx:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "bookOfRecipesApp",
+  "defaultProject": "RxJx",
   "cli": {
     "analytics": false
   }
