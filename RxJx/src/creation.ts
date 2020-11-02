@@ -1,5 +1,5 @@
 import {of, from, Observable, observable, fromEvent} from 'rxjs'; // Observable основоной контент rxjs
-import {scan} from "rxjs/operators";
+import {map, scan} from "rxjs/operators";
 
 // !----!----!of!----!----!
 /*const stream$ =  of(1,2,3,4); // создание стримов
@@ -44,10 +44,26 @@ streams$.subscribe({
     console.log("Completed");
   }
 })*/
-
+document.addEventListener('DOMContentLoaded', function() {
 // !----!----!fromEvent!----!----!
-fromEvent(document.querySelector('canvas'), 'mousemove')
-  .subscribe(event => {
-      console.log(event);
-    }
-  )
+  fromEvent(document.querySelector('canvas'), 'mousemove')
+    .pipe(map(event => {
+      const e = event as MouseEvent;
+      return {
+        x: e.offsetX,
+        y: e.offsetY,
+        ctx: e.target.getContext('2d')
+      }
+    }))
+    .subscribe(pos => {
+        pos.ctx.fillRect(pos.x, pos.y, 2,2)
+      }
+    )
+
+  const clear$ = fromEvent(document.getElementById('clear'), 'click');
+
+  clear$.subscribe(() => {
+    const canvas = document.querySelector('canvas');
+    canvas.getContext('2d').clearRect(0,0, canvas.width, canvas.height)
+  })
+})

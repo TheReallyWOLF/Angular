@@ -11,15 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="w">
-      <change afterPath="$PROJECT_DIR$/RxJx/src/creation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipe.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxJx/src/app/rx-js/rx-js.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/RxJx/src/app/rx-js/rx-js.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxJx/src/creation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/RxJx/src/creation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng4-material-gitHub/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng4-material-gitHub/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng4-material-gitHub/src/app/user.servises.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng4-material-gitHub/src/app/user.servises.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +49,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="F:\Angular\angular-basics\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -125,6 +122,7 @@
       <workItem from="1604296399831" duration="417000" />
       <workItem from="1604305897683" duration="13443000" />
       <workItem from="1604328111093" duration="690000" />
+      <workItem from="1604344318865" duration="3325000" />
     </task>
     <task id="LOCAL-00035" summary="server">
       <created>1603115075348</created>
