@@ -44,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../front-web" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -58,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604341423791</updated>
       <workItem from="1604341425144" duration="1746000" />
+      <workItem from="1604394303800" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="next">
       <created>1604341496674</created>
@@ -82,16 +83,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="next" />
     <option name="LAST_COMMIT_MESSAGE" value="next" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1604344313935">
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1604394336568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604344313935" />
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604394336568" />
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604341498983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

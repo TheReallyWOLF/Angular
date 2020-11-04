@@ -1,4 +1,4 @@
-import {of, from, Observable, observable, fromEvent} from 'rxjs'; // Observable основоной контент rxjs
+import {of, range, timer, interval, from, Observable, observable, fromEvent} from 'rxjs'; // Observable основоной контент rxjs
 import {map, scan} from "rxjs/operators";
 
 // !----!----!of!----!----!
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return {
         x: e.offsetX,
         y: e.offsetY,
-        ctx: e.target.getContext('2d')
+        ctx: e.target.getContext("2d")
       }
     }))
     .subscribe(pos => {
@@ -67,3 +67,10 @@ document.addEventListener('DOMContentLoaded', function() {
     canvas.getContext('2d').clearRect(0,0, canvas.width, canvas.height)
   })
 })
+// !----!----!interval!----!----!
+/*const subInterval = interval(500).subscribe(v => console.log(v)); // новый стрим
+setTimeout(() => subInterval.unsubscribe(), 4000); // отписка от стрима поче 4 сек*/
+// !----!----!timer!----!----!
+timer(3000).subscribe(v => console.log(v)); // новый стрим
+// !----!----!range!----!----!
+range(42,10).subscribe(v => console.log(v))
