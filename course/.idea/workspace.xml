@@ -19,17 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="next">
-      <change afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shared/ingredient.model.ts" afterDir="false" />
+    <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="jquery">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +57,8 @@
       <updated>1604341423791</updated>
       <workItem from="1604341425144" duration="1746000" />
       <workItem from="1604394303800" duration="43000" />
-      <workItem from="1604837962244" duration="4206000" />
+      <workItem from="1604837962244" duration="5283000" />
+      <workItem from="1604849869890" duration="4487000" />
     </task>
     <task id="LOCAL-00001" summary="next">
       <created>1604341496674</created>
@@ -74,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604341496674</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jquery">
+      <created>1604843238257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604843238257</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,20 +94,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="next" />
-    <option name="LAST_COMMIT_MESSAGE" value="next" />
+    <MESSAGE value="jquery" />
+    <option name="LAST_COMMIT_MESSAGE" value="jquery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="202" key="#Inspections" timestamp="1604839232225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1066" y="202" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1604839232225" />
+    <state x="1308" y="434" key="#TSLint" timestamp="1604854804994">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1308" y="434" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1604854804994" />
     <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1604394336568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604394336568" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604341498983">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604843259299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604341498983" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604843259299" />
   </component>
 </project>
