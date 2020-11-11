@@ -21,13 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +45,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../front-web" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="F:\Angular\course\FirstApp\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="F:\Angular\course\inputOutputProperties\node_modules\typescript\lib" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +63,11 @@
       <workItem from="1604341425144" duration="1746000" />
       <workItem from="1604394303800" duration="43000" />
       <workItem from="1604837962244" duration="5283000" />
-      <workItem from="1604849869890" duration="7123000" />
+      <workItem from="1604849869890" duration="8045000" />
+      <workItem from="1604912466303" duration="1229000" />
+      <workItem from="1604930845680" duration="106000" />
+      <workItem from="1604932955265" duration="6545000" />
+      <workItem from="1604951571373" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="next">
       <created>1604341496674</created>
@@ -94,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604855530918</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="input">
+      <created>1604859379967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604859379967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,13 +137,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1308" y="434" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1604854804994" />
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1604394336568">
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1604951596966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604394336568" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604855532880">
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604951596966" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604859381240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604855532880" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604859381240" />
   </component>
 </project>
