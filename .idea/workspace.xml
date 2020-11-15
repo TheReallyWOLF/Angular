@@ -10,7 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="rxjs" />
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="rxjs">
+      <change beforePath="$PROJECT_DIR$/.idea/Angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Angular.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,14 +46,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front-web" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="F:\Angular\angular-basics\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,13 +120,10 @@
       <workItem from="1604305897683" duration="13443000" />
       <workItem from="1604328111093" duration="690000" />
       <workItem from="1604344318865" duration="3490000" />
-    </task>
-    <task id="LOCAL-00036" summary="server">
-      <created>1603115094037</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1603115094037</updated>
+      <workItem from="1605097150392" duration="3976000" />
+      <workItem from="1605214190908" duration="1730000" />
+      <workItem from="1605220500689" duration="2090000" />
+      <workItem from="1605262051228" duration="76000" />
     </task>
     <task id="LOCAL-00037" summary="server">
       <created>1603192172935</created>
@@ -460,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604347793305</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="rxjs">
+      <created>1605097569732</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1605097569733</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,10 +541,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1109" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505434308" />
-    <state x="1220" y="261" key="FileChooserDialogImpl" timestamp="1604328166169">
+    <state x="1220" y="261" key="FileChooserDialogImpl" timestamp="1605262124173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604328166169" />
+    <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605262124173" />
     <state width="936" height="279" key="GridCell.Tab.0.bottom" timestamp="1603468099195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -557,14 +565,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1078" y="285" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603042849970" />
-    <state x="922" y="168" key="SettingsEditor" timestamp="1602504668200">
+    <state x="840" y="149" key="SettingsEditor" timestamp="1605216170210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602504668200" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604347794361">
+    <state x="840" y="149" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605216170210" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605097571105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604347794361" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605097571105" />
     <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

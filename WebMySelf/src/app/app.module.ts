@@ -18,23 +18,26 @@ const routes = [ // создание роутинга
 ]
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    UserComponentComponent,
-    HoverDirective,
-    SearchPipe,
-    HomePageComponent,
-    SetupPageComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule,
-    RouterModule.forRoot(routes) // подключение роутов
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        UserComponentComponent,
+        HoverDirective,
+        SearchPipe,
+        HomePageComponent,
+        SetupPageComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule,
+        RouterModule.forRoot(routes) // подключение роутов
+    ],
+    providers: [],
+    exports: [
+        HomePageComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
 

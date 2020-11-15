@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="input">
+      <change beforePath="$PROJECT_DIR$/../.idea/Angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Angular.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMySelf/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMySelf/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/cockpit/cockpit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/inputOutputProperties/src/app/server-element/server-element.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../front-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inputOutputProperties" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -68,6 +65,7 @@
       <workItem from="1604930845680" duration="106000" />
       <workItem from="1604932955265" duration="6545000" />
       <workItem from="1604951571373" duration="27000" />
+      <workItem from="1605465554577" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="next">
       <created>1604341496674</created>
@@ -137,10 +135,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1308" y="434" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1604854804994" />
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1604951596966">
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1605466115765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604951596966" />
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605466115765" />
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604859381240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
