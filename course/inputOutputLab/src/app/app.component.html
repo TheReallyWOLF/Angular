@@ -1,0 +1,12 @@
+<div class="row m-auto">
+  <div class="col-xs-12">
+    <app-game-controll (intervalFired)="onIntervalFired($event)"></app-game-controll>
+  </div>
+</div>
+
+<div class="row m-auto">
+  <div class="col-xs-12">
+    <app-odd *ngFor="let odd of oddNumbers" [number]="odd"></app-odd>
+    <app-even *ngFor="let even of evenNumbers" [number]="even"></app-even>
+  </div>
+</div>
