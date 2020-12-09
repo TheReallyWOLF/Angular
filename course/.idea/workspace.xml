@@ -19,21 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="input">
+    <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="recipes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/recipes/recipes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +68,7 @@
       <workItem from="1604951571373" duration="27000" />
       <workItem from="1605465554577" duration="541000" />
       <workItem from="1607191663699" duration="1391000" />
-      <workItem from="1607521313742" duration="5007000" />
+      <workItem from="1607521313742" duration="6494000" />
     </task>
     <task id="LOCAL-00001" summary="next">
       <created>1604341496674</created>
@@ -114,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604859379967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="recipes">
+      <created>1607527956840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607527956840</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +134,8 @@
     <MESSAGE value="next" />
     <MESSAGE value="jquery" />
     <MESSAGE value="input" />
-    <option name="LAST_COMMIT_MESSAGE" value="input" />
+    <MESSAGE value="recipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="recipes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="202" key="#Inspections" timestamp="1604839232225">
@@ -151,13 +150,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607521587039" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604859381240">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607527959382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604859381240" />
-    <state x="1147" y="256" width="585" height="534" key="find.popup" timestamp="1607527087864">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607527959382" />
+    <state x="1147" y="256" width="585" height="534" key="find.popup" timestamp="1607542982611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1147" y="256" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607527087864" />
+    <state x="1147" y="256" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607542982611" />
   </component>
 </project>
