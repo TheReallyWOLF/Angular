@@ -19,17 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="recipes">
+    <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="recipes 90">
+      <change afterPath="$PROJECT_DIR$/The-Directive-lesson/src/app/basic-highlight/basic-highlight.directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookOfRecipesApp/src/app/shopping-list/shopping-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -50,6 +54,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="F:\Angular\course\inputOutputProperties\node_modules\typescript\lib" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Angular\course\The-Directive-lesson\src\app\better-highlight" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +77,8 @@
       <workItem from="1604951571373" duration="27000" />
       <workItem from="1605465554577" duration="541000" />
       <workItem from="1607191663699" duration="1391000" />
-      <workItem from="1607521313742" duration="6494000" />
+      <workItem from="1607521313742" duration="6592000" />
+      <workItem from="1607766054195" duration="7255000" />
     </task>
     <task id="LOCAL-00001" summary="next">
       <created>1604341496674</created>
@@ -112,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607527956840</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="recipes 90">
+      <created>1607543069656</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607543069656</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +152,8 @@
     <MESSAGE value="jquery" />
     <MESSAGE value="input" />
     <MESSAGE value="recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="recipes" />
+    <MESSAGE value="recipes 90" />
+    <option name="LAST_COMMIT_MESSAGE" value="recipes 90" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="202" key="#Inspections" timestamp="1604839232225">
@@ -150,13 +168,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607521587039" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607527959382">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607543070791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607527959382" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607543070791" />
     <state x="1147" y="256" width="585" height="534" key="find.popup" timestamp="1607542982611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1147" y="256" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607542982611" />
+    <state x="1096" y="244" key="run.anything.popup" timestamp="1607773800952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607773800952" />
   </component>
 </project>
