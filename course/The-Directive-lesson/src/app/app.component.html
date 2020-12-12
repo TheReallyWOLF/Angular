@@ -17,15 +17,21 @@
           </li>
         </div>
 
-        <div *ngIf="!onlyOdd">
-          <li class="list-group-item"
-              [ngClass]="{odd: even % 2 !== 0}"
-              *ngFor="let even of evenNumbers">
-            {{ even }}
-          </li>
-        </div>
+        <ng-template [ngIf]="!onlyOdd">
+          <div>
+            <li class="list-group-item"
+                [ngClass]="{odd: even % 2 !== 0}"
+                *ngFor="let even of evenNumbers">
+              {{ even }}
+            </li>
+          </div>
+        </ng-template>
 
       </ul>
+      <button (click)="myNgIf === false ? myNgIf = true : myNgIf = false" class="btn btn-danger">Свой ngIf</button>
+      <div *appUnless="myNgIf">
+        Создание свой директивы ngIf
+      </div>
       <!--старая директива-->
       <p appBasicHighlight>Style me with basic directive</p>
       <!--новая директива-->
@@ -36,6 +42,16 @@
          [highlightColor]="'purple'">
         Style me with better directive
       </p>
+      <div [ngSwitch]="value">
+        <!--директива свич-->
+        <p *ngSwitchCase="0">Value is 0</p>
+        <p *ngSwitchCase="10">Value is 10</p>
+        <p *ngSwitchCase="100">Value is 100</p>
+        <p *ngSwitchCase="150">Value is 150</p>
+        <p *ngSwitchDefault>Value is Default</p>
+      </div>
+      <button (click)="plus()" class="btn btn-primary">ngSwitch</button>
+      <button (click)="value = 0" class="btn btn-danger">ngSwitch Reset</button>
     </div>
   </div>
 </div>
