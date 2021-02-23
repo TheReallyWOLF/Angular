@@ -14,21 +14,20 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <div class="btn-group">
-      <button
-        type="button"
-        class="btn btn-primary dropdown-toggle">
-        Manager Recipe<span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu">
-        <li><a href="#">To Shopping List</a></li>
-        <li><a href="#">Edit Recipe</a></li>
-        <li><a href="#">Delete Recipe</a></li>
-      </ul>
+    <div class="dropdown show">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLinks" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+      (click)="show = !show">
+        Выпадающая ссылка 2
+      </a>
+      <div class="dropdown-menu position-absolute"  [ngClass]="{show: show}" aria-labelledby="dropdownMenuLinks">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
     </div>
   </div>
 </div>
-<div class="row">
+<!--<div class="row">
   <div class="col-xs-12">
     {{ recipe.description }}
   </div>
@@ -37,4 +36,4 @@
   <div class="col-xs-12">
     Ingredients
   </div>
-</div>
+</div>-->

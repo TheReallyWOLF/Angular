@@ -11,9 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="rxjs">
-      <change beforePath="$PROJECT_DIR$/.idea/Angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/UnderstandingDirectives/src/app/basic-highlight/basic-highlight.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/shared/dropdown.directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebMySelf/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/The-Directive-lesson/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/The-Directive-lesson/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipe.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipe.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +47,27 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NGRX" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -124,6 +138,15 @@
       <workItem from="1605214190908" duration="1730000" />
       <workItem from="1605220500689" duration="2090000" />
       <workItem from="1605262051228" duration="76000" />
+      <workItem from="1608539823335" duration="542000" />
+      <workItem from="1611239389315" duration="63000" />
+      <workItem from="1611239452627" duration="42000" />
+      <workItem from="1611239495657" duration="46000" />
+      <workItem from="1611239541875" duration="281000" />
+      <workItem from="1611239835121" duration="48000" />
+      <workItem from="1611240152044" duration="246000" />
+      <workItem from="1611240405575" duration="203000" />
+      <workItem from="1613988621268" duration="721000" />
     </task>
     <task id="LOCAL-00037" summary="server">
       <created>1603192172935</created>
@@ -473,6 +496,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/NGRX/node_modules/.staging/karma-98535da7/config.tpl.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -512,98 +540,8 @@
     <MESSAGE value="rxjs" />
     <option name="LAST_COMMIT_MESSAGE" value="rxjs" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1325" y="354" key="#File_Watchers" timestamp="1602505503821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1325" y="354" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1602505503821" />
-    <state x="1066" y="198" key="#Inspections" timestamp="1603448226368">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1066" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1603448226368" />
-    <state x="1308" y="431" key="#TSLint" timestamp="1602356584056">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1308" y="431" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1602356584056" />
-    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603463724463">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603463724463" />
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603458199973">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1191" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603458199973" />
-    <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602505569901">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1187" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1602505569901" />
-    <state x="1109" y="298" key="EditFileWatcherDialog" timestamp="1602505434308">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1109" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602505434308" />
-    <state x="1220" y="261" key="FileChooserDialogImpl" timestamp="1605262124173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1220" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605262124173" />
-    <state width="936" height="279" key="GridCell.Tab.0.bottom" timestamp="1603468099195">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603468099195" />
-    <state width="936" height="279" key="GridCell.Tab.0.center" timestamp="1603468099195">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603468099195" />
-    <state width="936" height="279" key="GridCell.Tab.0.left" timestamp="1603468099195">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603468099195" />
-    <state width="936" height="279" key="GridCell.Tab.0.right" timestamp="1603468099195">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="936" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603468099195" />
-    <state x="1078" y="285" key="MultipleFileMergeDialog" timestamp="1603042849970">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1078" y="285" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603042849970" />
-    <state x="840" y="149" key="SettingsEditor" timestamp="1605216170210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="840" y="149" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605216170210" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605097571105">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605097571105" />
-    <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603451849477">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1045" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603451849477" />
-    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603042672222">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1337" y="254" width="531" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603042672222" />
-    <state x="1258" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602603487829">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1258" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602603487829" />
-    <state x="1022" y="253" width="710" height="665" key="find.popup" timestamp="1604314225326">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1022" y="253" width="710" height="665" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604314225326" />
-    <state x="1303" y="409" width="348" height="298" key="org.angular.cli.generate" timestamp="1603445381848">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1303" y="409" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1603445381848" />
-    <state x="1096" y="242" key="run.anything.popup" timestamp="1604136638470">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604136638470" />
-    <state x="1232" y="378" key="scopes" timestamp="1603306978252">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1232" y="378" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1603306978252" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1603467110057">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603467110057" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

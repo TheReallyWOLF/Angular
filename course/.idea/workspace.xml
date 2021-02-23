@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e96cea27-63c5-488b-8497-cdc35d4dfea5" name="Default Changelist" comment="directive">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The-Directive-lesson/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/The-Directive-lesson/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The-Directive-lesson/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/The-Directive-lesson/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The-Directive-lesson/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/The-Directive-lesson/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +46,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/inputOutputLab" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UnderstandingDirectives" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="F:\Angular\course\inputOutputProperties\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Angular\course\The-Directive-lesson\src\app\better-highlight" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="$PROJECT_DIR$/../../../../nodeJs/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +90,12 @@
       <workItem from="1607191663699" duration="1391000" />
       <workItem from="1607521313742" duration="6592000" />
       <workItem from="1607766054195" duration="8649000" />
+      <workItem from="1611240609187" duration="273000" />
+      <workItem from="1611241042064" duration="413000" />
+      <workItem from="1611241948989" duration="358000" />
+      <workItem from="1611242578917" duration="461000" />
+      <workItem from="1611243053615" duration="821000" />
+      <workItem from="1611247108959" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="next">
       <created>1604341496674</created>
@@ -171,31 +186,5 @@
     <MESSAGE value="recipes 90" />
     <MESSAGE value="directive" />
     <option name="LAST_COMMIT_MESSAGE" value="directive" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1066" y="202" key="#Inspections" timestamp="1604839232225">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1066" y="202" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1604839232225" />
-    <state x="1308" y="434" key="#TSLint" timestamp="1604854804994">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1308" y="434" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1604854804994" />
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1607521587039">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607521587039" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607775943343">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607775943343" />
-    <state x="1147" y="256" width="585" height="534" key="find.popup" timestamp="1607542982611">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1147" y="256" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607542982611" />
-    <state x="1096" y="244" key="run.anything.popup" timestamp="1607773800952">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607773800952" />
   </component>
 </project>

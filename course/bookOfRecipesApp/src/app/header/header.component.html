@@ -1,25 +1,26 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+<nav class="navbar navbar-default" style="height: 60px">
+  <div class="d-flex col-12">
     <div class="navbar-header">
       <a href="#" class="navbar-brand">Recipe Book</a>
     </div>
 
-    <div class="navbar-collapse">
+    <div class="d-flex align-items-center col-10 justify-content-between">
       <ul class="nav d-flex">
         <li class="d-inline-block pr-3"><a href="#" (click)="onSelect('recipe')">Recipes</a></li>
         <li class="d-inline-block"><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" role="button">
-            Manage
-            <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href=#>Save Data</a></li>
-            <li><a href=#>Fetch Data</a></li>
-          </ul>
-        </li>
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Выпадающая ссылка
+          </a>
+          <div class="dropdown-menu position-absolute" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
       </ul>
     </div>
   </div>

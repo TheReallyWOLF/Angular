@@ -30,7 +30,7 @@
       </ul>
       <button (click)="myNgIf === false ? myNgIf = true : myNgIf = false" class="btn btn-danger">Свой ngIf</button>
       <div *appUnless="myNgIf">
-        Создание свой директивы ngIf
+        На кнопке висит собственная директива аналогичная *ngIf
       </div>
       <!--старая директива-->
       <p appBasicHighlight>Style me with basic directive</p>
@@ -48,6 +48,9 @@
         <p *ngSwitchCase="10">Value is 10</p>
         <p *ngSwitchCase="100">Value is 100</p>
         <p *ngSwitchCase="150">Value is 150</p>
+        <p *ngSwitchCase="200">Value is 150</p>
+        <p *ngSwitchCase="250">Value is 150</p>
+        <p *ngSwitchCase="300">Value is 150</p>
         <p *ngSwitchDefault>Value is Default</p>
       </div>
       <button (click)="plus()" class="btn btn-primary">ngSwitch</button>
