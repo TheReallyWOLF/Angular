@@ -11,18 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="rxjs">
-      <change afterPath="$PROJECT_DIR$/course/UnderstandingDirectives/src/app/basic-highlight/basic-highlight.directive.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/shared/dropdown.directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/The-Directive-lesson/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/The-Directive-lesson/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipe.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipe.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-detail/recipes-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/bookOfRecipesApp/src/app/recipes/recipes-list/recipes-item/recipes-item.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +47,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NGRX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -91,6 +81,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="" />
@@ -147,6 +140,7 @@
       <workItem from="1611240152044" duration="246000" />
       <workItem from="1611240405575" duration="203000" />
       <workItem from="1613988621268" duration="721000" />
+      <workItem from="1634038766817" duration="1279000" />
     </task>
     <task id="LOCAL-00037" summary="server">
       <created>1603192172935</created>
@@ -495,12 +489,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/NGRX/node_modules/.staging/karma-98535da7/config.tpl.js" />
-      </list>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
