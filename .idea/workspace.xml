@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="rxjs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="469bab19-14c5-4b38-9c42-64d5ebb01f4f" name="Default Changelist" comment="Angular Advanced" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,18 +54,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="F:\Angular\organizer\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\course\The-Directive-lesson\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Angular\curse\FirstApp\src\app" />
-      <recent name="F:\Angular\server\fullstack CRM" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Angular\curse\FirstApp" />
       <recent name="F:\Angular\ToDoList\src\assets\svg" />
       <recent name="F:\Angular\ToDoList\src\assets\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Angular\curse\FirstApp\src\app" />
+      <recent name="F:\Angular\server\fullstack CRM" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,14 +138,7 @@
       <workItem from="1611240152044" duration="246000" />
       <workItem from="1611240405575" duration="203000" />
       <workItem from="1613988621268" duration="721000" />
-      <workItem from="1634038766817" duration="1279000" />
-    </task>
-    <task id="LOCAL-00037" summary="server">
-      <created>1603192172935</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1603192172935</updated>
+      <workItem from="1634038766817" duration="1665000" />
     </task>
     <task id="LOCAL-00038" summary="server">
       <created>1603192219720</created>
@@ -485,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605097569733</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Angular Advanced">
+      <created>1634040961501</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1634040961501</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +525,8 @@
     <MESSAGE value="work" />
     <MESSAGE value="w" />
     <MESSAGE value="rxjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="rxjs" />
+    <MESSAGE value="Angular Advanced" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular Advanced" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
