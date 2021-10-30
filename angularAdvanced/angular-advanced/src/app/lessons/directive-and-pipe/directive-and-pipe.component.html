@@ -1,14 +1,23 @@
 <p myColor>
   directive работа со стилями
 </p>
+
 <div myEvent>
   directive работа с эвентами
 </div>
+
 <div>
-  <div>
+  <h4>Аргументы в директиву:</h4>
+  <div style="padding: 0 0 0 50px">
     <p [myColorChangeArguments]="'red'" >Передача аргумента в директиву</p>
+    <p [myColorChangeArguments]="blue">Передача аргумента в директиву</p>
   </div>
-  <div>
-    <p [myColorChangeArguments]="'blue'">Передача аргумента в директиву</p>
+</div>
+
+<div>
+  <h4>Работа с шаблоном</h4>
+  <div style="padding: 0 0 0 50px">
+    <p myRepeat [message]="'4 повторения'" [count]=4></p>
+    <myRepeat [message]="'3 повторения'" [count]=3></myRepeat>
   </div>
 </div>

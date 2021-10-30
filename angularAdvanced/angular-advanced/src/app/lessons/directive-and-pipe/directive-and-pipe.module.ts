@@ -6,6 +6,7 @@ import { DirectiveAndPipeComponent } from './directive-and-pipe.component';
 import {MyColorDirective} from "../../shared/directive/colorDirective/my-color.directive";
 import {MyEventDirective} from "../../shared/directive/colorDirective/my-event.directive";
 import {MyColorChangeArgumentsDirective} from "../../shared/directive/colorDirective/my-color-change-arguments.directive";
+import {MyRepeatDirective} from "../../shared/directive/structureDirective/my-repeat-directive";
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {MyColorChangeArgumentsDirective} from "../../shared/directive/colorDirec
     MyColorDirective,
     MyEventDirective,
     DirectiveAndPipeComponent,
-    MyColorChangeArgumentsDirective
+    MyColorChangeArgumentsDirective,
+    MyRepeatDirective
   ],
   imports: [
     CommonModule,

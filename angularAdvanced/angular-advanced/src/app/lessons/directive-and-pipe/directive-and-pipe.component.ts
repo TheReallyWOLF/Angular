@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./directive-and-pipe.component.sass']
 })
 export class DirectiveAndPipeComponent implements OnInit {
+  blue = 'blue'
 
   constructor() { }
 
