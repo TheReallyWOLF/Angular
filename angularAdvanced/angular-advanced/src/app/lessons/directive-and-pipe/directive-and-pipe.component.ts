@@ -13,4 +13,8 @@ export class DirectiveAndPipeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onDelete() {
+    console.log('Директива с удалением')
+  }
+
 }

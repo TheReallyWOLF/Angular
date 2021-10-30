@@ -21,3 +21,23 @@
     <myRepeat [message]="'3 повторения'" [count]=3></myRepeat>
   </div>
 </div>
+
+<div>
+  <h4>Работа с событиями</h4>
+  <div style="padding: 0 0 0 50px">
+    <h3>Форма редактирования записи</h3>
+    <button [myConfirm]="onDelete" >Удалить запись</button>
+  </div>
+</div>
+
+<div>
+  <h4>Работа с передачей события в директиву</h4>
+  <div myCoords style="padding: 0 0 0 50px; background-color: antiquewhite; width: 300px; height: 300px">
+  </div>
+</div>
+
+<div>
+  <h4>Замена и применение стилей директивой</h4>
+  <p myClickableElement >Нажать</p>
+  <div myClickableElement>Нажать</div>
+</div>
