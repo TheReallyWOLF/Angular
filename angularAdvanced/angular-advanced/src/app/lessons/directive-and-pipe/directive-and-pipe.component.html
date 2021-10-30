@@ -1,1 +1,14 @@
-<p>directive-and-pipe works!</p>
+<p myColor>
+  directive работа со стилями
+</p>
+<div myEvent>
+  directive работа с эвентами
+</div>
+<div>
+  <div>
+    <p [myColorChangeArguments]="'red'" >Передача аргумента в директиву</p>
+  </div>
+  <div>
+    <p [myColorChangeArguments]="'blue'">Передача аргумента в директиву</p>
+  </div>
+</div>
