@@ -138,14 +138,7 @@
       <workItem from="1611240152044" duration="246000" />
       <workItem from="1611240405575" duration="203000" />
       <workItem from="1613988621268" duration="721000" />
-      <workItem from="1634038766817" duration="2838000" />
-    </task>
-    <task id="LOCAL-00039" summary="server">
-      <created>1603208611373</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1603208611373</updated>
+      <workItem from="1634038766817" duration="2867000" />
     </task>
     <task id="LOCAL-00040" summary="server">
       <created>1603212429980</created>
@@ -483,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634041213133</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Angular Advanced">
+      <created>1634042258291</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1634042258291</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,10 +533,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634042239924" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1634041740444">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1634042261855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634041740444" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634042261855" />
     <state x="754" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1634041934352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
