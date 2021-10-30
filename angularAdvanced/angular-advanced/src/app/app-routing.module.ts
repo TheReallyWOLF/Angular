@@ -8,7 +8,9 @@ const routes: Routes = [{
   path: 'form-advanced',
   loadChildren: () => import('./lessons/form-advanced/form-advanced.module').then(m => m.FormAdvancedModule)
 }, {
-  path: '', redirectTo: 'directive-and-pipe', pathMatch: 'full'
+  path: 'home', loadChildren: () => import('./lessons/home/home.module').then(m => m.HomeModule)
+}, {
+  path: '', redirectTo: 'home', pathMatch: 'full'
 }];
 
 @NgModule({

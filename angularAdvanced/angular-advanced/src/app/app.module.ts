@@ -16,3 +16,8 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+// Генерация ленивой загрузки с модулями (Ангуляр 8+)
+// ng new lazy-loading --routing
+// создать папку с модулем и добавить рокт в корень
+// ng g m lesson/directive-and-pipe  --route directive-and-pipe --module app.module
