@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './directive-and-pipe.component.html',
   styleUrls: ['./directive-and-pipe.component.sass']
 })
-export class DirectiveAndPipeComponent {}
+export class DirectiveAndPipeComponent {
+  kindOfDirective: string = 'attribute';
+  changeKindOfDirective(kind: string): void {
+    this.kindOfDirective = kind;
+  }
+}

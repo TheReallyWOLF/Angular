@@ -20,9 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="advanced angular">
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/structureDirective/my-context-sample-directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/structureDirective/my-delay-sample-directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/structureDirective/my-if-sample-directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.ts" afterDir="false" />
@@ -48,18 +58,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/structureDirective" />
     <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\structureDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -73,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635583946463</updated>
       <workItem from="1635583947730" duration="20076000" />
-      <workItem from="1635679996046" duration="5968000" />
+      <workItem from="1635679996046" duration="9536000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -117,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635605517548</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="advanced angular">
+      <created>1635694724355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635694724355</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,14 +169,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635588915132" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1635605520898">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1635694729218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635605520898" />
-    <state x="667" y="255" width="585" height="530" key="find.popup" timestamp="1635604646365">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635694729218" />
+    <state x="667" y="255" width="585" height="530" key="find.popup" timestamp="1635697534344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="255" width="585" height="530" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635604646365" />
+    <state x="667" y="255" width="585" height="530" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635697534344" />
     <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1635586329773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

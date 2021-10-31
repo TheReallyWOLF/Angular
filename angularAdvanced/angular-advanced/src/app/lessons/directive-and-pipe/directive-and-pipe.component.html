@@ -1,47 +1,85 @@
 <div class="main-container">
-  <h3>Артибутные директивы</h3>
+
+  <div class="main-container__title-menu">
+    <h3
+      [ngClass]="{active: kindOfDirective === 'attribute'}"
+      (click)="changeKindOfDirective('attribute')" >
+      Артибутные директивы
+    </h3>
+    <h3
+      [ngClass]="{active: kindOfDirective === 'structural'}"
+      (click)="changeKindOfDirective('structural')">
+      Структурные директивы
+    </h3>
+  </div>
+
   <div class="main-container__tabs">
 
-    <input type="radio" id="tab1" name="tabs" checked>
-    <label for="tab1">простая директива</label>
-    <div class="main-container__tab-content" id="content1">
-      <app-simple-directive></app-simple-directive>
+    <div *ngIf="kindOfDirective === 'attribute'">
+      <input type="radio" id="tab1" name="tabs" checked>
+      <label for="tab1">простая директива</label>
+      <div class="main-container__tab-content" id="content1">
+        <app-simple-directive></app-simple-directive>
+      </div>
+
+      <input type="radio" id="tab2" name="tabs">
+      <label for="tab2">работа с событием</label>
+      <div class="main-container__tab-content" id="content2">
+        <app-event-directive></app-event-directive>
+      </div>
+
+      <input type="radio" id="tab3" name="tabs">
+      <label for="tab3">передача аргумента</label>
+      <div class="main-container__tab-content" id="content3">
+        <app-passing-data-directive></app-passing-data-directive>
+      </div>
+
+      <input type="radio" id="tab4" name="tabs">
+      <label for="tab4">несколько аргументов</label>
+      <div class="main-container__tab-content" id="content4">
+        <app-passing-few-directive></app-passing-few-directive>
+      </div>
+
+      <input type="radio" id="tab5" name="tabs">
+      <label for="tab5">работа с методами</label>
+      <div class="main-container__tab-content" id="content5">
+        <app-confirm-sample-directive></app-confirm-sample-directive>
+      </div>
+
+      <input type="radio" id="tab6" name="tabs">
+      <label for="tab6">передача событий</label>
+      <div class="main-container__tab-content" id="content6">
+        <app-mousemove-sample-directive></app-mousemove-sample-directive>
+      </div>
+
+      <input type="radio" id="tab7" name="tabs">
+      <label for="tab7">работа со стилями</label>
+      <div class="main-container__tab-content" id="content7">
+        <app-host-binding-sample-directive></app-host-binding-sample-directive>
+      </div>
     </div>
 
-    <input type="radio" id="tab2" name="tabs">
-    <label for="tab2">работа с событием</label>
-    <div class="main-container__tab-content" id="content2">
-      <app-event-directive></app-event-directive>
+    <div *ngIf="kindOfDirective === 'structural'">
+
+      <input type="radio" id="tab8" name="tabs" checked>
+      <label for="tab8">аналог ngIf</label>
+      <div class="main-container__tab-content" id="content8">
+        <app-my-if-sample-directive></app-my-if-sample-directive>
+      </div>
+
+      <input type="radio" id="tab9" name="tabs">
+      <label for="tab9">Деректива с задержкой</label>
+      <div class="main-container__tab-content" id="content9">
+        <app-my-delay-sample-directive></app-my-delay-sample-directive>
+      </div>
+
+      <input type="radio" id="tab10" name="tabs">
+      <label for="tab10">контекст директива</label>
+      <div class="main-container__tab-content" id="content10">
+        <app-my-context-sample-directive></app-my-context-sample-directive>
+      </div>
+
     </div>
 
-    <input type="radio" id="tab3" name="tabs">
-    <label for="tab3">передача аргумента</label>
-    <div class="main-container__tab-content" id="content3">
-      <app-passing-data-directive></app-passing-data-directive>
-    </div>
-
-    <input type="radio" id="tab4" name="tabs">
-    <label for="tab4">несколько аргументов</label>
-    <div class="main-container__tab-content" id="content4">
-      <app-passing-few-directive></app-passing-few-directive>
-    </div>
-
-    <input type="radio" id="tab5" name="tabs">
-    <label for="tab5">работа с методами</label>
-    <div class="main-container__tab-content" id="content5">
-      <app-confirm-sample-directive></app-confirm-sample-directive>
-    </div>
-
-    <input type="radio" id="tab6" name="tabs">
-    <label for="tab6">передача событий</label>
-    <div class="main-container__tab-content" id="content6">
-      <app-mousemove-sample-directive></app-mousemove-sample-directive>
-    </div>
-
-    <input type="radio" id="tab7" name="tabs">
-    <label for="tab7">работа со стилями</label>
-    <div class="main-container__tab-content" id="content7">
-      <app-host-binding-sample-directive></app-host-binding-sample-directive>
-    </div>
   </div>
 </div>
