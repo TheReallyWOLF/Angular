@@ -1,6 +1,12 @@
-<div class="main-home-menu" >
-  <div class="main-home-menu__button" routerLink="" >Домой</div>
-  <div class="main-home-menu__button" routerLink="directive-and-pipe" >Кастомные директивы и пайпы</div>
-  <div class="main-home-menu__button" routerLink="form-advanced" >Работа с формами</div>
+<div class="main-container">
+  <div class="main-home-menu" >
+    <div class="main-home-menu__button" routerLink="" >Домой</div>
+    <div class="main-home-menu__button" routerLink="directive-and-pipe" >Кастомные директивы и пайпы</div>
+    <div class="main-home-menu__button" routerLink="form-advanced" >Работа с формами</div>
+  </div>
+  <div class="main-home-content">
+    <router-outlet></router-outlet>
+  </div>
 </div>
-<router-outlet></router-outlet>
+
+

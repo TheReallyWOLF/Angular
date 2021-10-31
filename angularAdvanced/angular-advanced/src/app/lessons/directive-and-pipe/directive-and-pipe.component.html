@@ -1,43 +1,47 @@
-<p myColor>
-  directive работа со стилями
-</p>
+<div class="main-container">
+  <h3>Артибутные директивы</h3>
+  <div class="main-container__tabs">
 
-<div myEvent>
-  directive работа с эвентами
-</div>
+    <input type="radio" id="tab1" name="tabs" checked>
+    <label for="tab1">простая директива</label>
+    <div class="main-container__tab-content" id="content1">
+      <app-simple-directive></app-simple-directive>
+    </div>
 
-<div>
-  <h4>Аргументы в директиву:</h4>
-  <div style="padding: 0 0 0 50px">
-    <p [myColorChangeArguments]="'red'" >Передача аргумента в директиву</p>
-    <p [myColorChangeArguments]="blue">Передача аргумента в директиву</p>
+    <input type="radio" id="tab2" name="tabs">
+    <label for="tab2">работа с событием</label>
+    <div class="main-container__tab-content" id="content2">
+      <app-event-directive></app-event-directive>
+    </div>
+
+    <input type="radio" id="tab3" name="tabs">
+    <label for="tab3">передача аргумента</label>
+    <div class="main-container__tab-content" id="content3">
+      <app-passing-data-directive></app-passing-data-directive>
+    </div>
+
+    <input type="radio" id="tab4" name="tabs">
+    <label for="tab4">несколько аргументов</label>
+    <div class="main-container__tab-content" id="content4">
+      <app-passing-few-directive></app-passing-few-directive>
+    </div>
+
+    <input type="radio" id="tab5" name="tabs">
+    <label for="tab5">работа с методами</label>
+    <div class="main-container__tab-content" id="content5">
+      <app-confirm-sample-directive></app-confirm-sample-directive>
+    </div>
+
+    <input type="radio" id="tab6" name="tabs">
+    <label for="tab6">передача событий</label>
+    <div class="main-container__tab-content" id="content6">
+      <app-mousemove-sample-directive></app-mousemove-sample-directive>
+    </div>
+
+    <input type="radio" id="tab7" name="tabs">
+    <label for="tab7">работа со стилями</label>
+    <div class="main-container__tab-content" id="content7">
+      <app-host-binding-sample-directive></app-host-binding-sample-directive>
+    </div>
   </div>
-</div>
-
-<div>
-  <h4>Работа с шаблоном</h4>
-  <div style="padding: 0 0 0 50px">
-    <p myRepeat [message]="'4 повторения'" [count]=4></p>
-    <myRepeat [message]="'3 повторения'" [count]=3></myRepeat>
-  </div>
-</div>
-
-<div>
-  <h4>Работа с событиями</h4>
-  <div style="padding: 0 0 0 50px">
-    <h3>Форма редактирования записи</h3>
-    <button [myConfirm]="onDelete" >Удалить запись</button>
-  </div>
-</div>
-
-<div>
-  <h4>Работа с передачей события в директиву</h4>
-  <div myCoords style="padding: 0 0 0 50px; background-color: antiquewhite; width: 300px; height: 300px">
-  </div>
-</div>
-
-<div>
-  <h4>Замена и применение стилей директивой</h4>
-  <p myClickableElement >Нажать</p>
-  <div myClickableElement>Нажать</div>
 </div>

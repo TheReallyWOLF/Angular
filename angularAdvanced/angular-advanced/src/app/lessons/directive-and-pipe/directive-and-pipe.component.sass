@@ -1,2 +1,60 @@
-.pressed
-  background: red
+*
+  box-sizing: border-box
+
+.main-container
+
+  &__tabs
+    border: 1px solid #fff6e3
+    padding: 0
+    position: relative
+    min-width: 600px
+
+  &__tab-content
+    top: 0
+    left: 180px
+    height: 100%
+    padding: 15px
+    display: none
+    position: absolute
+    animation: scale .7s ease-in-out
+    min-width: 400px
+    background: #d7d1c2
+
+  input
+    display: none
+
+  label
+    width: 182px
+    color: black
+    height: 60px
+    cursor: pointer
+    padding: 10px
+    display: flex
+    background: aqua
+    align-items: center
+    font-weight: 700
+
+  input:checked + label
+    color: black
+    background: #7fec83
+
+  #tab1:checked ~ #content1,
+  #tab2:checked ~ #content2,
+  #tab3:checked ~ #content3,
+  #tab4:checked ~ #content4,
+  #tab5:checked ~ #content5,
+  #tab6:checked ~ #content6,
+  #tab7:checked ~ #content7
+    display: block
+
+
+@keyframes scale
+  0%
+    opacity: 0
+    transform: scale(.9)
+  50%
+    opacity: .5
+    transform: scale(1.005)
+  100%
+    opacity: 1
+    transform: scale(1)
