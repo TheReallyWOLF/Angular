@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 /**
  * Форматирует дату в зависимости от текщего времени (сегодня, вчера, на неделе + дата время или полный месяц дата + время)
  * */
-export class FreshnessDatePipePipe implements PipeTransform {
+export class FreshnessDatePipe implements PipeTransform {
   private dateNow = new Date()
   private oneDay: number = 1000 * 60 * 60 * 24;
   private startDay: number = new Date().setHours(0, 0, 0, 0);
