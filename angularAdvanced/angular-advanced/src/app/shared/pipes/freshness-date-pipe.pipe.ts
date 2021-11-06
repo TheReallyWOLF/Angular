@@ -12,7 +12,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class FreshnessDatePipe implements PipeTransform {
 
   transform(value: Date): string {
-    const dateNow: Date = new Date()
+    const dateNow: Date = new Date();
     const oneDay: number = 1000 * 60 * 60 * 24;
     const startDay: number = new Date().setHours(0, 0, 0, 0);
     const startYesterday: number = new Date(new Date().getTime() - oneDay).setHours(0, 0, 0, 0);
@@ -21,7 +21,7 @@ export class FreshnessDatePipe implements PipeTransform {
     let options: any = {
       hour: 'numeric',
       minute: 'numeric'
-    }
+    };
     let dateToString: string;
     let freshnessDate: string = '';
 

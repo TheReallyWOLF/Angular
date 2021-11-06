@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="data pipe">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/pipes/freshness-date-pipe.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/pipes/freshness-date-pipe.pipe.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +70,7 @@
       <workItem from="1635679996046" duration="10038000" />
       <workItem from="1636133061197" duration="8116000" />
       <workItem from="1636142396880" duration="162000" />
-      <workItem from="1636210722436" duration="268000" />
+      <workItem from="1636210722436" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636141151977</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="data pipe">
+      <created>1636211100159</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636211100159</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
