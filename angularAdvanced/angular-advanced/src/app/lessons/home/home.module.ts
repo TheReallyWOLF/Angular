@@ -11,6 +11,9 @@ import { FreshnessDatePipe } from "../../shared/pipes/freshness-date-pipe.pipe";
     HomeComponent,
     FreshnessDatePipe,
   ],
+  exports: [
+    FreshnessDatePipe
+  ],
   imports: [
     CommonModule,
     HomeRoutingModule

@@ -5,7 +5,7 @@ import { DirectiveAndPipeComponent } from './directive-and-pipe.component';
 const routes: Routes = [{ path: '', component: DirectiveAndPipeComponent }];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class DirectiveAndPipeRoutingModule { }

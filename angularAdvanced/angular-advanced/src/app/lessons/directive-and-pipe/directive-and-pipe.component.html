@@ -11,6 +11,11 @@
       (click)="changeKindOfDirective('structural')">
       Структурные директивы
     </h3>
+    <h3
+      [ngClass]="{active: kindOfDirective === 'pipe'}"
+      (click)="changeKindOfDirective('pipe')">
+      Пайпы (фильты)
+    </h3>
   </div>
 
   <div class="main-container__tabs">
@@ -77,6 +82,16 @@
       <label for="tab10">контекст директива</label>
       <div class="main-container__tab-content" id="content10">
         <app-my-context-sample-directive></app-my-context-sample-directive>
+      </div>
+
+    </div>
+
+    <div *ngIf="kindOfDirective === 'pipe'">
+
+      <input type="radio" id="tab11" name="tabs" checked>
+      <label for="tab11">Свой data pipe</label>
+      <div class="main-container__tab-content" id="content11">
+        <app-my-data-freshess></app-my-data-freshess>
       </div>
 
     </div>

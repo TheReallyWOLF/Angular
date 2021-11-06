@@ -23,6 +23,8 @@ import {MyContextSampleDirectiveComponent} from './my-context-sample-directive/m
 import {MyIfSampleDirective} from "../../shared/directive/structureDirective/my-if-sample-directive";
 import {MyDelaySampleDirective} from "../../shared/directive/structureDirective/my-delay-sample-directive";
 import {MyContextSampleDirective} from "../../shared/directive/structureDirective/my-context-sample-directive";
+import {MyDataFreshessComponent} from "./my-data-freshess/my-data-freshess.component";
+import {HomeModule} from "../home/home.module";
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import {MyContextSampleDirective} from "../../shared/directive/structureDirectiv
     MyConfirmDirective,
     MyIfSampleDirective,
     MyDelaySampleDirective,
+    MyDataFreshessComponent,
     EventDirectiveComponent,
     SimpleDirectiveComponent,
     MyContextSampleDirective,
@@ -53,6 +56,7 @@ import {MyContextSampleDirective} from "../../shared/directive/structureDirectiv
   imports: [
     CommonModule,
     DirectiveAndPipeRoutingModule,
+    HomeModule,
   ]
 })
 export class DirectiveAndPipeModule {
