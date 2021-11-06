@@ -6,17 +6,17 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 /**
  * Форматирует дату в зависимости от текщего времени (сегодня, вчера, на неделе + дата время или полный месяц дата + время)
+ * Все переменные надо объявлять внутри метода трансформ тк
+ * пайпы задуманы, как чистые функции, т/е без сохранения состояния, иначе они могут работать не корректно
  * */
 export class FreshnessDatePipe implements PipeTransform {
-  private dateNow = new Date()
-  private oneDay: number = 1000 * 60 * 60 * 24;
-  private startDay: number = new Date().setHours(0, 0, 0, 0);
-  private startYesterday: number = new Date(new Date().getTime() - this.oneDay).setHours(0, 0, 0, 0);
-  private endYesterday: number = new Date(new Date().getTime() - this.oneDay).setHours(23, 59, 59, 999);
-
 
   transform(value: Date): string {
-
+    const dateNow: Date = new Date()
+    const oneDay: number = 1000 * 60 * 60 * 24;
+    const startDay: number = new Date().setHours(0, 0, 0, 0);
+    const startYesterday: number = new Date(new Date().getTime() - oneDay).setHours(0, 0, 0, 0);
+    const endYesterday: number = new Date(new Date().getTime() - oneDay).setHours(23, 59, 59, 999);
     const dateNews: number = value.getTime();
     let options: any = {
       hour: 'numeric',
@@ -25,11 +25,11 @@ export class FreshnessDatePipe implements PipeTransform {
     let dateToString: string;
     let freshnessDate: string = '';
 
-    if (this.startDay <= dateNews && this.dateNow.getTime() >= dateNews) {
+    if (startDay <= dateNews && dateNow.getTime() >= dateNews) {
       freshnessDate = 'Сегодня, ';
-    } else if (this.startYesterday <= dateNews && this.endYesterday >= dateNews) {
+    } else if (startYesterday <= dateNews && endYesterday >= dateNews) {
       freshnessDate = 'Вчера, ';
-    } else if (this.getMonday(this.dateNow) <= dateNews) {
+    } else if (this.getMonday(dateNow) <= dateNews) {
       freshnessDate = 'На этой неделе';
     } else {
       options = {
