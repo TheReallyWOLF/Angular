@@ -1,0 +1,8 @@
+<div>
+  <input type="text" [(ngModel)] = 'value'>
+  <input type="radio" #metric name="measure"> Metric system
+  <input type="radio" name="measure" checked="checked"> Imperial system
+  <p>
+    {{ value | formatDistance: metric.checked }}
+  </p>
+</div>

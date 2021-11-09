@@ -27,7 +27,11 @@ import {MyDataFreshessComponent} from "./my-data-freshess/my-data-freshess.compo
 import {HomeModule} from "../home/home.module";
 import {BuiltinPipesComponent} from './builtin-pipes/builtin-pipes.component';
 import {ChainsPipesComponent} from './chains-pipes/chains-pipes.component';
-import { AsyncPipesComponent } from './async-pipes/async-pipes.component';
+import {AsyncPipesComponent} from './async-pipes/async-pipes.component';
+import {SimpleCustomPipesComponent} from './simple-custom-pipes/simple-custom-pipes.component';
+import {SimpleCustomPipes2Component} from './simple-custom-pipes2/simple-custom-pipes2.component';
+import {PureImpurePipeComponent} from './pure-inpure-pipe/pure-inpure-pipe.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -38,14 +42,18 @@ import { AsyncPipesComponent } from './async-pipes/async-pipes.component';
     MyRepeatDirective,
     MyConfirmDirective,
     MyIfSampleDirective,
+    AsyncPipesComponent,
     ChainsPipesComponent,
     BuiltinPipesComponent,
     MyDelaySampleDirective,
     MyDataFreshessComponent,
     EventDirectiveComponent,
+    PureImpurePipeComponent,
     SimpleDirectiveComponent,
     MyContextSampleDirective,
     DirectiveAndPipeComponent,
+    SimpleCustomPipesComponent,
+    SimpleCustomPipes2Component,
     MyClickableElementDirective,
     PassingFewDirectiveComponent,
     MyIfSampleDirectiveComponent,
@@ -56,14 +64,12 @@ import { AsyncPipesComponent } from './async-pipes/async-pipes.component';
     MyContextSampleDirectiveComponent,
     MousemoveSampleDirectiveComponent,
     HostBindingSampleDirectiveComponent,
-    AsyncPipesComponent,
-
-
   ],
   imports: [
     CommonModule,
     DirectiveAndPipeRoutingModule,
     HomeModule,
+    FormsModule,
   ]
 })
 export class DirectiveAndPipeModule {

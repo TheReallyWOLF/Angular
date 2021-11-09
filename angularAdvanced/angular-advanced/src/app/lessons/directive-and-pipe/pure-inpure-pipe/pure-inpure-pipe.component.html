@@ -1,0 +1,13 @@
+<div>
+  <h3>Pure Pipe (меняеться только когда меняется ссылка)</h3>
+  <p>Исходные данные: {{ person1.firstName }} {{ person1.lastName }}</p>
+  <p>Фильтр: {{ person1 | purePipe }}</p>
+  <button (click)="changePropPerson1()">Поменять свойство person1</button>
+  <button (click)="changeRefPerson1()">Поменять ссылку person1</button>
+
+  <h3>Impure Pipe (постоянно срабатывает каждое изменение)</h3>
+  <p>Исходные данные: {{ person2.firstName }} {{ person2.lastName }}</p>
+  <p>Фильтр: {{ person2 | impurePipe }}</p>
+  <button (click)="changePropPerson2()">Поменять свойство person2</button>
+  <button (click)="changeRefPerson2()">Поменять ссылку person2</button>
+</div>
