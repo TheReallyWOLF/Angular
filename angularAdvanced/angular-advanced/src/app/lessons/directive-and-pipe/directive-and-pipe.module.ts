@@ -25,6 +25,9 @@ import {MyDelaySampleDirective} from "../../shared/directive/structureDirective/
 import {MyContextSampleDirective} from "../../shared/directive/structureDirective/my-context-sample-directive";
 import {MyDataFreshessComponent} from "./my-data-freshess/my-data-freshess.component";
 import {HomeModule} from "../home/home.module";
+import {BuiltinPipesComponent} from './builtin-pipes/builtin-pipes.component';
+import {ChainsPipesComponent} from './chains-pipes/chains-pipes.component';
+import { AsyncPipesComponent } from './async-pipes/async-pipes.component';
 
 
 @NgModule({
@@ -35,6 +38,8 @@ import {HomeModule} from "../home/home.module";
     MyRepeatDirective,
     MyConfirmDirective,
     MyIfSampleDirective,
+    ChainsPipesComponent,
+    BuiltinPipesComponent,
     MyDelaySampleDirective,
     MyDataFreshessComponent,
     EventDirectiveComponent,
@@ -51,6 +56,8 @@ import {HomeModule} from "../home/home.module";
     MyContextSampleDirectiveComponent,
     MousemoveSampleDirectiveComponent,
     HostBindingSampleDirectiveComponent,
+    AsyncPipesComponent,
+
 
   ],
   imports: [

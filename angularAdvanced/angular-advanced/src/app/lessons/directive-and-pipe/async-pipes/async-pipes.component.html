@@ -1,0 +1,9 @@
+<div>
+  <h3>Async pipe Промисы</h3>
+  <button (click)="getData()">Имитация запроса</button>
+  <p>Ответ от "сервера": {{ dataFromServer | async }}</p>
+  <p>Ответ от "сервера" без async pipe: {{ dataFromServer }}</p>
+  <h3>Async pipe Подписки</h3>
+  <button (click)="start()">Запустить подписку</button>
+  <p>Подписка работает {{ time | async }}</p>
+</div>

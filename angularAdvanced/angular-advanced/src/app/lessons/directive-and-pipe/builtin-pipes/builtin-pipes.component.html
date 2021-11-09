@@ -1,0 +1,41 @@
+<div>
+  <h3>Данные без фильтрации</h3>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Category</th>
+      <th>Code</th>
+      <th>Date</th>
+    </tr>
+
+    <tr *ngFor="let item of products">
+      <td>{{ item.name }}</td>
+      <td>{{ item.price }}</td>
+      <td>{{ item.category }}</td>
+      <td>{{ item.code }}</td>
+      <td>{{ item.date }}</td>
+    </tr>
+  </table>
+</div>
+
+<div>
+  <h3>Данные c фильтрацией</h3>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Category</th>
+      <th>Code</th>
+      <th>Date</th>
+    </tr>
+
+    <tr *ngFor="let item of products">
+      <td>{{ item.name }}</td>
+      <td>{{ item.price | currency: 'EUR': true }}</td>
+      <td>{{ item.category | lowercase }}</td>
+      <td>{{ item.code  | uppercase }}</td>
+      <td>{{ item.date | date }}</td>
+    </tr>
+  </table>
+</div>
