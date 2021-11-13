@@ -1,3 +1,5 @@
 <div class="form-example">
-  <app-angular-example-form></app-angular-example-form>
+  <button (click)="changeForm()">{{ buttonName }}</button>
+  <app-angular-example-form *ngIf="buttonName===buttonOptions[0]"></app-angular-example-form>
+  <div *ngIf="buttonName===buttonOptions[1]">Другой элемент</div>
 </div>
