@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { FormAdvancedRoutingModule } from './form-advanced-routing.module';
 import { FormAdvancedComponent } from './form-advanced.component';
+import { AngularExampleFormComponent } from './angular-example-form/angular-example-form.component';
 
 
 @NgModule({
   declarations: [
-    FormAdvancedComponent
+    FormAdvancedComponent,
+    AngularExampleFormComponent
   ],
   imports: [
     CommonModule,

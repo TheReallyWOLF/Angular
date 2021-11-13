@@ -28,5 +28,4 @@ export class ScrollMetricaDirective implements AfterViewInit {
       console.log(' запуск метрики')
     });
   }
-
 }
