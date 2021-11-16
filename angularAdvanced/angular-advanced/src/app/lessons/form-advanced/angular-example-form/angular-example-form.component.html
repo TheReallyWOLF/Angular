@@ -1,26 +1,54 @@
 <div>
   <h4>Реактивные формы</h4>
-  <form novalidate [formGroup]="registrationForm">
+  <form novalidate [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
     <div formGroupName="name">
-      <div>
+      <div class="input-wrapper"
+           [ngClass]="{
+          error: firstName.invalid && firstName.dirty,
+          success: firstName.valid && firstName.dirty}">
         <label for="firstName">First Name</label>
         <input id="firstName" type="text" formControlName="firstName">
       </div>
+      <div class="alert" *ngIf="firstName.invalid && firstName.dirty">
+        Поле First Name обязательно для ввода
+      </div>
 
-      <div>
+      <div class="input-wrapper"
+           [ngClass]="{
+          error: lastName.invalid && lastName.dirty,
+          success: lastName.valid && lastName.dirty}">
         <label for="lastName">Last Name</label>
         <input id="lastName" type="text" formControlName="lastName">
       </div>
+      <div class="alert" *ngIf="lastName.invalid && lastName.dirty">
+        Поле Last Name обязательно для ввода
+      </div>
+
     </div>
 
-    <div>
+    <div class="input-wrapper"
+         [ngClass]="{
+          error: email.invalid && email.dirty,
+          success: email.valid && email.dirty}">
       <label for="email">Email</label>
       <input id="email" type="email" formControlName="email">
     </div>
+    <div class="alert" *ngIf="email.errors && (email.dirty || email.touched)">
+      <p *ngIf="email.errors.required">Поле Email обязательно для ввода</p>
+      <p *ngIf="email.errors.pattern">Не правильный формат</p>
+    </div>
 
-    <div>
+    <div class="input-wrapper"
+         [ngClass]="{
+          error: password.invalid && password.dirty,
+          success: password.valid && password.dirty}">
       <label for="password">Password</label>
       <input id="password" type="password" formControlName="password">
     </div>
+    <div class="alert" *ngIf="password.errors && (password.dirty || password.touched)">
+      <p *ngIf="password.errors.required">Поле Password обязательно для ввода</p>
+      <p *ngIf="password.errors.minlength">Минимальное количество символов {{ password.errors.minlength.requiredLength }}</p>
+    </div>
+    <input type="submit" value="submit">
   </form>
 </div>
