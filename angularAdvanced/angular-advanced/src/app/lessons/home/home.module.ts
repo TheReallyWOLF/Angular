@@ -7,6 +7,7 @@ import {FreshnessDatePipe} from "../../shared/pipes/freshness-date-pipe.pipe";
 import {MyCustomPipe} from "../../shared/pipes/my-custom.pipe";
 import {MyCustomMetricPipe} from "../../shared/pipes/my-custom-metric.pipe";
 import {MyImpurePipe, MyPurePipe} from "../../shared/pipes/pure-impure.pipe";
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {MyImpurePipe, MyPurePipe} from "../../shared/pipes/pure-impure.pipe";
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    FormsModule
   ]
 })
 export class HomeModule {
