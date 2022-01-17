@@ -11,7 +11,8 @@ const routes: Routes = [{
   path: 'home', loadChildren: () => import('./lessons/home/home.module').then(m => m.HomeModule)
 }, {
   path: '', redirectTo: 'home', pathMatch: 'full'
-}];
+},
+  { path: 'basic-syntax', loadChildren: () => import('./lessons/basic-syntax/basic-syntax.module').then(m => m.BasicSyntaxModule) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
