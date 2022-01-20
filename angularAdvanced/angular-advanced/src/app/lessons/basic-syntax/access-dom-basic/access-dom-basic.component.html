@@ -1,0 +1,22 @@
+<div>
+  <div>
+    <p>Работа с DOM элементами через ID и передача его в событие</p>
+    <input type="text" #inputDomElement>
+    <button (click)="workDomElement(inputDomElement)">Передать ссылку на элемент через ID</button>
+  </div>
+  <hr/>
+  <div>
+    <p>Работа с DOM элементами через ID и ViewChild</p>
+    <input type="text" #inputViewChild>
+    <button (click)="workDomViewChild()">Передать ссылку на элемент через ViewChild</button>
+  </div>
+  <hr/>
+  <div>
+    <p>передача данных через ng-content + select</p>
+    <app-item-data-transfer-example>
+      <p #paragraphElement paragraphElement>Передача строки и переменной - {{ transfer }}</p>
+      <div divElement>меня вывели при помощи ID</div>
+    </app-item-data-transfer-example>
+  </div>
+  <hr/>
+</div>
