@@ -33,6 +33,7 @@ import {SimpleCustomPipes2Component} from './simple-custom-pipes2/simple-custom-
 import {PureImpurePipeComponent} from './pure-inpure-pipe/pure-inpure-pipe.component';
 import {FormsModule} from "@angular/forms";
 import {ScrollMetricaDirective} from "../../shared/directive/atributeDirective/scroll-metrica.directive";
+import {HostBindingDirective} from "../../shared/directive/atributeDirective/host-binding.directive";
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import {ScrollMetricaDirective} from "../../shared/directive/atributeDirective/s
     MyIfSampleDirective,
     AsyncPipesComponent,
     ChainsPipesComponent,
+    HostBindingDirective,
     BuiltinPipesComponent,
     MyDelaySampleDirective,
     ScrollMetricaDirective,
