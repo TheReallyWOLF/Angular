@@ -1,9 +1,9 @@
 <div class="basic-syntax">
   <h3>Раздел: {{ select }}</h3>
   <nav class="basic-syntax__nav">
-    <button (click)="select = 'селекторы'" >Селекторы</button>
-    <button (click)="select = 'компоненты'">Компоненты</button>
+    <button (click)="select = selectors" >Селекторы</button>
+    <button (click)="select = components">Компоненты</button>
   </nav>
 </div>
-<app-selector-entertainment *ngIf = 'select === "селекторы"' ></app-selector-entertainment>
-<app-access-dom-basic *ngIf = 'select === "компоненты"'></app-access-dom-basic>
+<app-selector-entertainment *ngIf = 'select === selectors' ></app-selector-entertainment>
+<app-access-dom-basic *ngIf = 'select === components'></app-access-dom-basic>

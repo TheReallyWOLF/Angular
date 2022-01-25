@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./basic-syntax.component.sass']
 })
 export class BasicSyntaxComponent {
-  select: string = 'селекторы';
+  readonly selectors = 'селекторы';
+  readonly components = 'компоненты';
+  select: string = this.selectors;
 }
