@@ -1,19 +1,25 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { NgrxRoutingModule } from './ngrx-routing.module';
-import { NgrxComponent } from './ngrx.component';
-import { CounterNgrxComponent } from './counter/counter-ngrx/counter-ngrx.component';
+import {NgrxComponent} from './ngrx.component';
+import {CounterNgxsComponent} from "./counter/counter-ngxs/counter-ngxs.component";
+import {NgxsModule} from "@ngxs/store";
+import {CounterState} from "./counter/counter-ngxs/counter.state";
+import {NgrxRoutingModule} from "./ngrx-routing.module";
 
 
 @NgModule({
   declarations: [
     NgrxComponent,
-    CounterNgrxComponent
+    CounterNgxsComponent,
   ],
   imports: [
+    NgxsModule.forFeature([
+      CounterState
+    ]),
+    NgrxRoutingModule,
     CommonModule,
-    NgrxRoutingModule
   ]
 })
-export class NgrxModule { }
+export class NgrxModule {
+}

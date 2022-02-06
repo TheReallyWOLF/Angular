@@ -1,0 +1,14 @@
+<div>
+  <p>NGXS - аналогия ngrx на инжектах + более локоничный код (PS NGRX RIP имхо)</p>
+  <div>
+    <p>Простой пример счетчика</p>
+    <div>
+      <button (click)="increment()">increment</button>
+      <button (click)="decrement()">decrement</button>
+      <button (click)="clear()">clear</button>
+      <p>{{ count$ | async }}</p>
+      <p>date change :{{ changeDate$ | async | date: 'MMMM d, y, h:mm:ss a z'	 }}</p>
+    </div>
+  </div>
+
+</div>

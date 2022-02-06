@@ -19,19 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="components">
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.effects.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.selectors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/redusers/index.ts" afterDir="false" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="NGRX">
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.state.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngrx/counter-ngrx.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngrx/counter-ngrx.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngrx/counter-ngrx.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.selectors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/redusers/index.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +60,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\pipes" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\structureDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -126,7 +135,8 @@
       <workItem from="1643721653631" duration="7231000" />
       <workItem from="1643795438721" duration="1805000" />
       <workItem from="1643971534783" duration="4027000" />
-      <workItem from="1644095858710" duration="4230000" />
+      <workItem from="1644095858710" duration="4569000" />
+      <workItem from="1644133374153" duration="11494000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -296,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643130355038</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="NGRX">
+      <created>1644100415991</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1644100415992</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +341,8 @@
     <MESSAGE value="basic" />
     <MESSAGE value="appHostBinding" />
     <MESSAGE value="components" />
-    <option name="LAST_COMMIT_MESSAGE" value="components" />
+    <MESSAGE value="NGRX" />
+    <option name="LAST_COMMIT_MESSAGE" value="NGRX" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1636475291360">
@@ -367,10 +385,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1643398012431" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643130358427">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644100446701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1643130358427" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644100446701" />
     <state x="758" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1643390559851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -379,10 +397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636480405268" />
-    <state x="896" y="374" width="734" height="592" key="find.popup" timestamp="1643397543641">
+    <state x="896" y="374" width="734" height="592" key="find.popup" timestamp="1644141630981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="896" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1643397543641" />
+    <state x="896" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644141630981" />
     <state x="342" y="140" key="new project wizard" timestamp="1643715027680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

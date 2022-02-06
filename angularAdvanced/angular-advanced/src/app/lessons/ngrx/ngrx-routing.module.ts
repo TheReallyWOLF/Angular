@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NgrxComponent } from './ngrx.component';
+import {NgrxComponent} from "./ngrx.component";
 
 const routes: Routes = [{ path: '', component: NgrxComponent }];
 

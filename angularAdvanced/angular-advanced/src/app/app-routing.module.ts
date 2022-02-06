@@ -12,8 +12,12 @@ const routes: Routes = [{
 }, {
   path: '', redirectTo: 'home', pathMatch: 'full'
 },
-  { path: 'basic-syntax', loadChildren: () => import('./lessons/basic-syntax/basic-syntax.module').then(m => m.BasicSyntaxModule) },
-  { path: 'ngrx', loadChildren: () => import('./lessons/ngrx/ngrx.module').then(m => m.NgrxModule) }];
+  {
+    path: 'basic-syntax', loadChildren: () => import('./lessons/basic-syntax/basic-syntax.module').then(m => m.BasicSyntaxModule)
+  },
+  {
+    path: 'ngxs', loadChildren: () => import('./lessons/ngrx/ngrx.module').then(m => m.NgrxModule)
+  }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
