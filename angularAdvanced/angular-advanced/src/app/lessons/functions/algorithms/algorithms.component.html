@@ -1,0 +1,20 @@
+<div>
+  <div>Примеры популярных алгоритмов и их реализация</div>
+  <div>
+    <div>Линейный поиск</div>
+    <pre>
+      {{ linearSearch }}
+    </pre>
+    <button [disabled]="state.linearSearchBuffer.result" (click)="linearSearch()">
+      Выполнить
+    </button>
+    <button (click)="clear('linearSearchBuffer')">
+      Очистить
+    </button>
+    <div>
+      <div>Число оперций {{ state.linearSearchBuffer.count }}</div>
+      <div>Возвращенное значение {{ state.linearSearchBuffer.result }}</div>
+      <div>Время выполнения {{ state.linearSearchBuffer.time }}</div>
+    </div>
+  </div>
+</div>
