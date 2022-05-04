@@ -19,25 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="NGRX">
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.state.ts" afterDir="false" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="NGXS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngrx/counter-ngrx.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngrx/counter-ngrx.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngrx/counter-ngrx.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.actions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/reducers/counter/counter.selectors.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/redusers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.state.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +120,16 @@
       <workItem from="1643795438721" duration="1805000" />
       <workItem from="1643971534783" duration="4027000" />
       <workItem from="1644095858710" duration="4569000" />
-      <workItem from="1644133374153" duration="11494000" />
+      <workItem from="1644133374153" duration="11715000" />
+      <workItem from="1644314614201" duration="358000" />
+      <workItem from="1644408233857" duration="879000" />
+      <workItem from="1644578589630" duration="83000" />
+      <workItem from="1649924628915" duration="3866000" />
+      <workItem from="1650012181614" duration="7324000" />
+      <workItem from="1650537382258" duration="6398000" />
+      <workItem from="1650632937172" duration="1329000" />
+      <workItem from="1651063888375" duration="1281000" />
+      <workItem from="1651227024379" duration="2784000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -313,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644100415992</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="NGXS">
+      <created>1644145500007</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644145500007</updated>
+    </task>
+    <task id="LOCAL-00027" summary="NGXS">
+      <created>1644145516294</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644145516294</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,77 +349,43 @@
     <MESSAGE value="appHostBinding" />
     <MESSAGE value="components" />
     <MESSAGE value="NGRX" />
-    <option name="LAST_COMMIT_MESSAGE" value="NGRX" />
+    <MESSAGE value="NGXS" />
+    <option name="LAST_COMMIT_MESSAGE" value="NGXS" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1636475291360">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644578613575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636475291360" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644578613575" />
     <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644097462499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644097462499" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1636478248016">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1644409120605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636478248016" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1643714960545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1643714960545" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1636799125082">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636799125082" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1636799125082">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636799125082" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1636799125082">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636799125082" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1636799125082">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636799125082" />
-    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1635589435357">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635589435357" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644409120605" />
     <state x="676" y="240" key="RollbackChangesDialog" timestamp="1643398012431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1643398012431" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644100446701">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644145528602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644100446701" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644145528602" />
     <state x="758" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1643390559851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1643390559851" />
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636480405268">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1636480405268" />
-    <state x="896" y="374" width="734" height="592" key="find.popup" timestamp="1644141630981">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2816" y="374" width="734" height="592" key="find.popup" timestamp="1650645727379">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="896" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1644141630981" />
+    <state x="2816" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1650645727379" />
     <state x="342" y="140" key="new project wizard" timestamp="1643715027680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1643715027680" />
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1635586329773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635586329773" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1640679063472">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1640679063472" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643397832711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

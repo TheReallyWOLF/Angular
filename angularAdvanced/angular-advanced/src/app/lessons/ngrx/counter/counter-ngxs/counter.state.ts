@@ -7,30 +7,22 @@ export namespace Actions {
 
   export class Increment {
     static readonly type = '[NGRX::counter] increment'
-
-    constructor() {
-    }
+    constructor() {}
   }
 
   export class Decrement {
     static readonly type = '[NGRX::counter] decrement'
-
-    constructor() {
-    }
+    constructor() {}
   }
 
   export class Clear {
     static readonly type = '[NGRX::counter] clear'
-
-    constructor() {
-    }
+    constructor() {}
   }
 
   export class GetDate {
     static readonly type = '[NGRX::counter] getDate'
-
-    constructor() {
-    }
+    constructor() {}
   }
 
 }
@@ -61,8 +53,7 @@ export class CounterState {
     return state.changeDate;
   }
 
-  constructor(private countBackend: CounterService) {
-  }
+  constructor(private countBackend: CounterService) {}
 
   @Action(Actions.Increment)
   increment(ctx: StateContext<CounterModel>, action: Actions.Increment) {
