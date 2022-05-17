@@ -19,6 +19,8 @@ export interface StateItem {
 })
 
 export class AlgorithmsComponent  {
+  private length: number = 1000000;
+  public open: string = '';
   public state: State = {
     linearSearchBuffer: {
       result: '',
@@ -27,13 +29,50 @@ export class AlgorithmsComponent  {
     }
   }
 
-  linearSearch(): void {
+  algorithmWrapper(name: string): void {
     const start = new Date().getTime();
-    let linearSearch = this.state.linearSearchBuffer;
-    linearSearch.count++;
-    linearSearch.result = 'результат выполнения';
+    const stateItem: StateItem = this.state[name];
+    const testArr: number[] = this.createArr(this.length);
+
+    switch (name) {
+      case 'linearSearchBuffer': this.linearSearch(testArr, name); break;
+    }
+
     const end = new Date().getTime();
-    linearSearch.time = end - start
+    stateItem.time = end - start;
+  }
+
+  /**
+   * Линейный поиск
+   * */
+
+  linearSearch(arr: number[], name: string) {
+    // генерация искомого числа
+    const item: number = Math.floor(Math.random()*this.length);
+    // увеличение счетчика цикла алгоритма
+    this.state[name].count++;
+    // выполнение поиска (линейный)
+    for (let i = 0; i < arr.length; i++) {
+      this.state[name].count++
+      if (arr[i] === item) {
+        this.state[name].result = i;
+        return;
+      }
+    }
+    this.state[name].count++;
+    this.state[name].result = 'null';
+  }
+
+  /**
+   * Создаем массив
+   * */
+
+  createArr(length: number): number[] {
+    let arr = [];
+    for(let i = 0; i < length; i++) {
+      arr.push(i);
+    }
+    return arr;
   }
 
   clear(metric?: string): void {
