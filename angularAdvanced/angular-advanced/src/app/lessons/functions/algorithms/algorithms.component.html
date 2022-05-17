@@ -41,5 +41,25 @@
         </div>
       </div>
     </div>
+
+    <div class="algorithms__card" [class.open] = "open === 'linearSearchBuffer3'" >
+      <div class="algorithms__card-title" (click)="open = 'linearSearchBuffer3'">Линейный поиск 3</div>
+      <div class="algorithms__card-body">
+        <pre>
+          {{ linearSearch }}
+        </pre>
+        <button [disabled]="state.linearSearchBuffer.result" (click)="algorithmWrapper('linearSearchBuffer3')">
+          Выполнить
+        </button>
+        <button [disabled]="!state.linearSearchBuffer.result" (click)="clear('linearSearchBuffer3')">
+          Очистить
+        </button>
+        <div>
+          <div>Число оперций {{ state.linearSearchBuffer.count }}</div>
+          <div>Возвращенное значение {{ state.linearSearchBuffer.result }}</div>
+          <div>Время выполнения {{ state.linearSearchBuffer.time }} (мс)</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

@@ -14,7 +14,7 @@
     padding: 12px
 
   &__card
-    height: 50px
+    max-height: 50px
     cursor: pointer
     overflow: hidden
     background: #fff6e3
@@ -22,5 +22,6 @@
     margin-bottom: 24px
 
     &.open
-      height: auto
+      max-height: 1000px
+      transition: max-height 1s
 
