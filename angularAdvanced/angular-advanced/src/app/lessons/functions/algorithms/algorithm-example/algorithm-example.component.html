@@ -1,0 +1,20 @@
+<div class="algorithms__card" [class.open] = "open === algorithmName" >
+  <div class="algorithms__card-title" (click)="emit(openCardEmit)">{{ algorithmState.name }}</div>
+  <div class="algorithms__card-body">
+    <pre>
+       <ng-content></ng-content>
+    </pre>
+    <button [disabled]="algorithmState.result" (click)="emit(algorithmWrapperEmit)">
+      Выполнить
+    </button>
+    <button [disabled]="!algorithmState.result" (click)="emit(clearEmit)">
+      Очистить
+    </button>
+    <div>
+      <div>Число оперций {{ algorithmState.count }}</div>
+      <div>Искомый объект {{ algorithmState.successfulSearch }} </div>
+      <div>Время выполнения {{ algorithmState.time }} (мс)</div>
+      <div>Возвращенное значение {{ algorithmState.result }}</div>
+    </div>
+  </div>
+</div>

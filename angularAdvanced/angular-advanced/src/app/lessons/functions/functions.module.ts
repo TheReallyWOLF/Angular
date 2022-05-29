@@ -1,21 +1,26 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {ReactiveFormsModule} from '@angular/forms';
 
-import { FunctionsRoutingModule } from './functions-routing.module';
-import { FunctionsComponent } from './functions.component';
-import { AlgorithmsComponent } from './algorithms/algorithms.component';
-import { ExamplesComponent } from './examples/examples.component';
+import {FunctionsRoutingModule} from './functions-routing.module';
+import {FunctionsComponent} from './functions.component';
+import {AlgorithmsComponent} from './algorithms/algorithms.component';
+import {ExamplesComponent} from './examples/examples.component';
+import {AlgorithmExampleComponent} from './algorithms/algorithm-example/algorithm-example.component';
 
 
 @NgModule({
   declarations: [
     FunctionsComponent,
     AlgorithmsComponent,
-    ExamplesComponent
+    ExamplesComponent,
+    AlgorithmExampleComponent
   ],
   imports: [
     CommonModule,
-    FunctionsRoutingModule
+    ReactiveFormsModule,
+    FunctionsRoutingModule,
   ]
 })
-export class FunctionsModule { }
+export class FunctionsModule {
+}

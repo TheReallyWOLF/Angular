@@ -8,6 +8,7 @@ import {RootState} from "./state/root.state";
 import {NgxsReduxDevtoolsPluginModule} from "@ngxs/devtools-plugin";
 import { NgxsResetPluginModule } from 'ngxs-reset-plugin';
 import {environment} from "../environments/environment";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -15,6 +16,8 @@ import {environment} from "../environments/environment";
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     NgxsModule.forRoot([RootState], {
       developmentMode: !environment.production,

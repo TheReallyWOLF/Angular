@@ -1,5 +1,47 @@
 .algorithms
+  &__form
+    padding: 16px
+    background: #fff6e3
+
+  &__fieldBox
+    display: flex
+    flex-direction: column
+
+    label
+      padding: 8px
+
+  &__field
+    width: 300px
+    padding: 12px 24px
+
+    font-size: 14px
+    line-height: 18px
+    background-color: transparent
+
+    color: #575756
+    border: 1px solid #575756
+    transition: all 250ms ease-in-out
+    border-radius: 50px
+    background-size: 18px 18px
+    transform-style: preserve-3d
+    background-repeat: no-repeat
+    background-position: 95% center
+    backface-visibility: hidden
+
+
+    &:hover,
+    &:focus
+      border: 1px solid transparent
+      outline: 0
+      padding: 12px 0
+      border-bottom: 1px solid #575756
+      border-radius: 0
+      background-position: 100% center
+
+
   &__title
+    padding: 32px 0
+    font-size: 30px
     font-weight: bold
 
   &__cards

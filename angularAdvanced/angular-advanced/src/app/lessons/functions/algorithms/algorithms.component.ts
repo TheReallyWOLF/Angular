@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {FormBuilder, Validators} from "@angular/forms";
 
 
 export interface State {
@@ -6,9 +7,11 @@ export interface State {
 }
 
 export interface StateItem {
-  result: string | number;
-  count: number;
+  name: string;
   time: number;
+  count: number;
+  result: string | number;
+  successfulSearch: string;
 }
 
 
@@ -18,21 +21,35 @@ export interface StateItem {
   styleUrls: ['./algorithms.component.sass']
 })
 
-export class AlgorithmsComponent  {
-  private length: number = 1000000;
+export class AlgorithmsComponent implements OnInit {
+  public form: any;
   public open: string = '';
   public state: State = {
     linearSearchBuffer: {
-      result: '',
-      count: 0,
+      name: 'Линейный поиск',
       time: 0,
+      count: 0,
+      result: '',
+      successfulSearch: '-',
     }
   }
+
+  constructor(private formBuilder: FormBuilder) {}
+
+  ngOnInit(): void {
+    this.form = this.formBuilder.group({
+      length: [ 100, Validators.maxLength(9)],
+    })
+  }
+
+  /**
+   * Обертка с обработкой статистики
+   * */
 
   algorithmWrapper(name: string): void {
     const start = new Date().getTime();
     const stateItem: StateItem = this.state[name];
-    const testArr: number[] = this.createArr(this.length);
+    const testArr: number[] = this.createArr(this.form.get('length').value);
 
     switch (name) {
       case 'linearSearchBuffer': this.linearSearch(testArr, name); break;
@@ -48,7 +65,8 @@ export class AlgorithmsComponent  {
 
   linearSearch(arr: number[], name: string) {
     // генерация искомого числа
-    const item: number = Math.floor(Math.random()*this.length);
+    const item: number = Math.floor(Math.random()*this.form.get('length').value);
+    this.state[name].successfulSearch = item + '';
     // увеличение счетчика цикла алгоритма
     this.state[name].count++;
     // выполнение поиска (линейный)
@@ -64,7 +82,7 @@ export class AlgorithmsComponent  {
   }
 
   /**
-   * Создаем массив
+   * Создаем тестовый массив
    * */
 
   createArr(length: number): number[] {
@@ -75,14 +93,19 @@ export class AlgorithmsComponent  {
     return arr;
   }
 
+  openCard(algorithmName: string): void {
+    this.open === algorithmName ? this.open = '' : this.open = algorithmName;
+  }
+
   clear(metric?: string): void {
-    const clearObj: StateItem = {result: '', count: 0, time: 0,};
-    metric ? this.state[metric] = clearObj : this.clearAll();
+    metric ?
+      this.state[metric] = { ...this.state[metric], result: '', count: 0, time: 0,} :
+      this.clearAll();
   }
 
   clearAll(): void {
     for (let item in this.state) {
-      this.state[item] = {result: '-', count: 0, time: 0,};
+      this.state[item] = { ...this.state[item], result: '-', count: 0, time: 0,};
     }
   }
 
