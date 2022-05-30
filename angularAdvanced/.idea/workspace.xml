@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="algorithms">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="algorithms card + logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/functions.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/functions.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +138,8 @@
       <workItem from="1652347884037" duration="1510000" />
       <workItem from="1652433478086" duration="1844000" />
       <workItem from="1652789995601" duration="9601000" />
-      <workItem from="1653850468582" duration="7914000" />
+      <workItem from="1653850468582" duration="8147000" />
+      <workItem from="1653897116756" duration="11936000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -367,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652811301645</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="algorithms card + logic">
+      <created>1653858649494</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653858649495</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +403,8 @@
     <MESSAGE value="NGRX" />
     <MESSAGE value="NGXS" />
     <MESSAGE value="algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithms" />
+    <MESSAGE value="algorithms card + logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithms card + logic" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1651658645480">
@@ -413,10 +419,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="693" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653850756273" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1652811304991">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653858653983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1652811304991" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653858653983" />
     <state x="896" y="374" width="734" height="592" key="find.popup" timestamp="1653856546784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -426,5 +432,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653852703150" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1653939052535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653939052535" />
   </component>
 </project>
