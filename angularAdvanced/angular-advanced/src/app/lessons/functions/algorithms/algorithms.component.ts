@@ -12,6 +12,7 @@ export interface State {
  * time - время выполнения в мс
  * count - число тиков - n при формуле -> O(n)
  * result - возращаемое значение
+ * shuffle - признак перемешанного массива
  * successfulSearch - искомое значение переменной
  * */
 
@@ -19,8 +20,8 @@ export interface StateItem {
   name: string;
   time: number;
   count: number;
-  shuffle?: boolean
   result: string | number;
+  shuffle?: boolean;
   successfulSearch: string;
 }
 
@@ -38,21 +39,21 @@ export class AlgorithmsComponent implements OnInit {
   public open: string = '';
   public state: State = {
     linearSearchBuffer: {
-      name: 'Линейный поиск',
+      name: 'Линейный поиск  O(n)',
       time: 0,
       count: 0,
       result: '',
       successfulSearch: '-',
     },
     binarySearch: {
-      name: 'Бинарный поиск',
+      name: 'Бинарный поиск  O(log(n))',
       time: 0,
       count: 0,
       result: '',
       successfulSearch: '-',
     },
     selectionSort: {
-      name: 'Сортировка выбором',
+      name: 'Сортировка выбором  O(n²)',
       time: 0,
       count: 0,
       result: '',
@@ -195,7 +196,7 @@ export class AlgorithmsComponent implements OnInit {
   }
 
   /**
-   * Метода для перемешивания упорядоченного массива
+   * Метод для перемешивания упорядоченного массива
    * */
 
   shuffle(arr: number[]): number[] {

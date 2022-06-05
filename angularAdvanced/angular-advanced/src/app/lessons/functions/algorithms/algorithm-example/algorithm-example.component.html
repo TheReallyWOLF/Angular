@@ -4,12 +4,14 @@
     <pre>
        <ng-content></ng-content>
     </pre>
-    <button [disabled]="algorithmState.result" (click)="emit(algorithmWrapperEmit)">
-      Выполнить
-    </button>
-    <button [disabled]="!algorithmState.result" (click)="emit(clearEmit)">
-      Очистить
-    </button>
+    <div class="algorithms__buttons">
+      <app-ui-button class="algorithms__button" [disabled]="!!algorithmState.result" (click)="emit(algorithmWrapperEmit)">
+        Выполнить
+      </app-ui-button>
+      <app-ui-button class="algorithms__button" [type]="buttonType" [disabled]="!algorithmState.result" (click)="emit(clearEmit)">
+        Очистить
+      </app-ui-button>
+    </div>
     <div>
       <div>Число оперций {{ algorithmState.count }}</div>
       <div>Искомый объект {{ algorithmState.successfulSearch }} </div>

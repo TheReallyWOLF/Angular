@@ -1,5 +1,6 @@
 import {ChangeDetectionStrategy, Component, EventEmitter, Input, Output} from '@angular/core';
 import {StateItem} from "../algorithms.component";
+import {ButtonType} from "../../../../shared/ui-components/iu-models";
 
 @Component({
   selector: 'algorithm-example',
@@ -14,6 +15,7 @@ export class AlgorithmExampleComponent {
   @Output() algorithmWrapperEmit = new EventEmitter<string>();
   @Output() clearEmit = new EventEmitter<string>();
   @Output() openCardEmit = new EventEmitter<string>();
+  public buttonType: ButtonType = ButtonType.primaryDanger;
 
   emit(eventEmit: EventEmitter<string>) {
     eventEmit.emit(this.algorithmName);

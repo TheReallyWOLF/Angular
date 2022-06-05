@@ -7,6 +7,7 @@ import {FunctionsComponent} from './functions.component';
 import {AlgorithmsComponent} from './algorithms/algorithms.component';
 import {ExamplesComponent} from './examples/examples.component';
 import {AlgorithmExampleComponent} from './algorithms/algorithm-example/algorithm-example.component';
+import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import {AlgorithmExampleComponent} from './algorithms/algorithm-example/algorith
     CommonModule,
     ReactiveFormsModule,
     FunctionsRoutingModule,
+    UiComponentsModule,
   ]
 })
 export class FunctionsModule {
