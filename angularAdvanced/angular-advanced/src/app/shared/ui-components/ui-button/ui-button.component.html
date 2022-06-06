@@ -1,3 +1,16 @@
-<button class="{{ 'btn ' + type + (size ? ' ' + size : '') }}" [disabled] = disabled (click)="onClick($event)">
+<!--<button class="{{ 'btn ' + type + (size ? ' ' + size : '') }}" [disabled] = disabled (click)="onClick($event)">
+  <ng-content></ng-content>
+</button>-->
+
+<button class="ui-button"
+        [class.ui-button--size_xs] = "size === 'xs'"
+        [class.ui-button--size_sm] = "size === 'sm'"
+        [class.ui-button--size_lg] = "size === 'lg'"
+        [class.ui-button--size_xl] = "size === 'xl'"
+
+        [class.ui-button--primary-success] = "type === 'primary-success'"
+        [class.ui-button--primary-danger] = "type === 'primary-danger'"
+        [disabled] = disabled
+        (click)="onClick($event)">
   <ng-content></ng-content>
 </button>

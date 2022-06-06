@@ -5,12 +5,20 @@
        <ng-content></ng-content>
     </pre>
     <div class="algorithms__buttons">
-      <app-ui-button class="algorithms__button" [disabled]="!!algorithmState.result" (click)="emit(algorithmWrapperEmit)">
+      <ui-button class="algorithms__button"
+                 [type]="'primary-success'"
+                 [size]="'sm'"
+                 [disabled]="!!algorithmState.result"
+                 (click)="emit(algorithmWrapperEmit)">
         Выполнить
-      </app-ui-button>
-      <app-ui-button class="algorithms__button" [type]="buttonType" [disabled]="!algorithmState.result" (click)="emit(clearEmit)">
+      </ui-button>
+      <ui-button class="algorithms__button"
+                 [type]="'primary-danger'"
+                 [size]="'sm'"
+                 [disabled]="!algorithmState.result"
+                 (click)="emit(clearEmit)">
         Очистить
-      </app-ui-button>
+      </ui-button>
     </div>
     <div>
       <div>Число оперций {{ algorithmState.count }}</div>

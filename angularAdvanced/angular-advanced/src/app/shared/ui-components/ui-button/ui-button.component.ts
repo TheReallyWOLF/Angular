@@ -1,14 +1,14 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {ButtonType, SizeButton} from "../iu-models";
+import {ChangeDetectionStrategy, Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
-  selector: 'app-ui-button',
+  selector: 'ui-button',
   templateUrl: './ui-button.component.html',
-  styleUrls: ['./ui-button.component.sass']
+  styleUrls: ['./ui-button.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class UiButtonComponent {
-  @Input() type: ButtonType = ButtonType.primarySuccess;
-  @Input() size: SizeButton = SizeButton.XS;
+  @Input() type: 'primary-success' | 'primary-danger' = 'primary-success';
+  @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
 
   @Input() disabled: boolean = false;
   @Output() click = new EventEmitter<Event>();
@@ -17,6 +17,3 @@ export class UiButtonComponent {
     this.click.emit(event);
   }
 }
-
-
-// todo модуль импортировать в кор приложения !!!!!
