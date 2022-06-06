@@ -9,6 +9,7 @@ import {NgxsReduxDevtoolsPluginModule} from "@ngxs/devtools-plugin";
 import { NgxsResetPluginModule } from 'ngxs-reset-plugin';
 import {environment} from "../environments/environment";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {UiComponentsModule} from "./shared/ui-components/ui-components.module";
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
+    UiComponentsModule,
     NgxsModule.forRoot([RootState], {
       developmentMode: !environment.production,
     }),

@@ -9,6 +9,9 @@ const routes: Routes = [
     path: '',
     component: FunctionsComponent,
     children: [{
+      path: '',
+      redirectTo: 'algorithms'
+    },{
       path: 'algorithms',
       component: AlgorithmsComponent
     },{

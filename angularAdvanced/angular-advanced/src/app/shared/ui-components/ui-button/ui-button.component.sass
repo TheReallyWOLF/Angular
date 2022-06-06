@@ -1,32 +1,36 @@
+@use '../ui-color-scheme-variables' as colors
+
 .ui-button
-    color: #fff
+    color: colors.$mainWhite
+    cursor: pointer
     border-radius: 6px
     &:disabled
-      background: lightsteelblue
+      border: 1px solid colors.$mutedColor
+      cursor: auto
+      background: colors.$mutedColor
       box-shadow: none
-      border-color: lightsteelblue
       &:hover
-        background: lightsteelblue
+        background: colors.$mutedColor
         box-shadow: none
 
     // colors
     &--primary-success
-      border-color: #3498db
+      border: 1px solid colors.$primarySuccess
+      box-shadow: 0 0 40px 40px colors.$primarySuccess inset, 0 0 0 0 colors.$primarySuccess
       transition: all 150ms ease-in-out
-      box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db
       -webkit-transition: all 150ms ease-in-out
       &:hover
-        background: #439fe2
-        box-shadow: 0 0 5px 0 #3498db inset, 0 0 5px 2px #3498db
+        background: colors.$hoverPrimarySuccess
+        box-shadow: 0 0 5px 0 colors.$primarySuccess inset, 0 0 5px 2px colors.$primarySuccess
 
     &--primary-danger
-      border-color: #db3434
+      border: 1px solid colors.$primaryDanger
+      box-shadow: 0 0 40px 40px colors.$primaryDanger inset, 0 0 0 0 colors.$primaryDanger
       transition: all 150ms ease-in-out
-      box-shadow: 0 0 40px 40px #db343a inset, 0 0 0 0 #db3434
       -webkit-transition: all 150ms ease-in-out
       &:hover
-        background: #e24350
-        box-shadow: 0 0 5px 0 #db343a inset, 0 0 5px 2px #db3434
+        background: colors.$hoverPrimaryDanger
+        box-shadow: 0 0 5px 0 colors.$primaryDanger inset, 0 0 5px 2px colors.$primaryDanger
 
     // sizes
     &--size_xs

@@ -1,7 +1,15 @@
 <div class="functions">
-  <div>
-    <button routerLink = "algorithms" >Алгоритмы</button>
-    <button routerLink = "examples" >Примеры функций</button>
+  <div class="functions__buttons">
+    <ui-button class="functions__button"
+               routerLink = "algorithms"
+               (click)="active = 'algorithms'"
+               [disabled]="active === 'algorithms'"
+    >Алгоритмы</ui-button>
+    <ui-button class="functions__button"
+               routerLink = "examples"
+               (click)="active = 'examples'"
+               [disabled]="active === 'examples'"
+    >Примеры функций</ui-button>
   </div>
   <router-outlet></router-outlet>
 </div>

@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
   templateUrl: './functions.component.html',
   styleUrls: ['./functions.component.sass']
 })
-export class FunctionsComponent {}
+export class FunctionsComponent {
+  public active: string = 'algorithms';
+}
