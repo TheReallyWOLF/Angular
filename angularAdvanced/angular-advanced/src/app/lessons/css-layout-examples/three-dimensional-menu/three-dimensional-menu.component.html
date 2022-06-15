@@ -1,0 +1,9 @@
+<div class="three-dimensional-menu">
+  <div class="three-dimensional-menu__content">
+    <ul class="three-dimensional-menu__list">
+      <li style="--i:+{{ menuList.length - menuList.indexOf(item) }}" *ngFor="let item of menuList" class="three-dimensional-menu__item">
+        <a class="three-dimensional-menu__href" href="#">{{ item }}</a>
+      </li>
+    </ul>
+  </div>
+</div>

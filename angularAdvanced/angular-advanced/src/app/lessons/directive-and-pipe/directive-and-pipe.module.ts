@@ -69,6 +69,9 @@ import {HostBindingDirective} from "../../shared/directive/atributeDirective/hos
     MousemoveSampleDirectiveComponent,
     HostBindingSampleDirectiveComponent,
   ],
+  exports: [
+    MyClickableElementDirective
+  ],
   imports: [
     CommonModule,
     DirectiveAndPipeRoutingModule,

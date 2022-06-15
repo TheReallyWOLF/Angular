@@ -20,6 +20,9 @@ const routes: Routes = [
   }, {
   path: 'functions',
     loadChildren: () => import('./lessons/functions/functions.module').then(m => m.FunctionsModule)
+  }, {
+    path: 'css-layout-examples',
+    loadChildren: () => import('./lessons/css-layout-examples/css-layout-examples.module').then(m => m.CssLayoutExamplesModule)
   }
 ];
 
