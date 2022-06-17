@@ -1,2 +1,10 @@
-<div>тут будут кнопки переключения примеров верстки</div>
-<router-outlet></router-outlet>
+<div class="css-layout-examples">
+  <div class="css-layout-examples__nav">
+    <ui-button class="css-layout-examples__button" *ngFor="let button of buttons" routerLink="{{ button.route }}">
+      {{ button.name }}
+    </ui-button>
+  </div>
+  <div class="css-layout-examples__content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

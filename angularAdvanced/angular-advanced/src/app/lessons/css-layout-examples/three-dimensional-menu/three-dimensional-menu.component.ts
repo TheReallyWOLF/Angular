@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'three-dimensional-menu',
   templateUrl: './three-dimensional-menu.component.html',
   styleUrls: ['./three-dimensional-menu.component.sass']
 })
-export class ThreeDimensionalMenuComponent implements OnInit {
+export class ThreeDimensionalMenuComponent{
   public readonly menuList: string[] = [
     'Главная',
     'О нас',
@@ -15,10 +15,4 @@ export class ThreeDimensionalMenuComponent implements OnInit {
     'Наши партнеры',
     'Контакты'
   ]
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

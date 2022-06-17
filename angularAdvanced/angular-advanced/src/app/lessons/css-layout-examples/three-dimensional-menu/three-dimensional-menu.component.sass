@@ -15,44 +15,44 @@
     transform: skewY(-15deg)
 
   &__item
+    width: 200px
+    padding: 15px
+    z-index: var(--i)
     position: relative
     list-style: none
-    width: 200px
     background: #3e3f46
-    padding: 15px
     transition: .5s
-    z-index: var(--i)
 
     &:hover
-      background: #33a3ee
       transform: translateX(50px) // -50px -> смещение в другую сторону
+      background: #33a3ee
 
     &:before
-      content: ''
-      position: absolute
       top: 0
       left: -40px
       width: 40px
       height: 100%
-      background: #2e3133
-      transform-origin: right
+      content: ''
+      position: absolute
       transform: skewY(45deg)
       transition: .5s
+      background: #2e3133
+      transform-origin: right
 
     &:hover::before
       background: #2982b9
 
     &:after
-      content: ''
-      position: absolute
       top: -40px
       left: 0
       width: 100%
       height: 40px
-      background: #35383e
-      transform-origin: bottom
+      content: ''
+      position: absolute
       transform: skewX(45deg)
       transition: .5s
+      background: #35383e
+      transform-origin: bottom
 
     &:hover::after
       background: #2982b9
@@ -61,12 +61,12 @@
       box-shadow: -120px 120px 20px rgba(0,0,0,.25)
 
   &__href
-    text-decoration: none
     color: #999
     display: block
+    transition: .5s
     text-transform: uppercase
     letter-spacing: .05em
-    transition: .5s
+    text-decoration: none
 
     &:hover
       color: white
