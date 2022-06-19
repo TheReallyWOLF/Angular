@@ -10,6 +10,7 @@ import { NgxsResetPluginModule } from 'ngxs-reset-plugin';
 import {environment} from "../environments/environment";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {UiComponentsModule} from "./shared/ui-components/ui-components.module";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import {UiComponentsModule} from "./shared/ui-components/ui-components.module";
       disabled: !environment.production,
       maxAge: 50,
     }),
+    BrowserAnimationsModule,
   ],
   providers: [],
   exports: [],

@@ -14,6 +14,9 @@ export class CssLayoutExamplesComponent {
     }, {
       route: 'glowing-button-hover-effects',
       name: 'Яркий ховер эффект для кнопки'
+    }, {
+      route: 'special-navigation-menu',
+      name: 'Интересное меню навигаци'
     }
   ]
 }

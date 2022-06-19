@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="компонент для новой верстки">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="кнопка css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +157,10 @@
       <workItem from="1655193679808" duration="595000" />
       <workItem from="1655321505943" duration="4646000" />
       <workItem from="1655368643660" duration="3804000" />
-      <workItem from="1655452836020" duration="6582000" />
+      <workItem from="1655452836020" duration="6608000" />
+      <workItem from="1655459959745" duration="1637000" />
+      <workItem from="1655558860002" duration="968000" />
+      <workItem from="1655660770726" duration="5863000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -426,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655456828409</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="кнопка css">
+      <created>1655459923353</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1655459923353</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +480,8 @@
     <MESSAGE value="ui button+" />
     <MESSAGE value="новый модуль + верстка меню (css академия)" />
     <MESSAGE value="компонент для новой верстки" />
-    <option name="LAST_COMMIT_MESSAGE" value="компонент для новой верстки" />
+    <MESSAGE value="кнопка css" />
+    <option name="LAST_COMMIT_MESSAGE" value="кнопка css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654542409225">
@@ -475,14 +492,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1652811025267" />
-    <state x="693" y="222" key="RollbackChangesDialog" timestamp="1653850756273">
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1655664860969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="693" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653850756273" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655456835572">
+    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655664860969" />
+    <state x="693" y="222" key="RollbackChangesDialog" timestamp="1655664828365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655456835572" />
+    <state x="693" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655664828365" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655459926776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655459926776" />
     <state x="567" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1655324071010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

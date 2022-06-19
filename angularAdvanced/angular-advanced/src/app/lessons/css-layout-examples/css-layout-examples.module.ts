@@ -6,18 +6,22 @@ import { CssLayoutExamplesComponent } from './css-layout-examples.component';
 import { ThreeDimensionalMenuComponent } from './three-dimensional-menu/three-dimensional-menu.component';
 import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 import { GlowingButtonHoverEffectsComponent } from './glowing-button-hover-effects/glowing-button-hover-effects.component';
+import { SpecialNavigationMenuComponent } from './special-navigation-menu/special-navigation-menu.component';
+import {MatIconModule} from "@angular/material/icon";
 
 
 @NgModule({
   declarations: [
     CssLayoutExamplesComponent,
     ThreeDimensionalMenuComponent,
-    GlowingButtonHoverEffectsComponent
+    GlowingButtonHoverEffectsComponent,
+    SpecialNavigationMenuComponent
   ],
     imports: [
         CommonModule,
         CssLayoutExamplesRoutingModule,
-        UiComponentsModule
+        UiComponentsModule,
+        MatIconModule,
     ]
 })
 export class CssLayoutExamplesModule { }

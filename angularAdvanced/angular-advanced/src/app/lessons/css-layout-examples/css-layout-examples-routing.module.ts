@@ -1,11 +1,13 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { CssLayoutExamplesComponent } from './css-layout-examples.component';
-import { ThreeDimensionalMenuComponent } from "./three-dimensional-menu/three-dimensional-menu.component";
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {CssLayoutExamplesComponent} from './css-layout-examples.component';
+import {ThreeDimensionalMenuComponent} from "./three-dimensional-menu/three-dimensional-menu.component";
 import {GlowingButtonHoverEffectsComponent} from "./glowing-button-hover-effects/glowing-button-hover-effects.component";
+import {SpecialNavigationMenuComponent} from "./special-navigation-menu/special-navigation-menu.component";
 
 const routes: Routes = [
-  { path: '',
+  {
+    path: '',
     component: CssLayoutExamplesComponent,
     children: [
       {
@@ -17,13 +19,17 @@ const routes: Routes = [
       }, {
         path: 'glowing-button-hover-effects',
         component: GlowingButtonHoverEffectsComponent
+      }, {
+        path: 'special-navigation-menu',
+        component: SpecialNavigationMenuComponent
       }
     ]
   }
-  ];
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class CssLayoutExamplesRoutingModule { }
+export class CssLayoutExamplesRoutingModule {
+}
