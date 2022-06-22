@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {FormBuilder, Validators} from "@angular/forms";
 
 
@@ -29,7 +29,8 @@ export interface StateItem {
 @Component({
   selector: 'app-algorithms',
   templateUrl: './algorithms.component.html',
-  styleUrls: ['./algorithms.component.sass']
+  styleUrls: ['./algorithms.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 
 export class AlgorithmsComponent implements OnInit {

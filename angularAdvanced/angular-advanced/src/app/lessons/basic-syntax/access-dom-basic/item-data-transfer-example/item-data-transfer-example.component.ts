@@ -1,9 +1,10 @@
-import {Component, ContentChild, ElementRef} from '@angular/core';
+import {ChangeDetectionStrategy, Component, ContentChild, ElementRef} from '@angular/core';
 
 @Component({
   selector: 'app-item-data-transfer-example',
   templateUrl: './item-data-transfer-example.component.html',
-  styleUrls: ['./item-data-transfer-example.component.sass']
+  styleUrls: ['./item-data-transfer-example.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ItemDataTransferExampleComponent {
   /**

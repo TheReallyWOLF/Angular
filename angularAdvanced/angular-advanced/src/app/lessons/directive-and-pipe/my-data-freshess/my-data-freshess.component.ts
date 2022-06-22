@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-my-data-freshess',
   templateUrl: './my-data-freshess.component.html',
-  styleUrls: ['./my-data-freshess.component.sass']
+  styleUrls: ['./my-data-freshess.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MyDataFreshessComponent implements OnInit {
   public date = new Date(1636050500000);

@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-directive-and-pipe',
   templateUrl: './directive-and-pipe.component.html',
-  styleUrls: ['./directive-and-pipe.component.sass']
+  styleUrls: ['./directive-and-pipe.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DirectiveAndPipeComponent {
   kindOfDirective: string = 'attribute';

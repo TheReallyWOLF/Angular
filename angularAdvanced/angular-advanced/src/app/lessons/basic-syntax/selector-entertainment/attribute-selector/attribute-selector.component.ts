@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: '[app-attribute-selector]',
   templateUrl: './attribute-selector.component.html',
-  styleUrls: ['./attribute-selector.component.sass']
+  styleUrls: ['./attribute-selector.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AttributeSelectorComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class AttributeSelectorComponent {}

@@ -1,10 +1,11 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-angular-example-form',
   templateUrl: './angular-example-form.component.html',
-  styleUrls: ['./angular-example-form.component.sass']
+  styleUrls: ['./angular-example-form.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AngularExampleFormComponent implements OnInit {
 
@@ -13,9 +14,6 @@ export class AngularExampleFormComponent implements OnInit {
   lastName!: FormControl;
   email!: FormControl;
   password!: FormControl;
-
-  constructor() {
-  }
 
   createForm() {
     this.registrationForm = new FormGroup({

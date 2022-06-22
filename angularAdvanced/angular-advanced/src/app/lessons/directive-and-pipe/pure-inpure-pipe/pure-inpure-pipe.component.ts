@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 export interface Person {
   firstName: string;
@@ -8,7 +8,8 @@ export interface Person {
 @Component({
   selector: 'app-pure-inpure-pipe',
   templateUrl: './pure-inpure-pipe.component.html',
-  styleUrls: ['./pure-inpure-pipe.component.sass']
+  styleUrls: ['./pure-inpure-pipe.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PureImpurePipeComponent implements OnInit{
   person1!: Person;

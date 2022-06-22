@@ -1,10 +1,11 @@
-import {Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {Observable} from "rxjs";
 
 @Component({
   selector: 'app-async-pipes',
   templateUrl: './async-pipes.component.html',
-  styleUrls: ['./async-pipes.component.sass']
+  styleUrls: ['./async-pipes.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AsyncPipesComponent {
 

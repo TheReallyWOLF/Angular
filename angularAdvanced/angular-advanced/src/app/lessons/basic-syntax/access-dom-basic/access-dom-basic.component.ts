@@ -1,9 +1,10 @@
-import {Component, ElementRef, ViewChild} from '@angular/core';
+import {ChangeDetectionStrategy, Component, ElementRef, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-access-dom-basic',
   templateUrl: './access-dom-basic.component.html',
-  styleUrls: ['./access-dom-basic.component.sass']
+  styleUrls: ['./access-dom-basic.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AccessDOMBasicComponent {
   transfer: string = 'меня передали через ng content'

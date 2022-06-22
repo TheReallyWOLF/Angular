@@ -1,10 +1,11 @@
-import {Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import * as moment from 'moment';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.sass']
+  styleUrls: ['./home.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomeComponent {
   /**

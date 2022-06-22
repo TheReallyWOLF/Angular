@@ -1,46 +1,19 @@
 <div class="special-navigation-menu">
   <div class="special-navigation-menu__navigation">
     <ul class="special-navigation-menu__list">
-      <li class="special-navigation-menu__item">
+      <li  class="special-navigation-menu__item"
+           *ngFor="let item of menuItems; let i = index"
+           [class.active] = "active === i"
+           (click)="active = i"
+      >
         <a class="special-navigation-menu__href" href="javascript:void(0)">
           <span class="special-navigation-menu__icon">
-            <mat-icon>home_outline</mat-icon>
+            <mat-icon>{{ item.icon }}</mat-icon>
           </span>
-          <span class="special-navigation-menu__text">Домой</span>
+          <span class="special-navigation-menu__text">{{ item.name }}</span>
         </a>
       </li>
-      <li class="special-navigation-menu__item">
-        <a class="special-navigation-menu__href" href="javascript:void(0)">
-          <span class="special-navigation-menu__icon">
-             <mat-icon>person</mat-icon>
-          </span>
-          <span class="special-navigation-menu__text">Профиль</span>
-        </a>
-      </li>
-      <li class="special-navigation-menu__item">
-        <a class="special-navigation-menu__href" href="javascript:void(0)">
-          <span class="special-navigation-menu__icon">
-            <mat-icon>mail</mat-icon>
-          </span>
-          <span class="special-navigation-menu__text">Сообщения</span>
-        </a>
-      </li>
-      <li class="special-navigation-menu__item">
-        <a class="special-navigation-menu__href" href="javascript:void(0)">
-          <span class="special-navigation-menu__icon">
-             <mat-icon>portrait</mat-icon>
-          </span>
-          <span class="special-navigation-menu__text">Фотографии</span>
-        </a>
-      </li>
-      <li class="special-navigation-menu__item">
-        <a class="special-navigation-menu__href" href="javascript:void(0)">
-          <span class="special-navigation-menu__icon">
-            <mat-icon>settings</mat-icon>
-          </span>
-          <span class="special-navigation-menu__text">Настройки</span>
-        </a>
-      </li>
+      <div class="special-navigation-menu__indicator"></div>
     </ul>
   </div>
 </div>

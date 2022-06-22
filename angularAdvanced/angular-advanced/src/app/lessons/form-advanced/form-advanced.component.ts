@@ -1,9 +1,10 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-form-advanced',
   templateUrl: './form-advanced.component.html',
-  styleUrls: ['./form-advanced.component.sass']
+  styleUrls: ['./form-advanced.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FormAdvancedComponent implements OnInit {
   buttonOptions: string[];

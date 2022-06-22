@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {Actions, CounterState} from "./counter.state";
 import {Observable} from "rxjs";
 import {Select, Store} from '@ngxs/store';
@@ -6,7 +6,8 @@ import {Select, Store} from '@ngxs/store';
 @Component({
   selector: 'app-counter-ngxs',
   templateUrl: './counter-ngxs.component.html',
-  styleUrls: ['./counter-ngxs.component.sass']
+  styleUrls: ['./counter-ngxs.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CounterNgxsComponent {
 

@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 
 @Component({
   selector: 'app-css-layout-examples',
   templateUrl: './css-layout-examples.component.html',
-  styleUrls: ['./css-layout-examples.component.sass']
+  styleUrls: ['./css-layout-examples.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CssLayoutExamplesComponent {
   public readonly buttons = [
@@ -16,7 +17,7 @@ export class CssLayoutExamplesComponent {
       name: 'Яркий ховер эффект для кнопки'
     }, {
       route: 'special-navigation-menu',
-      name: 'Интересное меню навигаци'
+      name: 'Интересное меню навигации'
     }
   ]
 }

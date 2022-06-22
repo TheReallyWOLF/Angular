@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-glowing-button-hover-effects',
   templateUrl: './glowing-button-hover-effects.component.html',
-  styleUrls: ['./glowing-button-hover-effects.component.sass']
+  styleUrls: ['./glowing-button-hover-effects.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class GlowingButtonHoverEffectsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class GlowingButtonHoverEffectsComponent {}

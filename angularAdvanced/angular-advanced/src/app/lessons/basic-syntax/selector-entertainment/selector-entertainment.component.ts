@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-selector-entertainment',
   templateUrl: './selector-entertainment.component.html',
-  styleUrls: ['./selector-entertainment.component.sass']
+  styleUrls: ['./selector-entertainment.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class SelectorEntertainmentComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class SelectorEntertainmentComponent {}

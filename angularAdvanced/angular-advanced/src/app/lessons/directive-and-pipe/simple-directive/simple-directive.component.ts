@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-simple-directive',
   templateUrl: './simple-directive.component.html',
-  styleUrls: ['./simple-directive.component.sass']
+  styleUrls: ['./simple-directive.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class SimpleDirectiveComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class SimpleDirectiveComponent {}

@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'three-dimensional-menu',
   templateUrl: './three-dimensional-menu.component.html',
-  styleUrls: ['./three-dimensional-menu.component.sass']
+  styleUrls: ['./three-dimensional-menu.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ThreeDimensionalMenuComponent{
   public readonly menuList: string[] = [

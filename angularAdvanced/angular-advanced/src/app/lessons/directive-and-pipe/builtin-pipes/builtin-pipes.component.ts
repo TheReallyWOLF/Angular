@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 
 export interface Products {
   name: string;
@@ -11,7 +11,8 @@ export interface Products {
 @Component({
   selector: 'app-builtin-pipes',
   templateUrl: './builtin-pipes.component.html',
-  styleUrls: ['./builtin-pipes.component.sass']
+  styleUrls: ['./builtin-pipes.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 
 export class BuiltinPipesComponent implements OnInit {

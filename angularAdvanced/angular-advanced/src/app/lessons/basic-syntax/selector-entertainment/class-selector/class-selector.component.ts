@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: '.app-class-selector',
   templateUrl: './class-selector.component.html',
-  styleUrls: ['./class-selector.component.sass']
+  styleUrls: ['./class-selector.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ClassSelectorComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class ClassSelectorComponent {}
