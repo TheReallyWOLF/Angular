@@ -19,16 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="кнопка css">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="иконуи это ад">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,8 @@
       <workItem from="1655452836020" duration="6608000" />
       <workItem from="1655459959745" duration="1637000" />
       <workItem from="1655558860002" duration="968000" />
-      <workItem from="1655660770726" duration="5863000" />
+      <workItem from="1655660770726" duration="5915000" />
+      <workItem from="1655891311853" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -442,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655459923353</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="иконуи это ад">
+      <created>1655666717718</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1655666717718</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +483,8 @@
     <MESSAGE value="новый модуль + верстка меню (css академия)" />
     <MESSAGE value="компонент для новой верстки" />
     <MESSAGE value="кнопка css" />
-    <option name="LAST_COMMIT_MESSAGE" value="кнопка css" />
+    <MESSAGE value="иконуи это ад" />
+    <option name="LAST_COMMIT_MESSAGE" value="иконуи это ад" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654542409225">
@@ -500,10 +503,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="693" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655664828365" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655459926776">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655666723234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655459926776" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655666723234" />
     <state x="567" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1655324071010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
