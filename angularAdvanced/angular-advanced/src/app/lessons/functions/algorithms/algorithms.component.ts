@@ -107,7 +107,7 @@ export class AlgorithmsComponent implements OnInit {
    * Линейный поиск
    * */
 
-  linearSearch(arr: number[], name: string) {
+  linearSearch(arr: number[], name: string): void {
     // генерация искомого числа
     const item = this.numberGenerate(name);
     // выполнение поиска (линейный)
@@ -125,7 +125,7 @@ export class AlgorithmsComponent implements OnInit {
   /**
    * Бинарный поиск
    * */
-  binarySearch(arr: number[], name: string) {
+  binarySearch(arr: number[], name: string): void {
     // генерация искомого числа
     const item = this.numberGenerate(name);
     // выполнение поиска (бинарный)
@@ -213,7 +213,7 @@ export class AlgorithmsComponent implements OnInit {
    * Скрипт с подсчетом статистики при неудачном поиске
    * */
 
-  unsuccessfulSearch(name: string) {
+  unsuccessfulSearch(name: string): void {
     this.state[name].count++;
     this.state[name].result = 'null';
   }
