@@ -4,6 +4,7 @@ import {CssLayoutExamplesComponent} from './css-layout-examples.component';
 import {ThreeDimensionalMenuComponent} from "./three-dimensional-menu/three-dimensional-menu.component";
 import {GlowingButtonHoverEffectsComponent} from "./glowing-button-hover-effects/glowing-button-hover-effects.component";
 import {SpecialNavigationMenuComponent} from "./special-navigation-menu/special-navigation-menu.component";
+import {AnimatedVerticalMenuComponent} from "./animated-vertical-menu/animated-vertical-menu.component";
 
 const routes: Routes = [
   {
@@ -22,6 +23,9 @@ const routes: Routes = [
       }, {
         path: 'special-navigation-menu',
         component: SpecialNavigationMenuComponent
+      }, {
+        path: 'animated-vertical-menu',
+        component: AnimatedVerticalMenuComponent
       }
     ]
   }

@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="menu">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="void">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +160,8 @@
       <workItem from="1655891311853" duration="7308000" />
       <workItem from="1656062972270" duration="337000" />
       <workItem from="1656064552075" duration="1196000" />
-      <workItem from="1656260419496" duration="2179000" />
+      <workItem from="1656260419496" duration="3233000" />
+      <workItem from="1656310919397" duration="3715000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -460,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655914072567</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="void">
+      <created>1656273865276</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1656273865277</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +513,8 @@
     <MESSAGE value="иконуи это ад" />
     <MESSAGE value="href=&quot;#&quot; -&gt; href=&quot;javascript:void(0)&quot;" />
     <MESSAGE value="menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu" />
+    <MESSAGE value="void" />
+    <option name="LAST_COMMIT_MESSAGE" value="void" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654542409225">
@@ -521,10 +533,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="693" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655664828365" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655914076223">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1656273869206">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655914076223" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1656273869206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1655909757355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -537,15 +550,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1654441956726" />
-    <state x="551" y="122" width="771" height="592" key="find.popup" timestamp="1655912297527">
+    <state x="551" y="122" width="771" height="592" key="find.popup" timestamp="1656317955920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="122" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655912297527" />
+    <state x="551" y="122" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656317955920" />
     <state x="2816" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651746171235" />
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1655323018589">
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1656317510361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655323018589" />
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656317510361" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1655325553780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

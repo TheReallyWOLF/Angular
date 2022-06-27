@@ -8,6 +8,7 @@ import {UiComponentsModule} from "../../shared/ui-components/ui-components.modul
 import { GlowingButtonHoverEffectsComponent } from './glowing-button-hover-effects/glowing-button-hover-effects.component';
 import { SpecialNavigationMenuComponent } from './special-navigation-menu/special-navigation-menu.component';
 import {MatIconModule} from "@angular/material/icon";
+import { AnimatedVerticalMenuComponent } from './animated-vertical-menu/animated-vertical-menu.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {MatIconModule} from "@angular/material/icon";
     CssLayoutExamplesComponent,
     ThreeDimensionalMenuComponent,
     GlowingButtonHoverEffectsComponent,
-    SpecialNavigationMenuComponent
+    SpecialNavigationMenuComponent,
+    AnimatedVerticalMenuComponent
   ],
     imports: [
         CommonModule,

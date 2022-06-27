@@ -18,6 +18,9 @@ export class CssLayoutExamplesComponent {
     }, {
       route: 'special-navigation-menu',
       name: 'Интересное меню навигации'
+    }, {
+      route: 'animated-vertical-menu',
+      name: 'Анимированное вертикальное меню'
     }
   ]
 }
