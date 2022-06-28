@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="vertical menu begin">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/config/keys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/controllers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/controllers/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/controllers/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/routes/analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/routes/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/routes/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/server/routes/position.js" afterDir="false" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +165,8 @@
       <workItem from="1656062972270" duration="337000" />
       <workItem from="1656064552075" duration="1196000" />
       <workItem from="1656260419496" duration="3233000" />
-      <workItem from="1656310919397" duration="15114000" />
+      <workItem from="1656310919397" duration="15257000" />
+      <workItem from="1656403454411" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="advanced angular">
       <created>1635590212057</created>
@@ -501,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656320223056</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="server">
+      <created>1656353443739</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1656353443739</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +516,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="advanced angular" />
     <MESSAGE value="data pipe" />
     <MESSAGE value="pipe" />
     <MESSAGE value="pure impure pipe" />
@@ -545,7 +540,8 @@
     <MESSAGE value="menu" />
     <MESSAGE value="void" />
     <MESSAGE value="vertical menu begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="vertical menu begin" />
+    <MESSAGE value="server" />
+    <option name="LAST_COMMIT_MESSAGE" value="server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654542409225">
@@ -576,10 +572,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="266" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656333518266" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1656320226367">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1656353447840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656320226367" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656353447840" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1656273869206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1655909757355">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -589,6 +585,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1655324071010" />
+    <state x="709" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1656353432900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656353432900" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1654441956726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

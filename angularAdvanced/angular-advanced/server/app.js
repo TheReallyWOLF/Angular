@@ -12,8 +12,9 @@ const orderRoutes = require('./routes/order');
 const positionRoutes = require('./routes/position');
 const keys = require('./config/keys')
 
-// Подключение к БД (не работает гребанные санкции... )
-// todo скачать локальную версию подключить ее или сделать мок ответы хз
+// Подключение к облачной БД (не работает гребанные санкции... )
+// todo скачать локальную версию подключить ее или сделать пока на моках
+/*
 mongoose.connect(keys.mongoURI,
   {useNewUrlParser: true, useUnifiedTopology: true }
 );
@@ -21,9 +22,9 @@ mongoose.connect(keys.mongoURI,
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
-  // we're connected!
   console.log(`MongoDB connected!`);
 });
+*/
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
