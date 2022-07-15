@@ -1,0 +1,14 @@
+<div class="game-life">
+  <form [formGroup]="formGroup">
+    <ui-input
+      [type]="'number'"
+      [field]="$any(formGroup.controls.life)">
+    </ui-input>
+    <ui-button (click)="createGameField()" >Создать</ui-button>
+  </form>
+  <div class="game-life__field">
+    <div class="game-life__row" *ngFor="let row of field">
+      <div class="game-life__cell" *ngFor="let cell of row"></div>
+    </div>
+  </div>
+</div>

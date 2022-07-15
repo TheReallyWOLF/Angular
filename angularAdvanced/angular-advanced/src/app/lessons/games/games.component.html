@@ -1,0 +1,10 @@
+<div class="main">
+  <div class="main__nav">
+    <ui-button class="main__button" *ngFor="let button of buttons" routerLink="{{ button.route }}">
+      {{ button.name }}
+    </ui-button>
+  </div>
+  <div class="main__content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
