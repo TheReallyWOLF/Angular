@@ -1,3 +1,5 @@
+@use 'src/app/shared/mixin/no-text-select-mixin' as noSelect
+
 .main-container
   margin: 50px
   display: flex
@@ -14,6 +16,9 @@
       align-items: center
       border-radius: 5px
       justify-content: center
+
+      @include noSelect.no-select
+
       &:hover
         background: aqua
 

@@ -1,10 +1,14 @@
 @use '../ui-color-scheme-variables' as colors
+@use 'src/app/shared/mixin/no-text-select-mixin' as noSelect
 
 .ui-button
     color: colors.$mainWhite
-    cursor: pointer
     width: 100%
+    cursor: pointer
     border-radius: 6px
+
+    @include noSelect.no-select
+
     &:disabled
       border: 1px solid colors.$mutedColor
       cursor: auto

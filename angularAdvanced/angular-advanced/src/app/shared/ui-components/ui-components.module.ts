@@ -1,18 +1,24 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { UiButtonComponent } from './ui-button/ui-button.component';
+import { UiInputComponent } from './ui-input/ui-input.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {MatAutocompleteModule} from "@angular/material/autocomplete";
 
 
 
 @NgModule({
   declarations: [
-    UiButtonComponent
+    UiButtonComponent,
+    UiInputComponent
   ],
-  exports: [
-    UiButtonComponent
-  ],
+    exports: [
+        UiButtonComponent,
+        UiInputComponent
+    ],
   imports: [
-    CommonModule
+    FormsModule,
+    ReactiveFormsModule,
+    MatAutocompleteModule,
   ]
 })
 export class UiComponentsModule { }

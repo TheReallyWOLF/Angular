@@ -1,16 +1,17 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import {MatAutocompleteModule} from "@angular/material/autocomplete";
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {NgxsModule} from "@ngxs/store";
 import {RootState} from "./state/root.state";
 import {NgxsReduxDevtoolsPluginModule} from "@ngxs/devtools-plugin";
-import { NgxsResetPluginModule } from 'ngxs-reset-plugin';
+import {NgxsResetPluginModule} from 'ngxs-reset-plugin';
 import {environment} from "../environments/environment";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {UiComponentsModule} from "./shared/ui-components/ui-components.module";
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
+    MatAutocompleteModule,
     UiComponentsModule,
     NgxsModule.forRoot([RootState], {
       developmentMode: !environment.production,

@@ -20,7 +20,7 @@ export class CssLayoutExamplesComponent {
       name: 'Интересное меню навигации'
     }, {
       route: 'animated-vertical-menu',
-      name: 'Анимированное вертикальное меню'
+      name: 'Анимированное вертикальное меню (Beta version)'
     }
   ]
 }

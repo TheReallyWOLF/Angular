@@ -1,10 +1,10 @@
-<div class="css-layout-examples">
-  <div class="css-layout-examples__nav">
-    <ui-button class="css-layout-examples__button" *ngFor="let button of buttons" routerLink="{{ button.route }}">
+<div class="main">
+  <div class="main__nav">
+    <ui-button class="main__button" *ngFor="let button of buttons" routerLink="{{ button.route }}">
       {{ button.name }}
     </ui-button>
   </div>
-  <div class="css-layout-examples__content">
+  <div class="main__content">
     <router-outlet></router-outlet>
   </div>
 </div>

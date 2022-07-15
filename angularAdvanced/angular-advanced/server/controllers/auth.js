@@ -1,3 +1,5 @@
+
+
 module.exports.login = function (req, res) {
   res.status(200).json({
     login: {
@@ -8,7 +10,5 @@ module.exports.login = function (req, res) {
 }
 
 module.exports.register = function (req, res) {
-  res.status(200).json({
-    message: 'register'
-  });
+
 }
