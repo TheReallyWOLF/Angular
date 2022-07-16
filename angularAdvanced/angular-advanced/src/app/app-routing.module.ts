@@ -11,12 +11,14 @@ const routes: Routes = [
     path: 'form-advanced',
     loadChildren: () => import('./lessons/form-advanced/form-advanced.module').then(m => m.FormAdvancedModule)
   }, {
-    path: 'home', loadChildren: () => import('./lessons/home/home.module').then(m => m.HomeModule)
+    path: 'home',
+    loadChildren: () => import('./lessons/home/home.module').then(m => m.HomeModule)
   }, {
     path: 'basic-syntax',
     loadChildren: () => import('./lessons/basic-syntax/basic-syntax.module').then(m => m.BasicSyntaxModule)
   },{
-    path: 'ngxs', loadChildren: () => import('./lessons/ngrx/ngrx.module').then(m => m.NgrxModule)
+    path: 'ngxs',
+    loadChildren: () => import('./lessons/ngrx/ngrx.module').then(m => m.NgrxModule)
   }, {
   path: 'functions',
     loadChildren: () => import('./lessons/functions/functions.module').then(m => m.FunctionsModule)

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { GamesComponent } from './games.component';
 import {GameLifeComponent} from "./game-life/game-life.component";
 import {GamePresentationPageComponent} from "./game-presentation-page/game-presentation-page.component";
+import {GameFieldComponent} from "./game-field/game-field.component";
 
 const routes: Routes = [
   {
@@ -18,6 +19,9 @@ const routes: Routes = [
       },{
         path: 'game-life-component',
         component: GameLifeComponent
+      },{
+        path: 'game-field',
+        component: GameFieldComponent
       }
     ]
   }];

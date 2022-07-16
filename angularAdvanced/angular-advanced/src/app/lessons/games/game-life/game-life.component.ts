@@ -1,5 +1,8 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
-import {FormBuilder, FormControl, FormGroup} from "@angular/forms";
+import {FormBuilder, FormControl, FormGroup, Validators} from "@angular/forms";
+import {Store} from "@ngxs/store";
+import {Actions} from "./state/game-life.actions";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-game-life',
@@ -11,7 +14,10 @@ export class GameLifeComponent implements OnInit {
   public formGroup!: FormGroup;
   public field: number[][] = [];
 
-  constructor(private fb: FormBuilder) {
+  constructor(
+    private router: Router,
+    private fb: FormBuilder,
+    private store: Store) {
     this._createForm();
   }
 
@@ -21,21 +27,19 @@ export class GameLifeComponent implements OnInit {
 
   private _createForm() {
     this.formGroup = this.fb.group({
-      life: new FormControl(1),
+      life: new FormControl(10, {
+        validators: [Validators.required, Validators.min(10),  Validators.max(333)]
+      }),
       due: new FormControl(0),
     })
   }
-
-  createGameField(): void {
-    // todo WOLF!!!
-    // открывать в новой вкладке передавать значения фильтров
-    this.field = [];
-    for (let i = 0; i < this.formGroup.value.life; i++) {
-      this.field.push([]);
-      for (let j = 0; j < this.formGroup.value.life; j++) {
-        this.field[i].push(j);
-      }
+// обработка ощибок и ui компонент инпут доработать todo
+  openGameField(): void {
+    if (this.formGroup.valid) {
+      this.store.dispatch(new Actions.DeathRule(this.formGroup.value.life));
+      this.router.navigateByUrl('games/game-field');
+      return
     }
+    console.log('не пройдена валидация')
   }
-
 }

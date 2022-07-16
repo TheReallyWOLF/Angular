@@ -7,20 +7,27 @@ import {UiComponentsModule} from "../../shared/ui-components/ui-components.modul
 import { GameLifeComponent } from './game-life/game-life.component';
 import { GamePresentationPageComponent } from './game-presentation-page/game-presentation-page.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { GameFieldComponent } from './game-field/game-field.component';
+import {NgxsModule} from "@ngxs/store";
+import {GameLifeState} from "./game-life/state/game-life.state";
 
 
 @NgModule({
   declarations: [
     GamesComponent,
     GameLifeComponent,
-    GamePresentationPageComponent
+    GamePresentationPageComponent,
+    GameFieldComponent
   ],
   imports: [
     CommonModule,
     GamesRoutingModule,
     UiComponentsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxsModule.forFeature([
+      GameLifeState
+    ]),
   ]
 })
 export class GamesModule { }

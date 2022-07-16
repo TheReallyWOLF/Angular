@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, EventEmitter, Input, Output} from '@angular/core';
+import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
 
 @Component({
   selector: 'ui-button',
@@ -11,9 +11,4 @@ export class UiButtonComponent {
   @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
 
   @Input() disabled: boolean = false;
-  @Output() click = new EventEmitter<Event>();
-
-  onClick(event: Event): void {
-    this.click.emit(event);
-  }
 }
