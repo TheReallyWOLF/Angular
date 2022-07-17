@@ -1,0 +1,33 @@
+@use 'src/app/shared/mixin/no-text-select-mixin' as noSelect
+@use '../ui-color-scheme-variables' as colors
+
+.ui-panel
+  @include noSelect.no-select
+
+
+  // frame
+  &--frame-xs
+    padding: 8px
+
+  &--frame-sm
+    padding: 16px
+
+  &--frame-lg
+    padding: 32px
+
+  &--frame-xl
+    padding: 48px
+
+
+
+  // background
+  &--background-none
+   background: none
+
+  &--background-main
+   background: colors.$backgroundMain
+
+  &--background-main-light
+   background: colors.$backgroundMainLight
+
+

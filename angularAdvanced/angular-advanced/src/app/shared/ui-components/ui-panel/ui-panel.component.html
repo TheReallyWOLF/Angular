@@ -1,0 +1,10 @@
+<div class="ui-panel"
+     [class.ui-panel--frame-xs] = "frameSize === 'xs'"
+     [class.ui-panel--frame-sm] = "frameSize === 'sm'"
+     [class.ui-panel--frame-lg] = "frameSize === 'lg'"
+     [class.ui-panel--frame-xl] = "frameSize === 'xl'"
+     [class.ui-panel--background-none] = "background === 'none'"
+     [class.ui-panel--background-main] = "background === 'main'"
+     [class.ui-panel--background-main-light] = "background === 'main-light'">
+  <ng-content></ng-content>
+</div>
