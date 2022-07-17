@@ -1,4 +1,5 @@
 import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {SubMenu} from "./models/directive-and-pipe.models";
 
 @Component({
   selector: 'app-directive-and-pipe',
@@ -7,7 +8,19 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DirectiveAndPipeComponent {
-  kindOfDirective: string = 'attribute';
+  public kindOfDirective: string = 'attribute';
+  public readonly subMenu: SubMenu[] = [
+    {
+      name: 'Атрибутные директивы',
+      active: 'attribute'
+    }, {
+      name: 'Структурные директивы',
+      active: 'structural'
+    }, {
+      name: ' Пайпы (фильты)',
+      active: 'pipe'
+    }
+  ]
   changeKindOfDirective(kind: string): void {
     this.kindOfDirective = kind;
   }

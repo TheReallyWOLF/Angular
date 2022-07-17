@@ -1,14 +1,22 @@
-<div>
+<div class="access-dom">
   <div>
     <p>Работа с DOM элементами через ID и передача его в событие</p>
-    <input type="text" #inputDomElement>
-    <button (click)="workDomElement(inputDomElement)">Передать ссылку на элемент через ID</button>
+    <div class="access-dom__control">
+      <input type="text" #inputDomElement>
+      <ui-button [size]="'sm'" (click)="workDomElement(inputDomElement)">Передать ссылку на элемент через ID</ui-button>
+    </div>
   </div>
   <hr/>
   <div>
     <p>Работа с DOM элементами через ID и ViewChild</p>
-    <input type="text" #inputViewChild>
-    <button (click)="workDomViewChild()">Передать ссылку на элемент через ViewChild</button>
+    <div class="access-dom__control">
+      <input type="text" #inputViewChild>
+      <ui-button [size]="'sm'" (click)="workDomViewChild()">Передать ссылку на элемент через ViewChild</ui-button>
+    </div>
+  </div>
+  <hr/>
+  <div>
+    PS: Скрипт элементов с инпутами выводиться в консоль
   </div>
   <hr/>
   <div>

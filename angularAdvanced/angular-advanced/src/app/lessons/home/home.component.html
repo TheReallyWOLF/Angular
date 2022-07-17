@@ -3,21 +3,10 @@
   <p>В данном проекте содержаться учебные материалы и различные кусочки кода которые я написал когда учился или что то пробывал например:</p>
   <div class="home__data-pipe">
     <h3>Кастомная настройка даты при помощи pipe</h3>
+    <p>Pipe фильтрует дату и отображает сегодня - вчера или на неделе</p>
     <div class="home__data-item">
       <div>фильтр сегодняшней даты (можно поменять инпутом снизу)</div>
       <div>{{ date | freshnessDate }}</div>
-    </div>
-    <div class="home__data-item">
-      <div>фильтр вчерашней даты</div>
-      <div>{{ dateOld | freshnessDate }}</div>
-    </div>
-    <div class="home__data-item">
-      <div>фильтр даты 3 дня назад</div>
-      <div>{{ oldWeek | freshnessDate }}</div>
-    </div>
-    <div class="home__data-item">
-      <div>дата с настройка без фильтра</div>
-      <div>{{ dateDefault }}</div>
     </div>
     <input (input)="changeData($event)" type="date" max = '{{ maxDate }}'>
   </div>

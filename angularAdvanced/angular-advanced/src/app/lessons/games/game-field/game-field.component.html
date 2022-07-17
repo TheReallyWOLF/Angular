@@ -1,0 +1,15 @@
+<div class="game-field">
+  <div class="game-field__nav">
+    <ui-button [size]="'xs'" class="game-field__button" (click)="back()">Назад</ui-button>
+    <ui-button [size]="'xs'" class="game-field__button" (click)="start()">Запустить</ui-button>
+  </div>
+  <div class="game-field__field">
+    <div class="game-field__row" *ngFor="let row of field; let k = index">
+      <div class="game-field__cell"
+           *ngFor="let cell of row; let i = index"
+           [class.last] = "i === row.length - 1"
+           [class.first-row] = "k === 0">
+      </div>
+    </div>
+  </div>
+</div>

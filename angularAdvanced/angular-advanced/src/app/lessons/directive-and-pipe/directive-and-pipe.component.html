@@ -1,21 +1,12 @@
 <div class="main-container">
 
   <div class="main-container__title-menu">
-    <h3
-      [ngClass]="{active: kindOfDirective === 'attribute'}"
-      (click)="changeKindOfDirective('attribute')" >
-      Артибутные директивы
-    </h3>
-    <h3
-      [ngClass]="{active: kindOfDirective === 'structural'}"
-      (click)="changeKindOfDirective('structural')">
-      Структурные директивы
-    </h3>
-    <h3
-      [ngClass]="{active: kindOfDirective === 'pipe'}"
-      (click)="changeKindOfDirective('pipe')">
-      Пайпы (фильты)
-    </h3>
+    <ui-button class="main-container__button"
+               (click)="changeKindOfDirective(subMenuItem.active)"
+               [active]="kindOfDirective === subMenuItem.active"
+               *ngFor="let subMenuItem of subMenu">
+      {{ subMenuItem.name }}
+    </ui-button>
   </div>
 
   <div class="main-container__tabs">

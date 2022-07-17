@@ -7,8 +7,8 @@ import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class UiButtonComponent {
-  @Input() type: 'primary-success' | 'primary-danger' = 'primary-success';
+  @Input() type: 'primary-success' | 'primary-danger' | 'primary-menu' = 'primary-success';
   @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
-
   @Input() disabled: boolean = false;
+  @Input() active: boolean = false;
 }

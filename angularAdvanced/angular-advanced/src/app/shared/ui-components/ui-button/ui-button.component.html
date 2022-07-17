@@ -6,6 +6,10 @@
 
         [class.ui-button--primary-success] = "type === 'primary-success'"
         [class.ui-button--primary-danger] = "type === 'primary-danger'"
+        [class.ui-button--primary-menu] = "type === 'primary-menu'"
+
+        [class.active]="active"
+
         [disabled] = disabled>
   <ng-content></ng-content>
 </button>

@@ -24,18 +24,37 @@
       box-shadow: 0 0 40px 40px colors.$primarySuccess inset, 0 0 0 0 colors.$primarySuccess
       transition: all 150ms ease-in-out
       -webkit-transition: all 150ms ease-in-out
+
+      &.active
+        box-shadow: 0 0 40px 40px colors.$activePrimarySuccess inset, 0 0 0 0 colors.$activePrimarySuccess
+
       &:hover
         background: colors.$hoverPrimarySuccess
         box-shadow: 0 0 5px 0 colors.$primarySuccess inset, 0 0 5px 2px colors.$primarySuccess
 
+        &.active
+          box-shadow: 0 0 40px 40px colors.$activePrimarySuccess inset, 0 0 0 0 colors.$activePrimarySuccess
+
+          // todo добавить active для всех кнопок а не только для PrimarySuccess
     &--primary-danger
       border: 1px solid colors.$primaryDanger
       box-shadow: 0 0 40px 40px colors.$primaryDanger inset, 0 0 0 0 colors.$primaryDanger
       transition: all 150ms ease-in-out
       -webkit-transition: all 150ms ease-in-out
+
       &:hover
         background: colors.$hoverPrimaryDanger
         box-shadow: 0 0 5px 0 colors.$primaryDanger inset, 0 0 5px 2px colors.$primaryDanger
+
+    &--primary-menu
+      color: colors.$mainBlackTransparent
+      border: 1px solid colors.$mainBlackTransparent
+      box-shadow: 0 0 40px 40px colors.$primaryMenu inset, 0 0 0 0 colors.$primaryMenu
+      transition: all 150ms ease-in-out
+      -webkit-transition: all 150ms ease-in-out
+      &:hover
+        background: colors.$hoverPrimaryMenu
+        box-shadow: 0 0 5px 0 colors.$primaryMenu inset, 0 0 5px 2px colors.$primaryMenu
 
     // sizes
     &--size_xs

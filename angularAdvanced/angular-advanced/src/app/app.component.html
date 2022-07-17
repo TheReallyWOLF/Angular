@@ -1,17 +1,16 @@
 <div class="main-container">
   <div class="main-home-menu" >
-    <div class="main-home-menu__button" routerLink="" >Домой</div>
-    <div class="main-home-menu__button" routerLink="basic-syntax" >Развлечения с базовым синтаксисом</div>
-    <div class="main-home-menu__button" routerLink="directive-and-pipe" >Кастомные директивы и пайпы</div>
-    <div class="main-home-menu__button" routerLink="form-advanced" >Работа с формами</div>
-    <div class="main-home-menu__button" routerLink="ngxs" >Работа с NGXS</div>
-    <div class="main-home-menu__button" routerLink="functions" >Скрипты (Алгоритмы, Функции)</div>
-    <div class="main-home-menu__button" routerLink="css-layout-examples">Примеры верстки</div>
-    <div class="main-home-menu__button" routerLink="games" >Игры</div>
+    <ui-button *ngFor="let menuItem of mainMenu"
+               class="main-home-menu__button"
+               routerLink="{{ menuItem.src }}"
+               [type]="'primary-menu'"
+               routerLink="basic-syntax">
+      {{ menuItem.title }}
+    </ui-button>
   </div>
-  <div class="main-home-content">
+  <ui-panel [background]="'main-light'" class="main-home-content">
     <router-outlet></router-outlet>
-  </div>
+  </ui-panel>
 </div>
 
 
