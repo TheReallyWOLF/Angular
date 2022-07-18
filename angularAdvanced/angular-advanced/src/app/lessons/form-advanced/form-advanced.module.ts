@@ -5,6 +5,7 @@ import {FormAdvancedRoutingModule} from './form-advanced-routing.module';
 import {FormAdvancedComponent} from './form-advanced.component';
 import {AngularExampleFormComponent} from './angular-example-form/angular-example-form.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {ReactiveFormsModule} from "@angular/forms";
   imports: [
     CommonModule,
     FormAdvancedRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    UiComponentsModule
   ]
 })
 export class FormAdvancedModule {

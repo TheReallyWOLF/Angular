@@ -13,7 +13,8 @@ export class FormAdvancedComponent implements OnInit {
   constructor() {
     this.buttonOptions = [
       'Реактивные формы',
-      'Другие формы =)'
+      'Другие формы =)',
+      'Третья страница'
     ]
 
     this.buttonName = this.buttonOptions[0]
@@ -22,9 +23,13 @@ export class FormAdvancedComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  changeForm() {
-    let index = this.buttonOptions.indexOf(this.buttonName) + 1 === this.buttonOptions.length ? 0 : this.buttonOptions.indexOf(this.buttonName) + 1
-    this.buttonName = this.buttonOptions[index];
+  changeForm(index?: number): void {
+    if (index) {
+      this.buttonName = this.buttonOptions[index];
+      return;
+    }
+    let i = this.buttonOptions.indexOf(this.buttonName) + 1 === this.buttonOptions.length ? 0 : this.buttonOptions.indexOf(this.buttonName) + 1
+    this.buttonName = this.buttonOptions[i];
   }
 
 }

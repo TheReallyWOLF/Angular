@@ -1,15 +1,11 @@
 <div class="functions">
   <div class="functions__buttons">
     <ui-button class="functions__button"
-               routerLink = "algorithms"
-               (click)="active = 'algorithms'"
-               [disabled]="active === 'algorithms'"
-    >Алгоритмы</ui-button>
-    <ui-button class="functions__button"
-               routerLink = "examples"
-               (click)="active = 'examples'"
-               [disabled]="active === 'examples'"
-    >Примеры функций</ui-button>
+               *ngFor="let button of buttons"
+               routerLink = "{{ button.name }}"
+               (click)="active = button.name"
+               [disabled]="active === button.name"
+    >{{ button.title }}</ui-button>
   </div>
   <router-outlet></router-outlet>
 </div>

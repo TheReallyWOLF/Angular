@@ -1,5 +1,19 @@
 <div class="form-example">
-  <button (click)="changeForm()">{{ buttonName }}</button>
-  <app-angular-example-form *ngIf="buttonName===buttonOptions[0]"></app-angular-example-form>
-  <div *ngIf="buttonName===buttonOptions[1]">Другой элемент</div>
+  <div class="form-example__nav">
+    <ui-button class="form-example__button" size="sm"  (click)="changeForm()">{{ buttonName }}</ui-button>
+    <div class="form-example__paginate-wrapper">
+      <ui-button class="form-example__paginate"
+                 size="sm"
+                 (click)="changeForm(i)"
+                 *ngFor="let button of buttonOptions; let i = index"
+                 [disabled]="buttonName===buttonOptions[i]"
+      >{{ i + 1 }}
+      </ui-button>
+    </div>
+  </div>
+  <ui-panel>
+    <app-angular-example-form *ngIf="buttonName===buttonOptions[0]"></app-angular-example-form>
+    <div *ngIf="buttonName===buttonOptions[1]">Другой элемент (2 страница)</div>
+    <div *ngIf="buttonName===buttonOptions[2]">Другой элемент (3 страница)</div>
+  </ui-panel>
 </div>

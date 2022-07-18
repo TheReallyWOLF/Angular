@@ -6,6 +6,7 @@ import {CounterNgxsComponent} from "./counter/counter-ngxs/counter-ngxs.componen
 import {NgxsModule} from "@ngxs/store";
 import {CounterState} from "./counter/counter-ngxs/counter.state";
 import {NgrxRoutingModule} from "./ngrx-routing.module";
+import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 
 
 @NgModule({
@@ -13,13 +14,14 @@ import {NgrxRoutingModule} from "./ngrx-routing.module";
     NgrxComponent,
     CounterNgxsComponent,
   ],
-  imports: [
-    NgxsModule.forFeature([
-      CounterState
-    ]),
-    NgrxRoutingModule,
-    CommonModule,
-  ]
+    imports: [
+        NgxsModule.forFeature([
+            CounterState
+        ]),
+        NgrxRoutingModule,
+        CommonModule,
+        UiComponentsModule,
+    ]
 })
 export class NgrxModule {
 }

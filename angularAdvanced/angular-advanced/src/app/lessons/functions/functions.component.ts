@@ -11,5 +11,14 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FunctionsComponent {
+  public readonly buttons: {name: string, title:string}[] = [
+    {
+      name: 'algorithms',
+      title: 'Алгоритмы'
+    }, {
+      name: 'examples',
+      title: 'Примеры функций'
+    }
+  ]
   public active: string = 'algorithms';
 }
