@@ -1,0 +1,38 @@
+@use '../ui-color-scheme-variables' as colors
+
+.ui-card
+  height: 100%
+  box-sizing: border-box
+  background: colors.$mainWhite
+
+  &--shadow
+    box-shadow: 8px 8px 10px 0 rgba(34, 60, 80, 0.3)
+
+  &--direction
+    flex-direction: column
+
+  // sizes
+  &--size_xs
+    padding: 4px
+    &.rounding
+      border-radius: 4px
+
+  &--size_sm
+    padding: 8px
+    &.rounding
+      border-radius: 8px
+
+  &--size_md
+    padding: 16px
+    &.rounding
+      border-radius: 16px
+
+  &--size_lg
+    padding: 24px
+    &.rounding
+      border-radius: 24px
+
+  &--size_xl
+    padding: 32px
+    &.rounding
+      border-radius: 32px

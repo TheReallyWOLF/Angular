@@ -1,0 +1,7 @@
+<ui-card class="card">
+  <div class="card__title" *ngIf="title" [innerHTML]="title"></div>
+  <div class="card__sub-title" *ngIf="subTitle" [innerHTML]="subTitle"></div>
+  <div class="card__content">
+    <ng-content></ng-content>
+  </div>
+</ui-card>

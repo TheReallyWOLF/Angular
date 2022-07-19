@@ -7,8 +7,8 @@
       <ui-button class="ngxs__button" size="sm" (click)="decrement()">decrement</ui-button>
       <ui-button class="ngxs__button" size="sm" (click)="clear()">clear</ui-button>
     </div>
-    <p>{{ count$ | async }}</p>
-    <p>date change :{{ changeDate$ | async | date: 'MMMM d, y, h:mm:ss a z'	 }}</p>
+    <p><i>Вывод счетчика:</i> {{ count$ | async }}</p>
+    <p><i>Вывод даты изменения:</i> {{ changeDate$ | async | date: 'MMMM d, y, h:mm:ss a z'	 }}</p>
   </div>
 
 </div>

@@ -8,6 +8,7 @@ import {AlgorithmsComponent} from './algorithms/algorithms.component';
 import {ExamplesComponent} from './examples/examples.component';
 import {AlgorithmExampleComponent} from './algorithms/algorithm-example/algorithm-example.component';
 import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
+import { ExampleCardComponent } from './examples/example-card/example-card.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {UiComponentsModule} from "../../shared/ui-components/ui-components.modul
     FunctionsComponent,
     AlgorithmsComponent,
     ExamplesComponent,
-    AlgorithmExampleComponent
+    AlgorithmExampleComponent,
+    ExampleCardComponent
   ],
   imports: [
     CommonModule,

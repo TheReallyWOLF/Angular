@@ -4,6 +4,7 @@ import { UiInputComponent } from './ui-input/ui-input.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import { UiPanelComponent } from './ui-panel/ui-panel.component';
+import { UiCardComponent } from './ui-card/ui-card.component';
 
 
 
@@ -11,12 +12,14 @@ import { UiPanelComponent } from './ui-panel/ui-panel.component';
   declarations: [
     UiButtonComponent,
     UiInputComponent,
-    UiPanelComponent
+    UiPanelComponent,
+    UiCardComponent
   ],
     exports: [
         UiButtonComponent,
         UiInputComponent,
-        UiPanelComponent
+        UiPanelComponent,
+        UiCardComponent
     ],
   imports: [
     FormsModule,

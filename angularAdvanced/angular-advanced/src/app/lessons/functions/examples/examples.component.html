@@ -1,1 +1,13 @@
-<p>examples works!</p>
+<div class="examples">
+  <div class="examples__title">Примеры кастомных скриптов</div>
+  <div class="examples__cards">
+    <example-card class="examples__card"
+                  *ngFor="let card of cards"
+                  [title]="card.title"
+                  [subTitle]="card.subTitle">
+      <pre>
+    {{ card.script }}
+      </pre>
+    </example-card>
+  </div>
+</div>
