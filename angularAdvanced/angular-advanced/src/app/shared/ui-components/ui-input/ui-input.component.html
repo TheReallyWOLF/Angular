@@ -1,1 +1,16 @@
-<input class="ui-input" [type]="type" [formControl]="field" (change)="console()">
+<div class="ui-input ui-input_floating-2">
+  <input class="ui-input__input"
+         [class.ui-input--size_xs] = "size === 'xs'"
+         [class.ui-input--size_sm] = "size === 'sm'"
+         [class.ui-input--size_lg] = "size === 'lg'"
+         [class.ui-input--size_xl] = "size === 'xl'"
+         [class.ui-input__valid] = "field.valid && field.touched"
+         [class.ui-input__invalid] = "field.invalid && field.touched"
+         [formControl]="field"
+         [type]="type"
+         id="ui-input"
+         [name]="name"
+         [placeholder]="placeholder"
+         (change)="click()">
+  <label class="ui-input__label" for="ui-input">{{ label }}</label>
+</div>

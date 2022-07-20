@@ -9,11 +9,15 @@ import {FormControl} from "@angular/forms";
 })
 export class UiInputComponent {
   @Input() type: string = 'text';
+  @Input() disabled: boolean = true;
+  @Input() name: string = 'name';
+  @Input() placeholder: string = 'placeholder';
   @Input() field!: FormControl;
-// todo доделать
-  console() {
-    this.field.valueChanges.subscribe(val => {
-      console.log(val)
-    })
+  @Input() label: string = '123'
+  @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
+// todo доделать WOLF!!!
+
+  click() {
+    console.log(this.field.valid)
   }
 }
