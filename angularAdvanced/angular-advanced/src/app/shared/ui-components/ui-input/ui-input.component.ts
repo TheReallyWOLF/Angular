@@ -5,7 +5,7 @@ import {FormControl} from "@angular/forms";
   selector: 'ui-input',
   templateUrl: './ui-input.component.html',
   styleUrls: ['./ui-input.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class UiInputComponent {
   @Input() type: string = 'text';
@@ -13,9 +13,9 @@ export class UiInputComponent {
   @Input() name: string = 'name';
   @Input() placeholder: string = 'placeholder';
   @Input() field!: FormControl;
-  @Input() label: string = '123'
+  @Input() label: string = ''
   @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
-// todo доделать WOLF!!!
+// todo доделать WOLF!!! через ControlValueAccessor и стили в host?
 
   click() {
     console.log(this.field.valid)
