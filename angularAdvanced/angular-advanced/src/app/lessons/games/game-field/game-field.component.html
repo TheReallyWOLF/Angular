@@ -4,9 +4,11 @@
     <ui-button [size]="'xs'" class="game-field__button" (click)="start()">Запустить</ui-button>
   </div>
   <div class="game-field__field">
-    <div class="game-field__row" *ngFor="let row of field; let isFirst = first">
+    <div class="game-field__row" *ngFor="let row of field; let isFirst = first; let i = index">
       <div class="game-field__cell"
-           *ngFor="let cell of row; let isLast = last"
+           *ngFor="let cell of row; let isLast = last; let j = index"
+           (click)="changeCell(i, j)"
+           [class.live] = "cell === 1"
            [class.last] = "isLast"
            [class.first-row] = "isFirst">
       </div>

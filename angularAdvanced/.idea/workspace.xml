@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="ui-input">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="мелкая оптимизация">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,14 +205,8 @@
       <workItem from="1658217165312" duration="10288000" />
       <workItem from="1658343982138" duration="6227000" />
       <workItem from="1658491403060" duration="3594000" />
-      <workItem from="1658736205541" duration="6596000" />
-    </task>
-    <task id="LOCAL-00008" summary="advanced angular">
-      <created>1635698110223</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1635698110223</updated>
+      <workItem from="1658736205541" duration="7248000" />
+      <workItem from="1658835914711" duration="13506000" />
     </task>
     <task id="LOCAL-00009" summary="data pipe">
       <created>1636141074587</created>
@@ -549,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658351832117</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="мелкая оптимизация">
+      <created>1658783768389</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1658783768390</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +570,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="appHostBinding" />
     <MESSAGE value="components" />
     <MESSAGE value="NGRX" />
     <MESSAGE value="NGXS" />
@@ -593,7 +594,8 @@
     <MESSAGE value="Приведение к единому виду (95%)" />
     <MESSAGE value="Раздел со скриптами" />
     <MESSAGE value="ui-input" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui-input" />
+    <MESSAGE value="мелкая оптимизация" />
+    <option name="LAST_COMMIT_MESSAGE" value="мелкая оптимизация" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654542409225">
@@ -625,22 +627,22 @@
     </state>
     <state x="745" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658780156389" />
     <state x="2665" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658060473790" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1658351855250">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1658838409531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658351855250" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1658351855249">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1658838409531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658351855249" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1658351855249">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1658838409531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658351855249" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1658351855249">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1658838409531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658351855249" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
     <state x="540" y="263" key="IDE.errors.dialog" timestamp="1655664860969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
