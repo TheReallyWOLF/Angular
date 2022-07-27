@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="мелкая оптимизация">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="рабочая бесконечная матрица (код не оптимизирован) инверсия + пересечине">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/state/game-life.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/state/game-life.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/state/game-life.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/state/game-life.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,14 +211,8 @@
       <workItem from="1658343982138" duration="6227000" />
       <workItem from="1658491403060" duration="3594000" />
       <workItem from="1658736205541" duration="7248000" />
-      <workItem from="1658835914711" duration="13506000" />
-    </task>
-    <task id="LOCAL-00009" summary="data pipe">
-      <created>1636141074587</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1636141074587</updated>
+      <workItem from="1658835914711" duration="13611000" />
+      <workItem from="1658915350931" duration="12066000" />
     </task>
     <task id="LOCAL-00010" summary="data pipe">
       <created>1636141151977</created>
@@ -551,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658783768390</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="рабочая бесконечная матрица (код не оптимизирован) инверсия + пересечине">
+      <created>1658861023127</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1658861023128</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +576,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="components" />
     <MESSAGE value="NGRX" />
     <MESSAGE value="NGXS" />
     <MESSAGE value="algorithms" />
@@ -595,7 +600,8 @@
     <MESSAGE value="Раздел со скриптами" />
     <MESSAGE value="ui-input" />
     <MESSAGE value="мелкая оптимизация" />
-    <option name="LAST_COMMIT_MESSAGE" value="мелкая оптимизация" />
+    <MESSAGE value="рабочая бесконечная матрица (код не оптимизирован) инверсия + пересечине" />
+    <option name="LAST_COMMIT_MESSAGE" value="рабочая бесконечная матрица (код не оптимизирован) инверсия + пересечине" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654542409225">
@@ -627,22 +633,22 @@
     </state>
     <state x="745" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658780156389" />
     <state x="2665" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658060473790" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1658838409531">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1658926185547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1658838409531">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658926185547" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1658926185547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1658838409531">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658926185547" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1658926185546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1658838409531">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658926185546" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1658926185547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658838409531" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658926185547" />
     <state x="540" y="263" key="IDE.errors.dialog" timestamp="1655664860969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -655,10 +661,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="266" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656333518266" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1658257523785">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1658861027317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658257523785" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658861027317" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1656273869206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1658063159243">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -676,11 +682,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1654441956726" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1658348110146">
+    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1658929695688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1369" y="122" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1658166618503" />
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658348110146" />
+    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658929695688" />
     <state x="2816" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651746171235" />
     <state x="763" y="352" width="348" height="298" key="org.angular.cli.generate" timestamp="1656438945044">
       <screen x="0" y="0" width="1920" height="1040" />

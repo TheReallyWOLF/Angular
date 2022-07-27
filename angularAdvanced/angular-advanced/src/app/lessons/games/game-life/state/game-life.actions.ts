@@ -1,7 +1,10 @@
+import {GameLifeOptions} from "./game-life.state";
+
+
 export namespace Actions {
 
-  export class DeathRule {
-    static readonly type = '[NGRX::gameLife] deathRule'
-    constructor(readonly deathRule: number) {}
+  export class GameLifeValue {
+    static readonly type = '[NGRX::gameLife] gameLifeValue'
+    constructor(readonly gameLifeValue: GameLifeOptions) {}
   }
 }

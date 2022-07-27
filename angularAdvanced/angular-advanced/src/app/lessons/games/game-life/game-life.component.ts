@@ -13,33 +13,41 @@ import {Router} from "@angular/router";
 export class GameLifeComponent implements OnInit {
   public formGroup!: FormGroup;
   public field: number[][] = [];
+  public readonly deadRuleLabel: string = 'Количество соседей для смерти клетки';
+  public readonly lifeRuleLabel: string = 'Количество соседей для рождения клетки';
+  public readonly fieldLabel: string = 'Размер игрового поля';
+  public readonly typeNumber: string = 'number';
+
 
   constructor(
     private router: Router,
     private fb: FormBuilder,
-    private store: Store) {
-    this._createForm();
-  }
+    private store: Store) {}
 
   ngOnInit(): void {
-
+    this._createForm();
   }
 
   private _createForm() {
     this.formGroup = this.fb.group({
-      life: new FormControl(10, {
-        validators: [Validators.required, Validators.min(10),  Validators.max(333)]
+      field: new FormControl(10, {
+        validators: [Validators.required, Validators.min(10),  Validators.max(200)]
       }),
-      due: new FormControl(0),
+      dueRule: new FormControl(1, {
+        validators: [Validators.required, Validators.min(1),  Validators.max(8)]
+      }),
+      lifeRule: new FormControl(1, {
+        validators: [Validators.required, Validators.min(1),  Validators.max(8)]
+      }),
     })
   }
 // обработка ощибок и ui компонент инпут доработать todo
   openGameField(): void {
     if (this.formGroup.valid) {
-      this.store.dispatch(new Actions.DeathRule(this.formGroup.value.life));
+      this.store.dispatch(new Actions.GameLifeValue(this.formGroup.value));
       this.router.navigateByUrl('games/game-field');
       return
     }
-    console.log('не пройдена валидация')
+    alert('не пройдена валидация')
   }
 }

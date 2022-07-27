@@ -3,15 +3,24 @@ import {Injectable} from "@angular/core";
 import {Actions} from "./game-life.actions";
 
 
+export interface GameLifeOptions {
+  field: number;
+  dueRule: number;
+  lifeRule: number;
+}
 
 export interface GameLifeStateModel {
-  deathRule: number;
+  gameLifeOptions: GameLifeOptions;
 }
 
 @State<GameLifeStateModel>({
   name: 'ngxs_gameLife',
   defaults: {
-    deathRule: 10
+    gameLifeOptions: {
+      field: 10,
+      dueRule: 1,
+      lifeRule: 0,
+    }
   }
 })
 
@@ -19,14 +28,14 @@ export interface GameLifeStateModel {
 export class GameLifeState {
 
   @Selector()
-  static deathRule$(state: GameLifeStateModel): number {
-    return state.deathRule;
+  static gameLifeOptions$(state: GameLifeStateModel): GameLifeOptions {
+    return state.gameLifeOptions;
   }
 
-  @Action(Actions.DeathRule)
-  changeDeathRule(ctx: StateContext<GameLifeStateModel>, action: Actions.DeathRule) {
+  @Action(Actions.GameLifeValue)
+  changeDeathRule(ctx: StateContext<GameLifeStateModel>, action: Actions.GameLifeValue) {
     ctx.patchState({
-      deathRule: action.deathRule
+      gameLifeOptions: {...action.gameLifeValue}
     });
   }
 }
