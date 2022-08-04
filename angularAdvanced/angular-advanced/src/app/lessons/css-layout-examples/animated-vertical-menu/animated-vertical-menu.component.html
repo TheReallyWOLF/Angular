@@ -1,4 +1,4 @@
-<div class="animated-vertical-menu">
+<div class="animated-vertical-menu" [style.background]="menuItems[active].color">
   <div class="animated-vertical-menu__menu">
     <ul class="animated-vertical-menu__list">
       <li class="animated-vertical-menu__item"
@@ -6,14 +6,15 @@
           [class.active] = "active === i"
           (click)="active = i">
         <a class="animated-vertical-menu__href" href="javascript:void(0)">
-         <span class="special-navigation-menu__icon">
-            <mat-icon>{{ item.icon }}</mat-icon>
+         <span class="animated-vertical-menu__icon">
+            <mat-icon class="animated-vertical-menu__mat-icon">{{ item.icon }}</mat-icon>
         </span>
           <span class="animated-vertical-menu__title">
           {{ item.name }}
         </span>
         </a>
       </li>
+      <div class="animated-vertical-menu__indicator"></div>
     </ul>
   </div>
 </div>

@@ -3,6 +3,8 @@
   min-height: 70vh
   box-sizing: border-box
   font-family: 'Poppins', sans-serif
+  background: #333
+  transition: .8s
   align-items: center
   flex-direction: column
   justify-content: center
@@ -16,5 +18,138 @@
     box-shadow: 0 15px 25px rgba(0,0,0,.1)
 
   &__list
+    top: 0
+    left: 0
+    width: 100%
     margin: 0
     padding: 0
+    display: flex
+    position: absolute
+    flex-direction: column
+
+
+  &__item
+    width: 70px
+    height: 70px
+    z-index: 1
+    display: flex
+    align-items: center
+    position: relative
+    list-style: none
+
+  .active
+    .animated-vertical-menu__icon
+      color: #fff
+
+  &__href
+    width: 100%
+    color: #333
+    display: flex
+    position: relative
+    text-align: center
+    align-items: center
+    font-weight: 500
+    justify-content: center
+
+    &:hover
+      .animated-vertical-menu__title
+        opacity: 1
+        transform: translateX(-25px) translateY(-50%)
+        visibility: visible
+
+
+
+  &__icon
+    display: block
+    position: relative
+    text-align: center
+    line-height: 0
+
+
+  &__mat-icon
+    font-size: 24px
+
+  &__title
+    top: 50%
+    left: 110px
+    opacity: 0
+    padding: 5px 10px
+    position: absolute
+    transform: translateY(-50%)
+    background: #fff
+    box-shadow: 0 5px 15px rgba(0,0,0,.1)
+    transition: .5s
+    visibility: hidden
+    border-radius: 6px
+
+
+
+
+
+    &::before
+      top: 46%
+      left: -8px
+      width: 12px
+      height: 12px
+      content: ""
+      position: absolute
+      transform: rotate(45deg) translateY(-50%)
+      background: #fff
+      border-radius: 2px
+
+  &__indicator
+
+    left: 0
+    width: 70px
+    height: 70px
+    position: absolute
+    transition: .5s
+
+
+    &::before
+      top: 50%
+      left: 50%
+      width: 50px
+      height: 50px
+      content: ""
+      position: absolute
+      transform: translate(-50%, -50%)
+      background: #333
+      border-radius: 50%
+
+  &__item:nth-child(1).active ~ .animated-vertical-menu__indicator
+    transform: translateY(calc(70px*0))
+
+    &::before
+      background: #f53b57
+
+  &__item:nth-child(2).active ~ .animated-vertical-menu__indicator
+    transform: translateY(calc(70px*1))
+
+    &::before
+      background: #3c40c6
+
+  &__item:nth-child(3).active ~ .animated-vertical-menu__indicator
+    transform: translateY(calc(70px*2))
+
+    &::before
+      background: #05c46b
+
+  &__item:nth-child(4).active ~ .animated-vertical-menu__indicator
+    transform: translateY(calc(70px*3))
+
+    &::before
+      background: #0fbcf9
+
+  &__item:nth-child(5).active ~ .animated-vertical-menu__indicator
+    transform: translateY(calc(70px*4))
+
+    &::before
+      background:  #ffa801
+
+
+
+
+
+
+

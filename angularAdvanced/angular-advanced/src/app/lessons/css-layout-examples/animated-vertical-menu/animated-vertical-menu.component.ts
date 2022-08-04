@@ -7,22 +7,27 @@ import { Component } from '@angular/core';
 })
 export class AnimatedVerticalMenuComponent {
   public active: number = 0;
-  public readonly menuItems: {name:string; icon:string}[] = [
+  public readonly menuItems: {name:string; icon:string; color: string}[] = [
     {
       name: 'Домой',
-      icon: 'home_outline'
+      icon: 'home_outline',
+      color: '#f53b57'
     }, {
       name: 'Профиль',
-      icon: 'person'
+      icon: 'person',
+      color: '#3c40c6'
     }, {
       name: 'Сообщения',
-      icon: 'mail'
+      icon: 'mail',
+      color: '#05c46b'
     }, {
       name: 'Фотографии',
-      icon: 'portrait'
+      icon: 'portrait',
+      color: '#0fbcf9'
     }, {
       name: 'Настройки',
-      icon: 'settings'
+      icon: 'settings',
+      color: '#ffa801'
     }
   ]
 }
