@@ -1,7 +1,9 @@
 <div class="main">
   <div class="main__nav">
     <!-- todo добавить лоадер в ui добавить отоборджение подсказки --- Поле сформиркеться примерно через 5 секунд -->
-    <ui-button class="main__button" *ngFor="let button of buttons" routerLink="{{ button.route }}">
+    <ui-button class="main__button"
+               *ngFor="let button of buttons"
+               routerLink="{{ button.route }}">
       {{ button.name }}
     </ui-button>
   </div>

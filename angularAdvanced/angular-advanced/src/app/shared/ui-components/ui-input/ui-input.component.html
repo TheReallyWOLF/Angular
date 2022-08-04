@@ -1,16 +1,21 @@
-<div class="ui-input ui-input_floating-2">
+<div class="ui-input ui-input_floating-2" [class.error] = "field.invalid && field.touched">
   <input class="ui-input__input"
          [class.ui-input--size_xs] = "size === 'xs'"
          [class.ui-input--size_sm] = "size === 'sm'"
          [class.ui-input--size_lg] = "size === 'lg'"
          [class.ui-input--size_xl] = "size === 'xl'"
-         [class.ui-input__valid] = "field.valid && field.touched"
-         [class.ui-input__invalid] = "field.invalid && field.touched"
+         [class.ui-input__valid] = "field.valid"
+         [class.ui-input__invalid] = "field.invalid"
          [formControl]="field"
          [type]="type"
          id="ui-input"
+         (focusin)="field.markAsUntouched()"
          [name]="name"
-         [placeholder]="placeholder"
-         (change)="click()">
+         [placeholder]="placeholder">
   <label class="ui-input__label" for="ui-input">{{ label }}</label>
+</div>
+<div  class="ui-input__error"
+      [class.error] = "field.invalid && field.touched"
+      [class.borderError]="borderError">
+  {{ error }}
 </div>

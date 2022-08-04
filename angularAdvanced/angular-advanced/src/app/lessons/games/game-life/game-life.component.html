@@ -3,16 +3,19 @@
     <ui-input
       [label]="fieldLabel"
       [type]="typeNumber"
+      [error]="fieldLabelError"
       [field]="$any(formGroup.controls.field)">
     </ui-input>
     <ui-input
       [label]="lifeRuleLabel"
       [type]="typeNumber"
+      [error]="ruleError"
       [field]="$any(formGroup.controls.lifeRule)">
     </ui-input>
     <ui-input
       [label]="deadRuleLabel"
       [type]="typeNumber"
+      [error]="ruleError"
       [field]="$any(formGroup.controls.dueRule)">
     </ui-input>
     <ui-button (click)="openGameField()">Создать</ui-button>

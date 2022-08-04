@@ -15,9 +15,8 @@ export class UiInputComponent {
   @Input() field!: FormControl;
   @Input() label: string = ''
   @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
+  @Input() error: string = 'Валидация не пройдена';
+  @Input() borderError: boolean = false;
 // todo доделать WOLF!!! через ControlValueAccessor и стили в host?
 
-  click() {
-    console.log(this.field.valid)
-  }
 }

@@ -17,6 +17,8 @@ export class GameLifeComponent implements OnInit {
   public readonly lifeRuleLabel: string = 'Количество соседей для рождения клетки';
   public readonly fieldLabel: string = 'Размер игрового поля';
   public readonly typeNumber: string = 'number';
+  public readonly fieldLabelError: string = 'Минимум 10 максимум 300 (пожелейте браузер)';
+  public readonly ruleError: string = 'от 0 (выкл) до 8';
 
 
   constructor(
@@ -31,13 +33,13 @@ export class GameLifeComponent implements OnInit {
   private _createForm() {
     this.formGroup = this.fb.group({
       field: new FormControl(10, {
-        validators: [Validators.required, Validators.min(10),  Validators.max(200)]
+        validators: [Validators.required, Validators.min(10),  Validators.max(300)]
       }),
       dueRule: new FormControl(1, {
-        validators: [Validators.required, Validators.min(1),  Validators.max(8)]
+        validators: [Validators.required, Validators.min(0),  Validators.max(8)]
       }),
       lifeRule: new FormControl(1, {
-        validators: [Validators.required, Validators.min(1),  Validators.max(8)]
+        validators: [Validators.required, Validators.min(0),  Validators.max(8)]
       }),
     })
   }
@@ -48,6 +50,6 @@ export class GameLifeComponent implements OnInit {
       this.router.navigateByUrl('games/game-field');
       return
     }
-    alert('не пройдена валидация')
+    alert('не пройдена валидация');
   }
 }
