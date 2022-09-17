@@ -38,8 +38,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   exports: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule {}
 
 // Генерация ленивой загрузки с модулями (Ангуляр 8+)
 // ng new lazy-loading --routing

@@ -19,15 +19,160 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="вертикальное меню">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="инпуты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/games.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/games.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-color-scheme-variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-color-scheme-variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-input/ui-input.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/access-dom-basic/access-dom-basic.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/access-dom-basic/access-dom-basic.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/access-dom-basic/access-dom-basic.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/access-dom-basic/access-dom-basic.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/access-dom-basic/access-dom-basic.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/access-dom-basic/access-dom-basic.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/access-dom-basic/item-data-transfer-example/item-data-transfer-example.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/access-dom-basic/item-data-transfer-example/item-data-transfer-example.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/access-dom-basic/item-data-transfer-example/item-data-transfer-example.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/access-dom-basic/item-data-transfer-example/item-data-transfer-example.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/access-dom-basic/item-data-transfer-example/item-data-transfer-example.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/access-dom-basic/item-data-transfer-example/item-data-transfer-example.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/basic-syntax-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/basic-syntax.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/basic-syntax.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/basic-syntax.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/basic-syntax.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/attribute-selector/attribute-selector.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/attribute-selector/attribute-selector.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/attribute-selector/attribute-selector.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/attribute-selector/attribute-selector.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/attribute-selector/attribute-selector.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/attribute-selector/attribute-selector.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/class-selector/class-selector.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/class-selector/class-selector.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/class-selector/class-selector.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/class-selector/class-selector.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/class-selector/class-selector.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/class-selector/class-selector.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/selector-entertainment.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/selector-entertainment.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/selector-entertainment.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/selector-entertainment.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/basic-syntax/selector-entertainment/selector-entertainment.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/selector-entertainment/selector-entertainment.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/css-layout-examples.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/glowing-button-hover-effects/glowing-button-hover-effects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/special-navigation-menu/special-navigation-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/special-navigation-menu/special-navigation-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/special-navigation-menu/special-navigation-menu.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/special-navigation-menu/special-navigation-menu.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/special-navigation-menu/special-navigation-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/special-navigation-menu/special-navigation-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/three-dimensional-menu/three-dimensional-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/async-pipes/async-pipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/async-pipes/async-pipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/async-pipes/async-pipes.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/async-pipes/async-pipes.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/async-pipes/async-pipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/async-pipes/async-pipes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/builtin-pipes/builtin-pipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/builtin-pipes/builtin-pipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/builtin-pipes/builtin-pipes.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/builtin-pipes/builtin-pipes.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/builtin-pipes/builtin-pipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/builtin-pipes/builtin-pipes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/chains-pipes/chains-pipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/chains-pipes/chains-pipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/chains-pipes/chains-pipes.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/chains-pipes/chains-pipes.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/chains-pipes/chains-pipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/chains-pipes/chains-pipes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/confirm-sample-directive/confirm-sample-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/confirm-sample-directive/confirm-sample-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/confirm-sample-directive/confirm-sample-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/confirm-sample-directive/confirm-sample-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/confirm-sample-directive/confirm-sample-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/confirm-sample-directive/confirm-sample-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/directive-and-pipe-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/directive-and-pipe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/directive-and-pipe.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/directive-and-pipe.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/directive-and-pipe.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/directive-and-pipe.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/event-directive/event-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/event-directive/event-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/event-directive/event-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/event-directive/event-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/event-directive/event-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/event-directive/event-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/host-binding-sample-directive/host-binding-sample-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/host-binding-sample-directive/host-binding-sample-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/host-binding-sample-directive/host-binding-sample-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/host-binding-sample-directive/host-binding-sample-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/host-binding-sample-directive/host-binding-sample-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/host-binding-sample-directive/host-binding-sample-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/models/directive-and-pipe.models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/models/directive-and-pipe.models.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/mousemove-sample-directive/mousemove-sample-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/mousemove-sample-directive/mousemove-sample-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/mousemove-sample-directive/mousemove-sample-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/mousemove-sample-directive/mousemove-sample-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/mousemove-sample-directive/mousemove-sample-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/mousemove-sample-directive/mousemove-sample-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-context-sample-directive/my-context-sample-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-data-freshess/my-data-freshess.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-data-freshess/my-data-freshess.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-data-freshess/my-data-freshess.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-data-freshess/my-data-freshess.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-data-freshess/my-data-freshess.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-data-freshess/my-data-freshess.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-delay-sample-directive/my-delay-sample-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/my-if-sample-directive/my-if-sample-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/passing-data-directive/passing-data-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/passing-data-directive/passing-data-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/passing-data-directive/passing-data-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/passing-data-directive/passing-data-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/passing-data-directive/passing-data-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/passing-data-directive/passing-data-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/passing-few-directive/passing-few-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/passing-few-directive/passing-few-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/passing-few-directive/passing-few-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/passing-few-directive/passing-few-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/passing-few-directive/passing-few-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/passing-few-directive/passing-few-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/pure-inpure-pipe/pure-inpure-pipe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/pure-inpure-pipe/pure-inpure-pipe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/pure-inpure-pipe/pure-inpure-pipe.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/pure-inpure-pipe/pure-inpure-pipe.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/pure-inpure-pipe/pure-inpure-pipe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/pure-inpure-pipe/pure-inpure-pipe.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-custom-pipes/simple-custom-pipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-custom-pipes/simple-custom-pipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-custom-pipes/simple-custom-pipes.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-custom-pipes/simple-custom-pipes.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-custom-pipes/simple-custom-pipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-custom-pipes/simple-custom-pipes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-custom-pipes2/simple-custom-pipes2.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-custom-pipes2/simple-custom-pipes2.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-custom-pipes2/simple-custom-pipes2.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-custom-pipes2/simple-custom-pipes2.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-custom-pipes2/simple-custom-pipes2.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-custom-pipes2/simple-custom-pipes2.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-directive/simple-directive.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-directive/simple-directive.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-directive/simple-directive.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-directive/simple-directive.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/directive-and-pipe/simple-directive/simple-directive.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/directive-and-pipe/simple-directive/simple-directive.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/angular-example-form/angular-example-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/angular-example-form/angular-example-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/angular-example-form/angular-example-form.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/angular-example-form/angular-example-form.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/angular-example-form/angular-example-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/angular-example-form/angular-example-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/form-advanced-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/form-advanced-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/form-advanced.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/form-advanced.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/form-advanced.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/form-advanced.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/form-advanced.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/form-advanced.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/form-advanced/form-advanced.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/form-advanced.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithm-example/algorithm-example.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithm-example/algorithm-example.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithm-example/algorithm-example.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithm-example/algorithm-example.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithm-example/algorithm-example.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithm-example/algorithm-example.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithms.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithms.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/algorithms/algorithms.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithms.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/examples/example-card/example-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/example-card/example-card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/examples/example-card/example-card.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/example-card/example-card.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/examples/example-card/example-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/example-card/example-card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/examples/examples.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/examples/examples.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/examples/examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/functions-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/functions-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/functions.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/functions.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/functions.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/functions.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/functions.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/functions.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/functions/functions.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/functions.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-field/game-field.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-life/game-life.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-life/game-life.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/game-life.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-life/game-life.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/state/game-life.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-life/state/game-life.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-life/state/game-life.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-life/state/game-life.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-presentation-page/game-presentation-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-presentation-page/game-presentation-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-presentation-page/game-presentation-page.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-presentation-page/game-presentation-page.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/game-presentation-page/game-presentation-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-presentation-page/game-presentation-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/games-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/games.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/games.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/games.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter-ngxs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/counter/counter-ngxs/counter-ngxs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter-ngxs.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/counter/counter-ngxs/counter-ngxs.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter-ngxs.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/counter/counter-ngxs/counter-ngxs.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/counter/counter-ngxs/counter.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/counter/counter-ngxs/counter.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/counter/counter-ngxs/counter.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/ngrx-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/ngrx.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/ngrx.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/ngrx.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/lessons/ngrx/ngrx.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/ngrx/ngrx.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +203,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Sber-UI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\node_modules\typescript\lib" />
@@ -217,14 +362,19 @@
       <workItem from="1659444294465" duration="2068000" />
       <workItem from="1659523077409" duration="2181000" />
       <workItem from="1659625602886" duration="8171000" />
-      <workItem from="1659642006747" duration="3906000" />
-    </task>
-    <task id="LOCAL-00013" summary="data pipe">
-      <created>1636214184948</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1636214184948</updated>
+      <workItem from="1659642006747" duration="4383000" />
+      <workItem from="1659967782927" duration="1325000" />
+      <workItem from="1660043467282" duration="2585000" />
+      <workItem from="1660124679518" duration="2430000" />
+      <workItem from="1660301873418" duration="1205000" />
+      <workItem from="1660336561431" duration="1836000" />
+      <workItem from="1661341857543" duration="2209000" />
+      <workItem from="1661497739671" duration="2737000" />
+      <workItem from="1661952696967" duration="1952000" />
+      <workItem from="1662017113826" duration="87000" />
+      <workItem from="1662549535558" duration="611000" />
+      <workItem from="1663332596952" duration="2041000" />
+      <workItem from="1663439000936" duration="611000" />
     </task>
     <task id="LOCAL-00014" summary="pipe">
       <created>1636477522057</created>
@@ -562,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659634425651</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="инпуты">
+      <created>1659646259670</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1659646259671</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +738,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="algorithms" />
     <MESSAGE value="algorithms card + logic" />
     <MESSAGE value="selectionSort" />
     <MESSAGE value="ui start" />
@@ -606,7 +762,8 @@
     <MESSAGE value="рабочая бесконечная матрица (код не оптимизирован) инверсия + пересечине" />
     <MESSAGE value="trackBy или на что способна оптимизация Angular" />
     <MESSAGE value="вертикальное меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="вертикальное меню" />
+    <MESSAGE value="инпуты" />
+    <option name="LAST_COMMIT_MESSAGE" value="инпуты" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654542409225">
@@ -638,25 +795,25 @@
     </state>
     <state x="745" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658780156389" />
     <state x="2665" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658948633038" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1659634867150">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1660338417414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1659634867150" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1660338417414" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1659634867150">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1660338417414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1659634867150" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1660338417414" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1659634867150">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1660338417414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1659634867150" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1660338417414" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1659634867150">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1660338417414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1659634867150" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1660338417414" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
     <state x="540" y="263" key="IDE.errors.dialog" timestamp="1655664860969">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -670,10 +827,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="266" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656333518266" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659634430533">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659646261909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1659634430533" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1659646261909" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1656273869206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1658063159243">
       <screen x="0" y="0" width="1920" height="1040" />
