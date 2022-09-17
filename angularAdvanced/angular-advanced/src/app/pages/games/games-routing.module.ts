@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GamesComponent } from './games.component';
-import {GameLifeComponent} from "./game-life/game-life.component";
+import {GameInverseMatrixComponent} from "./game-inverse-matrix/game-inverse-matrix.component";
 import {GamePresentationPageComponent} from "./game-presentation-page/game-presentation-page.component";
 import {GameFieldComponent} from "./game-field/game-field.component";
 
@@ -18,7 +18,7 @@ const routes: Routes = [
         component: GamePresentationPageComponent
       },{
         path: 'game-life-component',
-        component: GameLifeComponent
+        component: GameInverseMatrixComponent
       },{
         path: 'game-field',
         component: GameFieldComponent

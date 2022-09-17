@@ -10,7 +10,7 @@ export class GamesComponent {
   public readonly buttons = [
     {
       route: 'game-life-component',
-      name: 'Игра жизнь'
+      name: 'Игра: инверсная матрица'
     }
   ]
 }

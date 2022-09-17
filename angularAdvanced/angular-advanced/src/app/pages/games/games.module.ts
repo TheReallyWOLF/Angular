@@ -4,18 +4,18 @@ import { CommonModule } from '@angular/common';
 import { GamesRoutingModule } from './games-routing.module';
 import { GamesComponent } from './games.component';
 import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
-import { GameLifeComponent } from './game-life/game-life.component';
+import { GameInverseMatrixComponent } from './game-inverse-matrix/game-inverse-matrix.component';
 import { GamePresentationPageComponent } from './game-presentation-page/game-presentation-page.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { GameFieldComponent } from './game-field/game-field.component';
 import {NgxsModule} from "@ngxs/store";
-import {GameLifeState} from "./game-life/state/game-life.state";
+import {GameInverseMatrixState} from "./game-inverse-matrix/state/game-inverse-matrix.state";
 
 
 @NgModule({
   declarations: [
     GamesComponent,
-    GameLifeComponent,
+    GameInverseMatrixComponent,
     GamePresentationPageComponent,
     GameFieldComponent
   ],
@@ -26,7 +26,7 @@ import {GameLifeState} from "./game-life/state/game-life.state";
     FormsModule,
     ReactiveFormsModule,
     NgxsModule.forFeature([
-      GameLifeState
+      GameInverseMatrixState
     ]),
   ]
 })

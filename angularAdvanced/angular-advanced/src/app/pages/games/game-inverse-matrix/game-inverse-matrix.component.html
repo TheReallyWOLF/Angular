@@ -1,0 +1,11 @@
+<div class="game-life">
+  <form [formGroup]="formGroup">
+    <ui-input
+      [label]="fieldLabel"
+      [type]="typeNumber"
+      [error]="fieldLabelError"
+      [field]="$any(formGroup.controls.field)">
+    </ui-input>
+    <ui-button (click)="openGameField()">Создать</ui-button>
+  </form>
+</div>
