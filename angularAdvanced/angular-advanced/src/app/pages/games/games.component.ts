@@ -9,8 +9,11 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
 export class GamesComponent {
   public readonly buttons = [
     {
-      route: 'game-life-component',
+      route: 'game-recursive-matrix',
       name: 'Игра: инверсная матрица'
+    },{
+      route: 'game-tic-tac-toe',
+      name: 'Игра: крестики нолики !!BETA!!'
     }
   ]
 }

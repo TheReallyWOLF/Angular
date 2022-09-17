@@ -1,0 +1,78 @@
+<div class="game-tic-tac-toe">
+  <div *ngIf="toggle" class="options">
+    <div class="main-control">
+      <ui-button type="primary-danger" class="main-control-button" (click)="reset()">
+        Сбросить
+      </ui-button>
+      <ui-button class="main-control-button" (click)="start()">
+        Играть
+      </ui-button>
+    </div>
+    <div class="options-wrapper">
+      <!-- Строка с выбором количества игроков -->
+      <div>
+        <div class="label">
+          Количество игроков:  {{ options.players }}
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="players-button"
+            *ngFor="let playersButton of playersButtons"
+            (click)="chooseNumberPlayers(playersButton.players)"
+            [disabled]="options.players === playersButton.players">
+            {{ playersButton.name }}
+          </ui-button>
+        </div>
+      </div>
+      <!-- Строка с выбором размера поля -->
+      <div>
+        <div class="label">
+          Размер поля:  {{ options.field }}
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="field-button"
+            *ngFor="let field of fieldOptions"
+            (click)="options.field = field.value"
+            [disabled]="options.field === field.value">
+            {{ field.name }}
+          </ui-button>
+        </div>
+      </div>
+    </div>
+    <!-- Строка с выбором личного символа -->
+    <div>
+      <div class="label">
+        Выберите свой символ
+      </div>
+      <div class="button-row" *ngFor="let player of options.players | getArrFromNum">
+        <div class="icon-select-title">{{ player + 1 }} игрок:</div>
+        <ui-button *ngFor="let icon of playersIconList"
+                   [disabled]="icon === options.icons[player]"
+                   (click)="checkIcon(player, icon)"
+                   class="icon-select-button"
+                   size="sm">
+          {{ icon }}
+        </ui-button>
+      </div>
+    </div>
+  </div>
+  <!-- Игровое поле -->
+  <div *ngIf="!toggle">
+    <ui-button (click)="toggle = !toggle">
+      К настройкам
+    </ui-button>
+    <div class="field">
+      <div class="field-row" *ngFor="let row of shadowField; let i = index">
+        <div
+          class="field-cell"
+          (click)="select(i, k)"
+          *ngFor="let cell of row; let k = index">
+          {{ cell }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

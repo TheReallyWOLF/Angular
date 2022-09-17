@@ -6,6 +6,9 @@
       [error]="fieldLabelError"
       [field]="$any(formGroup.controls.field)">
     </ui-input>
-    <ui-button (click)="openGameField()">Создать</ui-button>
   </form>
+  <ui-alert-box class="game-life__alert-box">
+    {{ gameRule }}
+  </ui-alert-box>
+  <ui-button (click)="openGameField()">Создать</ui-button>
 </div>

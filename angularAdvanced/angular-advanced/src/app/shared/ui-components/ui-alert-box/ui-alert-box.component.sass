@@ -1,0 +1,26 @@
+@use '../ui-color-scheme-variables' as colors
+
+:host(.ui-alert-box)
+  padding: 8px
+  display: block
+  border-radius: 8px
+
+:host(.ui-alert-box__default-light)
+  color: colors.$bg-normal
+  border: 1px solid colors.$bg-normal
+  background: colors.$grey40
+
+:host(.ui-alert-box__success-light)
+  color: colors.$green
+  border: 1px solid colors.$green
+  background: colors.$green120
+
+:host(.ui-alert-box___warning-light)
+  color: colors.$orange
+  border: 1px solid colors.$orange
+  background: colors.$orange120
+
+:host(.ui-alert-box__danger-light)
+  color: colors.$red
+  border: 1px solid colors.$red
+  background: colors.$red120

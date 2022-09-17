@@ -10,6 +10,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { GameFieldComponent } from './game-field/game-field.component';
 import {NgxsModule} from "@ngxs/store";
 import {GameInverseMatrixState} from "./game-inverse-matrix/state/game-inverse-matrix.state";
+import { GameTicTacToeComponent } from './game-tic-tac-toe/game-tic-tac-toe.component';
+import {HomeModule} from "../home/home.module";
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import {GameInverseMatrixState} from "./game-inverse-matrix/state/game-inverse-m
     GamesComponent,
     GameInverseMatrixComponent,
     GamePresentationPageComponent,
-    GameFieldComponent
+    GameFieldComponent,
+    GameTicTacToeComponent
   ],
   imports: [
     CommonModule,
@@ -28,6 +31,7 @@ import {GameInverseMatrixState} from "./game-inverse-matrix/state/game-inverse-m
     NgxsModule.forFeature([
       GameInverseMatrixState
     ]),
+    HomeModule,
   ]
 })
 export class GamesModule { }
