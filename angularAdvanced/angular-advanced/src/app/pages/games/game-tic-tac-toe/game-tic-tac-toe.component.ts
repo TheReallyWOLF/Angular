@@ -52,7 +52,16 @@ export class GameTicTacToeComponent {
   },{
     name: '6 x 6',
     value: 6
-  },];
+  },{
+    name: '7 x 7',
+    value: 7
+  },{
+    name: '8 x 8',
+    value: 8
+  },{
+    name: '9 x 9',
+    value: 9
+  }];
   public options: OptionsGame = {
     move: 1,
     players: 1,
@@ -87,13 +96,11 @@ export class GameTicTacToeComponent {
   }
 
   select(row: number, cell: number): void {
-    if (this.shadowField[row][cell]) {
-      this.togglePlayer();
-      return;
+    if (!this.shadowField[row][cell]) {
+      this.shadowField[row][cell] = this.options.icons[this.options.move -1];
     }
-    this.shadowField[row][cell] = this.options.icons[this.options.move -1];
+    this.checkVictory(row, cell, this.options.move);
     this.togglePlayer();
-    this.checkVictory(row, cell);
   }
   /**
    * Проверяет если ли совпалдения в символах игрока и переключает из что бы не было повторений
@@ -115,9 +122,10 @@ export class GameTicTacToeComponent {
   /**
    * Проверяет есть ли победитель (поле каждого хода)
    * */
-  checkVictory(row: number, cell: number) {
+  checkVictory(row: number, cell: number, move: number) {
+    const playerIcon = this.options.icons[move - 1];
+
     // проверить победу todo РЕАЛИЗОВАТЬ
-    console.log(row, cell)
   }
 
 
