@@ -20,7 +20,8 @@ export interface CheckingWinningCombinations {
 }
 
 export interface Combinations {
-  isCheck: boolean;
+  left: boolean;
+  right: boolean;
   line: number[][];
 }
 
@@ -180,19 +181,23 @@ export class GameTicTacToeComponent {
     const playerIcon = this.options.icons[move - 1];
     const winningCombinations: CheckingWinningCombinations = {
       leftDiagonal: {
-        isCheck: true,
+        left: true,
+        right: true,
         line: []
       },
       verticalLine: {
-        isCheck: true,
+        left: true,
+        right: true,
         line: []
       },
       rightDiagonal: {
-        isCheck: true,
+        left: true,
+        right: true,
         line: []
       },
       horizontalLine: {
-        isCheck: true,
+        left: true,
+        right: true,
         line: []
       },
     };
@@ -201,7 +206,7 @@ export class GameTicTacToeComponent {
      * topEdgeFieldCell - защита от выбора минусовой ячейки в строке матрицы
      * bottomEdgeFieldRow - защита от выбора строки выходящей за поле свыше края
      * bottomEdgeFieldCell - защита от выбора ячейки в строке выше длинны массива
-     * isCheck - оптимизация проверки (если линия не строиться минимум из 2 жлементов в 1 итерации то проверять ее не надо в след)
+     * left и right - оптимизация проверки (если непрерывная линия не строиться то проверять ее не надо в след итерации)
      * */
     for (let i = 1; i < this.options.winLine; i++ ) {
       const leftDiagonal = winningCombinations.leftDiagonal;
@@ -215,28 +220,49 @@ export class GameTicTacToeComponent {
       const bottomEdgeFieldRow: boolean = row + i < fieldLength;
       const bottomEdgeFieldCell: boolean = cell + i < fieldLength;
 
-      if (leftDiagonal.isCheck) {
-        if ((topEdgeFieldRow && topEdgeFieldCell) && this.shadowField[row - i][cell - i] === playerIcon) leftDiagonal.line.push([row - i, cell - i]);
-        if ((bottomEdgeFieldRow && bottomEdgeFieldCell) && this.shadowField[row + i][cell + i] === playerIcon) leftDiagonal.line.push([row + i, cell + i]);
-        if (leftDiagonal.line.length === i) leftDiagonal.isCheck = false;
+      if (leftDiagonal.left || leftDiagonal.right) {
+        if (leftDiagonal.left) {
+          if ((topEdgeFieldRow && topEdgeFieldCell) && this.shadowField[row - i][cell - i] === playerIcon) leftDiagonal.line.push([row - i, cell - i]);
+          if (leftDiagonal.line.length === i) leftDiagonal.left = false;
+        }
+        if (leftDiagonal.right) {
+          if ((bottomEdgeFieldRow && bottomEdgeFieldCell) && this.shadowField[row + i][cell + i] === playerIcon) leftDiagonal.line.push([row + i, cell + i]);
+          if (leftDiagonal.line.length === i) leftDiagonal.right = false;
+        }
       }
 
-      if (verticalLine.isCheck) {
-        if (topEdgeFieldCell && this.shadowField[row][cell - i] === playerIcon) verticalLine.line.push([row , cell - i]);
-        if (bottomEdgeFieldCell && this.shadowField[row][cell + i] === playerIcon) verticalLine.line.push([row, cell + i]);
-        if (verticalLine.line.length === i) verticalLine.isCheck = false;
+      if (verticalLine.left || verticalLine.right) {
+        if (verticalLine.left) {
+          if (bottomEdgeFieldCell && this.shadowField[row][cell + i] === playerIcon) verticalLine.line.push([row, cell + i]);
+          if (verticalLine.line.length === i) verticalLine.left = false;
+        }
+
+        if (verticalLine.right) {
+          if (topEdgeFieldCell && this.shadowField[row][cell - i] === playerIcon) verticalLine.line.push([row , cell - i]);
+          if (verticalLine.line.length === i) verticalLine.right = false;
+        }
       }
 
-      if (rightDiagonal.isCheck) {
-        if ((bottomEdgeFieldRow && topEdgeFieldCell ) && this.shadowField[row + i][cell - i] === playerIcon) rightDiagonal.line.push([row + i, cell - i]);
-        if ((topEdgeFieldRow && bottomEdgeFieldCell) && this.shadowField[row - i][cell + i] === playerIcon) rightDiagonal.line.push([row - i, cell + i]);
-        if (rightDiagonal.line.length === i) rightDiagonal.isCheck = false;
+      if (rightDiagonal.left || rightDiagonal.right) {
+        if (rightDiagonal.left) {
+          if ((bottomEdgeFieldRow && topEdgeFieldCell ) && this.shadowField[row + i][cell - i] === playerIcon) rightDiagonal.line.push([row + i, cell - i]);
+          if (rightDiagonal.line.length === i) rightDiagonal.left = false;
+        }
+        if (rightDiagonal.right) {
+          if ((topEdgeFieldRow && bottomEdgeFieldCell) && this.shadowField[row - i][cell + i] === playerIcon) rightDiagonal.line.push([row - i, cell + i]);
+          if (rightDiagonal.line.length === i) rightDiagonal.right = false;
+        }
       }
 
-      if (horizontalLine.isCheck) {
-        if (topEdgeFieldRow && this.shadowField[row - i][cell] === playerIcon) horizontalLine.line.push([row - i, cell]);
-        if (bottomEdgeFieldRow && this.shadowField[row + i][cell] === playerIcon) horizontalLine.line.push([row + i, cell]);
-        if (horizontalLine.line.length === i) horizontalLine.isCheck = false;
+      if (horizontalLine.left || horizontalLine.right) {
+        if (horizontalLine.left) {
+          if (topEdgeFieldRow && this.shadowField[row - i][cell] === playerIcon) horizontalLine.line.push([row - i, cell]);
+          if (horizontalLine.line.length === i) horizontalLine.left = false;
+        }
+        if (horizontalLine.right) {
+          if (bottomEdgeFieldRow && this.shadowField[row + i][cell] === playerIcon) horizontalLine.line.push([row + i, cell]);
+          if (horizontalLine.line.length === i) horizontalLine.right = false;
+        }
       }
     }
 
