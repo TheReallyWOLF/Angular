@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="реализовать проверку =&gt; checkVictory">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,14 +228,7 @@
       <workItem from="1663332596952" duration="2041000" />
       <workItem from="1663439000936" duration="16657000" />
       <workItem from="1663493724485" duration="9924000" />
-      <workItem from="1663581969363" duration="6458000" />
-    </task>
-    <task id="LOCAL-00018" summary="forms">
-      <created>1636800439684</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1636800439684</updated>
+      <workItem from="1663581969363" duration="13529000" />
     </task>
     <task id="LOCAL-00019" summary="forms">
       <created>1636805762296</created>
@@ -570,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663503945096</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля">
+      <created>1663588674961</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1663588674962</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ui button+" />
     <MESSAGE value="новый модуль + верстка меню (css академия)" />
     <MESSAGE value="компонент для новой верстки" />
     <MESSAGE value="кнопка css" />
@@ -614,7 +616,8 @@
     <MESSAGE value="реализаций простейших игр (крестики нолики)" />
     <MESSAGE value="реализовать проверку" />
     <MESSAGE value="реализовать проверку =&gt; checkVictory" />
-    <option name="LAST_COMMIT_MESSAGE" value="реализовать проверку =&gt; checkVictory" />
+    <MESSAGE value="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля" />
   </component>
   <component name="WindowStateProjectService">
     <state x="764" y="474" key="#Usage_Scope" timestamp="1656333486551">
@@ -670,10 +673,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="266" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656333518266" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1663503949869">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1663588679618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663503949869" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663588679618" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1656273869206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1658063159243">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -687,11 +690,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656353432900" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1663452280211">
+    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1663606944588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1369" y="122" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1658166618503" />
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663452280211" />
+    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663606944588" />
     <state x="2816" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1659473192545" />
     <state x="763" y="352" width="348" height="298" key="org.angular.cli.generate" timestamp="1656438945044">
       <screen x="0" y="0" width="1920" height="1040" />

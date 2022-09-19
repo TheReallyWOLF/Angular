@@ -1,3 +1,5 @@
+// todo Сделать компьютера + оповещение победы
+
 import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 export interface PlayersButton {
@@ -28,6 +30,9 @@ export interface OptionsGame {
   move: number;
   icons: string[];
   computer: boolean;
+  winLine: number;
+  winner: boolean;
+  winningStreak: number[][];
 }
 
 @Component({
@@ -37,9 +42,8 @@ export interface OptionsGame {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GameTicTacToeComponent {
-  public toggle: boolean = true;
-  public shadowField: string[][] = [];
-  public playersIconList: string[] = ['X', 'O', 'Z', 'V', 'W', 'M', 'Y', '+', '()', '<>', '#', '*'];
+  public readonly winLine = [3, 4, 5, 6, 7, 8];
+  public readonly playersIconList: string[] = ['X', 'O', '♥️', '♣️', '♠️', '♦️','⚙️', '❎', '❌', '⚠️', '❤️', '⚽️', '☑️', '😀', '🦊'];
   public readonly playersButtons: PlayersButton[] = [{
     players: 1,
     name: 'С компьютером'
@@ -74,22 +78,58 @@ export class GameTicTacToeComponent {
   },{
     name: '9 x 9',
     value: 9
+  },{
+    name: '10 x 10',
+    value: 10
+  },{
+    name: '11 x 11',
+    value: 11
+  },{
+    name: '12 x 12',
+    value: 12
+  },{
+    name: '13 x 13',
+    value: 13
+  },{
+    name: '14 x 14',
+    value: 14
+  },{
+    name: '15 x 15',
+    value: 15
   }];
   public options: OptionsGame = {
     move: 1,
     players: 1,
     field: 3,
     icons: ['X', 'O', 'Z', 'V'],
-    computer: true
+    computer: true,
+    winLine: 3,
+    winner: false,
+    winningStreak: []
   }
+  public activeCell: {[name: string]: string} = {};
+  public toggle: boolean = true;
+  public shadowField: string[][] = [];
 
   start(): void {
-    this.shadowField = this.createField(this.options.field);
+    this.newGame();
     if (this.options.players === 1) {
       this.options.computer = true;
       this.options.players = 2;
     }
     this.toggle = !this.toggle;
+  }
+
+  changeFieldValue(fieldValue: number): void {
+    if (fieldValue < this.options.winLine) {
+      this.options.winLine = fieldValue;
+    }
+    this.options.field = fieldValue;
+  }
+
+  changeWinLine(newWinLineValue: number): void {
+    if (newWinLineValue > this.options.field) this.options.field = newWinLineValue;
+    this.options.winLine = newWinLineValue;
   }
 
   createField(side: number): string[][] {
@@ -109,6 +149,7 @@ export class GameTicTacToeComponent {
   }
 
   select(row: number, cell: number): void {
+    if (this.options.winner) return;
     if (!this.shadowField[row][cell]) {
       this.shadowField[row][cell] = this.options.icons[this.options.move - 1];
       this.checkVictory(row, cell, this.options.move);
@@ -138,7 +179,6 @@ export class GameTicTacToeComponent {
   checkVictory(row: number, cell: number, move: number) {
     const playerIcon = this.options.icons[move - 1];
     const winningCombinations: CheckingWinningCombinations = {
-      // \ | / -
       leftDiagonal: {
         isCheck: true,
         line: []
@@ -156,8 +196,14 @@ export class GameTicTacToeComponent {
         line: []
       },
     };
-
-    for (let i = 1; i < 3; i++ ) {
+    /**
+     * topEdgeFieldRow - защита от выбора минусовой строки матрицы
+     * topEdgeFieldCell - защита от выбора минусовой ячейки в строке матрицы
+     * bottomEdgeFieldRow - защита от выбора строки выходящей за поле свыше края
+     * bottomEdgeFieldCell - защита от выбора ячейки в строке выше длинны массива
+     * isCheck - оптимизация проверки (если линия не строиться минимум из 2 жлементов в 1 итерации то проверять ее не надо в след)
+     * */
+    for (let i = 1; i < this.options.winLine; i++ ) {
       const leftDiagonal = winningCombinations.leftDiagonal;
       const verticalLine = winningCombinations.verticalLine;
       const rightDiagonal = winningCombinations.rightDiagonal;
@@ -193,37 +239,46 @@ export class GameTicTacToeComponent {
         if (horizontalLine.line.length === 0) horizontalLine.isCheck = false;
       }
     }
-// todo Сделать лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля
-    if (winningCombinations.leftDiagonal.line.length === 2) {
-      console.log("win leftDiagonal")
-      alert('Выиграл ' + playerIcon)
-    }
 
-    if (winningCombinations.verticalLine.line.length === 2) {
-      console.log("win verticalLine")
-      alert('Выиграл ' + playerIcon)
-    }
-
-    if (winningCombinations.rightDiagonal.line.length === 2) {
-      console.log("win rightDiagonal")
-      alert('Выиграл ' + playerIcon)
-    }
-
-    if (winningCombinations.horizontalLine.line.length === 2) {
-      console.log("win horizontalLine")
-      alert('Выиграл ' + playerIcon)
-    }
-
+    this.checkWinLine(row, cell, winningCombinations.leftDiagonal.line, playerIcon);
+    this.checkWinLine(row, cell, winningCombinations.verticalLine.line, playerIcon);
+    this.checkWinLine(row, cell, winningCombinations.rightDiagonal.line, playerIcon);
+    this.checkWinLine(row, cell, winningCombinations.horizontalLine.line, playerIcon);
   }
 
+  checkWinLine(row: number, cell: number, line: number[][], playerIcon: string): void {
+    if (line.length >= this.options.winLine - 1) {
+      this.options.winner = true;
+      this.options.winningStreak = [[row, cell], ...line]
+      this.activeCellCheck(this.options.winningStreak);
+      alert('Выиграл ' + playerIcon)
+    }
+  }
+
+  activeCellCheck(line: number[][]): void {
+    line.forEach(arr => {
+      this.activeCell[arr[0] +''+ arr[1]] = arr[0] +''+ arr[1];
+    })
+  }
+
+  newGame(): void {
+    this.shadowField = this.createField(this.options.field);
+    this.activeCell = {};
+    this.options.winner = false;
+    this.options.winningStreak = [];
+  }
 
   reset(): void {
+    this.activeCell = {};
     this.options = {
       players: 1,
       field: 3,
       move: 1,
       icons: ['X','O', 'Z', 'V'],
-      computer: true
+      computer: true,
+      winLine: 3,
+      winner: false,
+      winningStreak: []
     }
   }
 }

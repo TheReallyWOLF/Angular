@@ -12,6 +12,7 @@ import {NgxsModule} from "@ngxs/store";
 import {GameInverseMatrixState} from "./game-inverse-matrix/state/game-inverse-matrix.state";
 import { GameTicTacToeComponent } from './game-tic-tac-toe/game-tic-tac-toe.component';
 import {HomeModule} from "../home/home.module";
+import {MatIconModule} from "@angular/material/icon";
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import {HomeModule} from "../home/home.module";
       GameInverseMatrixState
     ]),
     HomeModule,
+    MatIconModule,
   ]
 })
 export class GamesModule { }
