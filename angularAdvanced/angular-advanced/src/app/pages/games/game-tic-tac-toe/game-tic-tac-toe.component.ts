@@ -2,30 +2,30 @@
 
 import {ChangeDetectionStrategy, Component} from '@angular/core';
 
-export interface PlayersButton {
+interface PlayersButton {
   players: number;
   name: string;
 }
 
-export interface FieldOptions {
+interface FieldOptions {
   name: string;
   value: number;
 }
 
-export interface CheckingWinningCombinations {
+interface CheckingWinningCombinations {
   leftDiagonal: Combinations;
   verticalLine: Combinations;
   rightDiagonal: Combinations;
   horizontalLine: Combinations;
 }
 
-export interface Combinations {
+interface Combinations {
   left: boolean;
   right: boolean;
   line: number[][];
 }
 
-export interface OptionsGame {
+interface OptionsGame {
   players: number;
   field: number;
   move: number;
@@ -35,7 +35,9 @@ export interface OptionsGame {
   winner: boolean;
   winningStreak: number[][];
 }
-
+/**
+ * Оптимизированные крестики нолики (проверяеться не все поле а только несколько клеточек мой велосипед)
+ * */
 @Component({
   selector: 'game-tic-tac-toe',
   templateUrl: './game-tic-tac-toe.component.html',
@@ -44,7 +46,7 @@ export interface OptionsGame {
 })
 export class GameTicTacToeComponent {
   public readonly winLine = [3, 4, 5, 6, 7, 8];
-  public readonly playersIconList: string[] = ['X', 'O', '♥️', '♣️', '♠️', '♦️','⚙️', '❎', '❌', '⚠️', '❤️', '⚽️', '☑️', '😀', '🦊'];
+  public readonly playersIconList: string[] = ['X', 'O', '♥️', '♣️', '♠️', '♦️','⚙️', '❎', '❌', '⚠️', '❤️', '⚽️', '☑️', '😀', '🦊', '💣', '🐽', '🐷', '🐺'];
   public readonly playersButtons: PlayersButton[] = [{
     players: 1,
     name: 'С компьютером'
@@ -177,7 +179,7 @@ export class GameTicTacToeComponent {
   /**
    * Проверяет есть ли победитель (поле каждого хода)
    * */
-  checkVictory(row: number, cell: number, move: number) {
+  checkVictory(row: number, cell: number, move: number): void {
     const playerIcon = this.options.icons[move - 1];
     const winningCombinations: CheckingWinningCombinations = {
       leftDiagonal: {
