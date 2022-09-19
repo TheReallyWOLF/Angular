@@ -85,7 +85,7 @@
           *ngFor="let cell of row; let k = index"
           class="field-cell"
           (click)="select(i, k)"
-          [class.active] = "activeCell[i+''+k]">
+          [class.active] = "activeCell[i+''+k] !== undefined">
           {{ cell }}
         </div>
       </div>
