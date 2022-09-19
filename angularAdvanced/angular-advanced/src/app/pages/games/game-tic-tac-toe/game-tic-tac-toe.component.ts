@@ -107,7 +107,7 @@ export class GameTicTacToeComponent {
     winner: false,
     winningStreak: []
   }
-  public activeCell: {[name: string]: string} = {};
+  public activeCell: {[name: string]: number} = {};
   public toggle: boolean = true;
   public shadowField: string[][] = [];
 
@@ -218,25 +218,25 @@ export class GameTicTacToeComponent {
       if (leftDiagonal.isCheck) {
         if ((topEdgeFieldRow && topEdgeFieldCell) && this.shadowField[row - i][cell - i] === playerIcon) leftDiagonal.line.push([row - i, cell - i]);
         if ((bottomEdgeFieldRow && bottomEdgeFieldCell) && this.shadowField[row + i][cell + i] === playerIcon) leftDiagonal.line.push([row + i, cell + i]);
-        if (leftDiagonal.line.length === 0) leftDiagonal.isCheck = false;
+        if (leftDiagonal.line.length === i) leftDiagonal.isCheck = false;
       }
 
       if (verticalLine.isCheck) {
         if (topEdgeFieldCell && this.shadowField[row][cell - i] === playerIcon) verticalLine.line.push([row , cell - i]);
         if (bottomEdgeFieldCell && this.shadowField[row][cell + i] === playerIcon) verticalLine.line.push([row, cell + i]);
-        if (verticalLine.line.length === 0) verticalLine.isCheck = false;
+        if (verticalLine.line.length === i) verticalLine.isCheck = false;
       }
 
       if (rightDiagonal.isCheck) {
         if ((bottomEdgeFieldRow && topEdgeFieldCell ) && this.shadowField[row + i][cell - i] === playerIcon) rightDiagonal.line.push([row + i, cell - i]);
         if ((topEdgeFieldRow && bottomEdgeFieldCell) && this.shadowField[row - i][cell + i] === playerIcon) rightDiagonal.line.push([row - i, cell + i]);
-        if (rightDiagonal.line.length === 0) rightDiagonal.isCheck = false;
+        if (rightDiagonal.line.length === i) rightDiagonal.isCheck = false;
       }
 
       if (horizontalLine.isCheck) {
         if (topEdgeFieldRow && this.shadowField[row - i][cell] === playerIcon) horizontalLine.line.push([row - i, cell]);
         if (bottomEdgeFieldRow && this.shadowField[row + i][cell] === playerIcon) horizontalLine.line.push([row + i, cell]);
-        if (horizontalLine.line.length === 0) horizontalLine.isCheck = false;
+        if (horizontalLine.line.length === i) horizontalLine.isCheck = false;
       }
     }
 
@@ -257,8 +257,9 @@ export class GameTicTacToeComponent {
 
   activeCellCheck(line: number[][]): void {
     line.forEach(arr => {
-      this.activeCell[arr[0] +''+ arr[1]] = arr[0] +''+ arr[1];
+      this.activeCell[arr[0] +''+ arr[1]] = (arr[0] * 10) + arr[1];
     })
+    console.log(this.activeCell)
   }
 
   newGame(): void {

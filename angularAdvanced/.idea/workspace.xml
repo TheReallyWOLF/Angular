@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,14 +225,7 @@
       <workItem from="1663332596952" duration="2041000" />
       <workItem from="1663439000936" duration="16657000" />
       <workItem from="1663493724485" duration="9924000" />
-      <workItem from="1663581969363" duration="13529000" />
-    </task>
-    <task id="LOCAL-00019" summary="forms">
-      <created>1636805762296</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1636805762296</updated>
+      <workItem from="1663581969363" duration="14751000" />
     </task>
     <task id="LOCAL-00020" summary="forms">
       <created>1637080799439</created>
@@ -573,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663588674962</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
+      <created>1663610067213</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1663610067213</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="новый модуль + верстка меню (css академия)" />
     <MESSAGE value="компонент для новой верстки" />
     <MESSAGE value="кнопка css" />
     <MESSAGE value="иконуи это ад" />
@@ -617,7 +613,8 @@
     <MESSAGE value="реализовать проверку" />
     <MESSAGE value="реализовать проверку =&gt; checkVictory" />
     <MESSAGE value="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля" />
-    <option name="LAST_COMMIT_MESSAGE" value="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля" />
+    <MESSAGE value="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="764" y="474" key="#Usage_Scope" timestamp="1656333486551">
@@ -673,10 +670,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="266" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1656333518266" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1663588679618">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1663610071206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663588679618" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663610071206" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1656273869206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1658063159243">
       <screen x="0" y="0" width="1920" height="1040" />
