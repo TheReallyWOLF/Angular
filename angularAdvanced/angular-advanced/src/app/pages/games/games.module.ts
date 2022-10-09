@@ -13,6 +13,7 @@ import {GameInverseMatrixState} from "./game-inverse-matrix/state/game-inverse-m
 import { GameTicTacToeComponent } from './game-tic-tac-toe/game-tic-tac-toe.component';
 import {HomeModule} from "../home/home.module";
 import {MatIconModule} from "@angular/material/icon";
+import { GameSeaBattleComponent } from './game-sea-battle/game-sea-battle.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {MatIconModule} from "@angular/material/icon";
     GameInverseMatrixComponent,
     GamePresentationPageComponent,
     GameFieldComponent,
-    GameTicTacToeComponent
+    GameTicTacToeComponent,
+    GameSeaBattleComponent
   ],
   imports: [
     CommonModule,

@@ -11,9 +11,12 @@ export class GamesComponent {
     {
       route: 'game-recursive-matrix',
       name: 'Игра: инверсная матрица'
-    },{
+    }, {
       route: 'game-tic-tac-toe',
       name: 'Игра: крестики нолики !!BETA!!'
+    }, {
+      route: 'game-sea-​​battle',
+      name: 'Игра: Морской бой !!ALFA!!'
     }
   ]
 }

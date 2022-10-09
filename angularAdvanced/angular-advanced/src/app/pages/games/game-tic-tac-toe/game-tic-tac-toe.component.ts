@@ -110,7 +110,7 @@ export class GameTicTacToeComponent {
     winner: false,
     winningStreak: []
   }
-  public activeCell: {[name: string]: number} = {};
+  public activeCell: {[name: string]: string} = {};
   public toggle: boolean = true;
   public shadowField: string[][] = [];
 
@@ -239,24 +239,6 @@ export class GameTicTacToeComponent {
         }
       }
 
-      if (verticalLine.left || verticalLine.right) {
-        if (verticalLine.left) {
-          if (bottomEdgeFieldCell && this.shadowField[row][cell + i] === playerIcon) {
-            verticalLine.line.push([row, cell + i]);
-          } else {
-            verticalLine.left = false;
-          }
-        }
-
-        if (verticalLine.right) {
-          if (topEdgeFieldCell && this.shadowField[row][cell - i] === playerIcon) {
-            verticalLine.line.push([row , cell - i]);
-          } else {
-            verticalLine.right = false;
-          }
-        }
-      }
-
       if (rightDiagonal.left || rightDiagonal.right) {
         if (rightDiagonal.left) {
           if ((bottomEdgeFieldRow && topEdgeFieldCell ) && this.shadowField[row + i][cell - i] === playerIcon) {
@@ -270,6 +252,23 @@ export class GameTicTacToeComponent {
             rightDiagonal.line.push([row - i, cell + i]);
           } else {
             rightDiagonal.right = false;
+          }
+        }
+      }
+
+      if (verticalLine.left || verticalLine.right) {
+        if (verticalLine.left) {
+          if (bottomEdgeFieldCell && this.shadowField[row][cell + i] === playerIcon) {
+            verticalLine.line.push([row, cell + i]);
+          } else {
+            verticalLine.left = false;
+          }
+        }
+        if (verticalLine.right) {
+          if (topEdgeFieldCell && this.shadowField[row][cell - i] === playerIcon) {
+            verticalLine.line.push([row , cell - i]);
+          } else {
+            verticalLine.right = false;
           }
         }
       }
@@ -298,6 +297,16 @@ export class GameTicTacToeComponent {
     this.checkWinLine(row, cell, winningCombinations.horizontalLine.line, playerIcon);
   }
 
+  computerMove(complexity: string) {
+    // todo сделать компа с задержкой хода в 1 сек и блокировкой поля при этом
+    // const row = this.getRandomInt(10)
+    // const cell = 0;
+  }
+
+  getRandomInt(max: number): number {
+    return Math.floor(Math.random() * (max + 1));
+  }
+
   checkWinLine(row: number, cell: number, line: number[][], playerIcon: string): void {
     if (line.length >= this.options.winLine - 1) {
       this.options.winner = true;
@@ -311,9 +320,9 @@ export class GameTicTacToeComponent {
   activeCellCheck(line: number[][]): void {
     line.forEach((arr, i) => {
       if (i < this.options.winLine) {
-        this.activeCell[arr[0] +''+ arr[1]] = (arr[0] * 10) + arr[1];
+        this.activeCell[arr[0] + '-' + arr[1]] = arr[0] + '-' + arr[1];
       }
-    })
+    });
   }
 
   newGame(): void {

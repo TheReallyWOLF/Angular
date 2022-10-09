@@ -5,6 +5,7 @@ import {GameInverseMatrixComponent} from "./game-inverse-matrix/game-inverse-mat
 import {GamePresentationPageComponent} from "./game-presentation-page/game-presentation-page.component";
 import {GameFieldComponent} from "./game-field/game-field.component";
 import {GameTicTacToeComponent} from "./game-tic-tac-toe/game-tic-tac-toe.component";
+import {GameSeaBattleComponent} from "./game-sea-battle/game-sea-battle.component";
 
 const routes: Routes = [
   {
@@ -26,6 +27,9 @@ const routes: Routes = [
       },{
         path: 'game-tic-tac-toe',
         component: GameTicTacToeComponent
+      },{
+        path: 'game-sea-​​battle',
+        component: GameSeaBattleComponent
       }
     ]
   }];

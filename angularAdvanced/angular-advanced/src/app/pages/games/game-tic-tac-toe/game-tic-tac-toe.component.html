@@ -28,7 +28,7 @@
       <!-- Строка с выбором размера поля -->
       <div>
         <div class="label">
-          Размер поля:  {{ options.field }}
+          Размер поля: {{ options.field }}
         </div>
         <div class="button-row">
           <ui-button
@@ -83,9 +83,9 @@
       <div class="field-row" *ngFor="let row of shadowField; let i = index">
         <div
           *ngFor="let cell of row; let k = index"
-          class="field-cell"
+          class="{{ 'field-cell' }}"
           (click)="select(i, k)"
-          [class.active] = "activeCell[i+''+k] !== undefined">
+          [class.active] = "activeCell[i + '-' + k] !== undefined">
           {{ cell }}
         </div>
       </div>

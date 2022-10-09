@@ -8,9 +8,15 @@ import {User, UsersService} from "./local_BD/users.service";
 export class AppService {
 
   constructor(readonly userBD: UsersService) { }
-// todo wolf --сделать роли + гварды + авторизацию--
-  getUser(): Observable<User> {
+// todo wolf --сделать роли + гварды + авторизацию и сервер пока гвоздь заглушка--
+  getUser(): Observable<string> {
+     const noUser: User = {
+       id: 0,
+       name: 'none',
+       role: 'none',
+       password: 'none',
+     }
      const localStorageUser = localStorage.getItem('user');
-     return of(JSON.parse(localStorageUser ? localStorageUser : ''));
+     return of(localStorageUser ? JSON.parse( localStorageUser) : noUser);
   }
 }
