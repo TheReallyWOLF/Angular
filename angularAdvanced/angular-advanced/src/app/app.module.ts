@@ -13,6 +13,19 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {UiComponentsModule} from "./shared/ui-components/ui-components.module";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+
+/**
+ * declarations массив деклараций для импорта компонентов, директив и каналов.
+ *
+ * imports импорт других модулей.
+ *ц
+ * providers поставщиков массивов для определения сервисов, которые были украшены декоратором Injectable, что делает их доступными через Angular DI.
+ *
+ * Exports - это массив, который позволяет объявлениям и объявлениям внутри модуля быть доступными из модулей,
+ *           которые импортируют модуль,в котором они определены.
+ *
+ * Bootstrap также определяет компоненты, скомпилированные при загрузке модуля, и автоматически добавляет их в entryComponents.
+ * */
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +47,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     }),
     BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [
+    // тут сервисы
+  ],
   exports: [],
   bootstrap: [AppComponent]
 })

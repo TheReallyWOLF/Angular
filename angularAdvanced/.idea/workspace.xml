@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="сдлеать комп + окно оповещения (ui)">
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/rxjsPipe/takeUntilDestroyed.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,14 +235,16 @@
       <workItem from="1664437885727" duration="6771000" />
       <workItem from="1664531691819" duration="2465000" />
       <workItem from="1665239421832" duration="8197000" />
-      <workItem from="1665338477078" duration="2517000" />
-    </task>
-    <task id="LOCAL-00025" summary="NGRX">
-      <created>1644100415991</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1644100415992</updated>
+      <workItem from="1665338477078" duration="2613000" />
+      <workItem from="1665401127356" duration="3660000" />
+      <workItem from="1665667939952" duration="4055000" />
+      <workItem from="1666001025024" duration="6012000" />
+      <workItem from="1666343043650" duration="599000" />
+      <workItem from="1666344715253" duration="901000" />
+      <workItem from="1666355531326" duration="222000" />
+      <workItem from="1666600078446" duration="4683000" />
+      <workItem from="1666687968842" duration="3152000" />
+      <workItem from="1668072828121" duration="8478000" />
     </task>
     <task id="LOCAL-00026" summary="NGXS">
       <created>1644145500007</created>
@@ -583,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663614670101</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="сдлеать комп + окно оповещения (ui)">
+      <created>1665343856356</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1665343856357</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +608,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="компонент для новой верстки" />
     <MESSAGE value="кнопка css" />
     <MESSAGE value="иконуи это ад" />
     <MESSAGE value="href=&quot;#&quot; -&gt; href=&quot;javascript:void(0)&quot;" />
@@ -627,68 +632,43 @@
     <MESSAGE value="реализовать проверку =&gt; checkVictory" />
     <MESSAGE value="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля" />
     <MESSAGE value="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы" />
-    <option name="LAST_COMMIT_MESSAGE" value="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы" />
+    <MESSAGE value="сдлеать комп + окно оповещения (ui)" />
+    <option name="LAST_COMMIT_MESSAGE" value="сдлеать комп + окно оповещения (ui)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658248925159">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658248925159" />
-    <state x="669" y="205" key="#npm_start" timestamp="1658248939713">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="669" y="205" key="#npm_start/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658248939713" />
-    <state x="669" y="205" key="#run_dev" timestamp="1658248977525">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="669" y="205" key="#run_dev/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658248977525" />
     <state x="745" y="362" key="FileChooserDialogImpl" timestamp="1663442231056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663442231056" />
-    <state x="2665" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658948633038" />
-    <state width="1877" height="254" key="GridCell.Tab.0.bottom" timestamp="1665252992584">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1668111287059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665252992584" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
-    <state width="1877" height="254" key="GridCell.Tab.0.center" timestamp="1665252992583">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1668111287059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665252992583" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
-    <state width="1877" height="254" key="GridCell.Tab.0.left" timestamp="1665252992583">
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1668111287059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665252992583" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
-    <state width="1877" height="254" key="GridCell.Tab.0.right" timestamp="1665252992584">
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1668111287059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665252992584" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1658949548834" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1663669646328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663669646328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1663614673765">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1665343861745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663614673765" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1658063159243">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665343861745" />
+    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1668083867113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1658063159243" />
-    <state x="567" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1657982868730">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="567" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1657982868730" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1665251922412">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1369" y="122" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1658166618503" />
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665251922412" />
-    <state x="2816" y="374" width="734" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1659473192545" />
+    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668083867113" />
+    <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1666602957556" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1663445137844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
