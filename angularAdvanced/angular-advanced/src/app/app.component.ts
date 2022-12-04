@@ -9,6 +9,7 @@ import {MainMenu} from "./app.models";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent implements OnInit {
+
   public readonly mainMenu: MainMenu[] = [
     {
       title: 'Домой',

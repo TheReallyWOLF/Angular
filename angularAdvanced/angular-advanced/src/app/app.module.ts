@@ -12,6 +12,7 @@ import {environment} from "../environments/environment";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {UiComponentsModule} from "./shared/ui-components/ui-components.module";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MessageConsoleDirective } from './shared/directive/globalDirective/message-console.directive';
 
 
 /**
@@ -29,6 +30,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
+    MessageConsoleDirective,
   ],
   imports: [
     BrowserModule,
