@@ -1,42 +1,9 @@
 // todo Сделать компьютера + оповещение победы
-
 import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {CheckingWinningCombinations, FieldOptions, OptionsGame, PlayersButton} from "../shared/models/game.models";
 
-interface PlayersButton {
-  players: number;
-  name: string;
-}
-
-interface FieldOptions {
-  name: string;
-  value: number;
-}
-
-interface CheckingWinningCombinations {
-  leftDiagonal: Combinations;
-  verticalLine: Combinations;
-  rightDiagonal: Combinations;
-  horizontalLine: Combinations;
-}
-
-interface Combinations {
-  left: boolean;
-  right: boolean;
-  line: number[][];
-}
-
-interface OptionsGame {
-  players: number;
-  field: number;
-  move: number;
-  icons: string[];
-  computer: boolean;
-  winLine: number;
-  winner: boolean;
-  winningStreak: number[][];
-}
 /**
- * Оптимизированные крестики нолики (проверяеться не все поле а только несколько клеточек мой велосипед)
+ * Оптимизированные крестики нолики (проверяются не все поле по циклу а только несколько клеточек (мой велосипед)
  * */
 @Component({
   selector: 'game-tic-tac-toe',
@@ -160,7 +127,7 @@ export class GameTicTacToeComponent {
     }
   }
   /**
-   * Проверяет если ли совпалдения в символах игрока и переключает из что бы не было повторений
+   * Проверяет если ли совпадения в символах игрока и переключает их, что бы не было повторений
    * */
   checkIcon(player: number, icon: string): void {
     const repeatIndex = this.options.icons.indexOf(icon);

@@ -1,3 +1,116 @@
 <div class="game-sea-battle">
-  <p>game-sea-battle works!</p>
+  <div *ngIf="toggle; else field" class="options">
+    <div class="main-control">
+      <ui-button type="primary-danger" class="main-control-button" (click)="reset()">
+        Сбросить
+      </ui-button>
+      <ui-button class="main-control-button" (click)="start()">
+        Играть
+      </ui-button>
+    </div>
+    <div class="options-wrapper">
+      <!--Размер игровой сетки-->
+      <div>
+        <div class="label">
+          Размер игровой сетки {{ options.field.name }}
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="players-button"
+            *ngFor="let gameField of fieldOptions"
+            (click)="setGameField(gameField)"
+            [disabled]="options.field.value === gameField.value">
+            {{ gameField.name }}
+          </ui-button>
+        </div>
+      </div>
+      <!--Пятипалубный корабль-->
+      <div>
+        <div class="label">
+          Пятипалубный корабль
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="players-button"
+            [disabled]="options.fiveDeck === fiveDeckCount"
+            (click)="setNumberShips('fiveDeck', fiveDeckCount)"
+            *ngFor="let fiveDeckCount of fiveDeckArr">
+            {{ fiveDeckCount }}
+          </ui-button>
+        </div>
+      </div>
+      <!--Четырёхпалубный корабль-->
+      <div>
+        <div class="label">
+          Четырёхпалубный корабль
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="players-button"
+            [disabled]="options.fiveDeck === fourDeckCount"
+            (click)="setNumberShips('fourDeck', fourDeckCount)"
+            *ngFor="let fourDeckCount of fourDeckArr">
+            {{ fourDeckCount }}
+          </ui-button>
+        </div>
+      </div>
+      <!--Трехпалубный корабль-->
+      <div>
+        <div class="label">
+          Трехпалубный корабль
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="players-button"
+            [disabled]="options.threeDeck === threeDeckCount"
+            (click)="setNumberShips('threeDeck', threeDeckCount)"
+            *ngFor="let threeDeckCount of threeDeckArr">
+            {{ threeDeckCount }}
+          </ui-button>
+        </div>
+      </div>
+      <!--Двухпалубный корабль-->
+      <div>
+        <div class="label">
+          Двухпалубный корабль
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="players-button"
+            [disabled]="options.twoDeck === twoDeckCount"
+            (click)="setNumberShips('twoDeck', twoDeckCount)"
+            *ngFor="let twoDeckCount of twoDeckArr">
+            {{ twoDeckCount }}
+          </ui-button>
+        </div>
+      </div>
+      <!--Однопалубный корабль-->
+      <div>
+        <div class="label">
+          Однопалубный корабль
+        </div>
+        <div class="button-row">
+          <ui-button
+            size="sm"
+            class="players-button"
+            [disabled]="options.oneDeck === oneDeckCount"
+            (click)="setNumberShips('oneDeck', oneDeckCount)"
+            *ngFor="let oneDeckCount of oneDeckArr">
+            {{ oneDeckCount }}
+          </ui-button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #field>
+    <ui-button (click)="toggle = !toggle">
+      К настройкам
+    </ui-button>
+    <div>1</div>
+  </ng-template>
 </div>

@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="сдлеать комп + окно оповещения (ui)">
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/rxjsPipe/takeUntilDestroyed.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/shared/mixin/game-options-mixin.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/shared/models/game.models.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/basic-syntax/basic-syntax.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/form-advanced.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/form-advanced/form-advanced.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +66,18 @@
     <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function\examples" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\pipes" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\structureDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\shared\models" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function\examples" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
     </key>
   </component>
@@ -245,6 +251,12 @@
       <workItem from="1666600078446" duration="4683000" />
       <workItem from="1666687968842" duration="3152000" />
       <workItem from="1668072828121" duration="8478000" />
+      <workItem from="1668433191708" duration="5748000" />
+      <workItem from="1668591178869" duration="6698000" />
+      <workItem from="1668678123433" duration="3127000" />
+      <workItem from="1668761987325" duration="5563000" />
+      <workItem from="1669801775381" duration="1301000" />
+      <workItem from="1670158796662" duration="12368000" />
     </task>
     <task id="LOCAL-00026" summary="NGXS">
       <created>1644145500007</created>
@@ -640,22 +652,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663442231056" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1668111287059">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1670174377457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1668111287059">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670174377457" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1670174377457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1668111287059">
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670174377457" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1670174377456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1668111287059">
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670174377456" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1670174377457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668111287059" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670174377457" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1663669646328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -664,10 +676,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1665343861745" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1668083867113">
+    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1670171909003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1668083867113" />
+    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670171909003" />
     <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1666602957556" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1663445137844">
       <screen x="0" y="0" width="1920" height="1040" />

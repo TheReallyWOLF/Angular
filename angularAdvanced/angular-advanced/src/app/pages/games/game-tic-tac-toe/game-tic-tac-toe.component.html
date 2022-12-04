@@ -1,5 +1,5 @@
 <div class="game-tic-tac-toe">
-  <div *ngIf="toggle" class="options">
+  <div *ngIf="toggle; else field" class="options">
     <div class="main-control">
       <ui-button type="primary-danger" class="main-control-button" (click)="reset()">
         Сбросить
@@ -75,7 +75,7 @@
     </div>
   </div>
   <!-- Игровое поле -->
-  <div *ngIf="!toggle">
+  <ng-template #field>
     <ui-button (click)="toggle = !toggle">
       К настройкам
     </ui-button>
@@ -95,5 +95,5 @@
         <mat-icon>{{ 'settings_backup_restore' }}</mat-icon>
       </ui-button>
     </div>
-  </div>
+  </ng-template>
 </div>
