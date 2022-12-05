@@ -1,7 +1,7 @@
 <div class="game-sea-battle">
   <div *ngIf="toggle; else field" class="options">
     <div class="main-control">
-      <ui-button type="primary-danger" class="main-control-button" (click)="reset()">
+      <ui-button type="primary-danger" class="main-control-button" (click)="setDefault()">
         Сбросить
       </ui-button>
       <ui-button class="main-control-button" (click)="start()">
@@ -50,7 +50,7 @@
           <ui-button
             size="sm"
             class="players-button"
-            [disabled]="options.fiveDeck === fourDeckCount"
+            [disabled]="options.fourDeck === fourDeckCount"
             (click)="setNumberShips('fourDeck', fourDeckCount)"
             *ngFor="let fourDeckCount of fourDeckArr">
             {{ fourDeckCount }}

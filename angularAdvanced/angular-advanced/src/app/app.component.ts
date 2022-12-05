@@ -38,7 +38,6 @@ export class AppComponent implements OnInit {
     }
   ]
 
-
   constructor(private appService: AppService) {
   }
 

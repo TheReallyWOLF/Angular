@@ -12,7 +12,7 @@ export class GameSeaBattleComponent implements OnInit {
 
   private readonly deck: number[] = [0, 1, 2, 3, 4, 5];
 
-  // реализовать матрицу TODO
+  // реализовать матрицу TODO в которой будут лежать поля (мб и не надо)
   public deckMatrix!: number[][];
 
   public toggle: boolean = true;
@@ -38,43 +38,49 @@ export class GameSeaBattleComponent implements OnInit {
     value: 30
   }];
   // todo типизацию
-  public options: {[name: string]: any} = {
-    oneDeck: 5,
-    twoDeck: 4,
-    threeDeck: 3,
-    fourDeck: 2,
-    fiveDeck: 1,
-    field: {
-      name: '10 x 10',
-      value: 10
-    }
-  }
-
-  constructor() {}
+  public options!: {[name: string]: any};
 
   ngOnInit(): void {
     this.setDefault();
   }
 
-  public setGameField(field: FieldOptions) {
-    this.setOptionsDeck(field.value);
+  public setGameField(field: FieldOptions): void {
     this.options.field = field;
+    this.setOptionsDeck(field.value);
+    this.setSelectedDeck();
   }
 
-  public setNumberShips(classShips: ShipDeck, count: number) {
+  public setNumberShips(classShips: ShipDeck, count: number): void {
     this.options[classShips] = count;
   }
 
-  private setOptionsDeck(fieldValue: number) {
-    const multiplicityFive: number = fieldValue / 5;
-    this.oneDeckArr = this.deck;
-    this.twoDeckArr = this.deck.slice(0, multiplicityFive);
-    this.threeDeckArr = this.deck.slice(0, multiplicityFive);
-    this.fourDeckArr = this.deck.slice(0, multiplicityFive);
-    this.fiveDeckArr = this.deck.slice(0, multiplicityFive > 4 ? 3 : 2);
+  private setSelectedDeck(): void {
+    this.options.oneDeck = this.getTopicalMeaning(this.options.oneDeck, this.oneDeckArr.length - 1);
+    this.options.twoDeck = this.getTopicalMeaning(this.options.twoDeck, this.twoDeckArr.length - 1);
+    this.options.threeDeck = this.getTopicalMeaning(this.options.threeDeck, this.threeDeckArr.length - 1);
+    this.options.fourDeck = this.getTopicalMeaning(this.options.fourDeck, this.fourDeckArr.length - 1);
+    this.options.fiveDeck = this.getTopicalMeaning(this.options.fiveDeck, this.fiveDeckArr.length - 1);
   }
 
-  private setDefault(): void {
+  private setOptionsDeck(fieldValue: number): void {
+    const multiplicityFive: number = fieldValue / 5;
+    const deckLength = this.deck.length;
+    this.oneDeckArr = this.getDeckSlice(multiplicityFive + 3, deckLength);
+    this.twoDeckArr = this.getDeckSlice(multiplicityFive + 2, deckLength)
+    this.threeDeckArr = this.getDeckSlice(multiplicityFive + 1, deckLength)
+    this.fourDeckArr = this.getDeckSlice(multiplicityFive, deckLength)
+    this.fiveDeckArr = this.getDeckSlice(multiplicityFive - 1, deckLength - 1)
+  }
+
+  private getDeckSlice(end: number, limit: number): number[] {
+    return this.deck.slice(0, this.getTopicalMeaning(end, limit));
+  }
+
+  private getTopicalMeaning(actual: number, max: number): number {
+    return actual > max ? max : actual;
+  }
+
+  public setDefault(): void {
     console.log('найстройки морского боя по умолчанию');
     this.options = {
       oneDeck: 4,
@@ -90,10 +96,7 @@ export class GameSeaBattleComponent implements OnInit {
     this.setOptionsDeck(this.options.field.value);
   }
 
-  reset(): void {
-  }
-
-  start(): void {
+  public start(): void {
     console.log(this.options)
     this.toggle = !this.toggle;
   }
