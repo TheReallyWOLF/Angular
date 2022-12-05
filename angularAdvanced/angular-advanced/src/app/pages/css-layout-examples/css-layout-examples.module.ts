@@ -9,6 +9,7 @@ import { GlowingButtonHoverEffectsComponent } from './glowing-button-hover-effec
 import { SpecialNavigationMenuComponent } from './special-navigation-menu/special-navigation-menu.component';
 import {MatIconModule} from "@angular/material/icon";
 import { AnimatedVerticalMenuComponent } from './animated-vertical-menu/animated-vertical-menu.component';
+import { DragAndDropApiComponent } from './drag-and-drop-api/drag-and-drop-api.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AnimatedVerticalMenuComponent } from './animated-vertical-menu/animated
     ThreeDimensionalMenuComponent,
     GlowingButtonHoverEffectsComponent,
     SpecialNavigationMenuComponent,
-    AnimatedVerticalMenuComponent
+    AnimatedVerticalMenuComponent,
+    DragAndDropApiComponent
   ],
     imports: [
         CommonModule,

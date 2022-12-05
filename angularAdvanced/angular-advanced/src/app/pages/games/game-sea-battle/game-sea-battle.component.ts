@@ -101,4 +101,8 @@ export class GameSeaBattleComponent implements OnInit {
     this.toggle = !this.toggle;
   }
 
+  public newGame(): void {
+    console.log('newGame')
+  }
+
 }

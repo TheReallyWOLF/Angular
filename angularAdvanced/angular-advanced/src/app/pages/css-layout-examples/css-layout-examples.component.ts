@@ -21,6 +21,9 @@ export class CssLayoutExamplesComponent {
     }, {
       route: 'animated-vertical-menu',
       name: 'Анимированное вертикальное меню'
+    }, {
+      route: 'drag-and-drop',
+      name: 'Перетаскивание блоков'
     }
   ]
 }

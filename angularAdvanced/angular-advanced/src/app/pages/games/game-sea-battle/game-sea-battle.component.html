@@ -111,6 +111,16 @@
     <ui-button (click)="toggle = !toggle">
       К настройкам
     </ui-button>
-    <div>1</div>
+    <div>
+      <div class="field">
+        <div>Drag and Drop</div>
+      </div>
+      <div>Drag and Drop</div>
+    </div>
+    <div class="newGameButton">
+      <ui-button type="primary-danger" (click)="newGame()">
+        <mat-icon>{{ 'settings_backup_restore' }}</mat-icon>
+      </ui-button>
+    </div>
   </ng-template>
 </div>

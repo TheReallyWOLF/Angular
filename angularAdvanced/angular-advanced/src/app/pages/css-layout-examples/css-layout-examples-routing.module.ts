@@ -5,6 +5,7 @@ import {ThreeDimensionalMenuComponent} from "./three-dimensional-menu/three-dime
 import {GlowingButtonHoverEffectsComponent} from "./glowing-button-hover-effects/glowing-button-hover-effects.component";
 import {SpecialNavigationMenuComponent} from "./special-navigation-menu/special-navigation-menu.component";
 import {AnimatedVerticalMenuComponent} from "./animated-vertical-menu/animated-vertical-menu.component";
+import {DragAndDropApiComponent} from "./drag-and-drop-api/drag-and-drop-api.component";
 
 const routes: Routes = [
   {
@@ -26,6 +27,9 @@ const routes: Routes = [
       }, {
         path: 'animated-vertical-menu',
         component: AnimatedVerticalMenuComponent
+      }, {
+        path: 'drag-and-drop',
+        component: DragAndDropApiComponent
       }
     ]
   }
