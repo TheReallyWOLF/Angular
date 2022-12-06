@@ -19,16 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="МБ">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api first tray">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-presentation-page/game-presentation-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-presentation-page/game-presentation-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-tic-tac-toe/game-tic-tac-toe.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/shared/mixin/game-options-mixin.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/shared/mixin/game-options-mixin.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,14 +253,8 @@
       <workItem from="1670158796662" duration="12917000" />
       <workItem from="1670186210180" duration="4987000" />
       <workItem from="1670196106513" duration="4919000" />
-      <workItem from="1670250269525" duration="9146000" />
-    </task>
-    <task id="LOCAL-00029" summary="algorithms">
-      <created>1651677277596</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1651677277596</updated>
+      <workItem from="1670250269525" duration="9678000" />
+      <workItem from="1670313980086" duration="9703000" />
     </task>
     <task id="LOCAL-00030" summary="algorithms">
       <created>1652810707440</created>
@@ -603,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670201031370</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="drag and drop api first tray">
+      <created>1670274814139</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1670274814140</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +618,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="menu" />
     <MESSAGE value="void" />
     <MESSAGE value="vertical menu begin" />
     <MESSAGE value="server" />
@@ -647,45 +642,50 @@
     <MESSAGE value="подготовка к морскому бою v0.1" />
     <MESSAGE value="директива для оповещения" />
     <MESSAGE value="МБ" />
-    <option name="LAST_COMMIT_MESSAGE" value="МБ" />
+    <MESSAGE value="drag and drop api first tray" />
+    <option name="LAST_COMMIT_MESSAGE" value="drag and drop api first tray" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1670273667542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670273667542" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1670350657069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670350657069" />
     <state x="745" y="362" key="FileChooserDialogImpl" timestamp="1663442231056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663442231056" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1670269423850">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1670275069795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670269423850" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1670269423850">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670275069795" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1670275069795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670269423850" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1670269423850">
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670275069795" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1670275069795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670269423850" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1670269423850">
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670275069795" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1670275069795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670269423850" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670275069795" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1663669646328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663669646328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670201034405">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670274818294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670201034405" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1670269966899">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670274818294" />
+    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1670347414078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670269966899" />
+    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670347414078" />
     <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1666602957556" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1663445137844">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -2,7 +2,7 @@ import {
   AfterViewInit,
   ChangeDetectionStrategy,
   Component,
-  ElementRef,
+  ElementRef, Renderer2,
   ViewChild,
   ViewChildren
 } from '@angular/core';
@@ -25,31 +25,12 @@ export class DragAndDropApiComponent implements AfterViewInit {
   @ViewChildren('dropZone')
   dropZoneBox!: ElementRef[];
 
-  constructor(private ref: ElementRef) {
-  }
+  readonly dropZoneArr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+
+  constructor(private ref: ElementRef, private renderer: Renderer2) {}
 
   ngAfterViewInit(): void {
-    fromEvent<DragEvent>(this.draggableElementBox.nativeElement, 'dragstart').pipe(
-      takeUntil(this.destroyed$),
-    ).subscribe((event: DragEvent) => {
-      event?.dataTransfer?.setData('text/plain', this.draggableElementBox.nativeElement.classList.value)
-    });
-
     for (const dropZone of this.dropZoneBox) {
-
-      fromEvent<DragEvent>(dropZone.nativeElement, 'dragover').pipe(
-        takeUntil(this.destroyed$),
-      ).subscribe((event: DragEvent) => {
-        event.preventDefault();
-        dropZone.nativeElement.classList.add('drop-zone-over');
-      });
-
-      fromEvent<DragEvent>(dropZone.nativeElement, 'dragleave').pipe(
-        takeUntil(this.destroyed$),
-      ).subscribe((event: DragEvent) => {
-        dropZone.nativeElement.classList.remove('drop-zone-over');
-      });
-
       fromEvent<DragEvent>(dropZone.nativeElement, 'drop').pipe(
         takeUntil(this.destroyed$),
       ).subscribe((event: DragEvent) => {
@@ -57,10 +38,31 @@ export class DragAndDropApiComponent implements AfterViewInit {
         const droppedElementId = event!.dataTransfer!.getData('text/plain');
         const droppedElement = this.ref.nativeElement.getElementsByClassName(droppedElementId)[0];
         dropZone.nativeElement.append(droppedElement);
-        dropZone.nativeElement.classList.remove('drop-zone-over');
       });
     }
+  }
 
+  dragDrop(event: any): void {
+    // просто забрать переменную?
+    // запретить перетаскивать что то кроме необходимого элемента
+    //event.preventDefault();
+    //const droppedElementId = event.dataTransfer?.getData('text/plain') || '';
+    //const droppedElement = this.ref.nativeElement.getElementsByClassName(droppedElementId)[0];
+    //this.renderer.appendChild(event.target, droppedElement);
+  }
+
+  dragLeave(event: DragEvent): void {
+    this.renderer.removeClass(event.target, 'drop-zone-over');
+  }
+
+  dragOver(event: DragEvent): void {
+    event.preventDefault();
+    this.renderer.addClass(event.target, 'drop-zone-over');
+  }
+
+  dragStart(event: any): void {
+    // сохранить ссылку на шаблон в переменную ?
+    event?.dataTransfer?.setData('text/plain', event.target?.className)
   }
 
   ngOnDestroy(): void {

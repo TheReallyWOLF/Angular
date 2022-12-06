@@ -1,8 +1,19 @@
 <div class="drag-and-drop-api">
   <div class="wrapper">
-    <div #dropZone class="drop-zone">
-      <div #draggableElement id="draggableElementID" class="draggableElementID" draggable="true"></div>
+    <div #dropZone
+         *ngFor="let dropZone of dropZoneArr"
+         (dragover)="dragOver($event)"
+         (dragleave)="dragLeave($event)"
+         (drag)="dragDrop($event)"
+         [class]="'drop-zone ' + dropZone"></div>
+  </div>
+  <div class="draggable-box">
+    <div #draggableElement
+         id="draggableElementID"
+         class="draggableElementID"
+         draggable="true"
+         (dragstart) = dragStart($event)
+    >
     </div>
-    <div #dropZone class="drop-zone"></div>
   </div>
 </div>

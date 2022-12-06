@@ -1,5 +1,4 @@
 .drag-and-drop-api
-  margin: 0
   padding: 0
   display: flex
   box-sizing: border-box
@@ -7,15 +6,24 @@
   background: var(--crl)
   font-family: 'Poppins', sans-serif
   align-items: center
+  flex-direction: column
   justify-content: center
+  margin-bottom: 12px
+
+  .draggable-box
+    height: 200px
+    padding: 12px
 
   .wrapper
     gap: 12px
+    width: 720px
     display: flex
+    flex-wrap: wrap
+
 
   .drop-zone
-    width: 400px
-    height: 400px
+    width: 200px
+    height: 200px
     border: 16px dashed #797dde
     display: flex
     background: #cbccd7
@@ -24,9 +32,10 @@
 
   .drop-zone-over
     opacity: .5
+    background: green
 
   #draggableElementID
-    width: 250px
-    height: 250px
+    width: 150px
+    height: 150px
     background: #df8080
     border-radius: 24px
