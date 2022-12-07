@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.0">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.1 исправилть ошибку при дропе класса если перетаскиваешь эдемент в тот же блок">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,14 +255,7 @@
       <workItem from="1670196106513" duration="4919000" />
       <workItem from="1670250269525" duration="9678000" />
       <workItem from="1670313980086" duration="9810000" />
-      <workItem from="1670398226093" duration="20223000" />
-    </task>
-    <task id="LOCAL-00034" summary="selectionSort">
-      <created>1653940918346</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1653940918346</updated>
+      <workItem from="1670398226093" duration="22125000" />
     </task>
     <task id="LOCAL-00035" summary="ui start">
       <created>1654441980706</created>
@@ -598,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670429508832</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="drag and drop api v 1.1 исправилть ошибку при дропе класса если перетаскиваешь эдемент в тот же блок">
+      <created>1670430589843</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1670430589843</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +619,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="новый модуль&#10;настройка места для создания игр" />
     <MESSAGE value="Игровая сетка" />
     <MESSAGE value="Приведение к единому виду (35%)" />
     <MESSAGE value="Приведение к единому виду (95%)" />
@@ -642,7 +643,8 @@
     <MESSAGE value="drag and drop api v 0.6" />
     <MESSAGE value="drag and drop api v 0.8" />
     <MESSAGE value="drag and drop api v 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="drag and drop api v 1.0" />
+    <MESSAGE value="drag and drop api v 1.1 исправилть ошибку при дропе класса если перетаскиваешь эдемент в тот же блок" />
+    <option name="LAST_COMMIT_MESSAGE" value="drag and drop api v 1.1 исправилть ошибку при дропе класса если перетаскиваешь эдемент в тот же блок" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1670273667542">
@@ -677,10 +679,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663669646328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670429512706">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670430593039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670429512706" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670430593039" />
     <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1670347414078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
