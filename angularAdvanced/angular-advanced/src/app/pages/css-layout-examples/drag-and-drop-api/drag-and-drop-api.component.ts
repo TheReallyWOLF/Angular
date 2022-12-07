@@ -1,13 +1,9 @@
 import {
-  AfterViewInit,
   ChangeDetectionStrategy,
   Component,
-  ElementRef, Renderer2,
-  ViewChild,
-  ViewChildren
+  ElementRef,
+  Renderer2,
 } from '@angular/core';
-import {fromEvent, Subject} from "rxjs";
-import {takeUntil} from "rxjs/operators";
 
 @Component({
   selector: 'drag-and-drop-api',
@@ -15,42 +11,18 @@ import {takeUntil} from "rxjs/operators";
   styleUrls: ['./drag-and-drop-api.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class DragAndDropApiComponent implements AfterViewInit {
-
-  private destroyed$ = new Subject();
-  private currentEl: HTMLDivElement | undefined;
-
-  @ViewChild('draggableElement', {static:false})
-  draggableElementBox!: ElementRef;
-
-  @ViewChildren('dropZone')
-  dropZoneBox!: ElementRef[];
+export class DragAndDropApiComponent {
+  private currentEl: HTMLElement | undefined;
 
   readonly dropZoneArr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
   constructor(private ref: ElementRef, private renderer: Renderer2) {}
 
-  ngAfterViewInit(): void {
-    for (const dropZone of this.dropZoneBox) {
-      fromEvent<DragEvent>(dropZone.nativeElement, 'drop').pipe(
-        takeUntil(this.destroyed$),
-      ).subscribe((event: DragEvent) => {
-        event.preventDefault();
-        if (this.currentEl) {
-          dropZone.nativeElement.append(this.currentEl);
-        }
-      });
-    }
-  }
-
-  dragDrop(event: any): void {
+  dragDrop(event: DragEvent): void {
     event.preventDefault();
-    // просто забрать переменную?
-    // запретить перетаскивать что то кроме необходимого элемента
-    //event.preventDefault();
-    //const droppedElementId = event.dataTransfer?.getData('text/plain') || '';
-    //const droppedElement = this.ref.nativeElement.getElementsByClassName(droppedElementId)[0];
-    //this.renderer.appendChild(event.target, droppedElement);
+    if (this.currentEl) {
+      (event.target as HTMLElement).append(this.currentEl)
+    }
   }
 
   dragLeave(event: DragEvent): void {
@@ -62,12 +34,7 @@ export class DragAndDropApiComponent implements AfterViewInit {
     this.renderer.addClass(event.target, 'drop-zone-over');
   }
 
-  dragStart(event: any): void {
-    this.currentEl = event.target;
-  }
-
-  ngOnDestroy(): void {
-    this.destroyed$.next();
-    this.destroyed$.complete();
+  dragStart(event: DragEvent): void {
+    this.currentEl = event.target as HTMLElement;
   }
 }
