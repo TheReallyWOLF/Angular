@@ -19,12 +19,13 @@ export class DragAndDropApiComponent {
 
   dragDrop(event: DragEvent): void {
     event.preventDefault();
-    if (this.currentEl) {
+    if (this.currentEl && this.currentEl !== event.target) {
       (event.target as HTMLElement).append(this.currentEl);
     }
   }
 
   dragLeave(event: DragEvent): void {
+    event.preventDefault();
     this.renderer.removeClass(event.target, 'drop-zone-over');
   }
 

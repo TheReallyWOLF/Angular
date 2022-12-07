@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,14 +253,7 @@
       <workItem from="1670196106513" duration="4919000" />
       <workItem from="1670250269525" duration="9678000" />
       <workItem from="1670313980086" duration="9810000" />
-      <workItem from="1670398226093" duration="19156000" />
-    </task>
-    <task id="LOCAL-00033" summary="algorithms card + logic">
-      <created>1653858649494</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1653858649495</updated>
+      <workItem from="1670398226093" duration="20223000" />
     </task>
     <task id="LOCAL-00034" summary="selectionSort">
       <created>1653940918346</created>
@@ -599,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670422670760</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="drag and drop api v 1.0">
+      <created>1670429508832</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1670429508832</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,10 +677,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663669646328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670422674983">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670429512706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670422674983" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670429512706" />
     <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1670347414078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
