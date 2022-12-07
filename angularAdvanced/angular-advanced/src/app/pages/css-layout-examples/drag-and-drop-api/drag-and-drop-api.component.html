@@ -4,7 +4,7 @@
          *ngFor="let dropZone of dropZoneArr"
          (dragover)="dragOver($event)"
          (dragleave)="dragLeave($event)"
-         (drag)="dragDrop($event)"
+         (drop)="dragDrop($event)"
          [class]="'drop-zone ' + dropZone"></div>
   </div>
   <div class="draggable-box">

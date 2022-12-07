@@ -18,6 +18,7 @@ import {takeUntil} from "rxjs/operators";
 export class DragAndDropApiComponent implements AfterViewInit {
 
   private destroyed$ = new Subject();
+  private currentEl: HTMLDivElement | undefined;
 
   @ViewChild('draggableElement', {static:false})
   draggableElementBox!: ElementRef;
@@ -35,14 +36,15 @@ export class DragAndDropApiComponent implements AfterViewInit {
         takeUntil(this.destroyed$),
       ).subscribe((event: DragEvent) => {
         event.preventDefault();
-        const droppedElementId = event!.dataTransfer!.getData('text/plain');
-        const droppedElement = this.ref.nativeElement.getElementsByClassName(droppedElementId)[0];
-        dropZone.nativeElement.append(droppedElement);
+        if (this.currentEl) {
+          dropZone.nativeElement.append(this.currentEl);
+        }
       });
     }
   }
 
   dragDrop(event: any): void {
+    event.preventDefault();
     // просто забрать переменную?
     // запретить перетаскивать что то кроме необходимого элемента
     //event.preventDefault();
@@ -61,8 +63,7 @@ export class DragAndDropApiComponent implements AfterViewInit {
   }
 
   dragStart(event: any): void {
-    // сохранить ссылку на шаблон в переменную ?
-    event?.dataTransfer?.setData('text/plain', event.target?.className)
+    this.currentEl = event.target;
   }
 
   ngOnDestroy(): void {
