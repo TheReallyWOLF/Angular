@@ -1,7 +1,6 @@
 import {
   ChangeDetectionStrategy,
   Component,
-  ElementRef,
   Renderer2,
 } from '@angular/core';
 
@@ -16,12 +15,12 @@ export class DragAndDropApiComponent {
 
   readonly dropZoneArr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
-  constructor(private ref: ElementRef, private renderer: Renderer2) {}
+  constructor(private renderer: Renderer2) {}
 
   dragDrop(event: DragEvent): void {
     event.preventDefault();
     if (this.currentEl) {
-      (event.target as HTMLElement).append(this.currentEl)
+      (event.target as HTMLElement).append(this.currentEl);
     }
   }
 

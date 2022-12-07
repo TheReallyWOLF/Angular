@@ -1,7 +1,6 @@
 <div class="drag-and-drop-api">
   <div class="wrapper">
-    <div #dropZone
-         *ngFor="let dropZone of dropZoneArr"
+    <div *ngFor="let dropZone of dropZoneArr"
          (dragover)="dragOver($event)"
          (dragleave)="dragLeave($event)"
          (drop)="dragDrop($event)"
