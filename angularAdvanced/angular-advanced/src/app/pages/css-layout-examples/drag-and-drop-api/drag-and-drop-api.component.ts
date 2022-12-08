@@ -26,12 +26,12 @@ export class DragAndDropApiComponent {
 
     if (this.currentEl && this.currentEl !== event.target) {
       (event.target as HTMLElement).append(this.currentEl);
+      this.currentEl = undefined;
     }
   }
 
   dragLeave(event: DragEvent): void {
     event.preventDefault();
-
     this.renderer.removeClass(event.target, 'drop-zone-over');
   }
 

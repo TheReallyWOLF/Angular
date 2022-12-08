@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.1 исправилть ошибку при дропе класса если перетаскиваешь эдемент в тот же блок">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.2 release">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +252,8 @@
       <workItem from="1670196106513" duration="4919000" />
       <workItem from="1670250269525" duration="9678000" />
       <workItem from="1670313980086" duration="9810000" />
-      <workItem from="1670398226093" duration="22125000" />
-    </task>
-    <task id="LOCAL-00035" summary="ui start">
-      <created>1654441980706</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1654441980706</updated>
+      <workItem from="1670398226093" duration="22310000" />
+      <workItem from="1670486752101" duration="363000" />
     </task>
     <task id="LOCAL-00036" summary="ui button">
       <created>1654534500403</created>
@@ -600,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670430589843</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="drag and drop api v 1.2 release">
+      <created>1670432392203</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1670432392203</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Игровая сетка" />
     <MESSAGE value="Приведение к единому виду (35%)" />
     <MESSAGE value="Приведение к единому виду (95%)" />
     <MESSAGE value="Раздел со скриптами" />
@@ -644,7 +641,8 @@
     <MESSAGE value="drag and drop api v 0.8" />
     <MESSAGE value="drag and drop api v 1.0" />
     <MESSAGE value="drag and drop api v 1.1 исправилть ошибку при дропе класса если перетаскиваешь эдемент в тот же блок" />
-    <option name="LAST_COMMIT_MESSAGE" value="drag and drop api v 1.1 исправилть ошибку при дропе класса если перетаскиваешь эдемент в тот же блок" />
+    <MESSAGE value="drag and drop api v 1.2 release" />
+    <option name="LAST_COMMIT_MESSAGE" value="drag and drop api v 1.2 release" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1670273667542">
@@ -659,30 +657,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="362" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663442231056" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1670407082302">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1670432529196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670407082302" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1670407082302">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670432529196" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1670432529196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670407082302" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1670407082302">
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670432529196" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1670432529196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670407082302" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1670407082302">
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670432529196" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1670432529196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670407082302" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670432529196" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1663669646328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663669646328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670430593039">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670432397619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670430593039" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670432397619" />
     <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1670347414078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
