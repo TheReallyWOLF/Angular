@@ -26,18 +26,18 @@ export class DragAndDropApiComponent {
 
     if (this.currentEl && this.currentEl !== event.target) {
       (event.target as HTMLElement).append(this.currentEl);
-      this.currentEl = undefined;
     }
   }
 
   dragLeave(event: DragEvent): void {
     event.preventDefault();
+    if (this.currentEl === event.target) return
     this.renderer.removeClass(event.target, 'drop-zone-over');
   }
 
   dragOver(event: DragEvent): void {
     event.preventDefault();
-
+    if (this.currentEl === event.target) return
     this.renderer.addClass(event.target, 'drop-zone-over');
   }
 
@@ -46,6 +46,7 @@ export class DragAndDropApiComponent {
   }
 
   private updateParentElement (element: HTMLElement): void {
+    if (this.currentEl === element) return
     if (this.parentElement) {
       this.renderer.removeClass(this.parentElement, 'active-zone');
     }
