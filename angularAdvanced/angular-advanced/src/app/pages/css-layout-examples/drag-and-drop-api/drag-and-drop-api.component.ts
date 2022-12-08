@@ -11,8 +11,8 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DragAndDropApiComponent {
-  private currentEl: HTMLElement | undefined;
 
+  private currentEl: HTMLElement | undefined;
   private parentElement: HTMLElement | undefined
 
   readonly dropZoneArr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8];
@@ -45,7 +45,7 @@ export class DragAndDropApiComponent {
     this.currentEl = event.target as HTMLElement;
   }
 
-  updateParentElement (element: HTMLElement): void {
+  private updateParentElement (element: HTMLElement): void {
     if (this.parentElement) {
       this.renderer.removeClass(this.parentElement, 'active-zone');
     }
