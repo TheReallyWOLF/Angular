@@ -13,7 +13,8 @@ import {
 export class DragAndDropApiComponent {
 
   private currentEl: HTMLElement | undefined;
-  private parentElement: HTMLElement | undefined
+  private parentElement: HTMLElement | undefined;
+  private isEmptyParent: boolean = true;
 
   readonly dropZoneArr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
@@ -24,20 +25,23 @@ export class DragAndDropApiComponent {
 
     this.updateParentElement(event.target as HTMLElement)
 
-    if (this.currentEl && this.currentEl !== event.target) {
+    const currentElDataId = this.currentEl?.getAttribute('data-id');
+    const targetElDataId = (event.target as HTMLElement).getAttribute('data-id');
+
+    if (this.currentEl && (currentElDataId !== targetElDataId) && this.isEmptyParent) {
       (event.target as HTMLElement).append(this.currentEl);
     }
   }
 
   dragLeave(event: DragEvent): void {
     event.preventDefault();
-    if (this.currentEl === event.target) return
+    if (this.currentEl === event.target && !this.isEmptyParent) return
     this.renderer.removeClass(event.target, 'drop-zone-over');
   }
 
   dragOver(event: DragEvent): void {
     event.preventDefault();
-    if (this.currentEl === event.target) return
+    if (this.currentEl === event.target && !this.isEmptyParent) return
     this.renderer.addClass(event.target, 'drop-zone-over');
   }
 
@@ -46,12 +50,13 @@ export class DragAndDropApiComponent {
   }
 
   private updateParentElement (element: HTMLElement): void {
-    if (this.currentEl === element) return
+    if (this.currentEl === element && !this.isEmptyParent) return
     if (this.parentElement) {
       this.renderer.removeClass(this.parentElement, 'active-zone');
     }
 
     this.parentElement = element;
+    this.isEmptyParent = this.parentElement?.children.length === 0;
     this.renderer.addClass(this.parentElement, 'active-zone');
   }
 }

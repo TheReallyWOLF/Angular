@@ -8,7 +8,13 @@
   </div>
   <div class="draggable-box">
     <div class="draggableElement"
+         data-id = "draggableElement"
          draggable="true"
+         (dragstart) = dragStart($event)>
+    </div>
+    <div class="draggableElement"
+         draggable="true"
+         data-id = "draggableElement"
          (dragstart) = dragStart($event)>
     </div>
   </div>
