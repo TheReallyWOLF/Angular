@@ -11,11 +11,8 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DragAndDropApiComponent {
-
   private currentEl: HTMLElement | undefined;
-  private parentElement: HTMLElement | undefined;
-  private isEmptyParent: boolean = true;
-
+  private currentParentElement: HTMLElement | undefined;
   readonly dropZoneArr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
   constructor(private renderer: Renderer2) {}
@@ -23,40 +20,31 @@ export class DragAndDropApiComponent {
   dragDrop(event: DragEvent): void {
     event.preventDefault();
 
-    this.updateParentElement(event.target as HTMLElement)
-
+    const isEmptyParent = (event.target as HTMLElement)?.children.length !== 0;
     const currentElDataId = this.currentEl?.getAttribute('data-id');
     const targetElDataId = (event.target as HTMLElement).getAttribute('data-id');
 
-    if (this.currentEl && (currentElDataId !== targetElDataId) && this.isEmptyParent) {
+    if (!isEmptyParent && this.currentEl && (currentElDataId !== targetElDataId)) {
       (event.target as HTMLElement).append(this.currentEl);
+      this.renderer.addClass(event.target, 'active-zone');
+      this.renderer.removeClass(this.currentParentElement, 'active-zone');
     }
   }
 
   dragLeave(event: DragEvent): void {
     event.preventDefault();
-    if (this.currentEl === event.target && !this.isEmptyParent) return
-    this.renderer.removeClass(event.target, 'drop-zone-over');
+    // if (this.currentEl === event.target && !this.isEmptyParent) return
+    // this.renderer.removeClass(event.target, 'drop-zone-over');
   }
 
   dragOver(event: DragEvent): void {
     event.preventDefault();
-    if (this.currentEl === event.target && !this.isEmptyParent) return
-    this.renderer.addClass(event.target, 'drop-zone-over');
+    // if (this.currentEl === event.target && !this.isEmptyParent) return
+    // this.renderer.addClass(event.target, 'drop-zone-over');
   }
 
   dragStart(event: DragEvent): void {
     this.currentEl = event.target as HTMLElement;
-  }
-
-  private updateParentElement (element: HTMLElement): void {
-    if (this.currentEl === element && !this.isEmptyParent) return
-    if (this.parentElement) {
-      this.renderer.removeClass(this.parentElement, 'active-zone');
-    }
-
-    this.parentElement = element;
-    this.isEmptyParent = this.parentElement?.children.length === 0;
-    this.renderer.addClass(this.parentElement, 'active-zone');
+    this.currentParentElement = (event.target as HTMLElement).parentElement as HTMLElement;
   }
 }

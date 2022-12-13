@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.2 release">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -676,6 +674,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670432529196" />
+    <state x="670" y="222" key="RollbackChangesDialog" timestamp="1670936602295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670936602295" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1663669646328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
