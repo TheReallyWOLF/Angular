@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.2 release" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.2 release">
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/drag-and-drop-api/drag-and-drop-api.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,13 +255,6 @@
       <workItem from="1670313980086" duration="9810000" />
       <workItem from="1670398226093" duration="22310000" />
       <workItem from="1670486752101" duration="7125000" />
-    </task>
-    <task id="LOCAL-00040" summary="кнопка css">
-      <created>1655459923353</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1655459923353</updated>
     </task>
     <task id="LOCAL-00041" summary="иконуи это ад">
       <created>1655666717718</created>
@@ -596,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670950062572</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="drag and drop api v 1.6 мульти дроп рефактор">
+      <created>1670950205386</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1670950205386</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +618,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="мелкая оптимизация" />
     <MESSAGE value="рабочая бесконечная матрица (код не оптимизирован) инверсия + пересечине" />
     <MESSAGE value="trackBy или на что способна оптимизация Angular" />
     <MESSAGE value="вертикальное меню" />
@@ -640,7 +642,8 @@
     <MESSAGE value="drag and drop api v 1.31 release" />
     <MESSAGE value="drag and drop api v 1.35 release fix self drop bug" />
     <MESSAGE value="drag and drop api v 1.5 мульти дроп рефактор" />
-    <option name="LAST_COMMIT_MESSAGE" value="drag and drop api v 1.5 мульти дроп рефактор" />
+    <MESSAGE value="drag and drop api v 1.6 мульти дроп рефактор" />
+    <option name="LAST_COMMIT_MESSAGE" value="drag and drop api v 1.6 мульти дроп рефактор" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1670273667542">
@@ -679,10 +682,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1663669646328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670950065476">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1670950208492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670950065476" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670950208492" />
     <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1670347414078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

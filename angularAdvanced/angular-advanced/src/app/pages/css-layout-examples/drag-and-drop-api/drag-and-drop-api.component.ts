@@ -13,7 +13,8 @@ import {
 export class DragAndDropApiComponent {
   private currentEl: HTMLElement | undefined;
   private currentParentElement: HTMLElement | undefined;
-  readonly dropZoneArr: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  readonly dropZoneArr: number[] = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+  readonly dragElementArr: number[] = [1, 2, 3];
 
   constructor(private renderer: Renderer2) {}
 
