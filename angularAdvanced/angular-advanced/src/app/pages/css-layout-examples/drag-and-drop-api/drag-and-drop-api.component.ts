@@ -33,14 +33,14 @@ export class DragAndDropApiComponent {
 
   dragLeave(event: DragEvent): void {
     event.preventDefault();
-    // if (this.currentEl === event.target && !this.isEmptyParent) return
-    // this.renderer.removeClass(event.target, 'drop-zone-over');
+    if (this.currentEl === event.target) return
+    this.renderer.removeClass(event.target, 'drop-zone-over');
   }
 
   dragOver(event: DragEvent): void {
     event.preventDefault();
-    // if (this.currentEl === event.target && !this.isEmptyParent) return
-    // this.renderer.addClass(event.target, 'drop-zone-over');
+    if (this.currentEl === event.target) return
+    this.renderer.addClass(event.target, 'drop-zone-over');
   }
 
   dragStart(event: DragEvent): void {
