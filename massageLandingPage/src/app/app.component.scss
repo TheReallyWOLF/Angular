@@ -1,7 +1,11 @@
 .main-app {
 
   &.darkTheme {
-    --mainColor: red;
+    --main: #350c15; // 1
+    --secondary: #872a27; // 2
+    --primaryActive: #08d4ff; // 3
+    --primaryHover: #0efff9; // 4
+    --primaryBack: #51fff8; // 5
   }
 
   &.whiteTheme {

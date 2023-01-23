@@ -21,12 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.2 release">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/common-components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/common-components/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/common-components/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/common-components/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/common-components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/common-components/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/pages/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/pages/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +270,7 @@
       <workItem from="1673514181391" duration="151000" />
       <workItem from="1673514409682" duration="1329000" />
       <workItem from="1674473048303" duration="1941000" />
-      <workItem from="1674479750871" duration="1517000" />
+      <workItem from="1674479750871" duration="3327000" />
     </task>
     <task id="LOCAL-00042" summary="href=&quot;#&quot; -&gt; href=&quot;javascript:void(0)&quot;">
       <created>1655905183719</created>
@@ -699,11 +702,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670950683685" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1674481200317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2798" y="294" width="764" height="592" key="find.popup" timestamp="1674484179340">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674481200317" />
-    <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1666602957556" />
+    <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1674484179340" />
     <state x="342" y="140" key="new project wizard" timestamp="1674473789410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

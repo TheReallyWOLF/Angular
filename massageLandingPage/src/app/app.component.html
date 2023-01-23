@@ -1,9 +1,6 @@
 <div class="main-app"
      [class.darkTheme] = "theme === 'darkTheme'"
      [class.whiteTheme] = "theme === 'whiteTheme'">
-  <button (click)="theme === 'whiteTheme' ? theme = 'darkTheme' : theme = 'whiteTheme'">
-    theme
-  </button>
   <header></header>
   <router-outlet></router-outlet>
   <footer></footer>
