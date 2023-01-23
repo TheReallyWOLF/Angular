@@ -7,6 +7,7 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent {
+  public selectedNavigateLink: string = 'home-page';
   public readonly navigate = [
     {
       route: 'home-page',

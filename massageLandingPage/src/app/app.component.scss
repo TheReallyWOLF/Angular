@@ -1,4 +1,12 @@
 .main-app {
+  --main-padding: 8px;
+  --max-width: 1140px;
+
+  .content {
+    margin: 0 auto;
+    min-height: calc(100vh - 120px);
+    max-width: var(--max-width);
+  }
 
   &.darkTheme {
     --main: #350c15; // 1

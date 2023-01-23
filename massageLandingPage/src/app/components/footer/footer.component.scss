@@ -1,0 +1,11 @@
+.footer {
+  height: 60px;
+  padding: var(--main-padding);
+  box-sizing: border-box;
+  background: var(--main);
+
+  .wrapper {
+    margin: 0 auto;
+    max-width: var(--max-width);
+  }
+}

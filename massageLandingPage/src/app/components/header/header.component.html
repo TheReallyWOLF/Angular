@@ -1,0 +1,14 @@
+<div class="header">
+  <div class="wrapper">
+    <div class="navigate">
+      <div class="nav-item"
+           [class.active] = 'selectedNavigateLink === nav.route'
+           *ngFor="let nav of navigate"
+           (click)="selectedNavigateLink = nav.route"
+      >
+        {{ nav.name }}
+      </div>
+    </div>
+    <div class="theme-controller"></div>
+  </div>
+</div>
