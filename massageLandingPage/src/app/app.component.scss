@@ -1,0 +1,11 @@
+.main-app {
+
+  &.darkTheme {
+    --mainColor: red;
+  }
+
+  &.whiteTheme {
+    --mainColor: green;
+  }
+
+}
