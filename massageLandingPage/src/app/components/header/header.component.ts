@@ -7,14 +7,20 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent {
-  public selectedNavigateLink: string = 'home-page';
+  public selectedBlockId: string = 'main';
   public readonly navigate = [
     {
-      route: 'home-page',
+      id: 'main',
       name: 'Главная'
     }, {
-      route: 'services',
-      name: 'Услуги'
+      id: 'massage-types',
+      name: 'Виды массажа'
     }
-  ]
+  ];
+
+  public goToElementById(id: string): void {
+    this.selectedBlockId = id;
+    const targetElement = document.getElementById(id);
+    targetElement?.scrollIntoView({block: 'start', behavior: 'smooth'});
+  }
 }

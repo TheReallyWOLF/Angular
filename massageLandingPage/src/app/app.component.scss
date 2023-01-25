@@ -1,6 +1,8 @@
 .main-app {
+  position: relative;
+  --header: 60px;
   --main-padding: 8px;
-  --max-width: 1140px;
+  --max-width: 1280px;
 
   .content {
     margin: 0 auto;

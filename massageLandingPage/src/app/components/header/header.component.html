@@ -2,9 +2,9 @@
   <div class="wrapper">
     <div class="navigate">
       <div class="nav-item"
-           [class.active] = 'selectedNavigateLink === nav.route'
+           [class.active] = 'selectedBlockId === nav.id'
            *ngFor="let nav of navigate"
-           (click)="selectedNavigateLink = nav.route"
+           (click)="goToElementById(nav.id)"
       >
         {{ nav.name }}
       </div>

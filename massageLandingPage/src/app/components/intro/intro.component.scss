@@ -1,0 +1,7 @@
+@use "src/app/mixin/mixin" as scrollPadding;
+
+.intro {
+  @include scrollPadding.scroll-padding;
+
+  height: 5000px;
+}

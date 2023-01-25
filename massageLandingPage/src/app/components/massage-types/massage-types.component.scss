@@ -1,0 +1,7 @@
+@use "src/app/mixin/mixin" as scrollPadding;
+
+.massage-types {
+  @include scrollPadding.scroll-padding;
+
+  height: 3000px;
+}
