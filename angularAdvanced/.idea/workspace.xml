@@ -20,18 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.2 release">
-      <change afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/img/massage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/mixin/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/mixin/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/assets/mixin/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/mixin/mixin.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

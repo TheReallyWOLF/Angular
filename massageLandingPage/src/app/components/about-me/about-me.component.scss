@@ -1,0 +1,34 @@
+@use "src/assets/mixin/mixin" as mixin;
+
+.about-me {
+  @include mixin.scroll-padding;
+  @include mixin.title;
+
+  .content {
+    gap: 16px;
+    color: var(--main);
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+  }
+
+  .insert {
+    color: var(--main);
+    font-size: 20px;
+    margin-top: 72px;
+    border-top: 3px solid var(--secondary);
+    padding-top: 12px;
+    margin-bottom: 36px;
+  }
+
+  .insert-list {
+    padding-left: 10%;
+  }
+
+  .postscript {
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+  }
+}

@@ -2,7 +2,6 @@
 
 .intro {
   @include mixin.scroll-padding;
-  @include mixin.title;
 
   .content {
     gap: 24px;

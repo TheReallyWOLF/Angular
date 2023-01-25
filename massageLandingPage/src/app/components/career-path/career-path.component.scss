@@ -1,0 +1,20 @@
+@use "src/assets/mixin/mixin" as mixin;
+
+.career-path {
+  @include mixin.scroll-padding;
+  @include mixin.title;
+
+  .content {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career-item {
+    border: 2px solid var(--secondary);
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 8px;
+
+  }
+}

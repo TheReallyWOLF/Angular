@@ -5,6 +5,7 @@
 @mixin title {
   h1 {
     color: var(--main);
+    text-transform: uppercase;
     padding-bottom: 12px;
   }
 }

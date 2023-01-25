@@ -13,6 +13,15 @@ export class HeaderComponent {
       id: 'main',
       name: 'Главная'
     }, {
+      id: 'about-me',
+      name: 'Немного обо мне'
+    }, {
+      id: 'career-path',
+      name: 'Профессиональный путь'
+    }, {
+      id: 'education',
+      name: 'Образование и сертификаты'
+    }, {
       id: 'massage-types',
       name: 'Виды массажа'
     }

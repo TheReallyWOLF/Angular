@@ -1,0 +1,13 @@
+@use "src/assets/mixin/mixin" as mixin;
+
+.education {
+  @include mixin.scroll-padding;
+  @include mixin.title;
+
+  .content {
+    div {
+      padding: 12px 0;
+      border-bottom: 2px solid var(--secondary);
+    }
+  }
+}
