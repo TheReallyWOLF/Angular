@@ -12,6 +12,7 @@ import { DetailDescriptionComponent } from './components/detail-description/deta
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { CertificatesComponent } from './components/certificates/certificates.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
+import { MassageItemComponent } from './components/massage-types/components/massage-item/massage-item.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     DetailDescriptionComponent,
     ReviewsComponent,
     CertificatesComponent,
-    ContactsComponent
+    ContactsComponent,
+    MassageItemComponent
   ],
   imports: [
     BrowserModule,

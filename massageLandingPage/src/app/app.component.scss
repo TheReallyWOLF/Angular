@@ -1,8 +1,10 @@
 .main-app {
-  position: relative;
   --header: 60px;
   --main-padding: 8px;
   --max-width: 1280px;
+
+  position: relative;
+  background: var(--background);
 
   .content {
     margin: 0 auto;
@@ -10,15 +12,17 @@
     max-width: var(--max-width);
   }
 
-  &.darkTheme {
+  &.whiteTheme {
+    // https://mybrandnewlogo.com/ru/generator-cvetovoi-palitry
     --main: #350c15; // 1
     --secondary: #872a27; // 2
     --primaryActive: #08d4ff; // 3
     --primaryHover: #0efff9; // 4
     --primaryBack: #51fff8; // 5
+    --background: #fff; // основной фон сайта
   }
 
-  &.whiteTheme {
+  &.darkTheme {
     --mainColor: green;
   }
 

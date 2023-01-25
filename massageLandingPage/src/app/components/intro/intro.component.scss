@@ -1,7 +1,39 @@
-@use "src/app/mixin/mixin" as scrollPadding;
+@use "src/assets/mixin/mixin" as mixin;
 
 .intro {
-  @include scrollPadding.scroll-padding;
+  @include mixin.scroll-padding;
+  @include mixin.title;
 
-  height: 5000px;
+  .content {
+    gap: 24px;
+    display: flex;
+  }
+
+  .text {
+    gap: 2px;
+    flex: 5;
+    color: var(--main);
+    border: 2px solid var(--primaryActive);
+    padding: 8px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+
+    div {
+      padding: 16px;
+      font-size: 18px;
+      background: var(--primaryBack);
+      border-radius: 8px;
+    }
+  }
+
+  .img {
+    flex: 2;
+    border: 2px solid var(--primaryActive);
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+  }
 }

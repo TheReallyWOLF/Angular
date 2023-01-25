@@ -1,1 +1,7 @@
-<div id="massage-types" class="massage-types">massage-types works!</div>
+<div id="massage-types" class="massage-types">
+  <h1>ВИДЫ МАССАЖА</h1>
+  <div class="content">
+    <massage-item *ngFor="let massageType of massageTypesArr" [massageType] = massageType>
+    </massage-item>
+  </div>
+</div>

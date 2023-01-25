@@ -1,0 +1,24 @@
+.massage-item {
+  color: var(--main);
+  padding: 16px;
+  background: var(--primaryActive);
+  border-radius: 8px;
+
+  .img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .title {
+    padding: 12px 0;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--main);
+  }
+
+  .text {
+    padding-top: 12px;
+  }
+}

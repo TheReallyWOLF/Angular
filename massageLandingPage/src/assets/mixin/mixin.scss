@@ -1,0 +1,10 @@
+@mixin scroll-padding {
+  padding-top: var(--header);
+}
+
+@mixin title {
+  h1 {
+    color: var(--main);
+    padding-bottom: 12px;
+  }
+}

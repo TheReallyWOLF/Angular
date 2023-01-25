@@ -1,7 +1,12 @@
-@use "src/app/mixin/mixin" as scrollPadding;
+@use "src/assets/mixin/mixin" as mixin;
 
 .massage-types {
-  @include scrollPadding.scroll-padding;
+  @include mixin.scroll-padding;
+  @include mixin.title;
 
-  height: 3000px;
+  .content {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
