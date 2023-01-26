@@ -24,12 +24,28 @@
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/certificates/certificates.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/certificates/certificates.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/certificates/certificates.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/contacts/contacts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/contacts/contacts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/contacts/contacts.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/contacts/contacts.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/contacts/contacts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/contacts/contacts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/detail-description/detail-description.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/detail-description/detail-description.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/detail-description/detail-description.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/footer/footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/footer/footer.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/assets/mixin/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/mixin/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-types/massage-types.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/reviews/reviews.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/reviews/reviews.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/reviews/reviews.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/video-presentation/video-presentation.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/video-presentation/video-presentation.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/video-presentation/video-presentation.component.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +288,8 @@
       <workItem from="1674473048303" duration="1941000" />
       <workItem from="1674479750871" duration="3916000" />
       <workItem from="1674500950609" duration="613000" />
-      <workItem from="1674637889804" duration="3676000" />
+      <workItem from="1674637889804" duration="3677000" />
+      <workItem from="1674720338085" duration="806000" />
     </task>
     <task id="LOCAL-00042" summary="href=&quot;#&quot; -&gt; href=&quot;javascript:void(0)&quot;">
       <created>1655905183719</created>

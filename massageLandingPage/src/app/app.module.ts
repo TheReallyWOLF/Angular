@@ -7,14 +7,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { MassageTypesComponent } from './components/massage-types/massage-types.component';
 import { CareerPathComponent } from './components/career-path/career-path.component';
-import { VideoPresentationComponent } from './components/video-presentation/video-presentation.component';
-import { DetailDescriptionComponent } from './components/detail-description/detail-description.component';
-import { ReviewsComponent } from './components/reviews/reviews.component';
-import { CertificatesComponent } from './components/certificates/certificates.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { MassageItemComponent } from './components/massage-types/components/massage-item/massage-item.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { EducationComponent } from './components/education/education.component';
+import { IndicationsMassageComponent } from './components/indications-massage/indications-massage.component';
+import { MassageContraindicationsComponent } from './components/massage-contraindications/massage-contraindications.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +22,12 @@ import { EducationComponent } from './components/education/education.component';
     IntroComponent,
     MassageTypesComponent,
     CareerPathComponent,
-    VideoPresentationComponent,
-    DetailDescriptionComponent,
-    ReviewsComponent,
-    CertificatesComponent,
     ContactsComponent,
     MassageItemComponent,
     AboutMeComponent,
-    EducationComponent
+    EducationComponent,
+    IndicationsMassageComponent,
+    MassageContraindicationsComponent
   ],
   imports: [
     BrowserModule,

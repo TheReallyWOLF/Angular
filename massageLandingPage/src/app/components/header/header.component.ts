@@ -24,6 +24,15 @@ export class HeaderComponent {
     }, {
       id: 'massage-types',
       name: 'Виды массажа'
+    }, {
+      id: 'indications-massage',
+      name: 'Показания к массажу'
+    }, {
+      id: 'massage-contraindications',
+      name: 'Противопоказания'
+    }, {
+      id: 'contacts',
+      name: 'Контакты'
     }
   ];
 
