@@ -1,0 +1,6 @@
+@use "src/assets/mixin/mixin" as mixin;
+
+.massage-contraindications {
+  @include mixin.scroll-padding;
+  @include mixin.title;
+}
