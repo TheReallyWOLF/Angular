@@ -20,10 +20,17 @@
     --primaryHover: #0efff9; // 4
     --primaryBack: #51fff8; // 5
     --background: #fff; // основной фон сайта
+    --antipodColor: #271920;
   }
 
   &.darkTheme {
-    --mainColor: green;
+    --main: #06060e; // 1
+    --secondary: #271920; // 2
+    --primaryActive: #625658; // 3
+    --primaryHover: #9e9a99; // 4
+    --primaryBack: #c4c2c5; // 5
+    --background: #bbbbbb; // основной фон сайта
+    --antipodColor: #08d4ff;
   }
 
 }

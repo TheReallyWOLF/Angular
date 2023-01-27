@@ -3,4 +3,25 @@
 .indications-massage {
   @include mixin.scroll-padding;
   @include mixin.title;
+
+  .wrapper {
+    margin-top: 16px;
+  }
+
+  .indications-list {
+    li {
+      border: 1px dotted var(--main);
+      padding: 8px;
+      border-radius: 8px;
+      margin-bottom: 4px;
+    }
+
+    li::marker {
+      color: var(--primaryActive);
+    }
+  }
+
+  .title {
+    margin-bottom: 12px;
+  }
 }

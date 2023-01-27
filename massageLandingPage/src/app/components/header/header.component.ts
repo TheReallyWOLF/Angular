@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'header',
@@ -7,6 +7,9 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent {
+  @Input() theme!: string;
+  @Output() changeTheme = new EventEmitter<string>();
+
   public selectedBlockId: string = 'main';
   public readonly navigate = [
     {
@@ -35,6 +38,10 @@ export class HeaderComponent {
       name: 'Контакты'
     }
   ];
+
+  public changeThemeEmit(theme: string): void {
+    this.changeTheme.emit(theme);
+  }
 
   public goToElementById(id: string): void {
     this.selectedBlockId = id;

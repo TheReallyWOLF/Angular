@@ -8,4 +8,8 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
 })
 export class AppComponent {
   theme = 'whiteTheme';
+
+  public changeTheme(theme: string): void {
+    this.theme = theme;
+  }
 }

@@ -3,4 +3,43 @@
 .massage-contraindications {
   @include mixin.scroll-padding;
   @include mixin.title;
+
+  .intro {
+    div {
+      padding: 2px;
+    }
+  }
+
+  .infoBlock {
+    h3 {
+      padding: 12px;
+    }
+  }
+
+  .text {
+    display: inline-block;
+    border-bottom: 1px dotted var(--primaryHover);
+    margin-bottom: 24px;
+  }
+
+  .contraindications-list {
+    color: var(--main);
+    border: thick double var(--main);
+    padding: 40px;
+    background: var(--primaryBack);
+    border-radius: 12px;
+    margin-bottom: 32px;
+    list-style-type: none;
+
+    li {
+      padding: 4px;
+    }
+
+    li:before {
+      color: var(--secondary);
+      content: "\2B24";
+      font-size: 12px;
+      padding-right: 12px;
+    }
+  }
 }

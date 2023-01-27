@@ -1,7 +1,7 @@
 <div class="main-app"
      [class.darkTheme] = "theme === 'darkTheme'"
      [class.whiteTheme] = "theme === 'whiteTheme'">
-  <header></header>
+  <header [theme] = "theme" (changeTheme) = changeTheme($event)></header>
   <div class="content">
     <intro id="main"></intro>
     <about-me id="about-me"></about-me>

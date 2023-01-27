@@ -13,7 +13,10 @@
   .wrapper {
     margin: 0 auto;
     height: 100%;
+    display: flex;
     max-width: var(--max-width);
+    align-items: center;
+    justify-content: space-between;
   }
 
   .navigate {
@@ -37,6 +40,36 @@
     &.active {
       color: var(--secondary);
       background: var(--primaryBack);
+    }
+  }
+
+  .theme-controller {
+    width: 32px;
+    cursor: pointer;
+    border: 1px solid var(--main);
+    height: 32px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    margin-right: -50px;
+    justify-content: center;
+    border-radius: 4px;
+
+    &:hover {
+      transition: 1s;
+      background: var(--antipodColor);
+    }
+  }
+
+  .themeButton {
+    &-sun {
+      width: 32px;
+      height: 32px;
+    }
+
+    &-luna {
+      width: 28px;
+      height: 28px;
     }
   }
 }
