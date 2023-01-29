@@ -6,6 +6,7 @@ import {GlowingButtonHoverEffectsComponent} from "./glowing-button-hover-effects
 import {SpecialNavigationMenuComponent} from "./special-navigation-menu/special-navigation-menu.component";
 import {AnimatedVerticalMenuComponent} from "./animated-vertical-menu/animated-vertical-menu.component";
 import {DragAndDropApiComponent} from "./drag-and-drop-api/drag-and-drop-api.component";
+import {CssCounterComponent} from "./css-counter/css-counter.component";
 
 const routes: Routes = [
   {
@@ -30,6 +31,9 @@ const routes: Routes = [
       }, {
         path: 'drag-and-drop',
         component: DragAndDropApiComponent
+      }, {
+        path: 'css-counter',
+        component: CssCounterComponent
       }
     ]
   }

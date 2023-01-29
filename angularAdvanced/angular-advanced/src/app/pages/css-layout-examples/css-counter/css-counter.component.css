@@ -1,0 +1,28 @@
+.css-counter {
+  display: flex;
+  background: #333;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  color: white;
+  animation: count 15s steps(1000) infinite;
+  counter-reset: ms var(--numberCssCounter);
+}
+
+.counter::after {
+  content: counter(ms);
+  font-size: 10vw;
+}
+
+@property --numberCssCounter { /* В SASS не отрабатывает (на момент написания слишком новая фича) */
+  syntax: '<integer>';
+  initial-value: 0;
+  inherits: false;
+}
+
+@keyframes count {
+0% {--numberCssCounter: 1000;}
+}

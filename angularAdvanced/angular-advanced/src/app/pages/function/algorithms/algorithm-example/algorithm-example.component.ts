@@ -20,5 +20,4 @@ export class AlgorithmExampleComponent {
   emit(eventEmit: EventEmitter<string>) {
     eventEmit.emit(this.algorithmName);
   }
-
 }

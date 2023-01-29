@@ -20,19 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="drag and drop api v 1.2 release">
-      <change afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/img/luna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/img/sun.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/indications-massage/indications-massage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/indications-massage/indications-massage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/indications-massage/indications-massage.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/indications-massage/indications-massage.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-contraindications/massage-contraindications.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-contraindications/massage-contraindications.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-contraindications/massage-contraindications.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/massage-contraindications/massage-contraindications.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithm-example/algorithm-example.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/algorithms/algorithm-example/algorithm-example.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +270,8 @@
       <workItem from="1674500950609" duration="613000" />
       <workItem from="1674637889804" duration="3677000" />
       <workItem from="1674720338085" duration="806000" />
-      <workItem from="1674813634595" duration="1228000" />
+      <workItem from="1674813634595" duration="1229000" />
+      <workItem from="1675015554159" duration="3918000" />
     </task>
     <task id="LOCAL-00042" summary="href=&quot;#&quot; -&gt; href=&quot;javascript:void(0)&quot;">
       <created>1655905183719</created>
@@ -685,22 +679,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674474413356" />
-    <state width="1877" height="59" key="GridCell.Tab.0.bottom" timestamp="1670951012284">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1675016300211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670951012284" />
-    <state width="1877" height="59" key="GridCell.Tab.0.center" timestamp="1670951012284">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1675016300211" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1675016300210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="59" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670951012284" />
-    <state width="1877" height="59" key="GridCell.Tab.0.left" timestamp="1670951012284">
+    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1675016300210" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1675016300210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="59" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670951012284" />
-    <state width="1877" height="59" key="GridCell.Tab.0.right" timestamp="1670951012284">
+    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1675016300210" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1675016300210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="59" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670951012284" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1675016300210" />
     <state x="670" y="222" key="RollbackChangesDialog" timestamp="1670936602295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -709,14 +703,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670950683685" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1674650230516">
+    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1675016263166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674650230516" />
+    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1675016263166" />
     <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1674484179340" />
     <state x="342" y="140" key="new project wizard" timestamp="1674473789410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674473789410" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-counter/css-counter.component.ts</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

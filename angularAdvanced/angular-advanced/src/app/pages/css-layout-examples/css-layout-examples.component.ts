@@ -24,6 +24,9 @@ export class CssLayoutExamplesComponent {
     }, {
       route: 'drag-and-drop',
       name: 'Перетаскивание блоков'
+    }, {
+      route: 'css-counter',
+      name: 'CSS счетчик'
     }
   ]
 }
