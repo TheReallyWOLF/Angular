@@ -25,6 +25,22 @@ export class ExamplesComponent {
     title: 'Посчитать сумму всех value в дереве',
     subTitle: 'Считает сумму всех value в дереве INode с неизвестным количеством вложенностей где<br>INode: {<br>&nbsp;&nbsp;&nbsp;value: number;<br>&nbsp;&nbsp;&nbsp;left?: INode;<br>&nbsp;&nbsp;&nbsp;right?: INode;<br>}',
     script: this.sumTree
+  },{
+    title: 'Факториал рекурсией',
+    subTitle: 'Высчитывает факториал рекурсией',
+    script: this.recursionFactorial
+  },{
+    title: 'Факториал циклом',
+    subTitle: 'Высчитывает факториал циклом и не забивает стек',
+    script: this.cycleFactorial
+  },{
+    title: 'Палиндром рекурсией',
+    subTitle: 'Проверяет палиндром рекурсией',
+    script: this.recursionIsPalindrome
+  },{
+    title: 'Палиндром циклом',
+    subTitle: 'Проверяет палиндром циклом и не забивает стек',
+    script: this.cycleIsPalindrome
   }];
 
   characters(str: string) {
@@ -45,5 +61,50 @@ export class ExamplesComponent {
     return tree.value +
       (tree.left ? this.sumTree(tree.left) : 0) +
       (tree.right ? this.sumTree(tree.right) : 0);
+  }
+
+  /**
+   * Факториал рекурсией
+   * */
+
+  recursionFactorial(number: number): number {
+    if (number <= 1) return  1;
+    return this.recursionFactorial(number - 1) * number;
+  }
+
+  /**
+   * Факториал циклом
+   * */
+
+  cycleFactorial(number: number): number {
+    if (number <= 1) return 1;
+    let result = 1;
+    for (let i = 2; i <= number; i++) {
+      result*=i;
+    }
+    return result;
+  }
+
+  /**
+   * Палиндром циклом
+   * */
+
+  cycleIsPalindrome(word: string): boolean {
+    for (let i = 0; i < Math.floor(word.length / 2); i++) {
+      if (word[i] != word[word.length - 1 - i]) {
+        return false
+      }
+    }
+    return true;
+  }
+
+  /**
+   * Палиндром рекурсией
+   * */
+
+  recursionIsPalindrome(word: string, increment: number = 0): boolean {
+    if (Math.floor(word.length / 2) === increment) return true;
+    if (word[increment] !== word[word.length - 1 - increment]) return false;
+    return this.recursionIsPalindrome(word, increment + 1)
   }
 }
