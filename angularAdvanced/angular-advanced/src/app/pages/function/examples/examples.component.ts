@@ -41,6 +41,10 @@ export class ExamplesComponent {
     title: 'Палиндром циклом',
     subTitle: 'Проверяет палиндром циклом и не забивает стек',
     script: this.cycleIsPalindrome
+  },{
+    title: 'Вхождение строки',
+    subTitle: 'Проверка входят ли символы word в состав letters',
+    script: this.canConstructWord
   }];
 
   characters(str: string) {
@@ -106,5 +110,31 @@ export class ExamplesComponent {
     if (Math.floor(word.length / 2) === increment) return true;
     if (word[increment] !== word[word.length - 1 - increment]) return false;
     return this.recursionIsPalindrome(word, increment + 1)
+  }
+
+  /**
+   * Проверка входят ли символы word в состав letters
+   * */
+
+  canConstructWord(word: string, letters: string): boolean {
+    if (word.length > letters.length) return false;
+    if (word === letters) return true;
+
+    // очищаем строки
+    let currentLetters = letters.toLowerCase().replace(/ /g,'');
+    const currentWord = word.toLowerCase().replace(/ /g,'');
+    const wordArr = currentWord.split('');
+
+    // собственно сам скрипт ¯\_(ツ)_/¯
+    for (let i = 0; i < wordArr.length; i++) {
+      const index = currentLetters.indexOf(wordArr[i]);
+
+      if (index === -1) return false;
+
+    // исключаем кейсы с дубликатами (из строки 'abc' нельзя составить 'aabbcc')
+      currentLetters = currentLetters.substr(0, index) +  currentLetters.substr(index + 1);
+    }
+
+    return true;
   }
 }

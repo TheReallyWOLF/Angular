@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="css-counter">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="пару алгоритмов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -276,14 +275,10 @@
       <workItem from="1678273603646" duration="5512000" />
       <workItem from="1678788758165" duration="1478000" />
       <workItem from="1679055312961" duration="3882000" />
-      <workItem from="1679157822468" duration="3116000" />
-    </task>
-    <task id="LOCAL-00043" summary="menu">
-      <created>1655914072567</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1655914072567</updated>
+      <workItem from="1679157822468" duration="3257000" />
+      <workItem from="1679308017879" duration="2225000" />
+      <workItem from="1679393236772" duration="8362000" />
+      <workItem from="1679478575893" duration="8661000" />
     </task>
     <task id="LOCAL-00044" summary="void">
       <created>1656273865276</created>
@@ -621,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675019536282</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="пару алгоритмов">
+      <created>1679161079458</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1679161079459</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +642,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="вертикальное меню" />
     <MESSAGE value="инпуты" />
     <MESSAGE value="refactor" />
     <MESSAGE value="реализаций простейших игр (крестики нолики)" />
@@ -665,53 +666,46 @@
     <MESSAGE value="drag and drop api v 1.6 мульти дроп рефактор" />
     <MESSAGE value="drag and drop api v 1.65 мульти дроп рефактор" />
     <MESSAGE value="css-counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="css-counter" />
+    <MESSAGE value="пару алгоритмов" />
+    <option name="LAST_COMMIT_MESSAGE" value="пару алгоритмов" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1670273667542">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670273667542" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1674474957864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674474957864" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1670350657069">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670350657069" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1674474413356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674474413356" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1678283669331">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1679161103357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678283669331" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1678283669331">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679161103357" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1679161103357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678283669331" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1678283669331">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679161103357" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1679161103357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678283669331" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1678283669331">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679161103357" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1679161103357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678283669331" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679161103357" />
     <state x="670" y="222" key="RollbackChangesDialog" timestamp="1670936602295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670936602295" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1675019560826">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1679161083520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1675019560826" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1676552690403">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679161083520" />
+    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1679483420438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1676552690403" />
+    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679483420438" />
     <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1674484179340" />
     <state x="342" y="140" key="new project wizard" timestamp="1674473789410">
       <screen x="0" y="0" width="1920" height="1040" />
