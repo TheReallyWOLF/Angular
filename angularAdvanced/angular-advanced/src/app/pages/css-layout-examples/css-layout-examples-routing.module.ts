@@ -7,6 +7,8 @@ import {SpecialNavigationMenuComponent} from "./special-navigation-menu/special-
 import {AnimatedVerticalMenuComponent} from "./animated-vertical-menu/animated-vertical-menu.component";
 import {DragAndDropApiComponent} from "./drag-and-drop-api/drag-and-drop-api.component";
 import {CssCounterComponent} from "./css-counter/css-counter.component";
+import {NativeHtmlTagsComponent} from "./native-html-tags/native-html-tags.component";
+import {LoadingTextAnimationComponent} from "./loading-text-animation/loading-text-animation.component";
 
 const routes: Routes = [
   {
@@ -34,6 +36,12 @@ const routes: Routes = [
       }, {
         path: 'css-counter',
         component: CssCounterComponent
+      }, {
+        path: 'native-html-tags',
+        component: NativeHtmlTagsComponent
+      }, {
+        path: 'loading-example-one',
+        component: LoadingTextAnimationComponent
       }
     ]
   }

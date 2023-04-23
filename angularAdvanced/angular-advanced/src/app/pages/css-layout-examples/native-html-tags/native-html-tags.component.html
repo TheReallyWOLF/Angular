@@ -1,0 +1,24 @@
+<div class="native-html-tags">
+  <div class="example">
+    <ui-button [fitContent]="true" (click)="isDialogOpen = true">
+      Открыть нативное модальное окно
+    </ui-button>
+    <dialog class="dialog" [open] = isDialogOpen>
+      <h3>Это нативная модалка</h3>
+      <ui-button size="sm" (click)="isDialogOpen = false">
+        Закрыть
+      </ui-button>
+    </dialog>
+  </div>
+  <div class="example">
+    <details>
+      <summary>Нативная раскрывашка</summary>
+      <p class="text">
+        Текст под нативный раскрывашкой
+        Текст под нативный раскрывашкой
+        Текст под нативный раскрывашкой
+        Текст под нативный раскрывашкой
+      </p>
+    </details>
+  </div>
+</div>

@@ -6,6 +6,11 @@ export interface INode {
   right?: INode;
 }
 
+export interface ExamplesValueTree {
+  value: number;
+  children?: ExamplesValueTree[];
+}
+
 @Component({
   selector: 'app-examples',
   templateUrl: './examples.component.html',
@@ -45,6 +50,14 @@ export class ExamplesComponent {
     title: 'Вхождение строки',
     subTitle: 'Проверка входят ли символы word в состав letters',
     script: this.canConstructWord
+  },{
+    title: 'Свой debounce',
+    subTitle: 'Запускает кол-бек функцию с задержкой',
+    script: this.customDebounce
+  },{
+    title: 'Выбрать все value из дерева',
+    subTitle: 'Выбирает все value и возращает массив из дерева с любой вложеностью работает стеком а не рекурсией',
+    script: this.getTreeValueFromStack
   }];
 
   characters(str: string) {
@@ -136,5 +149,68 @@ export class ExamplesComponent {
     }
 
     return true;
+  }
+
+  /**
+   * Кастомный дебаунс
+   * */
+
+  // const fetching = customDebounce(foo, 300)
+  // fetching(1),  fetching(2),  fetching(3)
+  // foo - функция которую надо запустить после задержки
+
+  customDebounce(callback: Function, delay: number): Function {
+    // таймер сохраняется в качестве стейта функции при 1 запуске
+    let timer: number | null = null;
+
+    return <T>(...args: T[]) => {
+
+      if (timer) window.clearTimeout(timer);
+
+      timer = window.setTimeout(() => {
+        callback(...args)
+      }, delay);
+    }
+  }
+
+  /**
+   * Выбрать все value с дерева (решение стеком 'очередью')
+   * */
+
+  treeValueExample: ExamplesValueTree = {
+    value: 1,
+    children: [
+      {
+        value: 2,
+        children: [
+          {value: 3}
+        ]
+      }, {
+        value: 4,
+        children: [
+          {value: 5},
+          {value: 6}
+        ]
+      },
+    ]
+  }
+
+  getTreeValueFromStack(tree: ExamplesValueTree): number[] {
+    const stack = [tree];
+    const result = [];
+
+    while (stack.length > 0) {
+      const node = stack.pop();
+
+      if (node?.value !== undefined) {
+        result.push(node.value);
+      }
+
+      if (node?.children?.length) {
+        stack.push(...node.children);
+      }
+    }
+
+    return result;
   }
 }

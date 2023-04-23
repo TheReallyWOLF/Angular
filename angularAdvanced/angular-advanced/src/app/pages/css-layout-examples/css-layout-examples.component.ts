@@ -27,6 +27,12 @@ export class CssLayoutExamplesComponent {
     }, {
       route: 'css-counter',
       name: 'CSS счетчик'
+    }, {
+      route: 'native-html-tags',
+      name: 'Нативные элементы верстки'
+    }, {
+      route: 'loading-example-one',
+      name: 'Загрузка...'
     }
   ]
 }

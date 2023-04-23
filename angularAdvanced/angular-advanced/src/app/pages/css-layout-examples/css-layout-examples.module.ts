@@ -11,6 +11,8 @@ import {MatIconModule} from "@angular/material/icon";
 import { AnimatedVerticalMenuComponent } from './animated-vertical-menu/animated-vertical-menu.component';
 import { DragAndDropApiComponent } from './drag-and-drop-api/drag-and-drop-api.component';
 import { CssCounterComponent } from './css-counter/css-counter.component';
+import { NativeHtmlTagsComponent } from './native-html-tags/native-html-tags.component';
+import { LoadingTextAnimationComponent } from './loading-text-animation/loading-text-animation.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { CssCounterComponent } from './css-counter/css-counter.component';
     SpecialNavigationMenuComponent,
     AnimatedVerticalMenuComponent,
     DragAndDropApiComponent,
-    CssCounterComponent
+    CssCounterComponent,
+    NativeHtmlTagsComponent,
+    LoadingTextAnimationComponent
   ],
     imports: [
         CommonModule,
