@@ -20,15 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="функция">
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/mixin/media-query-mixin.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/memory-game/card/shirt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/css-layout-examples.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-button/ui-button.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-button/ui-button.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/animated-vertical-menu/animated-vertical-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/loading-text-animation/loading-text-animation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/css-layout-examples/loading-text-animation/loading-text-animation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-button/ui-button.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-button/ui-button.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-button/ui-button.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-button/ui-button.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,25 +71,25 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../massageLandingPage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-advanced/src/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\assets\images\memory-game\card" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\memory-game\images" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\shared\models" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function\examples" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\assets" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\pipes" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\structureDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\shared\models" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function\examples" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -293,14 +305,15 @@
       <workItem from="1681124383806" duration="3536000" />
       <workItem from="1681982541356" duration="4430000" />
       <workItem from="1682069547139" duration="1778000" />
-      <workItem from="1682232188707" duration="3184000" />
-    </task>
-    <task id="LOCAL-00045" summary="vertical menu begin">
-      <created>1656320219680</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1656320219680</updated>
+      <workItem from="1682232188707" duration="3772000" />
+      <workItem from="1682340550911" duration="3037000" />
+      <workItem from="1682499349784" duration="5105000" />
+      <workItem from="1682597187740" duration="4327000" />
+      <workItem from="1683026062981" duration="1200000" />
+      <workItem from="1683187243861" duration="17369000" />
+      <workItem from="1683271012050" duration="4071000" />
+      <workItem from="1683472518078" duration="20229000" />
+      <workItem from="1683533925219" duration="7978000" />
     </task>
     <task id="LOCAL-00046" summary="vertical menu begin">
       <created>1656320223056</created>
@@ -638,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679487701670</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="пару css примеров">
+      <created>1682235987867</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1682235987868</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +677,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor" />
     <MESSAGE value="реализаций простейших игр (крестики нолики)" />
     <MESSAGE value="реализовать проверку" />
     <MESSAGE value="реализовать проверку =&gt; checkVictory" />
@@ -682,45 +701,49 @@
     <MESSAGE value="css-counter" />
     <MESSAGE value="пару алгоритмов" />
     <MESSAGE value="функция" />
-    <option name="LAST_COMMIT_MESSAGE" value="функция" />
+    <MESSAGE value="пару css примеров" />
+    <option name="LAST_COMMIT_MESSAGE" value="пару css примеров" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1682234316686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1682234316686" />
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1674474413356">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1683484040353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674474413356" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1682232681580">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683484040353" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1683539481249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1682232681580" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1682232681580">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683539481249" />
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1683539481249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1682232681580" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1682232681579">
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683539481249" />
+    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1683539481248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1682232681579" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1682232681580">
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683539481248" />
+    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1683539481249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1682232681580" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1679487716158">
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683539481249" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1682235992100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679487716158" />
-    <state x="651" y="329" width="771" height="592" key="find.popup" timestamp="1680256703074">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1682235992100" />
+    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1683484754828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680256703074" />
-    <state x="2798" y="294" width="764" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1674484179340" />
-    <state x="342" y="140" key="new project wizard" timestamp="1674473789410">
+    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683484754828" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1683496270856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1674473789410" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683496270856" />
   </component>
 </project>

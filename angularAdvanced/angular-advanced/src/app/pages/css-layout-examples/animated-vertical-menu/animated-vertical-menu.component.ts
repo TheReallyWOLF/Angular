@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'animated-vertical-menu',
   templateUrl: './animated-vertical-menu.component.html',
-  styleUrls: ['./animated-vertical-menu.component.sass']
+  styleUrls: ['./animated-vertical-menu.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AnimatedVerticalMenuComponent {
   public active: number = 0;

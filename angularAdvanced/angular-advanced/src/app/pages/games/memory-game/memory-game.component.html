@@ -1,0 +1,50 @@
+<div class="memory-game">
+
+  <div class="actions">
+    <ui-button [type]="'primary-danger'" [disabled]="lock" (click)="startGame()">
+      {{ isGameStarted ? 'В меню' : 'Начать' }}
+    </ui-button>
+    <div *ngIf="isGameStarted" class="label">Счет: {{ movesCounts }}</div>
+  </div>
+  <!-- опции -->
+  <div class="game-options" *ngIf="!isGameStarted; else gameField">
+    <div class="label main">
+      <div>Итоговое количество карточек: {{ options | memoryGameDifficultyNamePipe: true }}</div>
+      <div>{{ options | memoryGameDifficultyNamePipe }}</div>
+      </div>
+    <div class="label">
+      Количество видов картинок: {{ options.difficulty }}
+    </div>
+    <div class="actions">
+      <ui-button *ngFor="let difficulty of difficultyGameActions;"
+                 class="difficulty"
+                 [active]="options.difficulty === difficulty.difficulty"
+                 (click)="changeDifficulty(difficulty.difficulty)"
+      >
+        {{ difficulty.name }}
+      </ui-button>
+    </div>
+    <div class="label">
+      Собрать цепочку из {{ options.coincidences }} одинаковых картинок
+    </div>
+    <div class="actions">
+      <ui-button *ngFor="let coincidences of coincidencesGameActions;"
+                 [active]="options.coincidences === coincidences.coincidences"
+                 class="difficulty"
+                 (click)="options.coincidences = coincidences.coincidences"
+      >
+        {{ coincidences.name }}
+      </ui-button>
+    </div>
+  </div>
+  <!-- игровое поле -->
+  <ng-template #gameField>
+    <div class="play-field">
+      <div *ngFor="let card of gameCards;"
+           class="card"
+           (click)="selectCard(card)"
+           [style.background-image]="'url(' + (card.active ? card.url : shirt) + ')'">
+      </div>
+    </div>
+  </ng-template>
+</div>

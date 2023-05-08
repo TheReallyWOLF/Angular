@@ -6,6 +6,7 @@ import {GamePresentationPageComponent} from "./game-presentation-page/game-prese
 import {GameFieldComponent} from "./game-field/game-field.component";
 import {GameTicTacToeComponent} from "./game-tic-tac-toe/game-tic-tac-toe.component";
 import {GameSeaBattleComponent} from "./game-sea-battle/game-sea-battle.component";
+import {MemoryGameComponent} from "./memory-game/memory-game.component";
 
 const routes: Routes = [
   {
@@ -30,6 +31,9 @@ const routes: Routes = [
       },{
         path: 'game-sea-​​battle',
         component: GameSeaBattleComponent
+      },{
+        path: 'memory-game',
+        component: MemoryGameComponent
       }
     ]
   }];

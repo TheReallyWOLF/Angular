@@ -17,6 +17,9 @@ export class GamesComponent {
     }, {
       route: 'game-sea-​​battle',
       name: 'Игра: Морской бой !!ALFA!!'
+    }, {
+      route: 'memory-game',
+      name: 'Игра: Карточки с запоминанием'
     }
   ]
 }

@@ -14,6 +14,8 @@ import { GameTicTacToeComponent } from './game-tic-tac-toe/game-tic-tac-toe.comp
 import {HomeModule} from "../home/home.module";
 import {MatIconModule} from "@angular/material/icon";
 import { GameSeaBattleComponent } from './game-sea-battle/game-sea-battle.component';
+import { MemoryGameComponent } from './memory-game/memory-game.component';
+import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficulty-name.pipe';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { GameSeaBattleComponent } from './game-sea-battle/game-sea-battle.compon
     GamePresentationPageComponent,
     GameFieldComponent,
     GameTicTacToeComponent,
-    GameSeaBattleComponent
+    GameSeaBattleComponent,
+    MemoryGameComponent,
+    MemoryGameDifficultyNamePipe
   ],
   imports: [
     CommonModule,
