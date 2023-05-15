@@ -1,4 +1,14 @@
 <div class="memory-game">
+<!-- TODO wolf вынести модалку в свой ui компонент -->
+  <dialog #dialogRef
+          [open]="false"
+          (click)="closeModal()">
+    <div>вы победили общая сложность: {{ this.options.difficulty * this.options.coincidences }}</div>
+    <div>счет {{ movesCounts }}</div>
+    <ui-button size="sm">
+      Хорошо
+    </ui-button>
+  </dialog>
 
   <div class="actions">
     <ui-button [type]="'primary-danger'" [disabled]="lock" (click)="startGame()">
@@ -19,8 +29,7 @@
       <ui-button *ngFor="let difficulty of difficultyGameActions;"
                  class="difficulty"
                  [active]="options.difficulty === difficulty.difficulty"
-                 (click)="changeDifficulty(difficulty.difficulty)"
-      >
+                 (click)="changeDifficulty(difficulty.difficulty)">
         {{ difficulty.name }}
       </ui-button>
     </div>
@@ -31,8 +40,7 @@
       <ui-button *ngFor="let coincidences of coincidencesGameActions;"
                  [active]="options.coincidences === coincidences.coincidences"
                  class="difficulty"
-                 (click)="options.coincidences = coincidences.coincidences"
-      >
+                 (click)="options.coincidences = coincidences.coincidences">
         {{ coincidences.name }}
       </ui-button>
     </div>

@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, ChangeDetectorRef, Component} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, ViewChild} from '@angular/core';
 import {interval, of} from 'rxjs';
 import {delay, take} from 'rxjs/operators';
 import {takeUntilDestroyed} from "../../../shared/rxjsPipe/takeUntilDestroyed";
@@ -31,21 +31,6 @@ export interface MemoryGameOptions {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MemoryGameComponent {
-
-  movesCounts: number = 0;
-  isGameStarted: boolean = false;
-  activeCards: Card[] = [];
-  currentImage: string = '';
-  foundImages: string[] = [];
-  lock: boolean = false;
-  options: MemoryGameOptions = {
-    difficulty: 2,
-    coincidences: 2
-  }
-  gameCards: Card[] = [];
-  gameCardImages: string[] = [];
-  gameCardArray: string[] = [];
-
   readonly difficultyGameActions: DifficultyActions[] = [
     {name: 'очень легко', difficulty: 2},
     {name: 'легко', difficulty: 4},
@@ -74,6 +59,23 @@ export class MemoryGameComponent {
     'assets/images/memory-game/card/11.png',
   ];
 
+  movesCounts: number = 0;
+  isGameStarted: boolean = false;
+  activeCards: Card[] = [];
+  currentImage: string = '';
+  foundImages: string[] = [];
+  lock: boolean = false;
+  options: MemoryGameOptions = {
+    difficulty: 2,
+    coincidences: 2
+  }
+  gameCards: Card[] = [];
+  gameCardImages: string[] = [];
+  gameCardArray = this.cardArray.slice(0, this.options.difficulty);
+
+  @ViewChild("dialogRef", {static: false})
+  dialogRef!: ElementRef;
+
   constructor(private ref: ChangeDetectorRef) {}
 
   /**
@@ -90,9 +92,9 @@ export class MemoryGameComponent {
     this.showCardsOneByOne();
   }
 
-
   /**
-   * В начале игры показывает по одной карточке каждые delay секунд и потом по дной их закрывает
+   * Создает карточки перед игрой
+   * И показывает по одной карточке каждые delay секунд и потом по дной их закрывает
    * */
   showCardsOneByOne(delay: number = 100) {
     this.lock = true;
@@ -155,9 +157,8 @@ export class MemoryGameComponent {
       this.currentImage = '';
       this.activeCards = this.activeCards.map(card => {
         card.active = false;
-        return card
+        return card;
       });
-      this.ref.markForCheck();
       this.activeCards = [];
     }
 
@@ -166,12 +167,18 @@ export class MemoryGameComponent {
       this.foundImages.push(this.currentImage);
       this.activeCards = [];
       this.currentImage = '';
-      this.ref.markForCheck();
     }
 
     this.lock = false;
     this.ref.markForCheck();
+
+    this.checkIsGameOver()
   }
+
+  checkIsGameOver(): void {
+    if (this.foundImages.length === this.options.difficulty) this.dialogRef.nativeElement.showModal();
+  }
+
 
   getStarted(): void {
     this.getGameCards(this.options.coincidences);
@@ -180,6 +187,12 @@ export class MemoryGameComponent {
 
   shuffleCardArray(): void {
     this.gameCards.sort(() => 0.5 - Math.random());
+  }
+
+  closeModal(): void {
+    this.dialogRef.nativeElement.close();
+    this.toggleGameField();
+    // TODO wolf записать в стор счет и сделать кнопки с таблицей из стора
   }
 
 
@@ -212,7 +225,6 @@ export class MemoryGameComponent {
     this.gameCards = [];
     this.gameCardImages = [];
     this.currentImage = '';
-    this.gameCards = [];
     this.movesCounts = 0;
   }
 }
