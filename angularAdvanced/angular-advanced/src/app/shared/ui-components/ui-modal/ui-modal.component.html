@@ -1,0 +1,15 @@
+<dialog #dialogRef
+        class="ui-modal"
+        [class.p32] = "padding === 'extraLarge'"
+        [class.p20] = "padding === 'large'"
+        [class.p16] = "padding === 'medium'"
+        [class.p8] = "padding === 'small'"
+        [class.p4] = "padding === 'extraSmall'"
+        [open]="false">
+  <div class="ui-modal__cross-box"
+       [class.hide] = "hideCross"
+       [class.right] = "right">
+    <div (click)="closeModal.emit()" class="ui-modal__cross"></div>
+  </div>
+  <ng-content></ng-content>
+</dialog>

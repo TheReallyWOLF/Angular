@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, ViewChild} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component} from '@angular/core';
 import {interval, of} from 'rxjs';
 import {delay, take} from 'rxjs/operators';
 import {takeUntilDestroyed} from "../../../shared/rxjsPipe/takeUntilDestroyed";
@@ -59,6 +59,7 @@ export class MemoryGameComponent {
     'assets/images/memory-game/card/11.png',
   ];
 
+  openWinModal: boolean = false;
   movesCounts: number = 0;
   isGameStarted: boolean = false;
   activeCards: Card[] = [];
@@ -72,9 +73,6 @@ export class MemoryGameComponent {
   gameCards: Card[] = [];
   gameCardImages: string[] = [];
   gameCardArray = this.cardArray.slice(0, this.options.difficulty);
-
-  @ViewChild("dialogRef", {static: false})
-  dialogRef!: ElementRef;
 
   constructor(private ref: ChangeDetectorRef) {}
 
@@ -176,7 +174,7 @@ export class MemoryGameComponent {
   }
 
   checkIsGameOver(): void {
-    if (this.foundImages.length === this.options.difficulty) this.dialogRef.nativeElement.showModal();
+    if (this.foundImages.length === this.options.difficulty) this.openWinModal = true;
   }
 
 
@@ -190,7 +188,7 @@ export class MemoryGameComponent {
   }
 
   closeModal(): void {
-    this.dialogRef.nativeElement.close();
+    this.openWinModal = !this.openWinModal;
     this.toggleGameField();
     // TODO wolf записать в стор счет и сделать кнопки с таблицей из стора
   }

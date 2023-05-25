@@ -4,17 +4,17 @@ $tablet-screen: 780px
 $mobile-screen: 600px
 
 @mixin widescreen
-  @media screen and (min-width: $mobile-screen)
+  @media screen and (max-width: $mobile-screen)
     @content
 
 @mixin desktop
-  @media screen and (min-width: $mobile-screen)
+  @media screen and (max-width: $mobile-screen)
     @content
 
 @mixin tablet
-  @media screen and (min-width: $mobile-screen)
+  @media screen and (max-width: $mobile-screen)
     @content
 
 @mixin mobile
-  @media screen and (min-width: $mobile-screen)
+  @media screen and (max-width: $mobile-screen)
     @content

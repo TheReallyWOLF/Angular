@@ -6,6 +6,7 @@ import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import { UiPanelComponent } from './ui-panel/ui-panel.component';
 import { UiCardComponent } from './ui-card/ui-card.component';
 import { UiAlertBoxComponent } from './ui-alert-box/ui-alert-box.component';
+import { UiModalComponent } from './ui-modal/ui-modal.component';
 
 
 
@@ -15,15 +16,17 @@ import { UiAlertBoxComponent } from './ui-alert-box/ui-alert-box.component';
     UiInputComponent,
     UiPanelComponent,
     UiCardComponent,
-    UiAlertBoxComponent
+    UiAlertBoxComponent,
+    UiModalComponent
   ],
-  exports: [
-    UiButtonComponent,
-    UiInputComponent,
-    UiPanelComponent,
-    UiCardComponent,
-    UiAlertBoxComponent
-  ],
+    exports: [
+        UiButtonComponent,
+        UiInputComponent,
+        UiPanelComponent,
+        UiCardComponent,
+        UiAlertBoxComponent,
+        UiModalComponent
+    ],
   imports: [
     FormsModule,
     ReactiveFormsModule,

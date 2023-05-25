@@ -1,14 +1,15 @@
 <div class="memory-game">
-<!-- TODO wolf вынести модалку в свой ui компонент -->
-  <dialog #dialogRef
-          [open]="false"
-          (click)="closeModal()">
-    <div>вы победили общая сложность: {{ this.options.difficulty * this.options.coincidences }}</div>
-    <div>счет {{ movesCounts }}</div>
-    <ui-button size="sm">
+  <ui-modal [openModal]="openWinModal"
+            [hideCross]="true"
+            (closeModal)="closeModal()">
+    <div class="dialog-title">вы победили общая сложность: {{ options | memoryGameDifficultyNamePipe: true }}</div>
+    <div class="dialog-content">счет: {{ movesCounts }}</div>
+    <ui-button
+      (click)="closeModal()"
+      size="sm">
       Хорошо
     </ui-button>
-  </dialog>
+  </ui-modal>
 
   <div class="actions">
     <ui-button [type]="'primary-danger'" [disabled]="lock" (click)="startGame()">
