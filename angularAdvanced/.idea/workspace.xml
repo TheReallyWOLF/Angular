@@ -19,14 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="доработка карточек&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui'&#10;3 стили в модальное окно">
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-modal/image/cross.png" afterDir="false" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="доработка карточек&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui доработать'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/mixin/media-query-mixin.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/mixin/media-query-mixin.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/functions.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/functions.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -707,34 +705,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683484040353" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1685021623993">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1685203387906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685021623993" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203387906" />
     <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1685021623993">
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1685203387906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685021623993" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203387906" />
     <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1685021623993">
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1685203387906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685021623993" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203387906" />
     <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1685021623993">
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1685203387906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685021623993" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203387906" />
     <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
+    <state x="700" y="240" key="RollbackChangesDialog" timestamp="1685203949928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203949928" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1684176706947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684176706947" />
-    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1685034277374">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685193627898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685034277374" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685193627898" />
+    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1685203922553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203922553" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1683496270856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

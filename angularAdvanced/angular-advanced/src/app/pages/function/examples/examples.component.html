@@ -1,13 +1,23 @@
 <div class="examples">
   <div class="examples__title">Примеры кастомных скриптов</div>
+  <ui-input
+    [label]="'Поиск по заголовку'"
+    [field]=$any(form.controls.search)
+  >
+  </ui-input>
   <div class="examples__cards">
-    <example-card class="examples__card"
-                  *ngFor="let card of cards"
-                  [title]="card.title"
-                  [subTitle]="card.subTitle">
+    <div class="examples__card"
+         prepareViewObserver
+         *ngFor="let card of searchCards">
+
+      <example-card class="hide"
+                    [title]="card.title"
+                    [subTitle]="card.subTitle">
       <pre>
-    {{ card.script }}
+        {{ card.script }}
       </pre>
-    </example-card>
+      </example-card>
+
+    </div>
   </div>
 </div>

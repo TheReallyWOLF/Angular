@@ -9,6 +9,7 @@ import {ExamplesComponent} from './examples/examples.component';
 import {AlgorithmExampleComponent} from './algorithms/algorithm-example/algorithm-example.component';
 import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 import { ExampleCardComponent } from './examples/example-card/example-card.component';
+import {PrepareViewObserverDirective} from "../../shared/directive/globalDirective/prepare-view-observer.directive";
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ExampleCardComponent } from './examples/example-card/example-card.compo
     AlgorithmsComponent,
     ExamplesComponent,
     AlgorithmExampleComponent,
-    ExampleCardComponent
+    ExampleCardComponent,
+    PrepareViewObserverDirective
   ],
   imports: [
     CommonModule,

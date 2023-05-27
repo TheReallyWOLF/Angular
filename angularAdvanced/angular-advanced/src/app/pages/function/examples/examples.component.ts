@@ -1,4 +1,7 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component} from '@angular/core';
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {takeUntilDestroyed} from "../../../shared/rxjsPipe/takeUntilDestroyed";
+import {debounceTime} from "rxjs/operators";
 
 export interface INode {
   value: number;
@@ -58,7 +61,60 @@ export class ExamplesComponent {
     title: 'Выбрать все value из дерева',
     subTitle: 'Выбирает все value и возращает массив из дерева с любой вложеностью работает стеком а не рекурсией',
     script: this.getTreeValueFromStack
+  },{
+    title: 'Полифил на Debounce',
+    subTitle: 'Самописный аналог debounce функции для работы с нативным TS',
+    script: this.debouncePolyfill
+  },{
+    title: 'Полифил на Throttle',
+    subTitle: 'Throttle пропускает вызов функции если прошлый вызоы еще не завершен (в отличии от дебаунс запускает ф-ю callback сразу)',
+    script: this.customThrottle
+  },{
+    title: 'Полифил на bind',
+    subTitle: 'полифил bind с расширением глобального прототипа через apply (так не надо делать)',
+    script: this.setBindPolyfill
   }];
+
+  public searchCards = [...this.cards];
+
+  public form!: FormGroup;
+
+  constructor(private formBuilder: FormBuilder, private changeDetectorRef: ChangeDetectorRef) {}
+
+  ngOnInit(): void {
+    this.createForm();
+    this.onChangeSearchFieldSubscribe();
+  }
+
+  createForm(): void {
+    this.form = this.formBuilder.group({
+      search: [ '',
+        [Validators.minLength(3)]
+      ],
+    });
+  }
+
+  onChangeSearchFieldSubscribe(): void {
+    this.form.controls['search'].valueChanges
+      .pipe(
+        takeUntilDestroyed(this),
+        debounceTime(500))
+      .subscribe(value => this.onSearch(value));
+  }
+
+  onSearch(value: string) {
+    if (this.form.valid) {
+      this.searchCards = this.cards.filter(card => {
+        const searchString = (card.subTitle + ' ' + card.title).toLowerCase();
+        const searchValue = value.toLowerCase();
+
+        return searchString.indexOf(searchValue) !== -1 ? card : void 0
+      });
+      this.changeDetectorRef.markForCheck();
+    }
+  }
+
+//-----------------------------------------------------ФУНКЦИИ-----------------------------------------------------//
 
   characters(str: string) {
     return str.split('').reduce((acc: {[name: string]: number}, char) => {
@@ -152,6 +208,30 @@ export class ExamplesComponent {
   }
 
   /**
+   *  Свой (полифил на ts) Throttle
+   *  throttle() решает эту проблему, «пропуская» некоторые вызовы функции-обработчика. Она будет принимать функцию, которую необходимо «попропускать».
+   * */
+
+  customThrottle(callback: Function, delay: number): Function {
+    // таймер сохраняется в качестве стейта функции при 1 запуске
+
+    let timer: number | null;
+
+    return <T>(...args: T[]) => {
+
+      if (timer) return;
+
+      timer = window.setTimeout(() => {
+        callback(...args);
+
+        // По окончании очищаем таймер:
+        timer && window.clearTimeout(timer);
+        timer = null;
+      }, delay);
+    }
+  }
+
+  /**
    * Кастомный дебаунс
    * */
 
@@ -161,6 +241,7 @@ export class ExamplesComponent {
 
   customDebounce(callback: Function, delay: number): Function {
     // таймер сохраняется в качестве стейта функции при 1 запуске
+
     let timer: number | null = null;
 
     return <T>(...args: T[]) => {
@@ -170,6 +251,22 @@ export class ExamplesComponent {
       timer = window.setTimeout(() => {
         callback(...args)
       }, delay);
+    }
+  }
+
+  /**
+   * Свой (полифил на ts) Debounce
+   * */
+
+  debouncePolyfill<Params extends unknown[]>(callback: (...args: Params) => unknown, timeout: number,): (...args: Params) => void {
+    let timer: ReturnType<typeof setTimeout>;
+
+    return (...args: Params) => {
+      clearTimeout(timer);
+
+      timer = setTimeout(() => {
+        callback(...args);
+      }, timeout);
     }
   }
 
@@ -196,8 +293,8 @@ export class ExamplesComponent {
   }
 
   getTreeValueFromStack(tree: ExamplesValueTree): number[] {
-    const stack = [tree];
-    const result = [];
+    const stack: ExamplesValueTree[] = [tree];
+    const result: number[] = [];
 
     while (stack.length > 0) {
       const node = stack.pop();
@@ -212,5 +309,20 @@ export class ExamplesComponent {
     }
 
     return result;
+  }
+
+  /**
+   * Свой (полифил на ts) Bind foo.myBind(this, 1, 2, 3)
+   * */
+
+  setBindPolyfill(): void {
+    // @ts-ignore
+    Function.prototype.myBind = function (obj: unknown, ...args: unknown[]): Function {
+      let func = this;
+
+      return function (...newArgs: unknown[]) {
+        func.apply(obj, [...args, ...newArgs]);
+      };
+    };
   }
 }
