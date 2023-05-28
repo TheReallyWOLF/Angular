@@ -7,10 +7,11 @@
   </ui-input>
   <div class="examples__cards">
     <div class="examples__card"
-         prepareViewObserver
+         [item]="card"
+         (prepareViewObserver) = changeDiscoveryElement($event);
          *ngFor="let card of searchCards">
 
-      <example-card class="hide"
+      <example-card *ngIf="!card.hide"
                     [title]="card.title"
                     [subTitle]="card.subTitle">
       <pre>

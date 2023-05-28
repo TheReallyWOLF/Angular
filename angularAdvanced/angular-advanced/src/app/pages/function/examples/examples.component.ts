@@ -14,6 +14,13 @@ export interface ExamplesValueTree {
   children?: ExamplesValueTree[];
 }
 
+export interface Card {
+  title: string;
+  subTitle: string;
+  script: Function;
+  hide: boolean;
+}
+
 @Component({
   selector: 'app-examples',
   templateUrl: './examples.component.html',
@@ -21,61 +28,74 @@ export interface ExamplesValueTree {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ExamplesComponent {
-  public readonly cards = [{
+  public readonly cards: Card[] = [{
     title: 'Уникальная сортировка',
     subTitle: 'Сортирует числовой массив и удаляет повторяющиеся элементы. Пример: Вход - [4,2,3,4,1], Выход - [1,2,3,4]',
-    script: this.sortedUniq
+    script: this.sortedUniq,
+    hide: false
   },{
     title: 'Посчитать количество каждого символа',
     subTitle: 'Считает количество повторений в строке для каждого символа. Пример: Вход - \'aaabbbccc\' Выход -  {a:3, b:3, c:3}',
-    script: this.characters
+    script: this.characters,
+    hide: false
   },{
     title: 'Посчитать сумму всех value в дереве',
     subTitle: 'Считает сумму всех value в дереве INode с неизвестным количеством вложенностей где<br>INode: {<br>&nbsp;&nbsp;&nbsp;value: number;<br>&nbsp;&nbsp;&nbsp;left?: INode;<br>&nbsp;&nbsp;&nbsp;right?: INode;<br>}',
-    script: this.sumTree
+    script: this.sumTree,
+    hide: false
   },{
     title: 'Факториал рекурсией',
     subTitle: 'Высчитывает факториал рекурсией',
-    script: this.recursionFactorial
+    script: this.recursionFactorial,
+    hide: false
   },{
     title: 'Факториал циклом',
     subTitle: 'Высчитывает факториал циклом и не забивает стек',
-    script: this.cycleFactorial
+    script: this.cycleFactorial,
+    hide: false
   },{
     title: 'Палиндром рекурсией',
     subTitle: 'Проверяет палиндром рекурсией',
-    script: this.recursionIsPalindrome
+    script: this.recursionIsPalindrome,
+    hide: false
   },{
     title: 'Палиндром циклом',
     subTitle: 'Проверяет палиндром циклом и не забивает стек',
-    script: this.cycleIsPalindrome
+    script: this.cycleIsPalindrome,
+    hide: false
   },{
     title: 'Вхождение строки',
     subTitle: 'Проверка входят ли символы word в состав letters',
-    script: this.canConstructWord
+    script: this.canConstructWord,
+    hide: false
   },{
     title: 'Свой debounce',
     subTitle: 'Запускает кол-бек функцию с задержкой',
-    script: this.customDebounce
+    script: this.customDebounce,
+    hide: false
   },{
     title: 'Выбрать все value из дерева',
     subTitle: 'Выбирает все value и возращает массив из дерева с любой вложеностью работает стеком а не рекурсией',
-    script: this.getTreeValueFromStack
+    script: this.getTreeValueFromStack,
+    hide: false
   },{
     title: 'Полифил на Debounce',
     subTitle: 'Самописный аналог debounce функции для работы с нативным TS',
-    script: this.debouncePolyfill
+    script: this.debouncePolyfill,
+    hide: false
   },{
     title: 'Полифил на Throttle',
     subTitle: 'Throttle пропускает вызов функции если прошлый вызоы еще не завершен (в отличии от дебаунс запускает ф-ю callback сразу)',
-    script: this.customThrottle
+    script: this.customThrottle,
+    hide: false
   },{
     title: 'Полифил на bind',
     subTitle: 'полифил bind с расширением глобального прототипа через apply (так не надо делать)',
-    script: this.setBindPolyfill
+    script: this.setBindPolyfill,
+    hide: false
   }];
 
-  public searchCards = [...this.cards];
+  public searchCards: Card[] = [...this.cards];
 
   public form!: FormGroup;
 
@@ -84,6 +104,10 @@ export class ExamplesComponent {
   ngOnInit(): void {
     this.createForm();
     this.onChangeSearchFieldSubscribe();
+  }
+
+  changeDiscoveryElement(event: {visible: boolean, item: Card}): void {
+    event.item.hide = !event.visible;
   }
 
   createForm(): void {
