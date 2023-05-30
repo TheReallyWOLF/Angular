@@ -22,11 +22,6 @@
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/globalDirective/prepare-view-observer.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/globalDirective/prepare-view-observer.directive.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,14 +309,7 @@
       <workItem from="1685269055796" duration="2804000" />
       <workItem from="1685298055206" duration="2376000" />
       <workItem from="1685344844044" duration="10370000" />
-      <workItem from="1685421790011" duration="11213000" />
-    </task>
-    <task id="LOCAL-00050" summary="новый модуль&#10;настройка места для создания игр">
-      <created>1657912553897</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1657912553898</updated>
+      <workItem from="1685421790011" duration="13303000" />
     </task>
     <task id="LOCAL-00051" summary="Игровая сетка">
       <created>1657986806340</created>
@@ -659,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685262858041</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="оптимизировал работу скрипта на 4 порядка&#10;&#10;+ подготовка к новой игре&#10;+ мелкие оптимизации">
+      <created>1685437806332</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1685437806334</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,7 +673,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы" />
     <MESSAGE value="сдлеать комп + окно оповещения (ui)" />
     <MESSAGE value="подготовка к морскому бою v0.1" />
     <MESSAGE value="директива для оповещения" />
@@ -703,7 +697,8 @@
     <MESSAGE value="доработка карточек&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui'&#10;3 стили в модальное окно" />
     <MESSAGE value="Подписка на элементы попадающие во вью порт&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
     <MESSAGE value="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
+    <MESSAGE value="оптимизировал работу скрипта на 4 порядка&#10;&#10;+ подготовка к новой игре&#10;+ мелкие оптимизации" />
+    <option name="LAST_COMMIT_MESSAGE" value="оптимизировал работу скрипта на 4 порядка&#10;&#10;+ подготовка к новой игре&#10;+ мелкие оптимизации" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="383" key="#Notifications" timestamp="1685386047074">
@@ -718,34 +713,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683484040353" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1685427767152">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1685437806141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437806141" />
+    <state width="1877" height="71" key="GridCell.Tab.0.bottom" timestamp="1685437774624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437774624" />
     <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1685427767152">
+    <state width="1877" height="71" key="GridCell.Tab.0.center" timestamp="1685437774624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
+    <state width="1877" height="71" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437774624" />
     <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1685427767152">
+    <state width="1877" height="71" key="GridCell.Tab.0.left" timestamp="1685437774623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
+    <state width="1877" height="71" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437774623" />
     <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1685427767152">
+    <state width="1877" height="71" key="GridCell.Tab.0.right" timestamp="1685437774624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
+    <state width="1877" height="71" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437774624" />
     <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
     <state x="700" y="240" key="RollbackChangesDialog" timestamp="1685203949928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203949928" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1685262871727">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1685437814988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685262871727" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437814988" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685193627898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

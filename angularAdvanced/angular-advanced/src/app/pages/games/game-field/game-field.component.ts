@@ -79,25 +79,18 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   start(): void {
-    const binaryLength = Math.ceil(this.GameOptions.field / 2);
+    for (let row = 0; row < this.GameOptions.field; row++) {
+      for (let cell = 0; cell < this.GameOptions.field; cell++) {
 
-    for (let row = 0; row < binaryLength; row++) {
-      for (let cell = 0; cell < binaryLength; cell++) {
-
-        let binaryRowOffset = this.GameOptions.field - row - 1;
-        let binaryCellOffset = this.GameOptions.field - cell - 1;
-
-        this.reverseGame(row, cell);
-        this.reverseGame(binaryRowOffset, cell);
-        this.reverseGame(row, binaryCellOffset);
-        this.reverseGame(binaryRowOffset, binaryCellOffset);
-
+       this.reverseGame(row, cell);
       }
     }
+
     // перерисовка представления выполняется 1 раз на каждый цикл прохода по полю а не каждое изменение в ячейке
     this.field = Object.assign([], this.shadowField);
     this.resetShadowField();
   }
+
   /**
    * Жизнь (вариант игры)
    * */
