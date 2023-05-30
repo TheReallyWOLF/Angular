@@ -1,4 +1,4 @@
-import {AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, OnDestroy, OnInit} from '@angular/core';
+import {AfterViewInit, ChangeDetectionStrategy, Component, OnDestroy, OnInit} from '@angular/core';
 import {Select} from "@ngxs/store";
 import {Observable, Subject} from "rxjs";
 import {GameOptions, GameInverseMatrixState} from "../game-inverse-matrix/state/game-inverse-matrix.state";
@@ -25,9 +25,7 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
   private shadowField: number[][] = [];
 
   private destroy$ = new Subject<void>();
-  constructor(private _location: Location,
-              private ref: ChangeDetectorRef
-  ) { }
+  constructor(private _location: Location) { }
 
   ngOnInit(): void {
     this.getDeathRule();
@@ -81,17 +79,35 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   start(): void {
-    for (let row = 0; row < this.GameOptions.field; row++) {
-      for (let cell = 0; cell < this.GameOptions.field; cell++) {
+    const binaryLength = Math.ceil(this.GameOptions.field / 2);
 
-       this.reverseGame(row, cell);
+    for (let row = 0; row < binaryLength; row++) {
+      for (let cell = 0; cell < binaryLength; cell++) {
+
+        let binaryRowOffset = this.GameOptions.field - row - 1;
+        let binaryCellOffset = this.GameOptions.field - cell - 1;
+
+        this.reverseGame(row, cell);
+        this.reverseGame(binaryRowOffset, cell);
+        this.reverseGame(row, binaryCellOffset);
+        this.reverseGame(binaryRowOffset, binaryCellOffset);
 
       }
     }
-
+    // перерисовка представления выполняется 1 раз на каждый цикл прохода по полю а не каждое изменение в ячейке
     this.field = Object.assign([], this.shadowField);
     this.resetShadowField();
   }
+  /**
+   * Жизнь (вариант игры)
+   * */
+  lifeGame(row: number, cell: number): void {
+    // resurrection: number, dying: number
+    // при resurrection >= количество соседних клеток с 0 = 1
+    // при dying >= количество соседних клеток с 0 = 0
+  }
+
+
   /**
    * Реверсивная матрица (вариант игры)
    * */

@@ -25,10 +25,10 @@ export class GameInverseMatrixComponent implements OnInit {
     private store: Store) {}
 
   ngOnInit(): void {
-    this._createForm();
+    this.createForm();
   }
 
-  private _createForm() {
+  private createForm() {
     this.formGroup = this.fb.group({
       field: new FormControl(10, {
         validators: [Validators.required, Validators.min(10),  Validators.max(300)]

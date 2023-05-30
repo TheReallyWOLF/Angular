@@ -20,6 +20,9 @@ export class GamesComponent {
     }, {
       route: 'memory-game',
       name: 'Игра: Карточки с запоминанием'
+    }, {
+      route: 'hero-battle-options',
+      name: 'Игра: Автобатлер героем'
     }
   ]
 }

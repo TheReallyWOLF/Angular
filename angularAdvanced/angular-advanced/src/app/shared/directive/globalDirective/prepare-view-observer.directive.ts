@@ -1,6 +1,21 @@
 import {Directive, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
+
 /**
- * Дтректива которая трегерит евент при попадании или выходе элемента во вью порт
+ * Удалять подписку когда
+ * VIEW элемент попал первый раз во вью порт
+ * VIEW элемент вышел перыцй раз из вью порта
+ * ALL в любом из случав при первом тригере
+ * DEFAULT только при уничтожении родителя
+ * */
+export enum ViewObserverMode {
+  VIEW = 'view',
+  HIDE = 'hide',
+  ALL = 'all',
+  DEFAULT = 'default'
+}
+
+/**
+ * Директива которая трегерит евент при попадании или выходе элемента во вью порт
  * */
 @Directive({
   selector: '[prepareViewObserver]'
@@ -15,6 +30,9 @@ export class PrepareViewObserverDirective implements OnInit, OnDestroy {
 
   @Input()
   item: unknown = {};
+
+  @Input()
+  mode: ViewObserverMode = ViewObserverMode.DEFAULT;
 
   @Output()
   prepareViewObserver = new EventEmitter();
@@ -35,14 +53,27 @@ export class PrepareViewObserverDirective implements OnInit, OnDestroy {
    * */
   viewCallback(entries: IntersectionObserverEntry[]): void {
     entries.forEach(entry => {
-      entry.isIntersecting ?
-        this.prepareViewObserver.emit({visible: true, item: this.item}) :
-        this.prepareViewObserver.emit({visible: false, item: this.item})
+      this.prepareViewObserverEmitter(entry.isIntersecting);
+      this.viewObserverUnobserve(entry.isIntersecting, this.mode);
     });
   }
 
-  ngOnDestroy(): void {
+  prepareViewObserverEmitter(isIntersecting: boolean): void {
+    this.prepareViewObserver.emit({visible: isIntersecting, item: this.item});
+  }
+
+  viewObserverUnobserve(isIntersecting: boolean, mode: ViewObserverMode): void {
+    if (mode === ViewObserverMode.DEFAULT) return;
+    if (mode === ViewObserverMode.ALL) return this.observerUnobserveAction();
+    if (isIntersecting && mode === ViewObserverMode.VIEW) return this.observerUnobserveAction();
+    if (!isIntersecting && mode === ViewObserverMode.HIDE) return this.observerUnobserveAction();
+  }
+
+  observerUnobserveAction(): void {
     this.intersectionObserver?.unobserve(this.elementRef.nativeElement);
   }
 
+  ngOnDestroy(): void {
+    this.observerUnobserveAction();
+  }
 }

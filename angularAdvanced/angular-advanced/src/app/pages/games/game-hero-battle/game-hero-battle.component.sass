@@ -1,0 +1,32 @@
+@use 'src/app/shared/mixin/no-text-select-mixin' as noSelect
+
+.game-field
+  top: 0
+  left: 0
+  height: 100vh
+  z-index: 100
+  padding: 8px
+  min-width: 100%
+  position: absolute
+  background: white
+
+  &__nav
+    gap: 12px
+    display: flex
+    padding: 12px
+
+  &__button
+    width: 100px
+    display: block
+
+  &__field
+    display: flex
+    flex-direction: column
+
+  &__row
+    display: flex
+
+  &__main
+    display: flex
+    align-items: center
+    justify-content: center

@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подписка на элементы попадающие во вью порт&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui доработать'">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/function/examples/examples.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/globalDirective/prepare-view-observer.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/globalDirective/prepare-view-observer.directive.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,19 +63,19 @@
     <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\ui-components\ui-modal\image" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\assets\images\memory-game\card" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\memory-game\images" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\shared\models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\assets" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\pipes" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\structureDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\ui-components\ui-modal\image" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\assets\images\memory-game\card" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\memory-game\images" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\shared\models" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\function\examples" />
     </key>
   </component>
   <component name="RunManager">
@@ -307,14 +310,11 @@
       <workItem from="1685017694331" duration="14962000" />
       <workItem from="1685213720888" duration="39000" />
       <workItem from="1685219718474" duration="2610000" />
-      <workItem from="1685260543263" duration="2107000" />
-    </task>
-    <task id="LOCAL-00049" summary="новый модуль&#10;настройка места для создания игр">
-      <created>1657912512798</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1657912512798</updated>
+      <workItem from="1685260543263" duration="5008000" />
+      <workItem from="1685269055796" duration="2804000" />
+      <workItem from="1685298055206" duration="2376000" />
+      <workItem from="1685344844044" duration="10370000" />
+      <workItem from="1685421790011" duration="11213000" />
     </task>
     <task id="LOCAL-00050" summary="новый модуль&#10;настройка места для создания игр">
       <created>1657912553897</created>
@@ -652,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685207116132</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'">
+      <created>1685262858041</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1685262858041</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,7 +678,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля" />
     <MESSAGE value="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы" />
     <MESSAGE value="сдлеать комп + окно оповещения (ui)" />
     <MESSAGE value="подготовка к морскому бою v0.1" />
@@ -696,9 +702,14 @@
     <MESSAGE value="memoryGame &#10;игра в карточки&#10;&#10;доделать список лидеров (через локал стор)&#10;и победную модалку" />
     <MESSAGE value="доработка карточек&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui'&#10;3 стили в модальное окно" />
     <MESSAGE value="Подписка на элементы попадающие во вью порт&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подписка на элементы попадающие во вью порт&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
+    <MESSAGE value="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="845" y="383" key="#Notifications" timestamp="1685386047074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685386047074" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1682234316686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -707,49 +718,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683484040353" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1685222350119">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1685427767152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685222350119" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
     <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1685222350119">
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1685427767152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685222350119" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
     <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1685222350119">
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1685427767152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685222350119" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
     <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1685222350119">
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1685427767152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685222350119" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427767152" />
     <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1683221993566" />
     <state x="700" y="240" key="RollbackChangesDialog" timestamp="1685203949928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203949928" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1685207122320">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1685262871727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685207122320" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685262871727" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685193627898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685193627898" />
-    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1685262134119">
+    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1685427695767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685262134119" />
+    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685427695767" />
+    <state x="2571" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685344922709" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1683496270856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1683496270856" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1685220291633">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1685263245344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685220291633" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685263245344" />
   </component>
 </project>

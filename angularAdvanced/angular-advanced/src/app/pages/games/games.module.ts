@@ -16,6 +16,8 @@ import {MatIconModule} from "@angular/material/icon";
 import { GameSeaBattleComponent } from './game-sea-battle/game-sea-battle.component';
 import { MemoryGameComponent } from './memory-game/memory-game.component';
 import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficulty-name.pipe';
+import { GameHeroBattleComponent } from './game-hero-battle/game-hero-battle.component';
+import { GameHeroBattleOptionComponent } from './game-hero-battle-option/game-hero-battle-option.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficul
     GameTicTacToeComponent,
     GameSeaBattleComponent,
     MemoryGameComponent,
-    MemoryGameDifficultyNamePipe
+    MemoryGameDifficultyNamePipe,
+    GameHeroBattleComponent,
+    GameHeroBattleOptionComponent
   ],
   imports: [
     CommonModule,
