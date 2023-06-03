@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-my-context-sample-directive',
@@ -6,11 +6,4 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
   styleUrls: ['./my-context-sample-directive.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class MyContextSampleDirectiveComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class MyContextSampleDirectiveComponent {}

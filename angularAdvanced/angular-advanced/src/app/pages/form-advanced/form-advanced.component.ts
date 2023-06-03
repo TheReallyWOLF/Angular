@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-form-advanced',
@@ -6,7 +6,7 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
   styleUrls: ['./form-advanced.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class FormAdvancedComponent implements OnInit {
+export class FormAdvancedComponent {
   buttonOptions: string[];
   buttonName: string;
 
@@ -18,9 +18,6 @@ export class FormAdvancedComponent implements OnInit {
     ]
 
     this.buttonName = this.buttonOptions[0]
-  }
-
-  ngOnInit(): void {
   }
 
   changeForm(index?: number): void {

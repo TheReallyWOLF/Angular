@@ -1,4 +1,7 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
+import { Select, Store} from "@ngxs/store";
+import {Observable} from "rxjs";
+import {GameHeroBattleState, Actions} from "./state/game-hero-battle.state";
 
 @Component({
   selector: 'game-hero-battle',
@@ -6,11 +9,15 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
   styleUrls: ['./game-hero-battle.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class GameHeroBattleComponent implements OnInit {
+export class GameHeroBattleComponent {
 
-  constructor() { }
+  @Select(GameHeroBattleState.hero$)
+  readonly hero$!: Observable<any>;
 
-  ngOnInit(): void {
+  constructor(private store: Store) {}
+
+  getHero() {
+    this.store.dispatch(new Actions.GetHeroState(3))
   }
 
 }

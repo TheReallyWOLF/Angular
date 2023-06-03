@@ -35,6 +35,7 @@ export class GameInverseMatrixComponent implements OnInit {
       })
     })
   }
+
 // обработка ощибок и ui компонент инпут доработать todo
   openGameField(): void {
     if (this.formGroup.valid) {

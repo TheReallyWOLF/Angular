@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-mousemove-sample-directive',
@@ -6,11 +6,4 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
   styleUrls: ['./mousemove-sample-directive.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class MousemoveSampleDirectiveComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class MousemoveSampleDirectiveComponent {}

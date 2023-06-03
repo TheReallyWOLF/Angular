@@ -18,6 +18,7 @@ import { MemoryGameComponent } from './memory-game/memory-game.component';
 import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficulty-name.pipe';
 import { GameHeroBattleComponent } from './game-hero-battle/game-hero-battle.component';
 import { GameHeroBattleOptionComponent } from './game-hero-battle-option/game-hero-battle-option.component';
+import {GameHeroBattleState} from "./game-hero-battle/state/game-hero-battle.state";
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { GameHeroBattleOptionComponent } from './game-hero-battle-option/game-he
     FormsModule,
     ReactiveFormsModule,
     NgxsModule.forFeature([
-      GameInverseMatrixState
+      GameInverseMatrixState,
+      GameHeroBattleState,
     ]),
     HomeModule,
     MatIconModule,

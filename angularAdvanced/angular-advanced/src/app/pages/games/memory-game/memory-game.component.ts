@@ -94,7 +94,7 @@ export class MemoryGameComponent {
    * Создает карточки перед игрой
    * И показывает по одной карточке каждые delay секунд и потом по дной их закрывает
    * */
-  showCardsOneByOne(delay: number = 100) {
+  showCardsOneByOne(delay: number = 150) {
     this.lock = true;
     this.getStarted();
     this.toggleGameField();
@@ -143,7 +143,7 @@ export class MemoryGameComponent {
     this.lock = true;
 
     of(card).pipe(
-      delay(300),
+      delay(200),
       takeUntilDestroyed(this))
       .subscribe((card) => this.checkCards(card));
   }
