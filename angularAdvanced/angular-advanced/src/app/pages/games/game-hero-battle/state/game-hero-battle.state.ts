@@ -9,7 +9,6 @@ export namespace Actions {
 
     }
   }
-
 }
 
 export interface GameHeroBattleStateModel {

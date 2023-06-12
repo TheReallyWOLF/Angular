@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'">
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/state/game-hero-battle.state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-options.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/state/game-hero-options.state.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/game-hero-battle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/game-hero-battle.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/game-hero-battle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/game-hero-battle.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/state/game-hero-battle.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/state/game-hero-battle.state.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/memory-game/memory-game.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,14 +318,8 @@
       <workItem from="1685421790011" duration="16114000" />
       <workItem from="1685478088394" duration="830000" />
       <workItem from="1685521881153" duration="3963000" />
-      <workItem from="1685808733822" duration="12367000" />
-    </task>
-    <task id="LOCAL-00052" summary="Приведение к единому виду (35%)">
-      <created>1658068099147</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1658068099148</updated>
+      <workItem from="1685808733822" duration="13255000" />
+      <workItem from="1686559108468" duration="7678000" />
     </task>
     <task id="LOCAL-00053" summary="Приведение к единому виду (35%)">
       <created>1658068107405</created>
@@ -662,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685440475225</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="подключил стор">
+      <created>1685831098441</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1685831098441</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,7 +683,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="подготовка к морскому бою v0.1" />
     <MESSAGE value="директива для оповещения" />
     <MESSAGE value="МБ" />
     <MESSAGE value="drag and drop api first tray" />
@@ -706,7 +707,8 @@
     <MESSAGE value="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
     <MESSAGE value="оптимизировал работу скрипта на 4 порядка&#10;&#10;+ подготовка к новой игре&#10;+ мелкие оптимизации" />
     <MESSAGE value="вернул прошлую реазизацию тк скрипт стал в 10 раз сложнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="вернул прошлую реазизацию тк скрипт стал в 10 раз сложнее" />
+    <MESSAGE value="подключил стор" />
+    <option name="LAST_COMMIT_MESSAGE" value="подключил стор" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="383" key="#Notifications" timestamp="1685386047074">
@@ -729,42 +731,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437806141" />
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1685830477182">
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1686563196385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685830477182" />
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
     <state width="1877" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1685830477182">
+    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1686563196385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685830477182" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
     <state width="1877" height="71" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1685830477182">
+    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1686563196385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685830477182" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
     <state width="1877" height="71" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1685830477182">
+    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1686563196385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685830477182" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
     <state width="1877" height="71" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
     <state x="700" y="240" key="RollbackChangesDialog" timestamp="1685203949928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203949928" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1685440491085">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1685831103311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685440491085" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685831103311" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685443990117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685443990117" />
-    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1685830802627">
+    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1686565838736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685830802627" />
+    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686565838736" />
     <state x="2571" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685344922709" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1683496270856">
       <screen x="0" y="0" width="1920" height="1040" />

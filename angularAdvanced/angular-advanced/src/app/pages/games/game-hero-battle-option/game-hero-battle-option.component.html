@@ -2,4 +2,10 @@
   <ui-button (click)="onCreateGame()">
     START
   </ui-button>
+
+  <div>
+    {{ heroList$ | async | json }}
+  </div>
+
+  <ui-dropdown (itemSelected)="itemSelected($event)" ></ui-dropdown>
 </div>

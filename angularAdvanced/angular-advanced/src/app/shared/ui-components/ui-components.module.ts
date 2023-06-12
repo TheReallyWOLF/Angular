@@ -7,6 +7,8 @@ import { UiPanelComponent } from './ui-panel/ui-panel.component';
 import { UiCardComponent } from './ui-card/ui-card.component';
 import { UiAlertBoxComponent } from './ui-alert-box/ui-alert-box.component';
 import { UiModalComponent } from './ui-modal/ui-modal.component';
+import { UiDropdownComponent } from './ui-dropdown/ui-dropdown.component';
+import {CommonModule} from "@angular/common";
 
 
 
@@ -17,7 +19,8 @@ import { UiModalComponent } from './ui-modal/ui-modal.component';
     UiPanelComponent,
     UiCardComponent,
     UiAlertBoxComponent,
-    UiModalComponent
+    UiModalComponent,
+    UiDropdownComponent
   ],
     exports: [
         UiButtonComponent,
@@ -25,10 +28,12 @@ import { UiModalComponent } from './ui-modal/ui-modal.component';
         UiPanelComponent,
         UiCardComponent,
         UiAlertBoxComponent,
-        UiModalComponent
+        UiModalComponent,
+        UiDropdownComponent
     ],
   imports: [
     FormsModule,
+    CommonModule,
     ReactiveFormsModule,
     MatAutocompleteModule,
   ]
