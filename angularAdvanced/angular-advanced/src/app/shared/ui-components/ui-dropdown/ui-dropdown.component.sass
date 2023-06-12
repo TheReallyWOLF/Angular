@@ -1,0 +1,41 @@
+select
+  /* стилизация общего вида выпадающего списка */
+  appearance: none
+  background-color: transparent
+  border: 1px solid #ddd
+  border-radius: 4px
+  padding: 8px
+  font-size: 16px
+  width: 200px
+  position: relative
+  cursor: pointer
+
+  /* стиль для стрелки */
+select::after
+  content: "▼"
+  padding: 0 8px
+  font-size: 12px
+  color: red
+  position: absolute
+  right: 8px
+  top: 4px
+  z-index: 1
+  text-align: center
+  width: 10%
+  height: 100%
+  pointer-events: none
+  box-sizing: border-box
+
+
+  /* стилизация элементов option */
+option
+  background-color: red
+  color: #666
+  font-size: 16px
+
+  &:hover
+    background-color: green
+
+
+  &:nth-child(even)
+    //background-color: #f9f9f9

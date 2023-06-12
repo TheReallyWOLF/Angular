@@ -1,5 +1,6 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import { FormControl } from '@angular/forms';
+import {takeUntilDestroyed} from "../../rxjsPipe/takeUntilDestroyed";
 
 interface DropdownItem {
   id: number;
@@ -11,35 +12,29 @@ interface DropdownItem {
   templateUrl: './ui-dropdown.component.html',
   styleUrls: ['./ui-dropdown.component.sass']
 })
-export class UiDropdownComponent {
-  // TODO допилить компонент, добавить кастотизацию, стили, убарть гвозди
-  iitesm = [{
-    id: 1,
-    value: '123223232'
-  },{
-    id: 2,
-    value: '13'
-  },{
-    id: 3,
-    value: '121'
-  }]
-
-  @Input() options: DropdownItem[] = this.iitesm;
-  @Output() itemSelected = new EventEmitter<DropdownItem>();
-
+export class UiDropdownComponent implements OnInit {
+  // TODO селект помойка сделать чкерез дивы и инпуты
   selectedOption = new FormControl();
 
-  constructor() {
-    this.selectedOption.setValue(this.options[0].value)
+  @Input() options!: DropdownItem[];
+  @Input() label: string = '';
 
-    this.selectedOption.valueChanges.subscribe((value) => {
-      console.log(`Option ${value} selected`);
-      // добавьте здесь ваш код для обработки выбора элемента
-    });
+  @Output() itemSelected = new EventEmitter<DropdownItem>();
+
+  ngOnInit(): void {
+    this.onDropdownItemSelectedSub();
+    this.setDefaultDropDownValue();
   }
 
-  selectItem(event: any) {
-    console.log(event)
-    this.itemSelected.emit();
+  setDefaultDropDownValue(): void {
+    this.selectedOption.setValue(this.options[0].value);
+  }
+
+  onDropdownItemSelectedSub(): void {
+    this.selectedOption.valueChanges
+      .pipe(takeUntilDestroyed(this))
+      .subscribe((value) => {
+        this.itemSelected.emit(value);
+    });
   }
 }

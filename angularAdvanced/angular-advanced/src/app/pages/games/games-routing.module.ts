@@ -7,8 +7,6 @@ import {GameFieldComponent} from "./game-field/game-field.component";
 import {GameTicTacToeComponent} from "./game-tic-tac-toe/game-tic-tac-toe.component";
 import {GameSeaBattleComponent} from "./game-sea-battle/game-sea-battle.component";
 import {MemoryGameComponent} from "./memory-game/memory-game.component";
-import {GameHeroBattleComponent} from "./game-hero-battle/game-hero-battle.component";
-import {GameHeroBattleOptionComponent} from "./game-hero-battle-option/game-hero-battle-option.component";
 import {IsInternalTransitionGuard} from "./shared/guards/is-internal-transition-guard.guard";
 
 const routes: Routes = [
@@ -40,13 +38,8 @@ const routes: Routes = [
         path: 'memory-game',
         component: MemoryGameComponent,
       },{
-        path: 'hero-battle-game',
-        component: GameHeroBattleComponent,
-        canActivate: [IsInternalTransitionGuard],
-        data: {guardUrl: '/games/hero-battle-options'}
-      },{
-        path: 'hero-battle-options',
-        component: GameHeroBattleOptionComponent,
+        path: 'hero-battle',
+        loadChildren: () => import('./game-hero-battle-module/hero-battle-game.module').then(m => m.HeroBattleGameModule)
       }
     ]
   }];

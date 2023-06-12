@@ -16,10 +16,7 @@ import {MatIconModule} from "@angular/material/icon";
 import { GameSeaBattleComponent } from './game-sea-battle/game-sea-battle.component';
 import { MemoryGameComponent } from './memory-game/memory-game.component';
 import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficulty-name.pipe';
-import { GameHeroBattleComponent } from './game-hero-battle/game-hero-battle.component';
-import { GameHeroBattleOptionComponent } from './game-hero-battle-option/game-hero-battle-option.component';
-import {GameHeroBattleState} from "./game-hero-battle/state/game-hero-battle.state";
-import {GameHeroOptionsState} from "./game-hero-battle-option/state/game-hero-options.state";
+
 
 
 @NgModule({
@@ -31,9 +28,7 @@ import {GameHeroOptionsState} from "./game-hero-battle-option/state/game-hero-op
     GameTicTacToeComponent,
     GameSeaBattleComponent,
     MemoryGameComponent,
-    MemoryGameDifficultyNamePipe,
-    GameHeroBattleComponent,
-    GameHeroBattleOptionComponent
+    MemoryGameDifficultyNamePipe
   ],
   imports: [
     CommonModule,
@@ -43,8 +38,6 @@ import {GameHeroOptionsState} from "./game-hero-battle-option/state/game-hero-op
     ReactiveFormsModule,
     NgxsModule.forFeature([
       GameInverseMatrixState,
-      GameHeroBattleState,
-      GameHeroOptionsState
     ]),
     HomeModule,
     MatIconModule,

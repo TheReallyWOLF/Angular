@@ -1,8 +1,16 @@
-<label for="ui-dropdown">Choose a car:</label>
-<select id="ui-dropdown"
-        [formControl]="selectedOption">
-  <option *ngFor="let option of options"
-          [value]="option.value">
-    {{option.value}}
-  </option>
-</select>
+<div class="iu-dropdown">
+  <label class="iu-dropdown__label"
+         *ngIf="label"
+         for="ui-dropdown">
+    {{ label }}
+  </label>
+  <select id="ui-dropdown"
+          class="iu-dropdown__select"
+          [formControl]="selectedOption">
+    <option class="iu-dropdown__option"
+            *ngFor="let option of options"
+            [value]="option.value">
+      {{option.value}}
+    </option>
+  </select>
+</div>

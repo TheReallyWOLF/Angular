@@ -19,15 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подписка на элементы попадающие во вью порт (переиспользуемая)&#10;можно повесить любой обработчик&#10; &#10;1 список лидеров&#10;2 модалку в ui доработать'">
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-options.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/state/game-hero-options.state.ts" afterDir="false" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/state/game-hero-battle.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/state/game-hero-battle.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-option.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-option.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-option.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-option.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/game-hero-battle-options.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-options.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-option/state/game-hero-options.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/state/game-hero-options.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/game-hero-battle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle/game-hero-battle.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/game-hero-battle.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle/game-hero-battle.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/game-hero-battle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle/game-hero-battle.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle/state/game-hero-battle.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle/state/game-hero-battle.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +72,19 @@
     <property name="ts.external.directory.path" value="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\game-hero-battle" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\ui-components\ui-modal\image" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\assets\images\memory-game\card" />
-      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\memory-game\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\assets" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\atributeDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\pipes" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\structureDirective" />
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\directive\colorDirective" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\game-hero-battle-module" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\game-hero-battle-module\games\hero-battle-game" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\pages\games\game-hero-battle" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared" />
+      <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\ui-components\ui-modal\image" />
     </key>
   </component>
   <component name="RunManager">
@@ -319,14 +327,8 @@
       <workItem from="1685478088394" duration="830000" />
       <workItem from="1685521881153" duration="3963000" />
       <workItem from="1685808733822" duration="13255000" />
-      <workItem from="1686559108468" duration="7678000" />
-    </task>
-    <task id="LOCAL-00053" summary="Приведение к единому виду (35%)">
-      <created>1658068107405</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1658068107405</updated>
+      <workItem from="1686559108468" duration="7945000" />
+      <workItem from="1686589891310" duration="5305000" />
     </task>
     <task id="LOCAL-00054" summary="Приведение к единому виду (95%)">
       <created>1658176618875</created>
@@ -664,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685831098441</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)">
+      <created>1686567742904</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1686567742905</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +692,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="директива для оповещения" />
     <MESSAGE value="МБ" />
     <MESSAGE value="drag and drop api first tray" />
     <MESSAGE value="drag and drop api v 0.6" />
@@ -708,7 +716,8 @@
     <MESSAGE value="оптимизировал работу скрипта на 4 порядка&#10;&#10;+ подготовка к новой игре&#10;+ мелкие оптимизации" />
     <MESSAGE value="вернул прошлую реазизацию тк скрипт стал в 10 раз сложнее" />
     <MESSAGE value="подключил стор" />
-    <option name="LAST_COMMIT_MESSAGE" value="подключил стор" />
+    <MESSAGE value="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="383" key="#Notifications" timestamp="1685386047074">
@@ -731,42 +740,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437806141" />
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1686563196385">
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1686598630472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686598630472" />
     <state width="1877" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1686563196385">
+    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1686598630472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686598630472" />
     <state width="1877" height="71" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1686563196385">
+    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1686598630472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686598630472" />
     <state width="1877" height="71" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1686563196385">
+    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1686598630472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686563196385" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686598630472" />
     <state width="1877" height="71" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
     <state x="700" y="240" key="RollbackChangesDialog" timestamp="1685203949928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203949928" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1685831103311">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1686567748046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685831103311" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686567748046" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685443990117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685443990117" />
-    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1686565838736">
+    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1686598944952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686565838736" />
+    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686598944952" />
     <state x="2571" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685344922709" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1683496270856">
       <screen x="0" y="0" width="1920" height="1040" />

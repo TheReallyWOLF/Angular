@@ -7,5 +7,5 @@
     {{ heroList$ | async | json }}
   </div>
 
-  <ui-dropdown (itemSelected)="itemSelected($event)" ></ui-dropdown>
+  <ui-dropdown label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
 </div>

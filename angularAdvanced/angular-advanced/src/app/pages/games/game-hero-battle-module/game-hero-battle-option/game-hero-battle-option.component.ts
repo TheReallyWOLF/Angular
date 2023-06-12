@@ -18,7 +18,16 @@ export class GameHeroBattleOptionComponent implements OnInit {
 
   constructor(private router: Router, private store: Store) {}
 
-
+  iitesm = [{
+    id: 1,
+    value: '123223232'
+  },{
+    id: 2,
+    value: '13'
+  },{
+    id: 3,
+    value: '121'
+  }]
 
 
 
@@ -30,6 +39,6 @@ export class GameHeroBattleOptionComponent implements OnInit {
   }
 
   onCreateGame(): void {
-    this.router.navigateByUrl('/games/hero-battle-game');
+    this.router.navigateByUrl('/games/hero-battle/hero-battle-game');
   }
 }
