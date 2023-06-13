@@ -4,6 +4,7 @@ import { Select, Store} from "@ngxs/store";
 import { GameHeroOptionsState } from "./state/game-hero-options.state"
 import {HeroOptions} from "./game-hero-battle-options.model";
 import {Observable} from "rxjs";
+import {DropdownType} from "../../../../shared/ui-components/ui-dropdown/ui-dropdown.component";
 
 @Component({
   selector: 'game-hero-battle-option',
@@ -12,6 +13,8 @@ import {Observable} from "rxjs";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GameHeroBattleOptionComponent implements OnInit {
+  DDtype: DropdownType = DropdownType.ENCAPSULATE;
+  DDtypeHover: DropdownType = DropdownType.HOVER;
 
   @Select(GameHeroOptionsState.heroList$)
   readonly heroList$!: Observable<HeroOptions[]>;

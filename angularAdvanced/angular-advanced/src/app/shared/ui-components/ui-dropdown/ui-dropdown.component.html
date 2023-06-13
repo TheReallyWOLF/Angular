@@ -1,16 +1,18 @@
-<div class="iu-dropdown">
-  <label class="iu-dropdown__label"
-         *ngIf="label"
-         for="ui-dropdown">
-    {{ label }}
-  </label>
-  <select id="ui-dropdown"
-          class="iu-dropdown__select"
-          [formControl]="selectedOption">
-    <option class="iu-dropdown__option"
-            *ngFor="let option of options"
-            [value]="option.value">
-      {{option.value}}
-    </option>
-  </select>
+<div class="iu-dropdown" [class.hover] = hover>
+
+  <div id="iu-dropdown"
+       class="iu-dropdown__field"
+       (click)="toggle()">
+    {{ selectedOption.value.value }}
+  </div>
+
+  <div class="iu-dropdown__select-list"
+       *ngIf="isDropDownShow">
+    <div class="iu-dropdown__select"
+         *ngFor="let option of options"
+         (click)="setDropDownValue(option)">
+      {{ option.value }}
+    </div>
+  </div>
+
 </div>

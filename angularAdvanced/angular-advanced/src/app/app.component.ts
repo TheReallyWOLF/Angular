@@ -1,6 +1,7 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, HostListener, OnInit} from '@angular/core';
 import {AppService} from "./app.service";
 import {MainMenu} from "./app.models";
+import {UiDropdownService} from "./shared/ui-components/ui-dropdown/ui-dropdown.service";
 
 @Component({
   selector: 'app-root',
@@ -38,7 +39,22 @@ export class AppComponent implements OnInit {
     }
   ]
 
-  constructor(private appService: AppService) {}
+  constructor(private appService: AppService, private uiDropdownService: UiDropdownService) {}
+
+  // глобальный обработчик клика для управления некоторыми механиками
+  @HostListener('document:click', ['$event'])
+  onClick(event: MouseEvent) {
+    event.preventDefault();
+
+    const element = event?.target as HTMLElement;
+    const id = element && element?.id;
+
+    // если клик не по dropdown то закрываем все dropdown
+    if (id !== 'iu-dropdown') {
+      this.uiDropdownService.closeAll();
+      return;
+    }
+  }
 
   ngOnInit(): void {
     this.appService.getUser().subscribe(res => {
