@@ -22,15 +22,15 @@ import {CommonModule} from "@angular/common";
     UiModalComponent,
     UiDropdownComponent
   ],
-    exports: [
-        UiButtonComponent,
-        UiInputComponent,
-        UiPanelComponent,
-        UiCardComponent,
-        UiAlertBoxComponent,
-        UiModalComponent,
-        UiDropdownComponent
-    ],
+  exports: [
+      UiButtonComponent,
+      UiInputComponent,
+      UiPanelComponent,
+      UiCardComponent,
+      UiAlertBoxComponent,
+      UiModalComponent,
+      UiDropdownComponent
+  ],
   imports: [
     FormsModule,
     CommonModule,

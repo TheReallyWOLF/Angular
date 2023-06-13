@@ -12,13 +12,16 @@ import {HomeModule} from "../../home/home.module";
 import {MatIconModule} from "@angular/material/icon";
 import {GameHeroBattleComponent} from "./game-hero-battle/game-hero-battle.component";
 import {GameHeroBattleOptionComponent} from "./game-hero-battle-option/game-hero-battle-option.component";
+import {ClickOutsideDirective} from "../../../shared/directive/globalDirective/click-outside.directive";
+import {DirectiveAndPipeModule} from "../../directive-and-pipe/directive-and-pipe.module";
 
 
 @NgModule({
   declarations: [
     GameHeroBattleComponent,
     HeroBattleGameComponent,
-    GameHeroBattleOptionComponent
+    GameHeroBattleOptionComponent,
+    ClickOutsideDirective,
   ],
   imports: [
     CommonModule,
@@ -32,6 +35,7 @@ import {GameHeroBattleOptionComponent} from "./game-hero-battle-option/game-hero
     ReactiveFormsModule,
     HomeModule,
     MatIconModule,
+    DirectiveAndPipeModule,
   ]
 })
 export class HeroBattleGameModule { }

@@ -33,7 +33,6 @@ export class GameHeroBattleOptionComponent implements OnInit {
   }]
 
 
-
   ngOnInit(): void {}
 
 

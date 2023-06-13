@@ -28,7 +28,7 @@ import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficul
     GameTicTacToeComponent,
     GameSeaBattleComponent,
     MemoryGameComponent,
-    MemoryGameDifficultyNamePipe
+    MemoryGameDifficultyNamePipe,
   ],
   imports: [
     CommonModule,

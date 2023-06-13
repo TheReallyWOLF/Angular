@@ -19,14 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 UPD стилизовать dropdown &#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-option.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-option.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-option.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-option.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/hero-battle-game.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/hero-battle-game.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-components.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,14 +318,7 @@
       <workItem from="1685808733822" duration="13255000" />
       <workItem from="1686559108468" duration="7945000" />
       <workItem from="1686589891310" duration="5719000" />
-      <workItem from="1686635151002" duration="9770000" />
-    </task>
-    <task id="LOCAL-00055" summary="Раздел со скриптами">
-      <created>1658257519573</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1658257519573</updated>
+      <workItem from="1686635151002" duration="17206000" />
     </task>
     <task id="LOCAL-00056" summary="ui-input">
       <created>1658351832116</created>
@@ -665,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686603090208</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 UPD стилизовать dropdown &#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)">
+      <created>1686649205232</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1686649205233</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +682,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="drag and drop api first tray" />
     <MESSAGE value="drag and drop api v 0.6" />
     <MESSAGE value="drag and drop api v 0.8" />
     <MESSAGE value="drag and drop api v 1.0" />
@@ -709,7 +706,8 @@
     <MESSAGE value="подключил стор" />
     <MESSAGE value="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)" />
     <MESSAGE value="Переделать селект без использования options и select&#10;выделил в отдельный модуль игру (которая по задумке будет большой)&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переделать селект без использования options и select&#10;выделил в отдельный модуль игру (которая по задумке будет большой)&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 доработать dropdown&#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)" />
+    <MESSAGE value="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 UPD стилизовать dropdown &#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подготовка к разработке автобатлера&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 UPD стилизовать dropdown &#10;4 game battle в отдельный модуль с ленивой загрузкой&#10;5 морской бой полностью не сделан&#10;6 логический компьютер для крестиков&#10;7 игра жизнь (настройка + новые алгоритмы вычислений)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="383" key="#Notifications" timestamp="1685386047074">
@@ -732,42 +730,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685437806141" />
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1686641833847">
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1686672994018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686641833847" />
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686672994018" />
     <state width="1877" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1686641833847">
+    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1686672994018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686641833847" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686672994018" />
     <state width="1877" height="71" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1686641833846">
+    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1686672994017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686641833846" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686672994017" />
     <state width="1877" height="71" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1686641833847">
+    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1686672994018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686641833847" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686672994018" />
     <state width="1877" height="71" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state x="700" y="240" key="RollbackChangesDialog" timestamp="1685203949928">
+    <state x="700" y="240" key="RollbackChangesDialog" timestamp="1686672953284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685203949928" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1686603094742">
+    <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686672953284" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1686649216492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686603094742" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686649216492" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685443990117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1685443990117" />
-    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1686598944952">
+    <state x="651" y="329" width="771" height="606" key="find.popup" timestamp="1686673829970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686598944952" />
+    <state x="651" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686673829970" />
     <state x="2571" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685344922709" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1683496270856">
       <screen x="0" y="0" width="1920" height="1040" />
