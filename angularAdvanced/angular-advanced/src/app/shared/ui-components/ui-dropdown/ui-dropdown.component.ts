@@ -26,12 +26,14 @@ export enum DropdownType {
 @Component({
   selector: 'ui-dropdown',
   templateUrl: './ui-dropdown.component.html',
-  styleUrls: ['./ui-dropdown.component.sass']
+  styleUrls: ['./ui-dropdown.component.sass'],
 })
 export class UiDropdownComponent implements OnInit {
   @Input() options!: DropdownItem[];
   @Input() label: string = '';
   @Input() type: DropdownType = DropdownType.GLOBAL;
+  @Input() viewType: string = 'default-light';
+  @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
 
   @Output() itemSelected = new EventEmitter<DropdownItem>();
 
@@ -55,9 +57,9 @@ export class UiDropdownComponent implements OnInit {
     this.onDropdownItemSelectedSub();
     this.setDefaultDropDownValue();
 
-    if (this.hover) return;
+    if (this.hover || this.encapsulate) return;
 
-    !this.encapsulate && this.onDropdownDropDownShowSub();
+    this.onDropdownDropDownShowSub();
   }
 
   toggle() {

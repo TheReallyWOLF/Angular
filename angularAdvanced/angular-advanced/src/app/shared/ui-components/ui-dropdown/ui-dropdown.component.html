@@ -1,4 +1,13 @@
-<div class="iu-dropdown" [class.hover] = hover>
+<div class="iu-dropdown" [class.hover] = hover
+     [class.size_xs] = "size === 'xs'"
+     [class.size_sm] = "size === 'sm'"
+     [class.size_lg] = "size === 'lg'"
+     [class.size_xl] = "size === 'xl'"
+
+     [class.default-light] = "'default-light' == viewType || !viewType"
+     [class.success-light] = "'success-light' == viewType"
+     [class.warning-light] = "'warning-light' == viewType"
+     [class.danger-light] = "'danger-light' == viewType">
 
   <div id="iu-dropdown"
        class="iu-dropdown__field"

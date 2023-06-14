@@ -6,13 +6,9 @@
   <div>
     {{ heroList$ | async | json }}
   </div>
-
-  <ui-dropdown label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown [type]="DDtype" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown [type]="DDtypeHover" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
+  'xs' | 'sm' | 'lg' | 'xl'
+  <ui-dropdown size="xs" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
+  <ui-dropdown size="sm" [type]="DDtype" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
+  <ui-dropdown size="lg" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
+  <ui-dropdown size="xl" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
 </div>
