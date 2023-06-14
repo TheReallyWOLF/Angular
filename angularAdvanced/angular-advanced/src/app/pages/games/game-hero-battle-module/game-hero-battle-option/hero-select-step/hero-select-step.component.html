@@ -1,0 +1,19 @@
+<div class="hero-select-step">
+  <div class="label">
+    Выберите класс героя:
+  </div>
+  <div class="select-box">
+    <div *ngFor="let hero of heroList$ | async"
+         [class.selected] = "(getSelectedHero$ | async)?.id === hero.id"
+         class="select-item"
+         (click)="selectHero(hero)"
+    >
+      <div class="hero-type">
+        {{ hero.type }}
+      </div>
+      <div class="hero-description">
+        {{ hero.description }}
+      </div>
+    </div>
+  </div>
+</div>

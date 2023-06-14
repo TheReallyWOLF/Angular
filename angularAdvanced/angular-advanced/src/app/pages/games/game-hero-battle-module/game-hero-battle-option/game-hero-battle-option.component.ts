@@ -19,6 +19,12 @@ export class GameHeroBattleOptionComponent implements OnInit {
   @Select(GameHeroOptionsState.heroList$)
   readonly heroList$!: Observable<HeroOptions[]>;
 
+  @Select(GameHeroOptionsState.getSelectedHero$)
+  readonly getSelectedHero$!: Observable<HeroOptions>;
+
+  @Select(GameHeroOptionsState.isGetReady$)
+  readonly isGetReady$!: Observable<boolean>;
+
   constructor(private router: Router, private store: Store) {}
 
   iitesm = [{

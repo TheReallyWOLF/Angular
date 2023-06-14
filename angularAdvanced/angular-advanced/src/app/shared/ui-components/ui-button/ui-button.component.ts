@@ -10,6 +10,6 @@ export class UiButtonComponent {
   @Input() fitContent: boolean = false;
   @Input() type: 'primary-success' | 'primary-danger' | 'primary-menu' = 'primary-success';
   @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
-  @Input() disabled: boolean = false;
+  @Input() disabled: boolean | null = false;
   @Input() active: boolean = false;
 }

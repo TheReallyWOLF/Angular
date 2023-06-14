@@ -13,19 +13,36 @@ export namespace Actions {
 @State<HeroBattleOptionsState>({
   name: 'ngrx_gameOptionsBattle',
   defaults: {
+    isGetReady: false,
     selectedHero: {
-      type: 'воин'
+      id: 1,
+      type: 'воин',
+      description: 'воин такой воин'
     },
     heroesList: [{
-      type: 'воин'
+      id: 1,
+      type: 'воин',
+      description: 'воин такой воин'
     },{
-      type: 'маг'
+      id: 2,
+      type: 'маг',
+      description: 'маг такой маг'
     }]
   }
 })
 
 @Injectable()
 export class GameHeroOptionsState {
+
+  @Selector()
+  static isGetReady$(state: HeroBattleOptionsState): boolean {
+    return state.isGetReady;
+  }
+
+  @Selector()
+  static getSelectedHero$(state: HeroBattleOptionsState): HeroOptions {
+    return state.selectedHero;
+  }
 
   @Selector()
   static heroList$(state: HeroBattleOptionsState): HeroOptions[] {

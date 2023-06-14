@@ -1,0 +1,21 @@
+@use 'src/app/shared/ui-components/ui-color-scheme-variables' as colors
+
+.hero-select-step
+  .label
+    font-size: 20px
+
+  .select-item
+    border: 1px solid colors.$white400
+    padding: 12px
+    box-sizing: border-box
+    border-radius: 6px
+
+  .select-box
+    gap: 8px
+    display: flex
+    position: relative
+    margin-top: 12px
+    flex-direction: column
+
+    .selected
+      background: red

@@ -14,6 +14,7 @@ import {GameHeroBattleComponent} from "./game-hero-battle/game-hero-battle.compo
 import {GameHeroBattleOptionComponent} from "./game-hero-battle-option/game-hero-battle-option.component";
 import {ClickOutsideDirective} from "../../../shared/directive/globalDirective/click-outside.directive";
 import {DirectiveAndPipeModule} from "../../directive-and-pipe/directive-and-pipe.module";
+import { HeroSelectStepComponent } from './game-hero-battle-option/hero-select-step/hero-select-step.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import {DirectiveAndPipeModule} from "../../directive-and-pipe/directive-and-pip
     HeroBattleGameComponent,
     GameHeroBattleOptionComponent,
     ClickOutsideDirective,
+    HeroSelectStepComponent,
   ],
   imports: [
     CommonModule,

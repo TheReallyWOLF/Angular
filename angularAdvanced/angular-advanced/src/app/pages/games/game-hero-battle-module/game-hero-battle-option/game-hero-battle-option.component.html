@@ -1,14 +1,15 @@
-<div>
-  <ui-button (click)="onCreateGame()">
+<div class="hero-battle-options">
+  <ui-button [disabled]="(isGetReady$ | async) !== true" (click)="onCreateGame()">
     START
   </ui-button>
+  <div class="main">
+    <div class="options">
 
-  <div>
-    {{ heroList$ | async | json }}
+      <hero-select-step></hero-select-step>
+
+    </div>
+    <div class="result-stats">
+        {{ getSelectedHero$ | async | json }}
+    </div>
   </div>
-  'xs' | 'sm' | 'lg' | 'xl'
-  <ui-dropdown size="xs" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown size="sm" [type]="DDtype" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown size="lg" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
-  <ui-dropdown size="xl" label="123 : " [options]="iitesm" (itemSelected)="itemSelected($event)" ></ui-dropdown>
 </div>
