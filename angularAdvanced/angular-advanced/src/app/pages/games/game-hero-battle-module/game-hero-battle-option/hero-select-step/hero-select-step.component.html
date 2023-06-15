@@ -8,11 +8,14 @@
          class="select-item"
          (click)="selectHero(hero)"
     >
-      <div class="hero-type">
-        {{ hero.type }}
-      </div>
-      <div class="hero-description">
-        {{ hero.description }}
+      <img class="hero-img" [src]="hero.img" alt="персонаж">
+      <div>
+        <div class="hero-type">
+          {{ hero.type }}
+        </div>
+        <div class="hero-description">
+          {{ hero.description }}
+        </div>
       </div>
     </div>
   </div>

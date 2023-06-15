@@ -1,15 +1,21 @@
 @use 'src/app/shared/ui-components/ui-color-scheme-variables' as colors
+@use '../../shared/mixin/scroll-bar.mixin' as scrollbar
 
 .hero-battle-options
   .options
+    height: 40vh
     padding: 8px
     margin: 12px
-    overflow: hidden
-    min-height: 40vh
+    overflow: auto
     box-sizing: border-box
     background: colors.$grey80
     border-radius: 12px
+    scroll-snap-type: x proximity
 
   .result-stats
     height: 200px
-    background: red
+    background: colors.$white800
+
+@include scrollbar.game-scroll-bar
+
+

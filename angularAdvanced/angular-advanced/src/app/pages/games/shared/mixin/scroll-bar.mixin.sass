@@ -1,0 +1,27 @@
+@use 'src/app/shared/ui-components/ui-color-scheme-variables' as colors
+
+@mixin game-scroll-bar
+  /* псевдоэлементы для стилей скролбара */
+  ::-webkit-scrollbar
+    width: 10px // ширина скролбара
+
+  /* трек скролбара */
+  ::-webkit-scrollbar-track
+    background: #f1f1f1 // цвет фона трека
+
+  /* ползунок скролбара */
+  ::-webkit-scrollbar-thumb
+    background: colors.$green400d // цвет ползунка
+    border-radius: 10px // скругление краев ползунка
+    &:hover
+      background: #555 // цвет ползунка при наведении
+
+  /* кнопки прокрутки */
+  ::-webkit-scrollbar-button
+    background: #ccc // цвет кнопок
+    &:vertical
+      height: 20px // высота вертикальной кнопки
+    &:horizontal
+      width: 20px // ширина горизонтальной кнопки
+    &:hover
+      background: #aaa // цвет кнопок при наведении

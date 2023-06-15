@@ -21,6 +21,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
   ]
 })
 export class GameHeroBattleOptionComponent implements OnInit {
+  // тестовый треш
   DDtype: DropdownType = DropdownType.ENCAPSULATE;
   DDtypeHover: DropdownType = DropdownType.HOVER;
 
@@ -34,6 +35,8 @@ export class GameHeroBattleOptionComponent implements OnInit {
     id: 3,
     value: '121'
   }]
+  // конец тестового треша
+
 
   showAnimateNextStep: boolean = false;
   isExpanded: boolean = false;
@@ -57,21 +60,19 @@ export class GameHeroBattleOptionComponent implements OnInit {
 
   fadeoutSlideStart() {
     this.stepAnimationRun = true;
-    console.log('Start');
   }
 
   fadeoutSlideEnd() {
 
     if (this.showAnimateNextStep) {
       this.showAnimateNextStep = false;
-      this.currentStep = this.currentStep === 'hero-select-step' ? 'hero-perks-step' : 'hero-select-step';
+      this.currentStep = this.currentStep === 'hero-select-step' ? 'hero-perks-step' : 'hero-select-step'; // функция с выбором шага
       this.isExpanded = !this.isExpanded;
       this.stepState = !this.isExpanded ? 'visible' : 'expanded';
       return;
     }
 
     this.stepAnimationRun = false;
-    console.log('End');
   }
 
   nextStep() {

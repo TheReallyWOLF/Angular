@@ -5,7 +5,8 @@ export interface HeroBattleOptionsState {
 }
 
 export interface HeroOptions {
-  id: number
+  id: number;
+  img: string;
   type: string;
   description: string;
 }

@@ -5,8 +5,12 @@
     font-size: 20px
 
   .select-item
+    gap: 16px
+    cursor: pointer
     border: 1px solid colors.$white400
+    display: flex
     padding: 12px
+    background: white
     box-sizing: border-box
     border-radius: 6px
 
@@ -18,4 +22,19 @@
     flex-direction: column
 
     .selected
-      background: red
+      border: 1px dotted colors.$green
+      transition: 0.8s
+      background: colors.$white640
+
+  .hero-img
+    width: 100px
+    height: 100px
+    border: 1px solid colors.$green400d
+    border-radius: 6px
+
+  .hero-type
+    font-size: 24px
+    margin-bottom: 12px
+
+  .hero-description
+    padding: 0 20px 0 0
