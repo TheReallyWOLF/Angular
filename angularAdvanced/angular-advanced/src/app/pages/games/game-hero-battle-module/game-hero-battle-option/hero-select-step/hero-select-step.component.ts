@@ -8,7 +8,7 @@ import {HeroOptions} from "../game-hero-battle-options.model";
   selector: 'hero-select-step',
   templateUrl: './hero-select-step.component.html',
   styleUrls: ['./hero-select-step.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeroSelectStepComponent {
 
@@ -18,10 +18,9 @@ export class HeroSelectStepComponent {
   @Select(GameHeroOptionsState.getSelectedHero$)
   readonly getSelectedHero$!: Observable<HeroOptions>
 
-  constructor(private store: Store) { }
+  constructor(private store: Store) {}
 
   selectHero(hero: HeroOptions): void {
     this.store.dispatch(new Actions.SetSelectedHero(hero))
   }
-
 }

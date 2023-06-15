@@ -15,6 +15,8 @@ import {GameHeroBattleOptionComponent} from "./game-hero-battle-option/game-hero
 import {ClickOutsideDirective} from "../../../shared/directive/globalDirective/click-outside.directive";
 import {DirectiveAndPipeModule} from "../../directive-and-pipe/directive-and-pipe.module";
 import { HeroSelectStepComponent } from './game-hero-battle-option/hero-select-step/hero-select-step.component';
+import {GamesModule} from "../games.module";
+import { HeroPerksStepComponent } from './game-hero-battle-option/hero-perks-step/hero-perks-step.component';
 
 
 @NgModule({
@@ -24,20 +26,22 @@ import { HeroSelectStepComponent } from './game-hero-battle-option/hero-select-s
     GameHeroBattleOptionComponent,
     ClickOutsideDirective,
     HeroSelectStepComponent,
+    HeroPerksStepComponent,
   ],
-  imports: [
-    CommonModule,
-    HeroBattleGameRoutingModule,
-    NgxsModule.forFeature([
-      GameHeroBattleState,
-      GameHeroOptionsState
-    ]),
-    UiComponentsModule,
-    FormsModule,
-    ReactiveFormsModule,
-    HomeModule,
-    MatIconModule,
-    DirectiveAndPipeModule,
-  ]
+    imports: [
+        CommonModule,
+        HeroBattleGameRoutingModule,
+        NgxsModule.forFeature([
+            GameHeroBattleState,
+            GameHeroOptionsState
+        ]),
+        UiComponentsModule,
+        FormsModule,
+        ReactiveFormsModule,
+        HomeModule,
+        MatIconModule,
+        DirectiveAndPipeModule,
+        GamesModule,
+    ]
 })
 export class HeroBattleGameModule { }

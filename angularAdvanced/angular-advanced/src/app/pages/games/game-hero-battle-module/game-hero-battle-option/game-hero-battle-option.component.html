@@ -3,13 +3,23 @@
     START
   </ui-button>
   <div class="main">
-    <div class="options">
+    <ng-container [ngSwitch] = "currentStep">
+      <div class="options"
+           [@fadeoutSlide]="stepState"
+           (@fadeoutSlide.start) = "fadeoutSlideStart()"
+           (@fadeoutSlide.done) = "fadeoutSlideEnd()">
 
-      <hero-select-step></hero-select-step>
+        <hero-select-step *ngSwitchCase="'hero-select-step'"></hero-select-step>
+        <hero-perks-step *ngSwitchCase="'hero-perks-step'"></hero-perks-step>
 
-    </div>
+      </div>
+    </ng-container>
+
     <div class="result-stats">
         {{ getSelectedHero$ | async | json }}
     </div>
+    <ui-button [disabled]="stepAnimationRun" (click)="nextStep()">
+      Следующий шаг
+    </ui-button>
   </div>
 </div>
