@@ -17,6 +17,8 @@ import {DirectiveAndPipeModule} from "../../directive-and-pipe/directive-and-pip
 import { HeroSelectStepComponent } from './game-hero-battle-option/hero-select-step/hero-select-step.component';
 import {GamesModule} from "../games.module";
 import { HeroPerksStepComponent } from './game-hero-battle-option/hero-perks-step/hero-perks-step.component';
+import { HeroStatsStepComponent } from './game-hero-battle-option/hero-stats-step/hero-stats-step.component';
+import { HeroPeculiaritiesStepComponent } from './game-hero-battle-option/hero-peculiarities-step/hero-peculiarities-step.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { HeroPerksStepComponent } from './game-hero-battle-option/hero-perks-ste
     ClickOutsideDirective,
     HeroSelectStepComponent,
     HeroPerksStepComponent,
+    HeroStatsStepComponent,
+    HeroPeculiaritiesStepComponent,
   ],
     imports: [
         CommonModule,

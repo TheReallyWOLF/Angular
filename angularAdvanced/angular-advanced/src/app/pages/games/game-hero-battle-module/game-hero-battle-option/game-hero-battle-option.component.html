@@ -9,8 +9,10 @@
            (@fadeoutSlide.start) = "fadeoutSlideStart()"
            (@fadeoutSlide.done) = "fadeoutSlideEnd()">
 
-        <hero-select-step *ngSwitchCase="'hero-select-step'"></hero-select-step>
-        <hero-perks-step *ngSwitchCase="'hero-perks-step'"></hero-perks-step>
+        <hero-select-step *ngSwitchCase="1"></hero-select-step>
+        <hero-perks-step *ngSwitchCase="2"></hero-perks-step>
+        <hero-stats-step *ngSwitchCase="3"></hero-stats-step>
+        <hero-peculiarities-step *ngSwitchCase="4"></hero-peculiarities-step>
 
       </div>
     </ng-container>
@@ -18,8 +20,23 @@
     <div class="result-stats">
         {{ getSelectedHero$ | async | json }}
     </div>
-    <ui-button [disabled]="stepAnimationRun" (click)="nextStep()">
-      Следующий шаг
-    </ui-button>
+    <div class="action">
+      <ui-button *ngIf="nextStepSelected !== 1"
+                 [disabled]="stepAnimationRun"
+                 type="primary-danger"
+                 (click)="nextStep(false)">
+        Предыдущий  шаг
+      </ui-button>
+      <ui-button *ngIf="nextStepSelected !== stepLength"
+                 [disabled]="stepAnimationRun" (click)="nextStep()">
+        Следующий шаг
+      </ui-button>
+      <ui-button type="primary-menu"
+                 [disabled]="stepAnimationRun"
+                 *ngIf="nextStepSelected === stepLength"
+                 (click)="startGame()">
+        ЗАПУСК
+      </ui-button>
+    </div>
   </div>
 </div>

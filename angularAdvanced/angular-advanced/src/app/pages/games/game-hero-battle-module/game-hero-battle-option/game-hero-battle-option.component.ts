@@ -37,12 +37,13 @@ export class GameHeroBattleOptionComponent implements OnInit {
   }]
   // конец тестового треша
 
-
   showAnimateNextStep: boolean = false;
   isExpanded: boolean = false;
   stepAnimationRun: boolean = false;
   stepState: 'visible' | 'expanded' = 'visible';
-  currentStep: string = 'hero-select-step'
+  currentStep: number = 1;
+  nextStepSelected: number = 1;
+  readonly stepLength: number = 4;
 
   @Select(GameHeroOptionsState.heroList$)
   readonly heroList$!: Observable<HeroOptions[]>;
@@ -66,7 +67,7 @@ export class GameHeroBattleOptionComponent implements OnInit {
 
     if (this.showAnimateNextStep) {
       this.showAnimateNextStep = false;
-      this.currentStep = this.currentStep === 'hero-select-step' ? 'hero-perks-step' : 'hero-select-step'; // функция с выбором шага
+      this.currentStep = this.nextStepSelected;
       this.isExpanded = !this.isExpanded;
       this.stepState = !this.isExpanded ? 'visible' : 'expanded';
       return;
@@ -75,10 +76,12 @@ export class GameHeroBattleOptionComponent implements OnInit {
     this.stepAnimationRun = false;
   }
 
-  nextStep() {
+  nextStep(next: boolean = true) {
     this.showAnimateNextStep = true;
-    this.isExpanded = !this.isExpanded
-    this.stepState = !this.isExpanded ? 'visible' : 'expanded'
+    this.isExpanded = !this.isExpanded;
+    this.stepState = !this.isExpanded ? 'visible' : 'expanded';
+
+    next ? this.nextStepSelected++ : this.nextStepSelected--;
   }
 
 
@@ -86,6 +89,10 @@ export class GameHeroBattleOptionComponent implements OnInit {
 
   itemSelected(item: any) {
     console.log(item)
+  }
+
+  startGame(): void {
+    console.info('START')
   }
 
   onCreateGame(): void {
