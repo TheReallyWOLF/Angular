@@ -17,6 +17,11 @@
           {{ hero.description }}
         </div>
       </div>
+      <div>
+        <div *ngFor="let effect of hero.effects | keyvalue">
+          <span style="white-space: nowrap">{{ effect | getHeroEffectString }}</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>

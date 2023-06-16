@@ -19,6 +19,7 @@ import {GamesModule} from "../games.module";
 import { HeroPerksStepComponent } from './game-hero-battle-option/hero-perks-step/hero-perks-step.component';
 import { HeroStatsStepComponent } from './game-hero-battle-option/hero-stats-step/hero-stats-step.component';
 import { HeroPeculiaritiesStepComponent } from './game-hero-battle-option/hero-peculiarities-step/hero-peculiarities-step.component';
+import { GetHeroEffectStringPipe} from "../../../shared/pipes/get-hero-effect-string.pipe";
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { HeroPeculiaritiesStepComponent } from './game-hero-battle-option/hero-p
     HeroPerksStepComponent,
     HeroStatsStepComponent,
     HeroPeculiaritiesStepComponent,
+    GetHeroEffectStringPipe
   ],
     imports: [
         CommonModule,
