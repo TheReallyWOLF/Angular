@@ -18,11 +18,27 @@
 
   .action
     gap: 8px
+    width: 100px
     display: flex
     align-items: center
 
     .button
       flex: 1
+
+    .value
+      flex: 1
+      font-size: 14px
+      text-align: center
+      // доделать 1-3 и далее каждый 2 + цвет.
+      &.one
+        color: #7fec83 // цвет
+        font-size: 15px
+
+      &.two
+        font-size: 16px
+
+      &.max
+        font-size: 25px
 
     .images
       width: 28px

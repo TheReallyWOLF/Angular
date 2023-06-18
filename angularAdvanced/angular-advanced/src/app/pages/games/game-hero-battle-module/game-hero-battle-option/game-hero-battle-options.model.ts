@@ -1,12 +1,16 @@
 export interface HeroBattleOptionsState {
   isGetReady: boolean;
-  characteristicsLimit: number;
-  maximumValueCharacteristics: number;
-  minimumValueCharacteristics: number;
+  characteristicsSettings: CharacteristicsSettings;
   characteristicsList: HeroCharacteristics[]
   perksList: HeroPerk[];
   selectedHero: HeroOptions;
   heroesList: HeroOptions[];
+}
+
+export interface CharacteristicsSettings {
+  characteristicsLimit: number;
+  maximumValueCharacteristics: number;
+  minimumValueCharacteristics: number;
 }
 
 export interface HeroPerk {

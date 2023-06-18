@@ -1,6 +1,12 @@
 import {Action, Selector, State, StateContext} from "@ngxs/store";
 import {Injectable} from "@angular/core";
-import {HeroBattleOptionsState, HeroOptions, HeroPerk, HeroCharacteristics} from "../game-hero-battle-options.model";
+import {
+  HeroBattleOptionsState,
+  HeroOptions,
+  HeroPerk,
+  HeroCharacteristics,
+  CharacteristicsSettings
+} from "../game-hero-battle-options.model";
 
 export namespace Actions {
 
@@ -28,9 +34,11 @@ export namespace Actions {
       },
       description: 'воин такой воин воин та воин такой воин воин такой воин воин такой воин воин такой воин воин такой воин воин такой воин воин такой воин воин воин такой воин воин такой воин воин такой воин воин такой воин воин'
     },
-    characteristicsLimit: 45,
-    maximumValueCharacteristics: 25,
-    minimumValueCharacteristics: 1,
+    characteristicsSettings: {
+      characteristicsLimit: 45,
+      maximumValueCharacteristics: 25,
+      minimumValueCharacteristics: 1,
+    },
     characteristicsList: [{
       name: 'robustiness',
       value: 1,
@@ -131,8 +139,8 @@ export class GameHeroOptionsState {
   }
 
   @Selector()
-  static characteristicsLimit$(state: HeroBattleOptionsState): number {
-    return state.characteristicsLimit;
+  static characteristicsSettings$(state: HeroBattleOptionsState): CharacteristicsSettings {
+    return state.characteristicsSettings;
   }
 
   @Selector()
@@ -157,41 +165,13 @@ export class GameHeroOptionsState {
     })
   }
 
- /* @Action(Actions.ChangeHeroCharacteristic)
-  changeHeroCharacteristic(ctx: StateContext<HeroBattleOptionsState>, action: Actions.ChangeHeroCharacteristic) {
-    const state = ctx.getState();
-    const increment: boolean = action.increment;
-    const maxValue: number = state.maximumValueCharacteristics;
-    const minValue: number = state.minimumValueCharacteristics;
-
-    let characteristicsLimit: number = state.characteristicsLimit;
-
-    ctx.patchState({
-      characteristicsList: [...state.characteristicsList.map(characteristic => {
-        if (characteristic.name !== action.characteristicKey) return characteristic;
-
-        const maxValueStop: boolean = characteristic.value === maxValue && increment;
-        const minValueStop: boolean = characteristic.value === minValue && !increment;
-
-        if (maxValueStop || minValueStop) return characteristic;
-
-        characteristicsLimit = increment ? state.characteristicsLimit - 1 : state.characteristicsLimit + 1;
-
-        return {
-          ...characteristic,
-          value: increment ? characteristic.value + 1 : characteristic.value - 1
-        }
-
-      })],
-      characteristicsLimit: characteristicsLimit
-    });
-  }*/
-
   @Action(Actions.ChangeHeroCharacteristic)
   changeHeroCharacteristic(ctx: StateContext<HeroBattleOptionsState>, action: Actions.ChangeHeroCharacteristic) {
     const state = ctx.getState();
     ctx.patchState({
-      characteristicsList: [...state.characteristicsList, action.characteristic]
+      characteristicsList: [...state.characteristicsList.map(characteristics => {
+        return characteristics.name === action.characteristic.name ? action.characteristic : characteristics;
+      })]
     });
   }
 
