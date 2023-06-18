@@ -1,0 +1,47 @@
+.hero-stats-step
+  gap: 12px
+  display: flex
+
+  .stats-description
+    flex: 1
+
+  .stats-list
+    gap: 6px
+    display: flex
+    flex-direction: column
+
+  .stats-item
+    width: 300px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  .action
+    gap: 8px
+    display: flex
+    align-items: center
+
+    .button
+      flex: 1
+
+    .images
+      width: 28px
+      height: 28px
+      display: flex
+      align-items: center
+      justify-content: center
+
+      img
+        width: 100%
+        height: 100%
+        cursor: pointer
+
+        &:hover
+         background: red
+         border-radius: 50%
+
+        &:active
+          height: 26px
+          width: 26px
+          background: green
+

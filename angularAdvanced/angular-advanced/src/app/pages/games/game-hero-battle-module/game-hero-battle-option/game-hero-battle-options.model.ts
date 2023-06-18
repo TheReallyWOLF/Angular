@@ -1,5 +1,9 @@
 export interface HeroBattleOptionsState {
   isGetReady: boolean;
+  characteristicsLimit: number;
+  maximumValueCharacteristics: number;
+  minimumValueCharacteristics: number;
+  characteristicsList: HeroCharacteristics[]
   perksList: HeroPerk[];
   selectedHero: HeroOptions;
   heroesList: HeroOptions[];
@@ -8,6 +12,11 @@ export interface HeroBattleOptionsState {
 export interface HeroPerk {
   [key: string]: any;
   effects: Effects;
+}
+
+export interface HeroCharacteristics {
+  name: string;
+  value: number;
 }
 
 export interface Effects {
@@ -21,12 +30,3 @@ export interface HeroOptions {
   effects: Effects;
   description: string;
 }
-
-/*
-* Живучесть (англ. Robustiness)
-        Иммунитет (англ. Immunity)
-        Вера (англ. Faith)
-        Мудрость (англ. Intelligence)
-        Стойкость (англ. Endurance)
-        Strength, Perception, Endurance, Charisma, Intelligence, Agility, Luck
-* */

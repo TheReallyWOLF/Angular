@@ -1,1 +1,36 @@
-<p>hero-stats-step works!22222</p>
+<div class="hero-stats-step">
+  <div class="stats-list">
+    <div class="stats-item" *ngFor="let characteristics of characteristics$ | async">
+
+      <div class="name">
+        {{ characteristics.name | getHeroEffectString}}
+      </div>
+
+      <div class="action">
+
+        <div class="images" (click)="changeHeroCharacteristic(characteristics, true)">
+          <img src="assets/images/game-hero-battle/game-hero-options/plus.png" alt="плюс">
+        </div>
+
+        <div class="value">
+          <!-- сделать директиву которая будет менять цвет и увеличивать высоту текста в зависимости от числа value до 25 макс-->
+          {{ characteristics.value }}
+        </div>
+
+        <div class="images" (click)="changeHeroCharacteristic(characteristics, false)">
+          <img src="assets/images/game-hero-battle/game-hero-options/minus.png" alt="минус">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="stats-description">
+    <div>
+      ОСТАЛОСЬ ОЧКОВ ХАТАКТЕРИСТИК: {{ characteristicsLimit || 0 }}
+    </div>
+    <div>
+      описание описание описание описание описание описание описание описание описание описание описание описание описание описание
+    </div>
+  </div>
+</div>

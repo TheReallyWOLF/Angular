@@ -5,7 +5,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class GetHeroEffectStringPipe implements PipeTransform {
 
-  transform(effect: {key: string, value: string | number}): string {
+  transform(effect: {key: string, value: string | number} | string): string {
+    if (typeof(effect) === 'string') return this.getEffectName(effect);
+
     let symbol: string = effect.value < 0 ? ': - ' : ': + ';
     let effectName: string = this.getEffectName(effect.key);
 
@@ -25,8 +27,9 @@ export class GetHeroEffectStringPipe implements PipeTransform {
       case 'luck': return 'удача';
       case 'immunity': return 'иммунитет';
       case 'resistance': return 'сопротивление';
-      case 'неверие': return 'disbelief';
-      case 'знания': return 'knowledge';
+      case 'disbelief': return 'неверие';
+      case 'knowledge': return 'знания';
+      case 'wisdom': return 'мудрость'
 
       default: return effect;
     }
