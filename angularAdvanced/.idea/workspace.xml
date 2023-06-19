@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="шаг статы&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-options.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/game-hero-battle-options.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.ts" afterDir="false" />
@@ -326,14 +325,8 @@
       <workItem from="1686842787833" duration="4345000" />
       <workItem from="1686906230388" duration="4755000" />
       <workItem from="1686931039304" duration="3855000" />
-      <workItem from="1687113219223" duration="11272000" />
-    </task>
-    <task id="LOCAL-00064" summary="refactor">
-      <created>1663441976520</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1663441976520</updated>
+      <workItem from="1687113219223" duration="11298000" />
+      <workItem from="1687159576262" duration="6150000" />
     </task>
     <task id="LOCAL-00065" summary="реализаций простейших игр (крестики нолики)">
       <created>1663455789766</created>
@@ -671,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687120871516</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="шаг статы&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)">
+      <created>1687124614455</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1687124614455</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,25 +742,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686930163265" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1687120858051">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1687124625111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687120858051" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
     <state width="1877" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1687120858051">
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1687124625111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687120858051" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
     <state width="1877" height="71" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1687120858051">
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1687124625111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687120858051" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
     <state width="1877" height="71" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1687120858051">
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1687124625111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687120858051" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
     <state width="1877" height="71" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1686812179850">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -814,10 +814,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686672953284" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1687120875865">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1687124617804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687120875865" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124617804" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1686761135522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -8,8 +8,10 @@
 
       <div class="action">
 
-        <div class="images" (click)="changeHeroCharacteristic(characteristics, true)">
-          <img src="assets/images/game-hero-battle/game-hero-options/plus.png" alt="плюс">
+        <div class="images">
+          <img (click)="changeHeroCharacteristic(characteristics, true)"
+               src="assets/images/game-hero-battle/game-hero-options/plus.png"
+               alt="плюс">
         </div>
 
         <div class="value">
@@ -17,8 +19,10 @@
           {{ characteristics.value }}
         </div>
 
-        <div class="images" (click)="changeHeroCharacteristic(characteristics, false)">
-          <img src="assets/images/game-hero-battle/game-hero-options/minus.png" alt="минус">
+        <div class="images">
+          <img (click)="changeHeroCharacteristic(characteristics, false)"
+               src="assets/images/game-hero-battle/game-hero-options/minus.png"
+               alt="минус">
         </div>
 
       </div>

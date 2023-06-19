@@ -7,6 +7,7 @@ import {
   HeroCharacteristics,
   CharacteristicsSettings
 } from "../game-hero-battle-options.model";
+import {patch, updateItem} from "@ngxs/store/operators";
 
 export namespace Actions {
 
@@ -17,7 +18,7 @@ export namespace Actions {
 
   export class ChangeHeroCharacteristic {
     static readonly type = '[NGRX::game-options-battle] ChangeHeroCharacteristic'
-    constructor(readonly characteristic: HeroCharacteristics) {}
+    constructor(readonly characteristic: HeroCharacteristics, readonly increment: boolean) {}
   }
 }
 
@@ -168,12 +169,17 @@ export class GameHeroOptionsState {
   @Action(Actions.ChangeHeroCharacteristic)
   changeHeroCharacteristic(ctx: StateContext<HeroBattleOptionsState>, action: Actions.ChangeHeroCharacteristic) {
     const state = ctx.getState();
-    ctx.patchState({
-      characteristicsList: [...state.characteristicsList.map(characteristics => {
-        return characteristics.name === action.characteristic.name ? action.characteristic : characteristics;
-      })]
-    });
+    const isMaxValueLimit: boolean = action.characteristic.value > state.characteristicsSettings.maximumValueCharacteristics && action.increment;
+    const isMinValueLimit: boolean = action.characteristic.value < state.characteristicsSettings.minimumValueCharacteristics && !action.increment;
+    if (isMaxValueLimit || isMinValueLimit) return;
+
+
+    ctx.setState(
+      patch<HeroBattleOptionsState>({
+      characteristicsList: updateItem(item =>
+        item?.name === action.characteristic.name,
+        action.characteristic
+      )
+    }))
   }
-
-
 }
