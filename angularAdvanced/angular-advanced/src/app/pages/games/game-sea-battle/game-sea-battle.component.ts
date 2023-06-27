@@ -1,5 +1,6 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {FieldOptions, ShipDeck} from "../shared/models/game.models";
+import {SeaGameOptions} from "../shared/models/sea-game.models";
 
 @Component({
   selector: 'game-sea-battle',
@@ -38,7 +39,7 @@ export class GameSeaBattleComponent implements OnInit {
     value: 30
   }];
   // todo типизацию
-  public options!: {[name: string]: any};
+  public options!: SeaGameOptions;
 
   ngOnInit(): void {
     this.setDefault();
@@ -81,7 +82,6 @@ export class GameSeaBattleComponent implements OnInit {
   }
 
   public setDefault(): void {
-    console.log('найстройки морского боя по умолчанию');
     this.options = {
       oneDeck: 4,
       twoDeck: 3,

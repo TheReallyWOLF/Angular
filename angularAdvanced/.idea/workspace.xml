@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="шаг статы&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)">
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="шаг статы++&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)">
+      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/shared/models/sea-game.models.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/hero-stats-step/hero-stats-step.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/state/game-hero-options.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-hero-battle-module/game-hero-battle-option/state/game-hero-options.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-sea-battle/game-sea-battle.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/games.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,6 +328,7 @@
       <workItem from="1686931039304" duration="3855000" />
       <workItem from="1687113219223" duration="11298000" />
       <workItem from="1687159576262" duration="6150000" />
+      <workItem from="1687869940747" duration="2792000" />
     </task>
     <task id="LOCAL-00065" summary="реализаций простейших игр (крестики нолики)">
       <created>1663455789766</created>
@@ -742,25 +744,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686930163265" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1687124625111">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1687882200976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687882200976" />
     <state width="1877" height="71" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1687124625111">
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1687882200976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687882200976" />
     <state width="1877" height="71" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1687124625111">
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1687882200976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687882200976" />
     <state width="1877" height="71" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1687124625111">
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1687882200976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687124625111" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687882200976" />
     <state width="1877" height="71" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685475027685" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1686812179850">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -822,10 +824,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686761135522" />
-    <state x="651" y="329" width="810" height="606" key="find.popup" timestamp="1687118467504">
+    <state x="651" y="329" width="810" height="606" key="find.popup" timestamp="1687882409671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="810" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687118467504" />
+    <state x="651" y="329" width="810" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687882409671" />
     <state x="2571" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1685344922709" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1686816492831">
       <screen x="0" y="0" width="1920" height="1040" />

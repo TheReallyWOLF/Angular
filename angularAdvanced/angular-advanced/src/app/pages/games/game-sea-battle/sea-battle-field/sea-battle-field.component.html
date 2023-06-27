@@ -1,0 +1,15 @@
+<ui-button (click)="toggleEmit()">
+  К настройкам
+</ui-button>
+<div>
+  <div class="field">
+    {{ seaGameOptions | json }}
+    <div>Drag and Drop</div>
+  </div>
+  <div>Drag and Drop</div>
+</div>
+<div class="newGameButton">
+    <ui-button type="primary-danger" (click)="newGameEmit()">
+    <mat-icon>{{ 'settings_backup_restore' }}</mat-icon>
+  </ui-button>
+</div>

@@ -43,40 +43,40 @@ export namespace Actions {
     characteristicsList: [{
       name: 'robustiness',
       value: 1,
-    },{
+    }, {
       name: 'faith',
       value: 1,
-    },{
+    }, {
       name: 'intelligence',
       value: 1,
-    },{
+    }, {
       name: 'wisdom',
       value: 1,
-    },{
+    }, {
       name: 'strength',
       value: 1,
-    },{
+    }, {
       name: 'perception',
       value: 1,
-    },{
+    }, {
       name: 'endurance',
       value: 1,
-    },{
+    }, {
       name: 'charisma',
       value: 1,
-    },{
+    }, {
       name: 'agility',
       value: 1,
-    },{
+    }, {
       name: 'immunity',
       value: 1,
-    },{
+    }, {
       name: 'resistance',
       value: 1,
-    },{
+    }, {
       name: 'disbelief',
       value: 1,
-    },{
+    }, {
       name: 'knowledge',
       value: 1,
     }],
@@ -96,7 +96,7 @@ export namespace Actions {
         intelligence: 1
       },
       description: 'воин такойин такой воин воин такой воин воин такой воин воин такой воин воин такой воин воин такой воин воин такой воин воин такой воин воин воин такой воин воин такой воин воин такой воин воин такой воин воин'
-    },{
+    }, {
       id: 2,
       type: 'маг',
       img: 'assets/images/game-hero-battle/game-hero-options/plug.png',
@@ -104,7 +104,7 @@ export namespace Actions {
         strength: 1
       },
       description: 'маг тако такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такойг'
-    },{
+    }, {
       id: 3,
       type: 'маг3',
       img: 'assets/images/game-hero-battle/game-hero-options/plug.png',
@@ -112,7 +112,7 @@ export namespace Actions {
         charisma: 1
       },
       description: 'маг такой маг й маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такой маг маг такойг'
-    },{
+    }, {
       id: 4,
       type: 'маг4',
       img: 'assets/images/game-hero-battle/game-hero-options/plug.png',
@@ -168,13 +168,12 @@ export class GameHeroOptionsState {
 
   @Action(Actions.ChangeHeroCharacteristic)
   changeHeroCharacteristic(ctx: StateContext<HeroBattleOptionsState>, action: Actions.ChangeHeroCharacteristic) {
-    const state = ctx.getState();
-    const isMaxValueLimit: boolean = action.characteristic.value > state.characteristicsSettings.maximumValueCharacteristics && action.increment;
-    const isMinValueLimit: boolean = action.characteristic.value < state.characteristicsSettings.minimumValueCharacteristics && !action.increment;
-    if (isMaxValueLimit || isMinValueLimit) return;
+     const state = ctx.getState();
+     const isMaxValueLimit: boolean = action.characteristic.value > state.characteristicsSettings.maximumValueCharacteristics && action.increment;
+     const isMinValueLimit: boolean = action.characteristic.value < state.characteristicsSettings.minimumValueCharacteristics && !action.increment;
+     if (isMaxValueLimit || isMinValueLimit) return;
 
-
-    ctx.setState(
+     ctx.setState(
       patch<HeroBattleOptionsState>({
       characteristicsList: updateItem(item =>
         item?.name === action.characteristic.name,
