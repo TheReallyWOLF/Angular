@@ -17,6 +17,7 @@ import { GameSeaBattleComponent } from './game-sea-battle/game-sea-battle.compon
 import { MemoryGameComponent } from './memory-game/memory-game.component';
 import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficulty-name.pipe';
 import { SeaBattleFieldComponent } from './game-sea-battle/sea-battle-field/sea-battle-field.component';
+import { SeaBattleShipComponent } from './game-sea-battle/sea-battle-ship/sea-battle-ship.component';
 
 
 
@@ -31,6 +32,7 @@ import { SeaBattleFieldComponent } from './game-sea-battle/sea-battle-field/sea-
     MemoryGameComponent,
     MemoryGameDifficultyNamePipe,
     SeaBattleFieldComponent,
+    SeaBattleShipComponent,
   ],
   imports: [
     CommonModule,

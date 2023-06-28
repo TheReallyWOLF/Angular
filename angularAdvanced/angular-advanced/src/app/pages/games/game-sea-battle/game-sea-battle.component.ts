@@ -51,8 +51,8 @@ export class GameSeaBattleComponent implements OnInit {
     this.setSelectedDeck();
   }
 
-  public setNumberShips(classShips: ShipDeck, count: number): void {
-    this.options[classShips] = count;
+  public setNumberShips(event: {fiveDeckCount: number, deckName: ShipDeck}): void {
+    this.options[event.deckName] = event.fiveDeckCount;
   }
 
   private setSelectedDeck(): void {

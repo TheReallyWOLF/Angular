@@ -26,85 +26,45 @@
         </div>
       </div>
       <!--Пятипалубный корабль-->
-      <div>
-        <div class="label">
-          Пятипалубный корабль
-        </div>
-        <div class="button-row">
-          <ui-button
-            size="sm"
-            class="players-button"
-            [disabled]="options.fiveDeck === fiveDeckCount"
-            (click)="setNumberShips('fiveDeck', fiveDeckCount)"
-            *ngFor="let fiveDeckCount of fiveDeckArr">
-            {{ fiveDeckCount }}
-          </ui-button>
-        </div>
-      </div>
+      <sea-battle-ship [deckArr]="fiveDeckArr"
+                       [deck]="options.fiveDeck"
+                       [deckName]="'fiveDeck'"
+                       [label]="'Пятипалубный корабль'"
+
+                       (setNumberShips)="setNumberShips($event)">
+      </sea-battle-ship>
       <!--Четырёхпалубный корабль-->
-      <div>
-        <div class="label">
-          Четырёхпалубный корабль
-        </div>
-        <div class="button-row">
-          <ui-button
-            size="sm"
-            class="players-button"
-            [disabled]="options.fourDeck === fourDeckCount"
-            (click)="setNumberShips('fourDeck', fourDeckCount)"
-            *ngFor="let fourDeckCount of fourDeckArr">
-            {{ fourDeckCount }}
-          </ui-button>
-        </div>
-      </div>
+      <sea-battle-ship [deckArr]="fourDeckArr"
+                       [deck]="options.fourDeck"
+                       [deckName]="'fourDeck'"
+                       [label]="'Четырёхпалубный корабль'"
+
+                       (setNumberShips)="setNumberShips($event)">
+      </sea-battle-ship>
       <!--Трехпалубный корабль-->
-      <div>
-        <div class="label">
-          Трехпалубный корабль
-        </div>
-        <div class="button-row">
-          <ui-button
-            size="sm"
-            class="players-button"
-            [disabled]="options.threeDeck === threeDeckCount"
-            (click)="setNumberShips('threeDeck', threeDeckCount)"
-            *ngFor="let threeDeckCount of threeDeckArr">
-            {{ threeDeckCount }}
-          </ui-button>
-        </div>
-      </div>
+      <sea-battle-ship [deckArr]="threeDeckArr"
+                       [deck]="options.threeDeck"
+                       [deckName]="'threeDeck'"
+                       [label]="'Трехпалубный корабль'"
+
+                       (setNumberShips)="setNumberShips($event)">
+      </sea-battle-ship>
       <!--Двухпалубный корабль-->
-      <div>
-        <div class="label">
-          Двухпалубный корабль
-        </div>
-        <div class="button-row">
-          <ui-button
-            size="sm"
-            class="players-button"
-            [disabled]="options.twoDeck === twoDeckCount"
-            (click)="setNumberShips('twoDeck', twoDeckCount)"
-            *ngFor="let twoDeckCount of twoDeckArr">
-            {{ twoDeckCount }}
-          </ui-button>
-        </div>
-      </div>
+      <sea-battle-ship [deckArr]="twoDeckArr"
+                       [deck]="options.twoDeck"
+                       [deckName]="'twoDeck'"
+                       [label]="'Двухпалубный корабль'"
+
+                       (setNumberShips)="setNumberShips($event)">
+      </sea-battle-ship>
       <!--Однопалубный корабль-->
-      <div>
-        <div class="label">
-          Однопалубный корабль
-        </div>
-        <div class="button-row">
-          <ui-button
-            size="sm"
-            class="players-button"
-            [disabled]="options.oneDeck === oneDeckCount"
-            (click)="setNumberShips('oneDeck', oneDeckCount)"
-            *ngFor="let oneDeckCount of oneDeckArr">
-            {{ oneDeckCount }}
-          </ui-button>
-        </div>
-      </div>
+      <sea-battle-ship [deckArr]="oneDeckArr"
+                       [deck]="options.oneDeck"
+                       [deckName]="'oneDeck'"
+                       [label]="'Однопалубный корабль'"
+
+                       (setNumberShips)="setNumberShips($event)">
+      </sea-battle-ship>
     </div>
   </div>
   <ng-template #field>

@@ -1,0 +1,15 @@
+<div class="sea-battle-ship">
+  <div class="label">
+    {{ label }}
+  </div>
+  <div class="button-row">
+    <ui-button
+      size="sm"
+      class="players-button"
+      [disabled]="deck === fiveDeckCount"
+      (click)="setNumberShipsEmit(fiveDeckCount)"
+      *ngFor="let fiveDeckCount of deckArr">
+      {{ fiveDeckCount }}
+    </ui-button>
+  </div>
+</div>
