@@ -1,9 +1,8 @@
-import {AfterViewInit, ChangeDetectionStrategy, Component, OnDestroy, OnInit} from '@angular/core';
-import {Select} from "@ngxs/store";
-import {Observable, Subject} from "rxjs";
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import {Store} from "@ngxs/store";
 import {GameOptions, GameInverseMatrixState} from "../game-inverse-matrix/state/game-inverse-matrix.state";
-import {takeUntil} from "rxjs/operators";
 import {Location} from '@angular/common';
+import {GameRule} from "../game-inverse-matrix/game-inverse-matrix.component";
 
 @Component({
   selector: 'app-game-field',
@@ -11,44 +10,33 @@ import {Location} from '@angular/common';
   styleUrls: ['./game-field.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
-  //@Select()
-
-  @Select(GameInverseMatrixState.GameOptions$)
-  readonly GameOptions$!: Observable<GameOptions>;
+export class GameFieldComponent implements OnInit {
   public GameOptions: GameOptions = {
     field: 10,
-    dueRule: 1,
-    lifeRule: 1
+    gameRule: 'Инверсная матрица',
+    deathOverpopulation: 4,
+    deathLoneliness: 1,
+    newLifeRule: 3,
   };
   public field: number[][] = [];
   private shadowField: number[][] = [];
+  private mainGameScriptController!: Function;
 
-  private destroy$ = new Subject<void>();
-  constructor(private _location: Location) { }
+  constructor(private _location: Location, private store: Store) {
+  }
 
   ngOnInit(): void {
     this.getDeathRule();
   }
 
-  ngAfterViewInit(): void {
-
-  }
-// todo строка!?
   /**
    * Правила рождения и смерти клеток (правила игры)
    * */
   getDeathRule(): void {
-    this.GameOptions$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(GameOptions => {
-        this.GameOptions = {
-          field: Number(GameOptions.field),
-          dueRule: Number(GameOptions.dueRule),
-          lifeRule: Number(GameOptions.lifeRule),
-        };
-        this.createGameField();
-      })
+    this.GameOptions = this.store.selectSnapshot(GameInverseMatrixState.GameOptions$);
+    this.mainGameScriptController = this.GameOptions.gameRule === GameRule.INVERTMATRIX ? this.reverseGame : this.lifeGame;
+
+    this.createGameField();
   }
 
   createGameField(): void {
@@ -74,7 +62,7 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
     }
   }
 
-  back():void {
+  back(): void {
     this._location.back();
   }
 
@@ -82,7 +70,7 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
     for (let row = 0; row < this.GameOptions.field; row++) {
       for (let cell = 0; cell < this.GameOptions.field; cell++) {
 
-       this.reverseGame(row, cell);
+        this.mainGameScriptController(row, cell);
       }
     }
 
@@ -95,9 +83,31 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
    * Жизнь (вариант игры)
    * */
   lifeGame(row: number, cell: number): void {
-    // resurrection: number, dying: number
-    // при resurrection >= количество соседних клеток с 0 = 1
-    // при dying >= количество соседних клеток с 0 = 0
+    // не работает испрвить ключевые механики
+    let lifeCount = 0;
+
+    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell - 1)];
+    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell)];
+    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell + 1)];
+
+    lifeCount += this.field[this.infiniteMatrix(row)][this.infiniteMatrix(cell - 1)];
+    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell + 1)];
+
+    lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell - 1)];
+    lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell)];
+    lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell + 1)];
+
+
+    if (this.field[row][cell] === 1 && this.GameOptions.deathLoneliness >= lifeCount && this.GameOptions.deathOverpopulation < lifeCount) {
+      this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 0;
+      return;
+    }
+
+    if (this.field[row][cell] === 0 && this.GameOptions.newLifeRule >= lifeCount) {
+      this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 1;
+      return;
+    }
+
   }
 
 
@@ -120,16 +130,19 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
       this.toggleSell(row + 1, cell + 1);
     }
   }
+
   /**
    * переключение ячейки (было 0 станет 1, было 1 станет 0);
    * reverse - позволяет пропустить пересчет ячейки
    * */
   toggleSell(row: number, cell: number, reverse: boolean = false): void {
     if (reverse) return;
+
     this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] ?
       this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 0 :
       this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 1
   }
+
   /**
    * Позволяет матрице быть бесконечной зацикливая ее края сами на себе
    * */
@@ -137,11 +150,15 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
     if (index === this.GameOptions.field) {
       return 0;
     }
-    return index < 0 ? this.GameOptions.field - 1: index;
+    return index < 0 ? this.GameOptions.field - 1 : index;
   }
 
   changeCell(i: number, j: number): void {
-    this.field[i][j] ? this.field[i][j] = 0 : this.field[i][j] = 1
+    this.field[i][j] ? this.field[i][j] = 0 : this.field[i][j] = 1;
+
+    if (this.GameOptions.gameRule === GameRule.LIFEGAME) {
+      this.shadowField = this.field;
+    }
   }
 
   resetField(): void {
@@ -150,10 +167,5 @@ export class GameFieldComponent implements OnInit, AfterViewInit, OnDestroy {
 
   trackByIndex(index: number): number {
     return index;
-  }
-
-  ngOnDestroy():void {
-    this.destroy$.next();
-    this.destroy$.complete();
   }
 }

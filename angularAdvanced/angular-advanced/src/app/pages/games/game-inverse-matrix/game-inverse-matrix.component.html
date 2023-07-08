@@ -6,9 +6,40 @@
       [error]="fieldLabelError"
       [field]="$any(formGroup.controls.field)">
     </ui-input>
+
+    <ui-dropdown [options]="options"
+                 [size]="'xl'"
+
+                 (itemSelected) = setGameRule($event)
+    >
+    </ui-dropdown>
+
+    <div *ngIf="selectedGame.id === 2">
+      <ui-input
+        [label]="'Смерть от перенаселения'"
+        [type]="typeNumber"
+        [error]="ruleError"
+        [field]="$any(formGroup.controls.deathOverpopulation)">
+      </ui-input>
+
+      <ui-input
+        [label]="'Смерть от одиночества'"
+        [type]="typeNumber"
+        [error]="ruleError"
+        [field]="$any(formGroup.controls.deathLoneliness)">
+      </ui-input>
+
+      <ui-input
+        [label]="'Количество живых клеток для рождения новой'"
+        [type]="typeNumber"
+        [error]="ruleError"
+        [field]="$any(formGroup.controls.newLifeRule)">
+      </ui-input>
+    </div>
   </form>
+
   <ui-alert-box class="game-life__alert-box">
-    {{ gameRule }}
+    {{ selectedGameRule }}
   </ui-alert-box>
   <ui-button (click)="openGameField()">Создать</ui-button>
 </div>

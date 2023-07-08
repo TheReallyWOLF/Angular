@@ -1,12 +1,15 @@
 import {Action, Selector, State, StateContext} from "@ngxs/store";
 import {Injectable} from "@angular/core";
 import {Actions} from "./game-inverse-matrix.actions";
+import {GameRule} from "../game-inverse-matrix.component";
 
 
 export interface GameOptions {
   field: number;
-  dueRule: number;
-  lifeRule: number;
+  gameRule: string;
+  deathOverpopulation: number;
+  deathLoneliness: number;
+  newLifeRule: number
 }
 
 export interface GameLifeStateModel {
@@ -18,8 +21,10 @@ export interface GameLifeStateModel {
   defaults: {
     GameOptions: {
       field: 10,
-      dueRule: 1,
-      lifeRule: 0,
+      gameRule: GameRule.INVERTMATRIX,
+      deathOverpopulation: 4,
+      deathLoneliness: 1,
+      newLifeRule: 3,
     }
   }
 })

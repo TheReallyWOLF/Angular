@@ -1,6 +1,14 @@
 @use 'src/app/shared/mixin/no-text-select-mixin' as noSelect
 
 .game-life
+  padding-top: 8px
+
+  form
+    gap: 12px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
   &__field
     display: flex
     flex-direction: column
@@ -20,4 +28,5 @@
       background: #7fec83
 
   &__alert-box
+    margin-top: 16px
     margin-bottom: 16px

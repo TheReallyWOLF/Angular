@@ -1,20 +1,25 @@
 @use '../ui-color-scheme-variables' as colors
 
 .iu-dropdown
-  margin-top: 12px
+  position: relative
   border-radius: 4px
-  max-width: 200px
 
   &__field
     cursor: pointer
 
   &__select-list
+    top: 36px
     padding: 4px 0
+    z-index: 1000
+    position: absolute
     border-top: none
     border-radius: 0 0 4px 4px
 
   // sizes
   &.size_xs
+    .iu-dropdown__select-list
+      top: 30px
+
     .iu-dropdown__select
       padding: 2px 6px
       font-size: 14px
@@ -28,9 +33,12 @@
       border-radius: 4px
 
   &.size_sm
+    .iu-dropdown__select-list
+      top: 34px
+
     .iu-dropdown__select
       padding: 4px 9px
-      font-size: 16px
+      font-size: 14px
 
       &:last-child
         border-radius: 0 0 6px 6px
@@ -41,42 +49,51 @@
       border-radius: 6px
 
   &.size_md
+    .iu-dropdown__select-list
+      top: 38px
+
     .iu-dropdown__select
       padding: 6px 9px
-      font-size: 18px
+      font-size: 15px
 
       &:last-child
         border-radius: 0 0 8px 8px
 
     .iu-dropdown__field
       padding: 8px
-      font-size: 20px
+      font-size: 16px
       border-radius: 6px
 
   &.size_lg
+    .iu-dropdown__select-list
+      top: 40px
+
     .iu-dropdown__select
       padding: 8px 12px
-      font-size: 20px
+      font-size: 16px
 
       &:last-child
         border-radius: 0 0 8px 8px
 
     .iu-dropdown__field
       padding: 10px
-      font-size: 22px
+      font-size: 18px
       border-radius: 8px
 
   &.size_xl
+    .iu-dropdown__select-list
+      top: 46px
+
     .iu-dropdown__select
       padding: 10px 12px
-      font-size: 22px
+      font-size: 18px
 
       &:last-child
         border-radius: 0 0 8px 8px
 
     .iu-dropdown__field
       padding: 12px
-      font-size: 24px
+      font-size: 20px
       border-radius: 8px
 
 

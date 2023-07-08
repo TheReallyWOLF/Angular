@@ -33,7 +33,7 @@ export class UiDropdownComponent implements OnInit {
   @Input() label: string = '';
   @Input() type: DropdownType = DropdownType.GLOBAL;
   @Input() viewType: string = 'default-light';
-  @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
+  @Input() size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'lg';
 
   @Output() itemSelected = new EventEmitter<DropdownItem>();
 
