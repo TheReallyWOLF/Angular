@@ -73,8 +73,6 @@ export class GameFieldComponent implements OnInit {
       }
     }
 
-    //if (this.GameOptions.gameRule === GameRule.LIFEGAME) return;
-
     // перерисовка представления выполняется 1 раз на каждый цикл прохода по полю а не каждое изменение в ячейке
     this.field = Object.assign([], this.shadowField);
     this.resetShadowField();
@@ -84,7 +82,6 @@ export class GameFieldComponent implements OnInit {
    * Жизнь (вариант игры)
    * */
   lifeGame(row: number, cell: number): void {
-    // не работает испрвить ключевые механики
     let lifeCount = 0;
 
     lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell - 1)];
@@ -148,9 +145,8 @@ export class GameFieldComponent implements OnInit {
    * Позволяет матрице быть бесконечной зацикливая ее края сами на себе
    * */
   infiniteMatrix(index: number): number {
-    if (index === this.GameOptions.field) {
-      return 0;
-    }
+    if (index === +this.GameOptions.field) return 0;
+
     return index < 0 ? this.GameOptions.field - 1 : index;
   }
 

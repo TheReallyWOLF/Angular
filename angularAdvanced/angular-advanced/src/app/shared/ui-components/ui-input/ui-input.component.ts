@@ -13,7 +13,7 @@ export class UiInputComponent {
   @Input() name: string = 'name';
   @Input() placeholder: string = 'placeholder';
   @Input() field!: FormControl;
-  @Input() label: string = ''
+  @Input() label: string = '';
   @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
   @Input() error: string = 'Валидация не пройдена';
   @Input() borderError: boolean = false;
