@@ -22,7 +22,7 @@ export interface GameLifeStateModel {
     GameOptions: {
       field: 10,
       gameRule: GameRule.INVERTMATRIX,
-      deathOverpopulation: 4,
+      deathOverpopulation: 3,
       deathLoneliness: 1,
       newLifeRule: 3,
     }

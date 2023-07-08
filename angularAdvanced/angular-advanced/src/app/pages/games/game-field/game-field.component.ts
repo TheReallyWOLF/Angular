@@ -14,7 +14,7 @@ export class GameFieldComponent implements OnInit {
   public GameOptions: GameOptions = {
     field: 10,
     gameRule: 'Инверсная матрица',
-    deathOverpopulation: 4,
+    deathOverpopulation: 3,
     deathLoneliness: 1,
     newLifeRule: 3,
   };
@@ -22,8 +22,7 @@ export class GameFieldComponent implements OnInit {
   private shadowField: number[][] = [];
   private mainGameScriptController!: Function;
 
-  constructor(private _location: Location, private store: Store) {
-  }
+  constructor(private _location: Location, private store: Store) {}
 
   ngOnInit(): void {
     this.getDeathRule();
@@ -74,6 +73,8 @@ export class GameFieldComponent implements OnInit {
       }
     }
 
+    //if (this.GameOptions.gameRule === GameRule.LIFEGAME) return;
+
     // перерисовка представления выполняется 1 раз на каждый цикл прохода по полю а не каждое изменение в ячейке
     this.field = Object.assign([], this.shadowField);
     this.resetShadowField();
@@ -91,23 +92,23 @@ export class GameFieldComponent implements OnInit {
     lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell + 1)];
 
     lifeCount += this.field[this.infiniteMatrix(row)][this.infiniteMatrix(cell - 1)];
-    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell + 1)];
+    lifeCount += this.field[this.infiniteMatrix(row)][this.infiniteMatrix(cell + 1)];
 
     lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell - 1)];
     lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell)];
     lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell + 1)];
 
+    this.shadowField[row][cell] = this.field[row][cell];
 
-    if (this.field[row][cell] === 1 && this.GameOptions.deathLoneliness >= lifeCount && this.GameOptions.deathOverpopulation < lifeCount) {
-      this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 0;
+    if (this.field[row][cell] === 1 && (this.GameOptions.deathLoneliness >= lifeCount || this.GameOptions.deathOverpopulation < lifeCount)) {
+      this.shadowField[row][cell] = 0;
       return;
     }
 
-    if (this.field[row][cell] === 0 && this.GameOptions.newLifeRule >= lifeCount) {
-      this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 1;
+    if (this.field[row][cell] === 0 && this.GameOptions.newLifeRule === lifeCount) {
+      this.shadowField[row][cell] = 1;
       return;
     }
-
   }
 
 
@@ -155,10 +156,6 @@ export class GameFieldComponent implements OnInit {
 
   changeCell(i: number, j: number): void {
     this.field[i][j] ? this.field[i][j] = 0 : this.field[i][j] = 1;
-
-    if (this.GameOptions.gameRule === GameRule.LIFEGAME) {
-      this.shadowField = this.field;
-    }
   }
 
   resetField(): void {

@@ -21,16 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="морской бой опции&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-field/game-field.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/game-inverse-matrix.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/state/game-inverse-matrix.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/games/game-inverse-matrix/state/game-inverse-matrix.state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-dropdown/ui-dropdown.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,14 +337,7 @@
       <workItem from="1688575277645" duration="126000" />
       <workItem from="1688651303902" duration="5546000" />
       <workItem from="1688716827656" duration="6373000" />
-      <workItem from="1688835760937" duration="9918000" />
-    </task>
-    <task id="LOCAL-00067" summary="реализовать &#10; лингию больше 3 + компьютера + оповещение победы и блокировку экрана + ресет поля">
-      <created>1663588674961</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1663588674962</updated>
+      <workItem from="1688835760937" duration="13862000" />
     </task>
     <task id="LOCAL-00068" summary="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
       <created>1663610067213</created>
@@ -689,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687951465184</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="игра жизнь">
+      <created>1688845820944</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1688845820944</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +701,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="drag and drop api v 1.6 мульти дроп рефактор" />
     <MESSAGE value="drag and drop api v 1.65 мульти дроп рефактор" />
     <MESSAGE value="css-counter" />
     <MESSAGE value="пару алгоритмов" />
@@ -733,7 +725,8 @@
     <MESSAGE value="шаг статы&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)" />
     <MESSAGE value="морской бой поле и типизация&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)" />
     <MESSAGE value="морской бой опции&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)" />
-    <option name="LAST_COMMIT_MESSAGE" value="морской бой опции&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)" />
+    <MESSAGE value="игра жизнь" />
+    <option name="LAST_COMMIT_MESSAGE" value="игра жизнь" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="383" key="#Notifications" timestamp="1685386047074">
@@ -836,18 +829,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="240" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686672953284" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1687951468611">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1688845824890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1687951468611" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1688845824890" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1686761135522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1686761135522" />
-    <state x="651" y="329" width="810" height="606" key="find.popup" timestamp="1688841450495">
+    <state x="651" y="329" width="810" height="606" key="find.popup" timestamp="1688849111068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="329" width="810" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1688841450495" />
+    <state x="651" y="329" width="810" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1688849111068" />
     <state x="2571" y="329" width="771" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1688043443422" />
     <state x="683" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1687944860188">
       <screen x="0" y="0" width="1920" height="1040" />

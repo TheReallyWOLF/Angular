@@ -54,7 +54,7 @@ export class GameInverseMatrixComponent implements OnInit {
       gameRule: new FormControl(GameRule.INVERTMATRIX, {
         validators: [Validators.required]
       }),
-      deathOverpopulation: new FormControl(4, {
+      deathOverpopulation: new FormControl(3, {
         validators: [Validators.required, Validators.min(0), Validators.max(8)]
       }),
       deathLoneliness: new FormControl(1, {
