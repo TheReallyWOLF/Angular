@@ -84,16 +84,21 @@ export class GameFieldComponent implements OnInit {
   lifeGame(row: number, cell: number): void {
     let lifeCount = 0;
 
-    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell - 1)];
-    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell)];
-    lifeCount += this.field[this.infiniteMatrix(row - 1)][this.infiniteMatrix(cell + 1)];
+    const topRow = this.infiniteMatrix(row + 1);
+    const bottomRow = this.infiniteMatrix(row - 1);
+    const leftCell = this.infiniteMatrix(cell - 1);
+    const rightCell = this.infiniteMatrix(cell + 1);
 
-    lifeCount += this.field[this.infiniteMatrix(row)][this.infiniteMatrix(cell - 1)];
-    lifeCount += this.field[this.infiniteMatrix(row)][this.infiniteMatrix(cell + 1)];
+    lifeCount += this.field[topRow][leftCell];
+    lifeCount += this.field[topRow][this.infiniteMatrix(cell)];
+    lifeCount += this.field[topRow][rightCell];
 
-    lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell - 1)];
-    lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell)];
-    lifeCount += this.field[this.infiniteMatrix(row + 1)][this.infiniteMatrix(cell + 1)];
+    lifeCount += this.field[bottomRow][leftCell];
+    lifeCount += this.field[bottomRow][this.infiniteMatrix(cell)];
+    lifeCount += this.field[bottomRow][rightCell];
+
+    lifeCount += this.field[this.infiniteMatrix(row)][leftCell];
+    lifeCount += this.field[this.infiniteMatrix(row)][rightCell];
 
     this.shadowField[row][cell] = this.field[row][cell];
 
@@ -136,9 +141,12 @@ export class GameFieldComponent implements OnInit {
   toggleSell(row: number, cell: number, reverse: boolean = false): void {
     if (reverse) return;
 
-    this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] ?
-      this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 0 :
-      this.shadowField[this.infiniteMatrix(row)][this.infiniteMatrix(cell)] = 1
+    const currentRow = this.infiniteMatrix(row);
+    const currentCell = this.infiniteMatrix(cell);
+
+    this.shadowField[currentRow][currentCell] ?
+      this.shadowField[currentRow][currentCell] = 0 :
+      this.shadowField[currentRow][currentCell] = 1
   }
 
   /**
