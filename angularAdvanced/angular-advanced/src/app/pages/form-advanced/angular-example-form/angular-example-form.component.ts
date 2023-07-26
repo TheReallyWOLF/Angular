@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
-import {FormControl, FormGroup, Validators} from "@angular/forms";
+import {UntypedFormControl, UntypedFormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-angular-example-form',
@@ -9,15 +9,15 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 })
 export class AngularExampleFormComponent implements OnInit {
 
-  registrationForm!: FormGroup;
-  firstName!: FormControl;
-  lastName!: FormControl;
-  email!: FormControl;
-  password!: FormControl;
+  registrationForm!: UntypedFormGroup;
+  firstName!: UntypedFormControl;
+  lastName!: UntypedFormControl;
+  email!: UntypedFormControl;
+  password!: UntypedFormControl;
 
   createForm() {
-    this.registrationForm = new FormGroup({
-      name: new FormGroup({
+    this.registrationForm = new UntypedFormGroup({
+      name: new UntypedFormGroup({
         firstName: this.firstName,
         lastName: this.lastName
       }),
@@ -27,12 +27,12 @@ export class AngularExampleFormComponent implements OnInit {
   }
 
   createFormControls() {
-    this.firstName = new FormControl("", Validators.required);
-    this.lastName = new FormControl("", Validators.required);
-    this.email = new FormControl("", [
+    this.firstName = new UntypedFormControl("", Validators.required);
+    this.lastName = new UntypedFormControl("", Validators.required);
+    this.email = new UntypedFormControl("", [
       Validators.required, Validators.pattern("[^@]*@[^@]*")
     ]);
-    this.password = new FormControl("", [
+    this.password = new UntypedFormControl("", [
       Validators.required, Validators.minLength(8)
     ])
   }

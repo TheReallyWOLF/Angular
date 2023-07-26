@@ -3,7 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
   {
-  path: '', redirectTo: 'home', pathMatch: 'full'
+  path: '', redirectTo: '/home', pathMatch: 'full'
   }, {
     path: 'directive-and-pipe',
     loadChildren: () => import('./pages/directive-and-pipe/directive-and-pipe.module').then(m => m.DirectiveAndPipeModule)

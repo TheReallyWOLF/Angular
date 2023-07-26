@@ -16,7 +16,8 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'game-presentation-page'
+        redirectTo: 'game-presentation-page',
+        pathMatch: 'prefix',
       },{
         path: 'game-presentation-page',
         component: GamePresentationPageComponent

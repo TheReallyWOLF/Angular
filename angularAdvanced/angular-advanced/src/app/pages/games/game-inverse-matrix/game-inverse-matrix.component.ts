@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
-import {FormBuilder, FormControl, FormGroup, Validators} from "@angular/forms";
+import {UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators} from "@angular/forms";
 import {Store} from "@ngxs/store";
 import {Actions} from "./state/game-inverse-matrix.actions";
 import {Router} from "@angular/router";
@@ -17,7 +17,7 @@ export enum GameRule {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GameInverseMatrixComponent implements OnInit {
-  public formGroup!: FormGroup;
+  public formGroup!: UntypedFormGroup;
   public field: number[][] = [];
   public readonly fieldLabel: string = 'Размер игрового поля';
   public readonly typeNumber: string = 'number';
@@ -39,7 +39,7 @@ export class GameInverseMatrixComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private fb: FormBuilder,
+    private fb: UntypedFormBuilder,
     private store: Store) {}
 
   ngOnInit(): void {
@@ -48,19 +48,19 @@ export class GameInverseMatrixComponent implements OnInit {
 
   private createForm() {
     this.formGroup = this.fb.group({
-      field: new FormControl(10, {
+      field: new UntypedFormControl(10, {
         validators: [Validators.required, Validators.min(10),  Validators.max(300)]
       }),
-      gameRule: new FormControl(GameRule.INVERTMATRIX, {
+      gameRule: new UntypedFormControl(GameRule.INVERTMATRIX, {
         validators: [Validators.required]
       }),
-      deathOverpopulation: new FormControl(3, {
+      deathOverpopulation: new UntypedFormControl(3, {
         validators: [Validators.required, Validators.min(0), Validators.max(8)]
       }),
-      deathLoneliness: new FormControl(1, {
+      deathLoneliness: new UntypedFormControl(1, {
         validators: [Validators.required, Validators.min(0), Validators.max(8)]
       }),
-      newLifeRule: new FormControl(3, {
+      newLifeRule: new UntypedFormControl(3, {
         validators: [Validators.required, Validators.min(0), Validators.max(8)]
       })
     })

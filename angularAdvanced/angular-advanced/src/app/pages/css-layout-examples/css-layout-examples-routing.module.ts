@@ -17,7 +17,8 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'three-dimensional-menu'
+        redirectTo: 'three-dimensional-menu',
+        pathMatch: 'prefix',
       }, {
         path: 'three-dimensional-menu',
         component: ThreeDimensionalMenuComponent

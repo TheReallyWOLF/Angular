@@ -10,6 +10,7 @@ const routes: Routes = [
     component: FunctionsComponent,
     children: [{
       path: '',
+      pathMatch: 'prefix',
       redirectTo: 'algorithms'
     },{
       path: 'algorithms',

@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component} from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {UntypedFormBuilder, UntypedFormGroup, Validators} from "@angular/forms";
 import {takeUntilDestroyed} from "../../../shared/rxjsPipe/takeUntilDestroyed";
 import {debounceTime} from "rxjs/operators";
 
@@ -97,9 +97,9 @@ export class ExamplesComponent {
 
   public searchCards: Card[] = [...this.cards];
 
-  public form!: FormGroup;
+  public form!: UntypedFormGroup;
 
-  constructor(private formBuilder: FormBuilder, private changeDetectorRef: ChangeDetectorRef) {}
+  constructor(private formBuilder: UntypedFormBuilder, private changeDetectorRef: ChangeDetectorRef) {}
 
   ngOnInit(): void {
     this.createForm();

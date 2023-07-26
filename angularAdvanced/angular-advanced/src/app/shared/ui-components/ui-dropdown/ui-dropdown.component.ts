@@ -1,5 +1,5 @@
 import {ChangeDetectorRef, Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import {takeUntilDestroyed} from "../../rxjsPipe/takeUntilDestroyed";
 import {UiDropdownService} from "./ui-dropdown.service";
 
@@ -37,7 +37,7 @@ export class UiDropdownComponent implements OnInit {
 
   @Output() itemSelected = new EventEmitter<DropdownItem>();
 
-  selectedOption: FormControl = new FormControl();
+  selectedOption: UntypedFormControl = new UntypedFormControl();
   dropdownId: string = Math.random().toString(36).substring(2);
   isDropDownShow!: boolean;
 

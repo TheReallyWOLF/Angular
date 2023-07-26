@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
-import {FormControl} from "@angular/forms";
+import {UntypedFormControl} from "@angular/forms";
 
 @Component({
   selector: 'ui-input',
@@ -12,7 +12,7 @@ export class UiInputComponent {
   @Input() disabled: boolean = true;
   @Input() name: string = 'name';
   @Input() placeholder: string = 'placeholder';
-  @Input() field!: FormControl;
+  @Input() field!: UntypedFormControl;
   @Input() label: string = '';
   @Input() size: 'xs' | 'sm' | 'lg' | 'xl' = 'lg';
   @Input() error: string = 'Валидация не пройдена';

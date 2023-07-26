@@ -11,6 +11,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
+        pathMatch: 'prefix',
         redirectTo: 'hero-battle-options'
       }, {
         path: 'hero-battle-options',
