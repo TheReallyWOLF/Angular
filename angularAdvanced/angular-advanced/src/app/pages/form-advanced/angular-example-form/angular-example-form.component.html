@@ -1,6 +1,6 @@
 <div>
   <h4>Реактивные формы</h4>
-  <form novalidate [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+  <form novalidate [formGroup]="registrationForm">
     <div formGroupName="name">
       <div class="input-wrapper"
            [ngClass]="{
@@ -11,6 +11,7 @@
       </div>
       <div class="alert" *ngIf="firstName.invalid && firstName.dirty">
         Поле First Name обязательно для ввода
+        Минимум 3 символа
       </div>
 
       <div class="input-wrapper"
@@ -22,6 +23,7 @@
       </div>
       <div class="alert" *ngIf="lastName.invalid && lastName.dirty">
         Поле Last Name обязательно для ввода
+        Минимум 3 символа
       </div>
 
     </div>
@@ -49,6 +51,8 @@
       <p *ngIf="password.errors.required">Поле Password обязательно для ввода</p>
       <p *ngIf="password.errors.minlength">Минимальное количество символов {{ password.errors.minlength.requiredLength }}</p>
     </div>
-    <input type="submit" value="submit">
+    <div class="action">
+      <ui-button (click)="onSubmit()">onSubmit</ui-button>
+    </div>
   </form>
 </div>

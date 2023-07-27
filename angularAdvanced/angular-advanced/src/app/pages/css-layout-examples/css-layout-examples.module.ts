@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { CssLayoutExamplesRoutingModule } from './css-layout-examples-routing.module';
 import { CssLayoutExamplesComponent } from './css-layout-examples.component';
 import { ThreeDimensionalMenuComponent } from './three-dimensional-menu/three-dimensional-menu.component';
-import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 import { GlowingButtonHoverEffectsComponent } from './glowing-button-hover-effects/glowing-button-hover-effects.component';
 import { SpecialNavigationMenuComponent } from './special-navigation-menu/special-navigation-menu.component';
 import {MatIconModule} from "@angular/material/icon";
@@ -13,6 +12,7 @@ import { DragAndDropApiComponent } from './drag-and-drop-api/drag-and-drop-api.c
 import { CssCounterComponent } from './css-counter/css-counter.component';
 import { NativeHtmlTagsComponent } from './native-html-tags/native-html-tags.component';
 import { LoadingTextAnimationComponent } from './loading-text-animation/loading-text-animation.component';
+import {UiButtonComponent} from "../../shared/ui-components/ui-button/ui-button.component";
 
 
 @NgModule({
@@ -27,11 +27,11 @@ import { LoadingTextAnimationComponent } from './loading-text-animation/loading-
     NativeHtmlTagsComponent,
     LoadingTextAnimationComponent
   ],
-    imports: [
-        CommonModule,
-        CssLayoutExamplesRoutingModule,
-        UiComponentsModule,
-        MatIconModule,
-    ]
+  imports: [
+    CommonModule,
+    CssLayoutExamplesRoutingModule,
+    MatIconModule,
+    UiButtonComponent,
+  ]
 })
 export class CssLayoutExamplesModule { }

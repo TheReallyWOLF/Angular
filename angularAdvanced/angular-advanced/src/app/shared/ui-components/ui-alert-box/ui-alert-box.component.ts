@@ -4,6 +4,7 @@ import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
   selector: 'ui-alert-box',
   templateUrl: './ui-alert-box.component.html',
   styleUrls: ['./ui-alert-box.component.sass'],
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     class: 'ui-alert-box',

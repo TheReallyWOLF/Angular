@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { GamesRoutingModule } from './games-routing.module';
 import { GamesComponent } from './games.component';
-import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 import { GameInverseMatrixComponent } from './game-inverse-matrix/game-inverse-matrix.component';
 import { GamePresentationPageComponent } from './game-presentation-page/game-presentation-page.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
@@ -18,6 +17,11 @@ import { MemoryGameComponent } from './memory-game/memory-game.component';
 import { MemoryGameDifficultyNamePipe } from './shared/pipe/memory-game-difficulty-name.pipe';
 import { SeaBattleFieldComponent } from './game-sea-battle/sea-battle-field/sea-battle-field.component';
 import { SeaBattleShipComponent } from './game-sea-battle/sea-battle-ship/sea-battle-ship.component';
+import {UiModalComponent} from "../../shared/ui-components/ui-modal/ui-modal.component";
+import {UiButtonComponent} from "../../shared/ui-components/ui-button/ui-button.component";
+import {UiInputComponent} from "../../shared/ui-components/ui-input/ui-input.component";
+import {UiDropdownComponent} from "../../shared/ui-components/ui-dropdown/ui-dropdown.component";
+import {UiAlertBoxComponent} from "../../shared/ui-components/ui-alert-box/ui-alert-box.component";
 
 
 
@@ -37,7 +41,6 @@ import { SeaBattleShipComponent } from './game-sea-battle/sea-battle-ship/sea-ba
   imports: [
     CommonModule,
     GamesRoutingModule,
-    UiComponentsModule,
     FormsModule,
     ReactiveFormsModule,
     NgxsModule.forFeature([
@@ -45,6 +48,11 @@ import { SeaBattleShipComponent } from './game-sea-battle/sea-battle-ship/sea-ba
     ]),
     HomeModule,
     MatIconModule,
+    UiModalComponent,
+    UiButtonComponent,
+    UiInputComponent,
+    UiDropdownComponent,
+    UiAlertBoxComponent,
   ]
 })
 export class GamesModule { }

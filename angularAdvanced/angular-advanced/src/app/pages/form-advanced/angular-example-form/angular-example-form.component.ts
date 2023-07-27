@@ -27,8 +27,8 @@ export class AngularExampleFormComponent implements OnInit {
   }
 
   createFormControls() {
-    this.firstName = new UntypedFormControl("", Validators.required);
-    this.lastName = new UntypedFormControl("", Validators.required);
+    this.firstName = new UntypedFormControl("", [Validators.required, Validators.minLength(3)]);
+    this.lastName = new UntypedFormControl("", [Validators.required, Validators.minLength(3)]);
     this.email = new UntypedFormControl("", [
       Validators.required, Validators.pattern("[^@]*@[^@]*")
     ]);
@@ -44,8 +44,10 @@ export class AngularExampleFormComponent implements OnInit {
 
   onSubmit() {
     if (this.registrationForm.valid) {
-      console.log('Submit');
       console.log(this.registrationForm.value);
+      return
     }
+
+    alert('форма заполнена неверно!')
   }
 }

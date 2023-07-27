@@ -7,9 +7,11 @@ import {FunctionsComponent} from './functions.component';
 import {AlgorithmsComponent} from './algorithms/algorithms.component';
 import {ExamplesComponent} from './examples/examples.component';
 import {AlgorithmExampleComponent} from './algorithms/algorithm-example/algorithm-example.component';
-import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 import { ExampleCardComponent } from './examples/example-card/example-card.component';
 import {PrepareViewObserverDirective} from "../../shared/directive/globalDirective/prepare-view-observer.directive";
+import {UiButtonComponent} from "../../shared/ui-components/ui-button/ui-button.component";
+import {UiInputComponent} from "../../shared/ui-components/ui-input/ui-input.component";
+import {UiCardComponent} from "../../shared/ui-components/ui-card/ui-card.component";
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import {PrepareViewObserverDirective} from "../../shared/directive/globalDirecti
     CommonModule,
     ReactiveFormsModule,
     FunctionsRoutingModule,
-    UiComponentsModule,
+    UiButtonComponent,
+    UiInputComponent,
+    UiCardComponent,
   ]
 })
 export class FunctionsModule {

@@ -8,7 +8,6 @@ import {MyCustomPipe} from "../../shared/pipes/my-custom.pipe";
 import {MyCustomMetricPipe} from "../../shared/pipes/my-custom-metric.pipe";
 import {MyImpurePipe, MyPurePipe} from "../../shared/pipes/pure-impure.pipe";
 import {FormsModule} from "@angular/forms";
-import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
 import {GetArrFromNumPipe} from "../../shared/pipes/get-arr-from-num.pipe";
 
 
@@ -34,7 +33,6 @@ import {GetArrFromNumPipe} from "../../shared/pipes/get-arr-from-num.pipe";
         CommonModule,
         HomeRoutingModule,
         FormsModule,
-        UiComponentsModule
     ]
 })
 export class HomeModule {

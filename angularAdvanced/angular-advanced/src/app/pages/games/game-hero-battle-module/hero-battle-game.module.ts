@@ -6,7 +6,6 @@ import { HeroBattleGameComponent } from './hero-battle-game.component';
 import {NgxsModule} from "@ngxs/store";
 import {GameHeroBattleState} from "./game-hero-battle/state/game-hero-battle.state";
 import {GameHeroOptionsState} from "./game-hero-battle-option/state/game-hero-options.state";
-import {UiComponentsModule} from "../../../shared/ui-components/ui-components.module";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HomeModule} from "../../home/home.module";
 import {MatIconModule} from "@angular/material/icon";
@@ -20,6 +19,7 @@ import { HeroPerksStepComponent } from './game-hero-battle-option/hero-perks-ste
 import { HeroStatsStepComponent } from './game-hero-battle-option/hero-stats-step/hero-stats-step.component';
 import { HeroPeculiaritiesStepComponent } from './game-hero-battle-option/hero-peculiarities-step/hero-peculiarities-step.component';
 import { GetHeroEffectStringPipe} from "../../../shared/pipes/get-hero-effect-string.pipe";
+import {UiButtonComponent} from "../../../shared/ui-components/ui-button/ui-button.component";
 
 
 @NgModule({
@@ -34,20 +34,20 @@ import { GetHeroEffectStringPipe} from "../../../shared/pipes/get-hero-effect-st
     HeroPeculiaritiesStepComponent,
     GetHeroEffectStringPipe
   ],
-    imports: [
-        CommonModule,
-        HeroBattleGameRoutingModule,
-        NgxsModule.forFeature([
-            GameHeroBattleState,
-            GameHeroOptionsState
-        ]),
-        UiComponentsModule,
-        FormsModule,
-        ReactiveFormsModule,
-        HomeModule,
-        MatIconModule,
-        DirectiveAndPipeModule,
-        GamesModule,
-    ]
+  imports: [
+    CommonModule,
+    HeroBattleGameRoutingModule,
+    NgxsModule.forFeature([
+      GameHeroBattleState,
+      GameHeroOptionsState
+    ]),
+    FormsModule,
+    ReactiveFormsModule,
+    HomeModule,
+    MatIconModule,
+    DirectiveAndPipeModule,
+    GamesModule,
+    UiButtonComponent,
+  ]
 })
 export class HeroBattleGameModule { }

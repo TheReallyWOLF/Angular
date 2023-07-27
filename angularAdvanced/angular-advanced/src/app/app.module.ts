@@ -10,9 +10,10 @@ import {NgxsReduxDevtoolsPluginModule} from "@ngxs/devtools-plugin";
 import {NgxsResetPluginModule} from 'ngxs-reset-plugin';
 import {environment} from "../environments/environment";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {UiComponentsModule} from "./shared/ui-components/ui-components.module";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MessageConsoleDirective } from './shared/directive/globalDirective/message-console.directive';
+import {UiPanelComponent} from "./shared/ui-components/ui-panel/ui-panel.component";
+import {UiButtonComponent} from "./shared/ui-components/ui-button/ui-button.component";
 
 
 /**
@@ -38,7 +39,6 @@ import { MessageConsoleDirective } from './shared/directive/globalDirective/mess
     ReactiveFormsModule,
     AppRoutingModule,
     MatAutocompleteModule,
-    UiComponentsModule,
     NgxsModule.forRoot([RootState], {
       developmentMode: !environment.production,
     }),
@@ -48,6 +48,8 @@ import { MessageConsoleDirective } from './shared/directive/globalDirective/mess
       maxAge: 50,
     }),
     BrowserAnimationsModule,
+    UiPanelComponent,
+    UiButtonComponent,
   ],
   providers: [
     // тут сервисы

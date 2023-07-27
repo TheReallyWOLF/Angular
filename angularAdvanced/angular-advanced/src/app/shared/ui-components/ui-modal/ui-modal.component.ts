@@ -1,6 +1,8 @@
 import {
+  ChangeDetectionStrategy,
   Component,
-  ElementRef, EventEmitter,
+  ElementRef,
+  EventEmitter,
   Input,
   OnChanges,
   Output,
@@ -19,7 +21,9 @@ export enum ModalPadding {
 @Component({
   selector: 'ui-modal',
   templateUrl: './ui-modal.component.html',
-  styleUrls: ['./ui-modal.component.sass']
+  styleUrls: ['./ui-modal.component.sass'],
+  standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class UiModalComponent implements OnChanges {
   @ViewChild("dialogRef", {static: false})

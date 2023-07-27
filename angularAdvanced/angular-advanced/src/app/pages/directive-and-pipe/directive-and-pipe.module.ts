@@ -34,7 +34,7 @@ import {PureImpurePipeComponent} from './pure-inpure-pipe/pure-inpure-pipe.compo
 import {FormsModule} from "@angular/forms";
 import {ScrollMetricaDirective} from "../../shared/directive/atributeDirective/scroll-metrica.directive";
 import {HostBindingDirective} from "../../shared/directive/atributeDirective/host-binding.directive";
-import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
+import {UiButtonComponent} from "../../shared/ui-components/ui-button/ui-button.component";
 
 
 @NgModule({
@@ -73,13 +73,13 @@ import {UiComponentsModule} from "../../shared/ui-components/ui-components.modul
   exports: [
     MyClickableElementDirective
   ],
-    imports: [
-        CommonModule,
-        DirectiveAndPipeRoutingModule,
-        HomeModule,
-        FormsModule,
-        UiComponentsModule,
-    ]
+  imports: [
+    CommonModule,
+    DirectiveAndPipeRoutingModule,
+    HomeModule,
+    FormsModule,
+    UiButtonComponent,
+  ]
 })
 export class DirectiveAndPipeModule {
 }

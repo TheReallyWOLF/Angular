@@ -1,11 +1,15 @@
 import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
-import {UntypedFormControl} from "@angular/forms";
+import {ReactiveFormsModule, UntypedFormControl} from "@angular/forms";
 
 @Component({
   selector: 'ui-input',
   templateUrl: './ui-input.component.html',
   styleUrls: ['./ui-input.component.sass'],
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [
+    ReactiveFormsModule
+  ]
 })
 export class UiInputComponent {
   @Input() type: string = 'text';

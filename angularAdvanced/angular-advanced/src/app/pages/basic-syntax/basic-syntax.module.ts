@@ -8,7 +8,7 @@ import { AttributeSelectorComponent } from './selector-entertainment/attribute-s
 import { ClassSelectorComponent } from './selector-entertainment/class-selector/class-selector.component';
 import { AccessDOMBasicComponent } from './access-dom-basic/access-dom-basic.component';
 import { ItemDataTransferExampleComponent } from './access-dom-basic/item-data-transfer-example/item-data-transfer-example.component';
-import {UiComponentsModule} from "../../shared/ui-components/ui-components.module";
+import {UiButtonComponent} from "../../shared/ui-components/ui-button/ui-button.component";
 
 
 @NgModule({
@@ -20,10 +20,10 @@ import {UiComponentsModule} from "../../shared/ui-components/ui-components.modul
     AccessDOMBasicComponent,
     ItemDataTransferExampleComponent
   ],
-    imports: [
-        CommonModule,
-        BasicSyntaxRoutingModule,
-        UiComponentsModule
-    ]
+  imports: [
+    CommonModule,
+    BasicSyntaxRoutingModule,
+    UiButtonComponent,
+  ]
 })
 export class BasicSyntaxModule { }

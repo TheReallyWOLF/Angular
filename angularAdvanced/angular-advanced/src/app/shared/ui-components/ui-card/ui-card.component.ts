@@ -4,6 +4,7 @@ import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
   selector: 'ui-card',
   templateUrl: './ui-card.component.html',
   styleUrls: ['./ui-card.component.sass'],
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class UiCardComponent {

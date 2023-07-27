@@ -1,7 +1,16 @@
-import {ChangeDetectorRef, Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import { UntypedFormControl } from '@angular/forms';
+import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  EventEmitter,
+  Input,
+  OnInit,
+  Output
+} from '@angular/core';
+import {UntypedFormControl} from '@angular/forms';
 import {takeUntilDestroyed} from "../../rxjsPipe/takeUntilDestroyed";
 import {UiDropdownService} from "./ui-dropdown.service";
+import {NgForOf, NgIf} from "@angular/common";
 
 export interface DropdownItem {
   id: number;
@@ -27,6 +36,12 @@ export enum DropdownType {
   selector: 'ui-dropdown',
   templateUrl: './ui-dropdown.component.html',
   styleUrls: ['./ui-dropdown.component.sass'],
+  standalone: true,
+  imports: [
+    NgForOf,
+    NgIf
+  ],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class UiDropdownComponent implements OnInit {
   @Input() options!: DropdownItem[];
