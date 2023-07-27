@@ -1,0 +1,18 @@
+<ui-panel-box [isHideShadow]="true" [isHidePadding]="true" class="faq">
+  <div class="panel-header">
+    <div class="panel-header__title">
+      <ng-content></ng-content>
+    </div>
+  </div>
+  <div>
+    <ui-faq-question *ngFor="let question of fagQuestion; index as i"
+                     (openEmit)="onOpenQuestion(i)">
+      <ng-container faqTitle>
+        <div class="title" [innerHTML]="question.title"></div>
+      </ng-container>
+      <ng-container faqAnswer>
+        <div [innerHTML]="question.text"></div>
+      </ng-container>
+    </ui-faq-question>
+  </div>
+</ui-panel-box>

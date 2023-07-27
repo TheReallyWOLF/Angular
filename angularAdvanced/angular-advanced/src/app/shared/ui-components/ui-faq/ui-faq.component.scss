@@ -1,0 +1,42 @@
+@use "../../mixin/media-query-mixin";
+@use "../ui-color-scheme-variables" as colors;
+
+:host {
+  .faq {
+    padding: 32px 20px;
+    position: relative;
+    margin-top: 24px;
+  }
+
+  .title {
+    margin-right: 12px;
+  }
+
+  .panel-header {
+    padding-left: 12px;
+    margin-bottom: 16px;
+  }
+
+  .ul {
+    padding-left: 16px;
+  }
+
+  .panel-header__title {
+    color: colors.$grey800;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 0;
+  }
+
+  faq-question {
+    width: 70%;
+  }
+
+  @include media-query-mixin.mobile {
+    faq-question {
+      width: 100%;
+    }
+  }
+}

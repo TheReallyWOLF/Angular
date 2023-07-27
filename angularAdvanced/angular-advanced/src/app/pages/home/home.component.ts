@@ -1,5 +1,6 @@
 import {ChangeDetectionStrategy, Component} from '@angular/core';
 import * as moment from 'moment';
+import {FagQuestion} from "../../shared/ui-components/ui-faq/ui-faq.component";
 
 @Component({
   selector: 'app-home',
@@ -31,5 +32,25 @@ export class HomeComponent {
   changeData(event: Event): void {
     this.date = new Date((event.target as HTMLInputElement).value);
   }
+
+  readonly fagQuestion: FagQuestion[] = [{
+    title: 'string',
+    text: 'string string string string string',
+  }, {
+    title: 'string2',
+    text: 'string string string string string',
+  }, {
+    title: 'string3',
+    text: 'string string string string string',
+  }, {
+    title: 'string4',
+    text: 'string string string string string',
+  }, {
+    title: 'string5',
+    text: 'string string string string string',
+  }, {
+    title: 'string6',
+    text: 'string string string string string',
+  }]
 
 }

@@ -1,0 +1,20 @@
+@use "../../ui-color-scheme-variables" as colors;
+
+.faq-action {
+    gap: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    .faq-label {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        border-bottom: 1px solid colors.$grey120;
+
+        &:hover {
+            border-bottom: 1px dotted colors.$grey400;
+        }
+    }
+}

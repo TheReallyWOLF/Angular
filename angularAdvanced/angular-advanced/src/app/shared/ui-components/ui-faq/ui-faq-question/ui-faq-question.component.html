@@ -1,0 +1,20 @@
+<div id="ui-faq-component"
+     class="question"
+     [class.question--opened]="opened">
+    <div class="question__head" (click)="toggle($event)">
+        <div class="question__title" >
+            <div>
+                <ng-content select="[faqTitle]"></ng-content>
+            </div>
+            <img class="action"
+                 [class.arrow]="!opened"
+                 src="assets/images/ui-components/images/arrowDownGrey.svg"
+                 alt="⇳" height="8" width="14">
+        </div>
+    </div>
+    <div class="question__answer"
+         *ngIf="opened"
+         [@collapse]="">
+        <ng-content select="[faqAnswer]"></ng-content>
+    </div>
+</div>

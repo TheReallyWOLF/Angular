@@ -1,0 +1,28 @@
+@use "./app/shared/mixin/media-query-mixin"
+
+:host(.ui-panel)
+  padding: 32px
+  display: block
+  box-sizing: border-box
+  box-shadow: 0 2px 4px #00000012
+  border-radius: 5px
+  background-color: white
+
+  @include media-query-mixin.mobile
+    padding: 16px
+
+    &.hide-shadow
+      box-shadow: none
+
+
+    &.hide-padding
+      padding: 16px 0
+
+
+    &.padding-off
+      padding: 0
+
+
+:host(.padding-off)
+  padding: 0
+

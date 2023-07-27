@@ -21,7 +21,7 @@ export enum ModalPadding {
 @Component({
   selector: 'ui-modal',
   templateUrl: './ui-modal.component.html',
-  styleUrls: ['./ui-modal.component.sass'],
+  styleUrls: ['./ui-modal.component.scss'],
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush
 })

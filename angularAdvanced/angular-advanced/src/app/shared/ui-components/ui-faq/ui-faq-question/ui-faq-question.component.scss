@@ -1,0 +1,61 @@
+@use "../../ui-color-scheme-variables" as colors;
+
+:host {
+    display: block;
+}
+
+.question {
+    overflow: hidden;
+}
+
+.action {
+    transform: rotate(0deg);
+    transition: .45s  ease-in;
+
+    &.arrow {
+        transform: rotate(-180deg);
+        transition: .45s ease-in;
+    }
+}
+
+.question__head {
+    padding: 0 12px;
+
+    &:hover {
+        border-radius: 6px;
+        background-color: colors.$green80;
+    }
+
+    &:active {
+        background-color: colors.$green120;
+    }
+}
+
+.question__title {
+    cursor: pointer;
+    padding: 20px 0;
+    display: flex;
+    font-size: 16px;
+    text-align: left;
+    align-items: center;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    justify-content: space-between;
+}
+
+.question {
+    border-bottom: 1px solid colors.$grey120;
+}
+
+.question__answer {
+    color: colors.$mainBlack;
+    z-index: 1;
+    padding: 0 12px 8px 12px;
+    position: relative;
+    font-size: 14px;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}

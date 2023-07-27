@@ -9,6 +9,7 @@ import {MyCustomMetricPipe} from "../../shared/pipes/my-custom-metric.pipe";
 import {MyImpurePipe, MyPurePipe} from "../../shared/pipes/pure-impure.pipe";
 import {FormsModule} from "@angular/forms";
 import {GetArrFromNumPipe} from "../../shared/pipes/get-arr-from-num.pipe";
+import {UiFaqComponent} from "../../shared/ui-components/ui-faq/ui-faq.component";
 
 
 @NgModule({
@@ -29,11 +30,12 @@ import {GetArrFromNumPipe} from "../../shared/pipes/get-arr-from-num.pipe";
     MyImpurePipe,
     GetArrFromNumPipe
   ],
-    imports: [
-        CommonModule,
-        HomeRoutingModule,
-        FormsModule,
-    ]
+  imports: [
+    CommonModule,
+    HomeRoutingModule,
+    FormsModule,
+    UiFaqComponent,
+  ]
 })
 export class HomeModule {
 }
