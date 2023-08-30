@@ -2,6 +2,11 @@
   padding-top: var(--header);
 }
 
+@mixin center-content {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
 @mixin title {
   h1 {
     color: var(--main);

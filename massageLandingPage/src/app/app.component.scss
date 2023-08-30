@@ -7,19 +7,17 @@
   background: var(--background);
 
   .content {
-    margin: 0 auto;
     min-height: calc(100vh - 120px);
-    max-width: var(--max-width);
   }
 
   &.whiteTheme {
     // https://mybrandnewlogo.com/ru/generator-cvetovoi-palitry
     --main: #350c15; // 1
     --secondary: #872a27; // 2
-    --primaryActive: #08d4ff; // 3
-    --primaryHover: #0efff9; // 4
-    --primaryBack: #51fff8; // 5
-    --background: #fff; // основной фон сайта
+    --primaryActive: #DDFFE7; // 3
+    --primaryHover: #98D7C2; // 4
+    --primaryBack:  #167D7F; // 5
+    --background: #f8f8f8; // основной фон сайта
     --antipodColor: #271920;
   }
 

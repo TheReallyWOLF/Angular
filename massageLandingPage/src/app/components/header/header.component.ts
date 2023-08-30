@@ -45,6 +45,7 @@ export class HeaderComponent {
 
   public goToElementById(id: string): void {
     this.selectedBlockId = id;
+
     const targetElement = document.getElementById(id);
     targetElement?.scrollIntoView({block: 'start', behavior: 'smooth'});
   }

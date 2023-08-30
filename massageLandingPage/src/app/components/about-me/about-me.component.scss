@@ -2,6 +2,7 @@
 
 .about-me {
   @include mixin.scroll-padding;
+  @include mixin.center-content;
   @include mixin.title;
 
   .content {

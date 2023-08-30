@@ -2,8 +2,29 @@
 
 .intro {
   @include mixin.scroll-padding;
+  position: relative;
+  padding-bottom: 60px;
+
+  .intro-image {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: .5;
+    position: absolute;
+    background: #98D7C2;
+  }
+
 
   .content {
+    z-index: 1;
+    position: relative;
+
+    @include mixin.center-content;
+  }
+
+  .content-info {
     gap: 24px;
     display: flex;
   }
@@ -19,9 +40,8 @@
     flex-direction: column;
 
     div {
-      padding: 16px;
+      padding: 4px;
       font-size: 18px;
-      background: var(--primaryBack);
       border-radius: 8px;
     }
   }
