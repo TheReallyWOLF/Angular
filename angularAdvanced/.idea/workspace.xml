@@ -22,21 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="standalone: true">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-faq/faq-invocation/faq-invocation.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-faq/faq-invocation/faq-invocation.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-faq/faq-invocation/faq-invocation.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-faq/ui-faq-question/ui-faq-question.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-faq/ui-faq-question/ui-faq-question.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-faq/ui-faq-question/ui-faq-question.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-advanced/src/assets/images/ui-components/images/arrowDownGrey.svg" afterDir="false" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="faq + рефактор">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/pages/home/home.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-modal/ui-modal.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-modal/ui-modal.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-modal/ui-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-modal/ui-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/atributeDirective/host-binding.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/atributeDirective/host-binding.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/mixin/media-query-mixin.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/mixin/media-query-mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-panel-box/ui-panel-box.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-panel-box/ui-panel-box.component.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +47,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/webStorm/Progects/Angular/angularAdvanced/angular-advanced/src/app/shared/ui-components/ui-faq",
+    "last_opened_file_path": "E:/webStorm/Progects/Angular/massageLandingPage",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "E:\\webStorm\\Progects\\Angular\\angularAdvanced\\angular-advanced\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -362,7 +348,16 @@
       <workItem from="1690395130312" duration="774000" />
       <workItem from="1690396363748" duration="10000" />
       <workItem from="1690397025088" duration="2033000" />
-      <workItem from="1690461675908" duration="6577000" />
+      <workItem from="1690461675908" duration="7338000" />
+      <workItem from="1690530209185" duration="89000" />
+      <workItem from="1690559658229" duration="1305000" />
+      <workItem from="1691496496522" duration="1135000" />
+      <workItem from="1691743340935" duration="4549000" />
+      <workItem from="1692007074773" duration="2782000" />
+      <workItem from="1692179710186" duration="620000" />
+      <workItem from="1692271929526" duration="6618000" />
+      <workItem from="1692947775927" duration="9000" />
+      <workItem from="1693379949840" duration="165000" />
     </task>
     <task id="LOCAL-00070" summary="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
       <created>1663612043414</created>
@@ -707,7 +702,7 @@
       <option name="project" value="LOCAL" />
       <updated>1689604154574</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,7 +720,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="пару css примеров" />
     <MESSAGE value="memoryGame &#10;игра в карточки&#10;&#10;доделать список лидеров (через локал стор)&#10;и победную модалку" />
     <MESSAGE value="доработка карточек&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui'&#10;3 стили в модальное окно" />
     <MESSAGE value="Подписка на элементы попадающие во вью порт&#10;доделать &#10;1 список лидеров&#10;2 модалку в ui доработать'" />
@@ -750,6 +744,7 @@
     <MESSAGE value="оптимизация&#10;&#10; Проблемы (тех долг):&#10;1 список лидеров&#10;2 модалку в ui доработать'&#10;&#10;3 расширить возможности dropdown &#10;&#10;4 морской бой - полностью не сделан&#10;5 логический компьютер для крестиков&#10;6 игра жизнь (настройка + новые алгоритмы вычислений)" />
     <MESSAGE value="v`15`" />
     <MESSAGE value="standalone: true" />
-    <option name="LAST_COMMIT_MESSAGE" value="standalone: true" />
+    <MESSAGE value="faq + рефактор" />
+    <option name="LAST_COMMIT_MESSAGE" value="faq + рефактор" />
   </component>
 </project>
