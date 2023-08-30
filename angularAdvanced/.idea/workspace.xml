@@ -23,10 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="faq + рефактор">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/atributeDirective/host-binding.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/directive/atributeDirective/host-binding.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/mixin/media-query-mixin.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/mixin/media-query-mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-panel-box/ui-panel-box.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/app/shared/ui-components/ui-panel-box/ui-panel-box.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/webStorm/Progects/Angular/massageLandingPage&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\webStorm\\Progects\\Angular\\angularAdvanced\\angular-advanced\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/webStorm/Progects/Angular/angularAdvanced",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "E:\\webStorm\\Progects\\Angular\\angularAdvanced\\angular-advanced\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\ui-components\ui-faq" />
@@ -358,6 +360,7 @@
       <workItem from="1692271929526" duration="6618000" />
       <workItem from="1692947775927" duration="9000" />
       <workItem from="1693379949840" duration="165000" />
+      <workItem from="1693381255168" duration="310000" />
     </task>
     <task id="LOCAL-00070" summary="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
       <created>1663612043414</created>
