@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="faq + рефактор">
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../massageLandingPage/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="faq + рефактор" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -360,7 +354,7 @@
       <workItem from="1692271929526" duration="6618000" />
       <workItem from="1692947775927" duration="9000" />
       <workItem from="1693379949840" duration="165000" />
-      <workItem from="1693381255168" duration="310000" />
+      <workItem from="1693381255168" duration="509000" />
     </task>
     <task id="LOCAL-00070" summary="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
       <created>1663612043414</created>
@@ -705,7 +699,7 @@
       <option name="project" value="LOCAL" />
       <updated>1689604154574</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
