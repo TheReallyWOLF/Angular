@@ -1,0 +1,7 @@
+<ui-panel>
+  <input  [formControl]="searchField" type="text" size="40"/>
+
+  <div *ngFor="let helpItem of helpList">
+    {{ helpItem }}
+  </div>
+</ui-panel>
