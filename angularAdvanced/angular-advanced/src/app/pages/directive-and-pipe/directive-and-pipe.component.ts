@@ -9,6 +9,7 @@ import {SubMenu} from "./models/directive-and-pipe.models";
 })
 export class DirectiveAndPipeComponent {
   public kindOfDirective: string = 'attribute';
+  public checked: number = 1;
   public readonly subMenu: SubMenu[] = [
     {
       name: 'Атрибутные директивы',
@@ -22,6 +23,7 @@ export class DirectiveAndPipeComponent {
     }
   ]
   changeKindOfDirective(kind: string): void {
+    this.checked = 1;
     this.kindOfDirective = kind;
   }
 }

@@ -12,44 +12,37 @@
   <div class="main-container__tabs">
 
     <div *ngIf="kindOfDirective === 'attribute'">
-      <input type="radio" id="tab1" name="tabs" checked>
-      <label for="tab1">простая директива</label>
+      <label [class.checked]="checked === 1" (click)="checked = 1">простая директива</label>
       <div class="main-container__tab-content" id="content1">
         <app-simple-directive></app-simple-directive>
       </div>
 
-      <input type="radio" id="tab2" name="tabs">
-      <label for="tab2">работа с событием</label>
+      <label [class.checked]="checked === 2" (click)="checked = 2">работа с событием</label>
       <div class="main-container__tab-content" id="content2">
         <app-event-directive></app-event-directive>
       </div>
 
-      <input type="radio" id="tab3" name="tabs">
-      <label for="tab3">передача аргумента</label>
+      <label [class.checked]="checked === 3" (click)="checked = 3">передача аргумента</label>
       <div class="main-container__tab-content" id="content3">
         <app-passing-data-directive></app-passing-data-directive>
       </div>
 
-      <input type="radio" id="tab4" name="tabs">
-      <label for="tab4">несколько аргументов</label>
+      <label [class.checked]="checked === 4" (click)="checked = 4">несколько аргументов</label>
       <div class="main-container__tab-content" id="content4">
         <app-passing-few-directive></app-passing-few-directive>
       </div>
 
-      <input type="radio" id="tab5" name="tabs">
-      <label for="tab5">работа с методами</label>
+      <label [class.checked]="checked === 5" (click)="checked = 5">работа с методами</label>
       <div class="main-container__tab-content" id="content5">
         <app-confirm-sample-directive></app-confirm-sample-directive>
       </div>
 
-      <input type="radio" id="tab6" name="tabs">
-      <label for="tab6">передача событий</label>
+      <label [class.checked]="checked === 6" (click)="checked = 6">передача событий</label>
       <div class="main-container__tab-content" id="content6">
         <app-mousemove-sample-directive></app-mousemove-sample-directive>
       </div>
 
-      <input type="radio" id="tab7" name="tabs">
-      <label for="tab7">работа со стилями</label>
+      <label [class.checked]="checked === 7" (click)="checked = 7">работа со стилями</label>
       <div class="main-container__tab-content" id="content7">
         <app-host-binding-sample-directive></app-host-binding-sample-directive>
       </div>
@@ -57,20 +50,17 @@
 
     <div *ngIf="kindOfDirective === 'structural'">
 
-      <input type="radio" id="tab8" name="tabs" checked>
-      <label for="tab8">аналог ngIf</label>
+      <label [class.checked]="checked === 1" (click)="checked = 1">аналог ngIf</label>
       <div class="main-container__tab-content" id="content8">
         <app-my-delay-sample-directive></app-my-delay-sample-directive>
       </div>
 
-      <input type="radio" id="tab9" name="tabs">
-      <label for="tab9">Деректива с задержкой</label>
+      <label [class.checked]="checked === 2" (click)="checked = 2">Деректива с задержкой</label>
       <div class="main-container__tab-content" id="content9">
         <app-my-if-sample-directive></app-my-if-sample-directive>
       </div>
 
-      <input type="radio" id="tab10" name="tabs">
-      <label for="tab10">контекст директива</label>
+      <label [class.checked]="checked === 3" (click)="checked = 3">контекст директива</label>
       <div class="main-container__tab-content" id="content10">
         <app-my-context-sample-directive></app-my-context-sample-directive>
       </div>
@@ -79,44 +69,37 @@
 
     <div *ngIf="kindOfDirective === 'pipe'">
 
-      <input type="radio" id="tab11" name="tabs" checked>
-      <label for="tab11">Свой data pipe</label>
+      <label [class.checked]="checked === 1" (click)="checked = 1">Свой data pipe</label>
       <div class="main-container__tab-content" id="content11">
         <app-my-data-freshess></app-my-data-freshess>
       </div>
 
-      <input type="radio" id="tab12" name="tabs">
-      <label for="tab12">Коробочные pipe</label>
+      <label [class.checked]="checked === 2" (click)="checked = 2">Коробочные pipe</label>
       <div class="main-container__tab-content" id="content12">
         <app-builtin-pipes></app-builtin-pipes>
       </div>
 
-      <input type="radio" id="tab13" name="tabs">
-      <label for="tab13">Цепочки фильтров</label>
+      <label [class.checked]="checked === 3" (click)="checked = 3">Цепочки фильтров</label>
       <div class="main-container__tab-content" id="content13">
         <app-chains-pipes></app-chains-pipes>
       </div>
 
-      <input type="radio" id="tab14" name="tabs">
-      <label for="tab14">Ожидание ответа от сервера (async pipe)</label>
+      <label [class.checked]="checked === 4" (click)="checked = 4">Ожидание ответа от сервера (async pipe)</label>
       <div class="main-container__tab-content" id="content14">
         <app-async-pipes></app-async-pipes>
       </div>
 
-      <input type="radio" id="tab15" name="tabs">
-      <label for="tab15">Простейший кастомный фильтр</label>
+      <label [class.checked]="checked === 5" (click)="checked = 5">Простейший кастомный фильтр</label>
       <div class="main-container__tab-content" id="content15">
         <app-simple-custom-pipes></app-simple-custom-pipes>
       </div>
 
-      <input type="radio" id="tab16" name="tabs">
-      <label for="tab16">Простейший кастомный фильтр v2</label>
+       <label [class.checked]="checked === 6" (click)="checked = 6">Простейший кастомный фильтр v2</label>
       <div class="main-container__tab-content" id="content16">
         <app-simple-custom-pipes2></app-simple-custom-pipes2>
       </div>
 
-      <input type="radio" id="tab17" name="tabs">
-      <label for="tab17">pure inpure pipe</label>
+      <label [class.checked]="checked === 7" (click)="checked = 7">pure inpure pipe</label>
       <div class="main-container__tab-content" id="content17">
         <app-pure-inpure-pipe></app-pure-inpure-pipe>
       </div>
