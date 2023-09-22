@@ -1,6 +1,22 @@
 <div class="education">
-  <h1>Образование и сертификаты</h1>
-  <div class="content">
-    <div *ngFor="let item of educationArr" [innerHTML]="item"></div>
+  <div class="center">
+
+    <h1>Образование и сертификаты</h1>
+
+    <div *ngFor="let item of educationArr; let i = index"
+         class="education-content">
+
+      <div class="education-item">
+        <ng-container *ngIf="i % 2 === 0">
+          {{ item }}
+        </ng-container>
+      </div>
+
+      <div class="education-item">
+        <ng-container *ngIf="i % 2 === 1">
+          {{ item }}
+        </ng-container>
+      </div>
+    </div>
   </div>
 </div>

@@ -17,7 +17,7 @@ export class HeaderComponent {
       name: 'Главная'
     }, {
       id: 'about-me',
-      name: 'Немного обо мне'
+      name: 'Обо мне'
     }, {
       id: 'career-path',
       name: 'Профессиональный путь'
@@ -29,7 +29,7 @@ export class HeaderComponent {
       name: 'Виды массажа'
     }, {
       id: 'indications-massage',
-      name: 'Показания к массажу'
+      name: 'Показания'
     }, {
       id: 'massage-contraindications',
       name: 'Противопоказания'

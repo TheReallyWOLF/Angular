@@ -13,7 +13,7 @@
   </div>
   <ui-panel>
     <app-angular-example-form *ngIf="buttonName===buttonOptions[0]"></app-angular-example-form>
-    <div *ngIf="buttonName===buttonOptions[1]">Другой элемент (2 страница)</div>
+    <app-search-field-example *ngIf="buttonName===buttonOptions[1]"></app-search-field-example>
     <div *ngIf="buttonName===buttonOptions[2]">Другой элемент (3 страница)</div>
   </ui-panel>
 </div>

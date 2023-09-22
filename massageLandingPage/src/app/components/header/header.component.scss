@@ -1,6 +1,7 @@
 :host{
   top: 0;
   position: sticky;
+  z-index: 1000;
 }
 
 .header {
@@ -30,8 +31,13 @@
     color: var(--main);
     cursor: pointer;
     padding: 12px 8px;
+    font-size: 14px;
     transition: .5s;
+    font-weight: 400;
+    white-space: nowrap;
     border-radius: 4px;
+
+
 
     &:hover {
       background: var(--primaryHover);

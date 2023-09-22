@@ -14,6 +14,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MessageConsoleDirective } from './shared/directive/globalDirective/message-console.directive';
 import {UiPanelComponent} from "./shared/ui-components/ui-panel/ui-panel.component";
 import {UiButtonComponent} from "./shared/ui-components/ui-button/ui-button.component";
+import {HttpClientModule} from "@angular/common/http";
 
 
 /**
@@ -38,6 +39,7 @@ import {UiButtonComponent} from "./shared/ui-components/ui-button/ui-button.comp
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
+    HttpClientModule,
     MatAutocompleteModule,
     NgxsModule.forRoot([RootState], {
       developmentMode: !environment.production,

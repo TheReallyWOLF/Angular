@@ -1,6 +1,17 @@
 <div class="career-path">
-  <h1>Профессиональный путь</h1>
-  <div class="content">
-    <div *ngFor="let item of careerItemArr" class="career-item" [innerHTML]="item"></div>
+  <div class="center-box">
+    <div class="content-box">
+
+      <div class="flex">
+        <h1>Профессиональный путь</h1>
+        <div class="content">
+          <div *ngFor="let item of careerItemArr" class="career-item" [innerHTML]="item"></div>
+        </div>
+      </div>
+
+      <div class="career-image"></div>
+
+    </div>
   </div>
 </div>
+

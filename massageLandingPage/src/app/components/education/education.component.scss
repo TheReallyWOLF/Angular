@@ -1,13 +1,29 @@
 @use "src/assets/mixin/mixin" as mixin;
 
 .education {
-  @include mixin.scroll-padding;
-  @include mixin.title;
+
+  .center {
+    @include mixin.center-content;
+    @include mixin.scroll-padding;
+    @include mixin.title;
+  }
 
   .content {
     div {
       padding: 12px 0;
       border-bottom: 2px solid var(--main);
     }
+  }
+
+  .education-content {
+    padding: 16px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .education-item {
+    width: 50%;
+    padding: 12px 24px;
   }
 }

@@ -22,7 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="faq + рефактор" />
+    <list default="true" id="f88b134a-eff7-4117-ae35-21492b14f2d6" name="Default Changelist" comment="faq + рефактор">
+      <change afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/img/career.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../massageLandingPage/src/assets/img/intro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-advanced/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-advanced/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/about-me/about-me.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/about-me/about-me.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/career-path/career-path.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/education/education.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/app/components/intro/intro.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../massageLandingPage/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../massageLandingPage/src/styles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,21 +56,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/webStorm/Progects/Angular/angularAdvanced",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "E:\\webStorm\\Progects\\Angular\\angularAdvanced\\angular-advanced\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webStorm\Progects\Angular\angularAdvanced\angular-advanced\src\app\shared\ui-components\ui-faq" />
@@ -355,6 +363,7 @@
       <workItem from="1692947775927" duration="9000" />
       <workItem from="1693379949840" duration="165000" />
       <workItem from="1693381255168" duration="509000" />
+      <workItem from="1695377316300" duration="436000" />
     </task>
     <task id="LOCAL-00070" summary="реализовать &#10;компьютера (легкого и сложного)&#10; легкий будет ходить рандомно, сложный по определенному скрипту исходя из хода игрока&#10; + оповещение победы">
       <created>1663612043414</created>
@@ -703,7 +712,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -715,6 +724,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="memoryGame &#10;игра в карточки&#10;&#10;доделать список лидеров (через локал стор)&#10;и победную модалку" />

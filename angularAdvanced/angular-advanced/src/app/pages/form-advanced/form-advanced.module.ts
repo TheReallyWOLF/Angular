@@ -7,12 +7,14 @@ import {AngularExampleFormComponent} from './angular-example-form/angular-exampl
 import {ReactiveFormsModule} from "@angular/forms";
 import {UiButtonComponent} from "../../shared/ui-components/ui-button/ui-button.component";
 import {UiPanelComponent} from "../../shared/ui-components/ui-panel/ui-panel.component";
+import { SearchFieldExampleComponent } from './search-field-example/search-field-example.component';
 
 
 @NgModule({
   declarations: [
     FormAdvancedComponent,
-    AngularExampleFormComponent
+    AngularExampleFormComponent,
+    SearchFieldExampleComponent
   ],
   imports: [
     CommonModule,

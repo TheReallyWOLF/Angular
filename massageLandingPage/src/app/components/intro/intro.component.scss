@@ -3,7 +3,7 @@
 .intro {
   @include mixin.scroll-padding;
   position: relative;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 
   .intro-image {
     top: 0;
@@ -11,9 +11,9 @@
     right: 0;
     bottom: 0;
     z-index: 0;
-    opacity: .5;
+    opacity: .7;
     position: absolute;
-    background: #98D7C2;
+    background: url("../../../assets/img/intro.jpg") no-repeat;
   }
 
 
@@ -33,16 +33,42 @@
     gap: 2px;
     flex: 5;
     color: var(--main);
-    border: 2px solid var(--primaryActive);
+    border: 1px dotted var(--primaryActive);
     padding: 8px;
     display: flex;
     border-radius: 8px;
     flex-direction: column;
 
+    .title {
+      color: white;
+      font-size: 48px;
+    }
+
     div {
+      color: black;
       padding: 4px;
-      font-size: 18px;
+      font-size: 24px;
+      font-weight: 400;
       border-radius: 8px;
+    }
+  }
+
+  .active {
+    cursor: pointer;
+    border: 1px solid var(--primaryActive);
+    padding: 8px 24px;
+    font-size: 20px;
+    margin-top: 24px;
+    font-weight: 300;
+    border-radius: 12px;
+
+    &:hover {
+      background: var(--primaryBack);
+    }
+
+    &:active {
+      color: white;
+      background: var(--main);
     }
   }
 

@@ -1,13 +1,33 @@
 @use "src/assets/mixin/mixin" as mixin;
 
 .career-path {
-  @include mixin.scroll-padding;
-  @include mixin.title;
+  margin-top: 16px;
+  background: var(--primaryActive);
+  padding-bottom: 16px;
+
+
+  .center-box {
+    @include mixin.scroll-padding;
+    @include mixin.title;
+    @include mixin.center-content;
+  }
+
+  .content-box {
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
 
   .content {
     gap: 8px;
     display: flex;
     flex-direction: column;
+  }
+
+  .career-image {
+    flex: 1;
+    background: url("../../../assets/img/career.jpg") no-repeat ;
+    border-radius: 12px;
   }
 
   .career-item {
@@ -18,3 +38,4 @@
 
   }
 }
+
