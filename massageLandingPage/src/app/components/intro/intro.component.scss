@@ -1,4 +1,4 @@
-@use "src/assets/mixin/mixin" as mixin;
+@use "./assets/mixin/mixin" as mixin;
 
 .intro {
   @include mixin.scroll-padding;
