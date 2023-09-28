@@ -13,37 +13,37 @@
 
     <div *ngIf="kindOfDirective === 'attribute'">
       <label [class.checked]="checked === 1" (click)="checked = 1">простая директива</label>
-      <div class="main-container__tab-content" id="content1">
+      <div class="main-container__tab-content">
         <app-simple-directive></app-simple-directive>
       </div>
 
       <label [class.checked]="checked === 2" (click)="checked = 2">работа с событием</label>
-      <div class="main-container__tab-content" id="content2">
+      <div class="main-container__tab-content">
         <app-event-directive></app-event-directive>
       </div>
 
       <label [class.checked]="checked === 3" (click)="checked = 3">передача аргумента</label>
-      <div class="main-container__tab-content" id="content3">
+      <div class="main-container__tab-content">
         <app-passing-data-directive></app-passing-data-directive>
       </div>
 
       <label [class.checked]="checked === 4" (click)="checked = 4">несколько аргументов</label>
-      <div class="main-container__tab-content" id="content4">
+      <div class="main-container__tab-content">
         <app-passing-few-directive></app-passing-few-directive>
       </div>
 
       <label [class.checked]="checked === 5" (click)="checked = 5">работа с методами</label>
-      <div class="main-container__tab-content" id="content5">
+      <div class="main-container__tab-content">
         <app-confirm-sample-directive></app-confirm-sample-directive>
       </div>
 
       <label [class.checked]="checked === 6" (click)="checked = 6">передача событий</label>
-      <div class="main-container__tab-content" id="content6">
+      <div class="main-container__tab-content">
         <app-mousemove-sample-directive></app-mousemove-sample-directive>
       </div>
 
       <label [class.checked]="checked === 7" (click)="checked = 7">работа со стилями</label>
-      <div class="main-container__tab-content" id="content7">
+      <div class="main-container__tab-content">
         <app-host-binding-sample-directive></app-host-binding-sample-directive>
       </div>
     </div>
@@ -51,17 +51,17 @@
     <div *ngIf="kindOfDirective === 'structural'">
 
       <label [class.checked]="checked === 1" (click)="checked = 1">аналог ngIf</label>
-      <div class="main-container__tab-content" id="content8">
+      <div class="main-container__tab-content">
         <app-my-delay-sample-directive></app-my-delay-sample-directive>
       </div>
 
       <label [class.checked]="checked === 2" (click)="checked = 2">Деректива с задержкой</label>
-      <div class="main-container__tab-content" id="content9">
+      <div class="main-container__tab-content">
         <app-my-if-sample-directive></app-my-if-sample-directive>
       </div>
 
       <label [class.checked]="checked === 3" (click)="checked = 3">контекст директива</label>
-      <div class="main-container__tab-content" id="content10">
+      <div class="main-container__tab-content">
         <app-my-context-sample-directive></app-my-context-sample-directive>
       </div>
 
@@ -70,37 +70,37 @@
     <div *ngIf="kindOfDirective === 'pipe'">
 
       <label [class.checked]="checked === 1" (click)="checked = 1">Свой data pipe</label>
-      <div class="main-container__tab-content" id="content11">
+      <div class="main-container__tab-content">
         <app-my-data-freshess></app-my-data-freshess>
       </div>
 
       <label [class.checked]="checked === 2" (click)="checked = 2">Коробочные pipe</label>
-      <div class="main-container__tab-content" id="content12">
+      <div class="main-container__tab-content">
         <app-builtin-pipes></app-builtin-pipes>
       </div>
 
       <label [class.checked]="checked === 3" (click)="checked = 3">Цепочки фильтров</label>
-      <div class="main-container__tab-content" id="content13">
+      <div class="main-container__tab-content">
         <app-chains-pipes></app-chains-pipes>
       </div>
 
       <label [class.checked]="checked === 4" (click)="checked = 4">Ожидание ответа от сервера (async pipe)</label>
-      <div class="main-container__tab-content" id="content14">
+      <div class="main-container__tab-content">
         <app-async-pipes></app-async-pipes>
       </div>
 
       <label [class.checked]="checked === 5" (click)="checked = 5">Простейший кастомный фильтр</label>
-      <div class="main-container__tab-content" id="content15">
+      <div class="main-container__tab-content">
         <app-simple-custom-pipes></app-simple-custom-pipes>
       </div>
 
       <label [class.checked]="checked === 6" (click)="checked = 6">Простейший кастомный фильтр v2</label>
-      <div class="main-container__tab-content" id="content16">
+      <div class="main-container__tab-content">
         <app-simple-custom-pipes2></app-simple-custom-pipes2>
       </div>
 
       <label [class.checked]="checked === 7" (click)="checked = 7">pure inpure pipe</label>
-      <div class="main-container__tab-content" id="content17">
+      <div class="main-container__tab-content">
         <app-pure-inpure-pipe></app-pure-inpure-pipe>
       </div>
 
